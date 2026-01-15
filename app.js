@@ -212,7 +212,19 @@ async function loadData() {
   console.log('开始加载数据，URL:', CONFIG.DATA_URL);
   
   try {
-    const response = await fetch(CONFIG.DATA_URL);
+    // 添加超时控制（30秒）
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 30000);
+    
+    const response = await fetch(CONFIG.DATA_URL, {
+      signal: controller.signal,
+      cache: 'no-cache', // 确保获取最新数据
+      headers: {
+        'Accept': 'application/json',
+      }
+    });
+    
+    clearTimeout(timeoutId);
     
     console.log('响应状态:', response.status, response.statusText);
     
@@ -234,26 +246,48 @@ async function loadData() {
     console.error('加载数据失败:', error);
     console.error('错误堆栈:', error.stack);
     
+    // 检查是否是超时错误
+    const isTimeoutError = error.name === 'AbortError' || 
+                           error.message.includes('timeout') ||
+                           error.message.includes('aborted');
+    
     // 检查是否是 CORS 问题
     const isCorsError = error.message.includes('CORS') || 
                        error.message.includes('Failed to fetch') ||
                        error.message.includes('NetworkError') ||
                        error.name === 'TypeError';
     
+    // 检查是否是网络错误
+    const isNetworkError = error.message.includes('NetworkError') ||
+                          error.message.includes('network') ||
+                          isTimeoutError;
+    
     let errorMessage = '数据加载失败，请稍后再试';
     let errorDetail = error.message;
+    let errorIcon = '❌';
     
-    if (isCorsError && error.message.includes('fetch')) {
+    if (isTimeoutError) {
+      errorMessage = '数据加载超时';
+      errorDetail = '可能是网络较慢或服务器响应延迟。请检查网络连接，或稍后重试。';
+      errorIcon = '⏱️';
+    } else if (isNetworkError && !isTimeoutError) {
+      errorMessage = '网络连接失败';
+      errorDetail = '请检查网络连接，确保可以访问互联网。';
+      errorIcon = '📡';
+    } else if (isCorsError && error.message.includes('fetch')) {
       errorMessage = '无法加载数据文件（CORS 限制）';
       errorDetail = '请使用本地服务器访问，而不是直接打开 HTML 文件。\n启动方法：python3 -m http.server 8000\n然后访问：http://localhost:8000';
     }
     
     container.innerHTML = `
       <div class="empty-state">
-        <div class="empty-state-icon">❌</div>
+        <div class="empty-state-icon">${errorIcon}</div>
         <p class="empty-state-message">${escapeHtml(errorMessage)}</p>
-        <p class="empty-state-message" style="font-size: 12px; margin-top: 8px; white-space: pre-line;">${escapeHtml(errorDetail)}</p>
-        <p class="empty-state-message" style="font-size: 11px; margin-top: 4px; color: #9ca3af;">请打开浏览器控制台（F12）查看详细错误信息</p>
+        <p class="empty-state-message" style="font-size: 12px; margin-top: 8px; white-space: pre-line; color: var(--text-secondary);">${escapeHtml(errorDetail)}</p>
+        <button onclick="location.reload()" style="margin-top: 16px; padding: 10px 20px; background: var(--primary-color); color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 500;">
+          重新加载
+        </button>
+        <p class="empty-state-message" style="font-size: 11px; margin-top: 8px; color: #9ca3af;">如果问题持续，请检查网络连接或稍后重试</p>
       </div>
     `;
   }
