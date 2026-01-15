@@ -1,0 +1,38 @@
+name: Daily AI Design News Crawler
+
+on:
+  schedule:
+    # 每天 0 点 UTC 运行（北京时间 8 点）
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: scripts/package.json
+      
+      - name: Install dependencies
+        working-directory: ./scripts
+        run: npm install
+      
+      - name: Run crawler
+        working-directory: ./scripts
+        run: npm run crawl
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/today.json
+          git diff --staged --quiet || git commit -m "chore: update AI design news [skip ci]"
+          git push

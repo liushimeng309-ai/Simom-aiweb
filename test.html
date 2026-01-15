@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数据加载测试</title>
+  <style>
+    body {
+      font-family: monospace;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .test-result {
+      background: white;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border-left: 4px solid #4CAF50;
+    }
+    .test-error {
+      border-left-color: #f44336;
+    }
+    pre {
+      background: #f9f9f9;
+      padding: 10px;
+      border-radius: 3px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>数据加载测试</h1>
+  <div id="testResults"></div>
+
+  <script>
+    const resultsDiv = document.getElementById('testResults');
+    
+    function addResult(title, content, isError = false) {
+      const div = document.createElement('div');
+      div.className = 'test-result' + (isError ? ' test-error' : '');
+      div.innerHTML = `<h3>${title}</h3><pre>${content}</pre>`;
+      resultsDiv.appendChild(div);
+    }
+
+    // 测试 1: 检查容器元素
+    const container = document.getElementById('siteCardsContainer');
+    if (container) {
+      addResult('✓ 测试 1: 容器元素', '找到 siteCardsContainer 元素');
+    } else {
+      addResult('✗ 测试 1: 容器元素', '未找到 siteCardsContainer 元素', true);
+    }
+
+    // 测试 2: 尝试加载数据
+    fetch('./data/today.json')
+      .then(response => {
+        addResult('✓ 测试 2: HTTP 响应', `状态: ${response.status} ${response.statusText}`);
+        return response.json();
+      })
+      .then(data => {
+        addResult('✓ 测试 3: JSON 解析', `成功解析 JSON，包含 ${data.sites ? data.sites.length : 0} 个站点`);
+        addResult('✓ 测试 4: 数据结构', JSON.stringify(data, null, 2).substring(0, 500) + '...');
+      })
+      .catch(error => {
+        addResult('✗ 测试失败', error.message, true);
+        addResult('错误详情', error.stack, true);
+      });
+
+    // 测试 3: 检查 app.js 是否加载
+    if (typeof CONFIG !== 'undefined') {
+      addResult('✓ 测试 5: app.js 加载', `CONFIG.DATA_URL = ${CONFIG.DATA_URL}`);
+    } else {
+      addResult('✗ 测试 5: app.js 加载', 'CONFIG 未定义，app.js 可能未正确加载', true);
+    }
+  </script>
+  
+  <script src="app.js"></script>
+</body>
+</html>
