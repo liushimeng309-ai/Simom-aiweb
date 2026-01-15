@@ -36,6 +36,8 @@ body {
   background-color: var(--bg-secondary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 /* ====================
@@ -105,6 +107,37 @@ body {
 @media (max-width: 768px) {
   .site-cards-container {
     grid-template-columns: 1fr;
+    padding: var(--spacing-md);
+    gap: var(--spacing-md);
+  }
+  
+  .header {
+    padding: var(--spacing-md) 0;
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .site-title {
+    font-size: 24px;
+  }
+  
+  .site-card-header {
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+  
+  .site-card-title {
+    font-size: 18px;
+  }
+  
+  .news-item {
+    padding: var(--spacing-sm);
+    -webkit-tap-highlight-color: rgba(99, 102, 241, 0.1);
+    touch-action: manipulation;
+  }
+  
+  .back-to-top {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
   }
 }
 
@@ -170,13 +203,21 @@ body {
   padding: var(--spacing-sm) var(--spacing-md);
   border-radius: var(--radius);
   cursor: pointer;
-  transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease, opacity 0.15s ease;
   text-decoration: none;
   color: inherit;
+  -webkit-tap-highlight-color: rgba(99, 102, 241, 0.1);
+  touch-action: manipulation;
+  user-select: none;
 }
 
 .news-item:hover {
   background-color: var(--bg-secondary);
+}
+
+.news-item:active {
+  background-color: var(--bg-tertiary);
+  opacity: 0.8;
 }
 
 .news-item:not(:last-child) {

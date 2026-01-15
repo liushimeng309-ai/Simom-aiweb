@@ -62,8 +62,9 @@ function renderNewsItem(item, index) {
     ? `<div class="news-tags">${tags.map(tag => `<span class="news-tag">${escapeHtml(tag)}</span>`).join('')}</div>`
     : '';
 
+  const url = escapeHtml(item.url);
   return `
-    <article class="news-item" onclick="window.open('${escapeHtml(item.url)}', '_blank')" role="button" tabindex="0" aria-label="查看 ${escapeHtml(item.title)}">
+    <article class="news-item" data-url="${url}" role="button" tabindex="0" aria-label="查看 ${escapeHtml(item.title)}">
       <div class="news-content">
         <div class="news-header">
           <span class="news-number">${index + 1}.</span>
@@ -146,6 +147,45 @@ function renderSiteCards(data) {
   container.innerHTML = cardsHtml;
 
   console.log('站点卡片渲染完成');
+
+  // 添加点击和触摸事件监听器（移动端优化）
+  const newsItems = container.querySelectorAll('.news-item');
+  newsItems.forEach(item => {
+    const url = item.getAttribute('data-url');
+    if (!url) return;
+    
+    // 统一的打开链接函数
+    const openLink = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      window.open(url, '_blank');
+    };
+    
+    // 点击事件（桌面端和移动端都支持）
+    item.addEventListener('click', openLink);
+    
+    // 触摸事件（移动端优化，减少延迟）
+    let touchStartTime = 0;
+    item.addEventListener('touchstart', (e) => {
+      touchStartTime = Date.now();
+      item.style.opacity = '0.7';
+    }, { passive: true });
+    
+    item.addEventListener('touchend', (e) => {
+      const touchDuration = Date.now() - touchStartTime;
+      item.style.opacity = '1';
+      
+      // 如果触摸时间小于 300ms，认为是点击而不是滑动
+      if (touchDuration < 300) {
+        e.preventDefault();
+        openLink(e);
+      }
+    });
+    
+    item.addEventListener('touchcancel', () => {
+      item.style.opacity = '1';
+    }, { passive: true });
+  });
 
   // 更新日期显示
   if (data.date) {
