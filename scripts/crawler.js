@@ -523,43 +523,80 @@ async function fetchFromGoogleDesign() {
     const $ = cheerio.load(html);
     const items = [];
     
-    // 方法1：查找所有包含 /library/ 的文章链接，排除分类和标签链接
-    $('a[href*="/library/"]').each((i, elem) => {
-      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 3) return false; // 收集更多以便筛选
+    // 方法1：使用正则表达式直接从HTML中提取 /library/ 链接（更可靠）
+    const libraryLinkRegex = /href=["']([^"']*\/library\/[^"']*?)["']/gi;
+    const foundLinks = new Set();
+    let match;
+    
+    while ((match = libraryLinkRegex.exec(html)) !== null && foundLinks.size < CONFIG.MAX_ITEMS_PER_SITE * 3) {
+      let link = match[1];
       
-      const $elem = $(elem);
-      let link = $elem.attr('href');
-      
-      if (!link) return;
-      
-      // 排除分类和标签链接（这些不是具体文章）
+      // 排除分类和标签链接
       if (link.includes('/category/') || link.includes('/tags/')) {
-        return;
+        continue;
       }
       
-      // 确保是文章链接（格式：/library/文章名）
-      // 排除导航链接和首页链接
-      if (!link.includes('/library/') || link === '/library/' || link.includes('#') || link.includes('?')) {
-        return;
+      // 排除导航链接
+      if (link === '/library/' || link.endsWith('#') || link.includes('#')) {
+        continue;
       }
       
-      // 如果链接是相对路径，转换为绝对路径
+      // 转换为绝对路径
       if (!link.startsWith('http')) {
         link = link.startsWith('/') ? `https://design.google${link}` : `https://design.google/${link}`;
       }
       
-      // 获取标题 - 优先从链接内的 h2, h3 获取
-      let title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
-      if (!title || title.length < 5) {
-        // 尝试从父元素获取
-        const $parent = $elem.closest('article, [class*="card"], div, section');
-        title = $parent.find('h1, h2, h3, h4').first().text().trim() ||
-                $elem.siblings('h1, h2, h3, h4').first().text().trim();
+      foundLinks.add(link);
+    }
+    
+    console.log(`  从HTML中提取到 ${foundLinks.size} 个文章链接`);
+    
+    // 方法2：使用 cheerio 解析每个链接，获取标题和摘要
+    Array.from(foundLinks).forEach(link => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 3) return;
+      
+      const relPath = link.replace('https://design.google', '');
+      
+      // 尝试多种方式查找链接元素
+      let $elem = $(`a[href="${relPath}"]`).first();
+      if ($elem.length === 0) {
+        $elem = $(`a[href="${link}"]`).first();
+      }
+      if ($elem.length === 0) {
+        // 使用包含路径的最后一部分来查找
+        const pathPart = relPath.split('/').pop();
+        $elem = $(`a[href*="${pathPart}"]`).first();
       }
       
-      // 如果还是找不到，使用链接文本（但过滤掉太短的）
+      let title = '';
+      let summary = '';
+      let category = '';
+      
+      if ($elem.length > 0) {
+        // 从链接元素中获取标题
+        title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
+        if (!title || title.length < 5) {
+          const $parent = $elem.closest('article, [class*="card"], div, section, a');
+          title = $parent.find('h1, h2, h3, h4').first().text().trim() ||
+                  $elem.siblings('h1, h2, h3, h4').first().text().trim() ||
+                  $elem.text().trim();
+        }
+        
+        // 获取摘要
+        const $parent = $elem.closest('article, [class*="card"], div, section');
+        summary = $parent.find('p').first().text().trim();
+        if (!summary) {
+          summary = $elem.siblings('p').first().text().trim();
+        }
+        
+        // 获取分类
+        category = $parent.find('a[href*="/category/"], a[href*="/tags/"]').first().text().trim() || '';
+      }
+      
+      // 如果还是找不到标题，从链接路径生成标题
       if (!title || title.length < 5) {
-        title = $elem.text().trim();
+        const pathParts = relPath.split('/').pop().split('-');
+        title = pathParts.map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
       }
       
       // 跳过导航和无关文本
@@ -567,57 +604,46 @@ async function fetchFromGoogleDesign() {
         return;
       }
       
-      // 获取摘要 - 从父元素中查找段落
-      const $parent = $elem.closest('article, [class*="card"], div, section');
-      let summary = $parent.find('p').first().text().trim();
-      if (!summary) {
-        summary = $elem.siblings('p').first().text().trim();
-      }
-      
-      // 获取标签/分类（用于提取标签，但不作为链接）
-      const category = $parent.find('a[href*="/category/"], a[href*="/tags/"]').first().text().trim() || '';
-      
-      if (title && link && title.length > 5) {
-        items.push({
-          title: translateToChinese(title),
-          url: link,
-          summary: translateToChinese(summary || title.substring(0, 150)),
-          publishedAt: null,
-          tags: extractTags(title, summary + ' ' + category)
-        });
-      }
+      items.push({
+        title: translateToChinese(title),
+        url: link,
+        summary: translateToChinese(summary || title.substring(0, 150)),
+        publishedAt: null,
+        tags: extractTags(title, summary + ' ' + category)
+      });
     });
     
-    console.log(`  找到 ${items.length} 个文章链接`);
+    console.log(`  解析后得到 ${items.length} 个文章项`);
     
-    // 如果还是没找到，尝试更宽松的选择器（但仍然排除分类链接）
+    // 如果还是没找到，使用 cheerio 选择器作为备用
     if (items.length === 0) {
-      console.log(`  尝试更宽松的选择器...`);
-      $('a').each((i, elem) => {
-        if (items.length >= 100) return false; // 增加收集数量
+      console.log(`  尝试使用 cheerio 选择器...`);
+      $('a[href*="/library/"]').each((i, elem) => {
+        if (items.length >= 100) return false;
         const $elem = $(elem);
         let link = $elem.attr('href');
         if (!link) return;
         
-        // 只接受 /library/ 开头的链接，排除分类和标签
-        if (link.includes('/library/') && !link.includes('/category/') && !link.includes('/tags/')) {
-          if (!link.startsWith('http')) {
-            link = link.startsWith('/') ? `https://design.google${link}` : `https://design.google/${link}`;
-          }
-          
-          let title = $elem.text().trim();
-          if (title && title.length > 5 && !title.includes('Skip') && !title.includes('View')) {
-            items.push({
-              title: translateToChinese(title),
-              url: link,
-              summary: translateToChinese(title),
-              publishedAt: null,
-              tags: extractTags(title, '')
-            });
-          }
+        if (link.includes('/category/') || link.includes('/tags/')) {
+          return;
+        }
+        
+        if (!link.startsWith('http')) {
+          link = link.startsWith('/') ? `https://design.google${link}` : `https://design.google/${link}`;
+        }
+        
+        let title = $elem.text().trim();
+        if (title && title.length > 5 && !title.includes('Skip') && !title.includes('View')) {
+          items.push({
+            title: translateToChinese(title),
+            url: link,
+            summary: translateToChinese(title),
+            publishedAt: null,
+            tags: extractTags(title, '')
+          });
         }
       });
-      console.log(`  使用宽松选择器找到 ${items.length} 个链接`);
+      console.log(`  使用 cheerio 选择器找到 ${items.length} 个链接`);
     }
     
     // 去重（按URL去重，规范化URL）
