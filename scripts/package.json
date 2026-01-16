@@ -16,9 +16,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.1.2"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=14.0.0"
   }
