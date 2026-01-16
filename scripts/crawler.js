@@ -284,36 +284,67 @@ async function fetchFromMaterial() {
     const $ = cheerio.load(html);
     const items = [];
     
-    // 方法1：尝试查找所有包含 /blog/ 的链接
+    // 方法1：查找所有包含 /blog/ 的链接（包括自定义标签内的）
     $('a[href*="/blog/"]').each((i, elem) => {
-      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 3) return false; // 收集更多以便筛选
       
       const $elem = $(elem);
-      const link = $elem.attr('href');
+      let link = $elem.attr('href');
       
-      // 获取标题 - 可能在链接内，或父元素中
-      let title = $elem.text().trim();
-      if (!title || title.length < 10) {
-        // 尝试从父元素获取
-        title = $elem.parent().find('h1, h2, h3, h4, [class*="title"]').first().text().trim() ||
-                $elem.closest('article, [class*="card"], [class*="post"]').find('h1, h2, h3, h4').first().text().trim();
+      // 如果链接是相对路径，转换为绝对路径
+      if (link && !link.startsWith('http')) {
+        link = link.startsWith('/') ? `https://m3.material.io${link}` : `https://m3.material.io/${link}`;
       }
       
-      // 获取摘要
-      const $parent = $elem.closest('article, [class*="card"], [class*="post"], div');
-      const summary = $parent.find('p').first().text().trim() || '';
+      // 跳过不包含 /blog/ 的链接（比如 /blog#main_content）或导航链接
+      if (!link || !link.includes('/blog/') || link.endsWith('#main_content') || 
+          link === 'https://m3.material.io/blog' || link.includes('/blog#')) {
+        return;
+      }
       
-      // 获取日期
-      const dateStr = $parent.find('time').first().attr('datetime') || 
-                      $parent.find('time').first().text().trim() ||
-                      $parent.find('[class*="date"]').first().text().trim();
+      // 获取标题 - 文本格式可能是 "日期+标题"，需要提取标题部分
+      let title = $elem.text().trim();
       
-      if (title && link && title.length > 10 && link.includes('/blog/')) {
-        const fullUrl = link.startsWith('http') ? link : `https://m3.material.io${link}`;
+      // 跳过导航和无关文本
+      if (title.includes('Skip') || title.includes('Blog') || title.length < 10) {
+        return;
+      }
+      
+      // 尝试从文本中提取标题（去掉日期部分）
+      // 格式可能是：May 13, 2025Start building...
+      const titleMatch = title.match(/((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d+,\s+\d{4})(.+)/i);
+      let dateStr = null;
+      if (titleMatch) {
+        dateStr = titleMatch[1];
+        title = titleMatch[2].trim();
+      }
+      
+      // 如果标题还是太长或包含日期，尝试从其他元素获取
+      if (!title || title.length < 5 || title.length > 200) {
+        title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim() ||
+                $elem.parent().find('h1, h2, h3, h4').first().text().trim() ||
+                title; // 保留原文本作为备选
+      }
+      
+      // 获取摘要 - 可能在兄弟元素或父元素中
+      const $parent = $elem.parent();
+      let summary = $parent.find('p').first().text().trim() || 
+                    $elem.siblings('p').first().text().trim() ||
+                    $parent.siblings('p').first().text().trim();
+      
+      // 如果没有找到日期，尝试从元素属性获取
+      if (!dateStr) {
+        dateStr = $elem.find('time').first().attr('datetime') || 
+                  $parent.find('time').first().attr('datetime') ||
+                  $elem.find('time').first().text().trim() ||
+                  $parent.find('time').first().text().trim();
+      }
+      
+      if (title && link && title.length > 5 && !title.includes('Skip') && !title.includes('Blog')) {
         items.push({
           title: translateToChinese(title),
-          url: fullUrl,
-          summary: translateToChinese(summary || title.substring(0, 100)),
+          url: link,
+          summary: translateToChinese(summary || title.substring(0, 150)),
           publishedAt: parseDate(dateStr),
           tags: extractTags(title, summary)
         });
@@ -322,38 +353,19 @@ async function fetchFromMaterial() {
     
     console.log(`  找到 ${items.length} 个链接`);
     
-    // 如果还是没找到，尝试更宽松的选择器
-    if (items.length === 0) {
-      // 尝试查找所有链接
-      $('a').each((i, elem) => {
-        if (items.length >= 20) return false;
-        const $elem = $(elem);
-        const link = $elem.attr('href');
-        const title = $elem.text().trim();
-        
-        if (link && link.includes('/blog/') && title && title.length > 10 && !title.includes('Skip')) {
-          const fullUrl = link.startsWith('http') ? link : `https://m3.material.io${link}`;
-          items.push({
-            title: translateToChinese(title),
-            url: fullUrl,
-            summary: translateToChinese(title),
-            publishedAt: null,
-            tags: extractTags(title, '')
-          });
-        }
-      });
-      console.log(`  使用宽松选择器找到 ${items.length} 个链接`);
-    }
-    
-    // 去重并筛选
+    // 去重并筛选（按URL去重）
     const uniqueItems = items.filter((item, index, self) => 
       self.findIndex(i => i.url === item.url) === index
     );
+    
+    console.log(`  去重后剩余 ${uniqueItems.length} 条`);
     
     // 优先过滤 AI 相关内容
     const aiItems = uniqueItems.filter(item => 
       isAIRelated(item.title) || isAIRelated(item.summary)
     );
+    
+    console.log(`  AI相关: ${aiItems.length} 条`);
     
     // 如果 AI 相关条目不足，补充最近的其他条目
     let resultItems = [...aiItems];
@@ -503,7 +515,7 @@ async function fetchFromGoogleDesign() {
     if (items.length === 0) {
       // 尝试查找所有链接，然后过滤
       $('a').each((i, elem) => {
-        if (items.length >= 30) return false;
+        if (items.length >= 50) return false; // 增加收集数量
         const $elem = $(elem);
         const link = $elem.attr('href');
         let title = $elem.text().trim();
@@ -523,15 +535,19 @@ async function fetchFromGoogleDesign() {
       console.log(`  使用宽松选择器找到 ${items.length} 个链接`);
     }
     
-    // 去重
+    // 去重（按URL去重）
     const uniqueItems = items.filter((item, index, self) => 
       self.findIndex(i => i.url === item.url) === index
     );
+    
+    console.log(`  去重后剩余 ${uniqueItems.length} 条`);
     
     // 优先过滤 AI 相关内容
     const aiItems = uniqueItems.filter(item => 
       isAIRelated(item.title) || isAIRelated(item.summary)
     );
+    
+    console.log(`  AI相关: ${aiItems.length} 条`);
     
     let resultItems = [...aiItems];
     if (resultItems.length < CONFIG.MAX_ITEMS_PER_SITE) {
@@ -541,6 +557,7 @@ async function fetchFromGoogleDesign() {
       resultItems = [...aiItems, ...otherItems];
     }
     
+    // 确保返回至少10条（如果可用）
     const final = resultItems.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
     console.log(`  返回 ${final.length} 条记录`);
     return final;
