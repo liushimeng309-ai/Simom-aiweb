@@ -523,69 +523,98 @@ async function fetchFromGoogleDesign() {
     const $ = cheerio.load(html);
     const items = [];
     
-    // 方法1：查找所有包含 /library/ 的链接（这是 Google Design 的文章路径）
+    // 方法1：查找所有包含 /library/ 的文章链接，排除分类和标签链接
     $('a[href*="/library/"]').each((i, elem) => {
-      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 3) return false; // 收集更多以便筛选
       
       const $elem = $(elem);
-      const link = $elem.attr('href');
+      let link = $elem.attr('href');
       
-      // 获取标题 - 可能在链接内的 h2, h3 或其他元素
+      if (!link) return;
+      
+      // 排除分类和标签链接（这些不是具体文章）
+      if (link.includes('/category/') || link.includes('/tags/')) {
+        return;
+      }
+      
+      // 确保是文章链接（格式：/library/文章名）
+      // 排除导航链接和首页链接
+      if (!link.includes('/library/') || link === '/library/' || link.includes('#') || link.includes('?')) {
+        return;
+      }
+      
+      // 如果链接是相对路径，转换为绝对路径
+      if (!link.startsWith('http')) {
+        link = link.startsWith('/') ? `https://design.google${link}` : `https://design.google/${link}`;
+      }
+      
+      // 获取标题 - 优先从链接内的 h2, h3 获取
       let title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
       if (!title || title.length < 5) {
-        // 尝试从父元素或兄弟元素获取
-        title = $elem.closest('article, [class*="card"], div').find('h1, h2, h3, h4').first().text().trim() ||
+        // 尝试从父元素获取
+        const $parent = $elem.closest('article, [class*="card"], div, section');
+        title = $parent.find('h1, h2, h3, h4').first().text().trim() ||
                 $elem.siblings('h1, h2, h3, h4').first().text().trim();
       }
       
-      // 如果还是找不到，使用链接文本
+      // 如果还是找不到，使用链接文本（但过滤掉太短的）
       if (!title || title.length < 5) {
         title = $elem.text().trim();
       }
       
-      // 获取摘要
-      const $parent = $elem.closest('article, [class*="card"], div');
+      // 跳过导航和无关文本
+      if (title.includes('Skip') || title.includes('View') || title.length < 5) {
+        return;
+      }
+      
+      // 获取摘要 - 从父元素中查找段落
+      const $parent = $elem.closest('article, [class*="card"], div, section');
       let summary = $parent.find('p').first().text().trim();
       if (!summary) {
         summary = $elem.siblings('p').first().text().trim();
       }
       
-      // 获取标签/分类
+      // 获取标签/分类（用于提取标签，但不作为链接）
       const category = $parent.find('a[href*="/category/"], a[href*="/tags/"]').first().text().trim() || '';
       
-      if (title && link && title.length > 5 && link.includes('/library/') && !title.includes('Skip')) {
-        const fullUrl = link.startsWith('http') ? link : `https://design.google${link}`;
+      if (title && link && title.length > 5) {
         items.push({
           title: translateToChinese(title),
-          url: fullUrl,
-          summary: translateToChinese(summary || title.substring(0, 100)),
+          url: link,
+          summary: translateToChinese(summary || title.substring(0, 150)),
           publishedAt: null,
           tags: extractTags(title, summary + ' ' + category)
         });
       }
     });
     
-    console.log(`  找到 ${items.length} 个链接`);
+    console.log(`  找到 ${items.length} 个文章链接`);
     
-    // 如果还是没找到，尝试查找所有包含链接的元素
+    // 如果还是没找到，尝试更宽松的选择器（但仍然排除分类链接）
     if (items.length === 0) {
-      // 尝试查找所有链接，然后过滤
+      console.log(`  尝试更宽松的选择器...`);
       $('a').each((i, elem) => {
-        if (items.length >= 50) return false; // 增加收集数量
+        if (items.length >= 100) return false; // 增加收集数量
         const $elem = $(elem);
-        const link = $elem.attr('href');
-        let title = $elem.text().trim();
+        let link = $elem.attr('href');
+        if (!link) return;
         
-        if (link && (link.includes('/library/') || link.includes('/category/') || link.includes('/tags/')) && 
-            title && title.length > 5 && !title.includes('Skip') && !title.includes('View')) {
-          const fullUrl = link.startsWith('http') ? link : `https://design.google${link}`;
-          items.push({
-            title: translateToChinese(title),
-            url: fullUrl,
-            summary: translateToChinese(title),
-            publishedAt: null,
-            tags: extractTags(title, '')
-          });
+        // 只接受 /library/ 开头的链接，排除分类和标签
+        if (link.includes('/library/') && !link.includes('/category/') && !link.includes('/tags/')) {
+          if (!link.startsWith('http')) {
+            link = link.startsWith('/') ? `https://design.google${link}` : `https://design.google/${link}`;
+          }
+          
+          let title = $elem.text().trim();
+          if (title && title.length > 5 && !title.includes('Skip') && !title.includes('View')) {
+            items.push({
+              title: translateToChinese(title),
+              url: link,
+              summary: translateToChinese(title),
+              publishedAt: null,
+              tags: extractTags(title, '')
+            });
+          }
         }
       });
       console.log(`  使用宽松选择器找到 ${items.length} 个链接`);
@@ -624,7 +653,7 @@ async function fetchFromGoogleDesign() {
       resultItems = [...aiItems, ...otherItems];
     }
     
-    // 确保返回至少10条（如果可用）
+    // 确保返回最多10条
     const final = resultItems.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
     console.log(`  返回 ${final.length} 条记录`);
     return final;
