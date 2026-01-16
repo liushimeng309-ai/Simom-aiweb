@@ -1,221 +1,147 @@
 {
-  "date": "2026-01-15",
+  "date": "2026-01-16",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
-      "items": [
-        {
-          "id": "material-001",
-          "title": "使用 Jetpack Compose 添加运动物理效果",
-          "url": "https://m3.material.io/blog/m3-expressive-motion-theming",
-          "thumbnail": "",
-          "summary": "通过全新的 M3 Expressive 运动主题系统，为你的 Android 过渡和动画注入强大动力。",
-          "tags": ["动画", "Android", "Compose"],
-          "publishedAt": "2025-05-20T00:00:00Z",
-          "publishedAtRelative": "8个月前"
-        },
-        {
-          "id": "material-002",
-          "title": "开始使用 Material 3 Expressive 构建",
-          "url": "https://m3.material.io/blog/building-with-m3-expressive",
-          "thumbnail": "",
-          "summary": "Material 的最新演进帮助你打造更具吸引力且更易用的产品。",
-          "tags": ["Material 3", "设计系统", "产品设计"],
-          "publishedAt": "2025-05-13T00:00:00Z",
-          "publishedAtRelative": "8个月前"
-        },
-        {
-          "id": "material-003",
-          "title": "Material Design for XR（开发者预览版）",
-          "url": "https://m3.material.io/blog/material-design-xr-dev-preview",
-          "thumbnail": "",
-          "summary": "使用熟悉的框架和工具构建适配 XR 的用户界面",
-          "tags": ["XR", "VR", "AR", "设计系统"],
-          "publishedAt": "2024-12-12T00:00:00Z",
-          "publishedAtRelative": "1个月前"
-        },
-        {
-          "id": "material-004",
-          "title": "Material Design 3 for Compose 1.3 版本",
-          "url": "https://m3.material.io/blog/material-3-compose-1-3",
-          "thumbnail": "",
-          "summary": "探索 Material Design 3 for Compose 的 1.3 版本发布",
-          "tags": ["Compose", "Android", "Material 3", "版本更新"],
-          "publishedAt": "2024-09-10T00:00:00Z",
-          "publishedAtRelative": "4个月前"
-        },
-        {
-          "id": "material-005",
-          "title": "你的 UI 向用户传达了什么？",
-          "url": "https://m3.material.io/blog/testing-material-3",
-          "thumbnail": "",
-          "summary": "我们如何测试 M2 和 M3 界面，以了解视觉变化的影响",
-          "tags": ["用户研究", "UX", "Material 3"],
-          "publishedAt": "2024-05-13T00:00:00Z",
-          "publishedAtRelative": "8个月前"
-        },
-        {
-          "id": "material-006",
-          "title": "Material Design Components for Android 1.11.0 和 1.12.0",
-          "url": "https://m3.material.io/blog/android-stable-release-1-12-0",
-          "thumbnail": "",
-          "summary": "新的颜色选项和轮播组件优化",
-          "tags": ["Android", "组件", "版本更新"],
-          "publishedAt": "2024-05-08T00:00:00Z",
-          "publishedAtRelative": "8个月前"
-        },
-        {
-          "id": "material-007",
-          "title": "将 Gemini 应用与 Material Design 3 结合使用",
-          "url": "https://m3.material.io/blog/how-to-gemini-app-compose-material-design-3",
-          "thumbnail": "",
-          "summary": "面向设计师和开发者的示例提示",
-          "tags": ["AI", "Gemini", "Material 3"],
-          "publishedAt": "2024-05-07T00:00:00Z",
-          "publishedAtRelative": "8个月前"
-        },
-        {
-          "id": "material-008",
-          "title": "Material Design 在 Google I/O '24",
-          "url": "https://m3.material.io/blog/google-io-2024",
-          "thumbnail": "",
-          "summary": "在今年开发者大会上获取最新更新、资源和指南",
-          "tags": ["Google I/O", "开发者大会", "更新"],
-          "publishedAt": "2024-04-30T00:00:00Z",
-          "publishedAtRelative": "8个月前"
-        },
-        {
-          "id": "material-009",
-          "title": "让获取 Google Fonts 更简单",
-          "url": "https://m3.material.io/blog/get-google-fonts-update",
-          "thumbnail": "",
-          "summary": "网站和 API 更新使获取字体并在项目中使用变得更加简单",
-          "tags": ["字体", "Google Fonts", "API"],
-          "publishedAt": "2024-02-12T00:00:00Z",
-          "publishedAtRelative": "11个月前"
-        },
-        {
-          "id": "material-010",
-          "title": "Material Design 3 for Compose 1.2",
-          "url": "https://m3.material.io/blog/material-3-compose-1-2",
-          "thumbnail": "",
-          "summary": "探索 Material Design 3 for Compose 的 1.2 版本发布",
-          "tags": ["Compose", "Android", "Material 3", "版本更新"],
-          "publishedAt": "2024-02-07T00:00:00Z",
-          "publishedAtRelative": "11个月前"
-        }
-      ]
+      "updatedAt": "2026-01-16T06:25:41.089Z",
+      "updatedAtRelative": "刚刚",
+      "items": []
     },
     {
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
+      "updatedAt": "2026-01-16T06:25:43.264Z",
+      "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "microsoft-001",
-          "title": "面向前沿未来的设计",
-          "url": "https://microsoft.design/articles/designs-for-the-frontier-future/",
+          "title": "AI",
+          "url": "https://microsoft.design/news-and-stories/category/ai/",
           "thumbnail": "",
-          "summary": "我们如何重建 Microsoft 365 Copilot 应用，以打造全新的生产力体验",
-          "tags": ["AI", "Copilot", "生产力"],
-          "publishedAt": "2026-01-14T16:00:00Z",
-          "publishedAtRelative": "1天前"
+          "summary": "How we redesigned the Microsoft 365 Copilot mobile app to create a workspace built around conversation, dialogue, and discovery.",
+          "tags": [
+            "AI",
+            "生成式",
+            "Copilot"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "microsoft-002",
-          "title": "全新的 Microsoft 365 Copilot 移动体验",
-          "url": "https://microsoft.design/articles/the-new-microsoft-365-copilot-mobile-experience/",
+          "title": "UX/UI",
+          "url": "https://microsoft.design/news-and-stories/category/ux-ui/",
           "thumbnail": "",
-          "summary": "我们如何重新设计 Microsoft 365 Copilot 移动应用，打造以对话为中心的工作空间",
-          "tags": ["AI", "UX/UI", "移动端"],
-          "publishedAt": "2026-01-14T12:00:00Z",
-          "publishedAtRelative": "1天前"
+          "summary": "Evolving business apps and agents through form and function",
+          "tags": [
+            "用户体验"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "microsoft-003",
-          "title": "企业 AI 的新 UI",
-          "url": "https://microsoft.design/articles/the-new-ui-for-enterprise-ai/",
+          "title": "AI",
+          "url": "https://microsoft.design/news-and-stories/category/ai/",
           "thumbnail": "",
-          "summary": "通过形式和功能演进商业应用和智能体",
-          "tags": ["AI", "企业级", "UX/UI"],
-          "publishedAt": "2026-01-13T10:00:00Z",
-          "publishedAtRelative": "2天前"
+          "summary": "AI could create economic mobility for essential frontline workers—here’s how product makers can shift our thinking to encompass those experiences",
+          "tags": [
+            "AI",
+            "生成式"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "microsoft-004",
-          "title": "我们用生成式 AI 制作了一支广告",
-          "url": "https://microsoft.design/articles/we-made-an-ad-with-generative-ai/",
+          "title": "Hardware",
+          "url": "https://microsoft.design/news-and-stories/category/hardware/",
           "thumbnail": "",
-          "summary": "生成式 AI 如何通过影像改变我们在 Microsoft 讲故事的方式",
-          "tags": ["AI", "生成式AI", "设计思维"],
-          "publishedAt": "2026-01-12T14:00:00Z",
-          "publishedAtRelative": "3天前"
+          "summary": "How we crafted a new line of Surface Copilot+ PCs to empower creation, connection and change",
+          "tags": [
+            "Copilot"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "microsoft-005",
-          "title": "AI 时代的设计系统",
-          "url": "https://microsoft.design/articles/design-systems-for-the-ai-era/",
+          "title": "Inclusive Design",
+          "url": "https://microsoft.design/news-and-stories/category/inclusive-design/",
           "thumbnail": "",
-          "summary": "我们如何构建构建未来的工具",
-          "tags": ["AI", "设计系统", "设计思维"],
-          "publishedAt": "2026-01-11T10:00:00Z",
-          "publishedAtRelative": "4天前"
+          "summary": "The Microsoft Packaging & Content team just released “Creating Accessible Packaging: An Inclusive Design Guide,” available for all.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "microsoft-006",
-          "title": "AI 的未来不仅在于办公室——更在于工作现场",
-          "url": "https://microsoft.design/articles/the-future-of-ai-isnt-just-in-the-office-its-on-the-job-site/",
+          "title": "AI",
+          "url": "https://microsoft.design/news-and-stories/category/ai/",
           "thumbnail": "",
-          "summary": "AI 可以为一线工人创造经济流动性——产品制造者可以如何转变我们的思维方式",
-          "tags": ["AI", "设计思维"],
-          "publishedAt": "2026-01-10T08:00:00Z",
-          "publishedAtRelative": "5天前"
+          "summary": "AI",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "microsoft-007",
-          "title": "AI 时代为人性而设计：来自印度 UX Day 2025 的思考",
-          "url": "https://microsoft.design/articles/designing-for-humanity-in-the-age-of-ai-reflections-from-india-ux-day-2025/",
+          "title": "Responsible AI            \n\n            \n              From the latest research and policy changes, to concrete tools and practices, these resources help ensure the ethical advancement of AI experiences.",
+          "url": "https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1%3aprimaryr6",
           "thumbnail": "",
-          "summary": "关于在 AI 时代为人性而设计的思考",
-          "tags": ["AI", "设计思维"],
-          "publishedAt": "2026-01-09T12:00:00Z",
-          "publishedAtRelative": "6天前"
+          "summary": "Responsible AI            \n\n            \n              From the latest research and policy changes, to concrete tools and practices, these resources help ensure the ethical advancement of AI experiences.",
+          "tags": [
+            "AI",
+            "工具"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "microsoft-008",
-          "title": "将手语置于 AI 和设计的中心",
-          "url": "https://microsoft.design/articles/centering-sign-language-in-ai-and-design/",
+          "title": "Microsoft Design",
+          "url": "https://microsoft.design/news-and-stories/category/iconography/",
           "thumbnail": "",
-          "summary": "由听障人士主导的方法，将手语作为包容性设计的核心原则",
-          "tags": ["AI", "包容性设计"],
-          "publishedAt": "2026-01-08T10:00:00Z",
-          "publishedAtRelative": "7天前"
+          "summary": "How a subtle refresh of our Microsoft 365 icons signals deeper change.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "microsoft-009",
-          "title": "Windows 11 设计原则 + 信条",
-          "url": "https://microsoft.design/articles/windows-11-design-principles-tenets/",
+          "title": "Iconography",
+          "url": "https://microsoft.design/news-and-stories/category/iconography/",
           "thumbnail": "",
-          "summary": "我们为 AI 时代设计 Windows 的指导原则",
-          "tags": ["AI", "Windows", "设计原则"],
-          "publishedAt": "2026-01-07T14:00:00Z",
-          "publishedAtRelative": "8天前"
+          "summary": "How a subtle refresh of our Microsoft 365 icons signals deeper change.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "microsoft-010",
-          "title": "像 AI 一样思考：AI UX 设计的新方法",
-          "url": "https://microsoft.design/articles/thinking-like-ai-a-new-approach-to-ai-ux-design/",
+          "title": "Design Thinking",
+          "url": "https://microsoft.design/news-and-stories/category/design-thinking/",
           "thumbnail": "",
-          "summary": "如果 AI 有一份简历会怎样？我们最新的 UX 研究揭示了关于 AI 在 UX 设计中的角色、挑战和未来的新见解",
-          "tags": ["AI", "UX设计", "设计思维"],
-          "publishedAt": "2026-01-06T16:00:00Z",
-          "publishedAtRelative": "9天前"
+          "summary": "How we are shaping systems that help people think better, not just type faster.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:43.264Z",
+          "publishedAtRelative": ""
         }
       ]
     },
@@ -223,217 +149,145 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
-      "items": [
-        {
-          "id": "google-001",
-          "title": "Gemini 应用的视觉设计",
-          "url": "https://design.google/library/gemini-ai-visual-design",
-          "thumbnail": "",
-          "summary": "动态提示如何帮助用户发现、学习和掌握我们 AI 助手不断演进的功能",
-          "tags": ["AI", "Gemini", "视觉设计"],
-          "publishedAt": "2026-01-14T10:00:00Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "google-002",
-          "title": "打造 Google Sans Flex",
-          "url": "https://design.google/library/google-sans-flex-font",
-          "thumbnail": "",
-          "summary": "七个设计问题如何塑造了 Google 的标志性字体——从诞生到开源",
-          "tags": ["字体", "Google Sans", "开源"],
-          "publishedAt": "2026-01-13T14:00:00Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "google-003",
-          "title": "真正的设计优于新设计",
-          "url": "https://design.google/library/david-reinfurt-teaches-design",
-          "thumbnail": "",
-          "summary": "David Reinfurt 讨论个人视角如何成为设计实践的真实驱动力",
-          "tags": ["设计思维", "播客"],
-          "publishedAt": "2026-01-12T12:00:00Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "google-004",
-          "title": "开启新的协作",
-          "url": "https://design.google/library/hardware-and-software-can-work-together",
-          "thumbnail": "",
-          "summary": "如果硬件和软件可以协同工作，那么它们的团队也可以",
-          "tags": ["Material Design", "协作"],
-          "publishedAt": "2026-01-11T10:00:00Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "google-005",
-          "title": "UX 设计如同舞蹈剧场",
-          "url": "https://design.google/library/ux-design-system-dance",
-          "thumbnail": "",
-          "summary": "就像舞蹈一样，优秀的产品设计在迭代、协作和对细节的关注中蓬勃发展",
-          "tags": ["UX", "设计思维"],
-          "publishedAt": "2026-01-10T08:00:00Z",
-          "publishedAtRelative": "5天前"
-        },
-        {
-          "id": "google-006",
-          "title": "当品牌字体开源时",
-          "url": "https://design.google/library/open-source-custom-fonts-google",
-          "thumbnail": "",
-          "summary": "探索为什么从 IBM 到 Github 的品牌都向所有人开放他们的字体，以及你如何从中受益",
-          "tags": ["字体", "开源"],
-          "publishedAt": "2026-01-09T16:00:00Z",
-          "publishedAtRelative": "6天前"
-        },
-        {
-          "id": "google-007",
-          "title": "深入了解 M3 Expressive",
-          "url": "https://design.google/library/design-notes-material-3-expressive-liam-spradlin",
-          "thumbnail": "",
-          "summary": "深入了解产品、研究和设计背后的故事",
-          "tags": ["Material Design", "播客"],
-          "publishedAt": "2026-01-08T14:00:00Z",
-          "publishedAtRelative": "7天前"
-        },
-        {
-          "id": "google-008",
-          "title": "更好、更易用、更感性的 UX",
-          "url": "https://design.google/library/expressive-material-design-google-research",
-          "thumbnail": "",
-          "summary": "Google 大胆新设计方向背后的研究",
-          "tags": ["UX", "研究", "Material Design"],
-          "publishedAt": "2026-01-07T12:00:00Z",
-          "publishedAtRelative": "8天前"
-        },
-        {
-          "id": "google-009",
-          "title": "模拟智能",
-          "url": "https://design.google/library/simulating-intelligence",
-          "thumbnail": "",
-          "summary": "跨产品原型化机器学习系统的技术",
-          "tags": ["AI", "机器学习", "原型设计"],
-          "publishedAt": "2026-01-06T10:00:00Z",
-          "publishedAtRelative": "9天前"
-        },
-        {
-          "id": "google-010",
-          "title": "Neon、Prism、Tilt",
-          "url": "https://design.google/library/neon-prism-tilt-variable-font",
-          "thumbnail": "",
-          "summary": "通过新的字体轴超越斜体",
-          "tags": ["字体", "可变字体"],
-          "publishedAt": "2026-01-05T08:00:00Z",
-          "publishedAtRelative": "10天前"
-        }
-      ]
+      "updatedAt": "2026-01-16T06:25:45.685Z",
+      "updatedAtRelative": "刚刚",
+      "items": []
     },
     {
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
+      "updatedAt": "2026-01-16T06:25:48.199Z",
+      "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "figma-001",
-          "title": "设计系统的新商业案例",
-          "url": "https://www.figma.com/blog/the-new-business-case-for-design-systems/",
+          "title": "Design systems",
+          "url": "https://www.figma.com/blog/design-systems/",
           "thumbnail": "",
-          "summary": "设计系统已从静态库演进为业务收入、客户忠诚度和产品战略的关键驱动力",
-          "tags": ["设计系统", "商业", "思想领导力"],
-          "publishedAt": "2026-01-13T00:00:00Z",
-          "publishedAtRelative": "2天前"
+          "summary": "Everything you need to know about building and scaling design systems in the age of AI",
+          "tags": [
+            "AI",
+            "设计系统"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.199Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "figma-002",
-          "title": "软件即文化",
-          "url": "https://www.figma.com/blog/software-is-culture/",
+          "title": "Brainstorming",
+          "url": "https://www.figma.com/blog/brainstorming/",
           "thumbnail": "",
-          "summary": "我们滚动、点击、捏合和滑动的软件已经不可逆转地塑造了我们的思维和感受方式。随着软件变得更加智能，我们回顾过去 20 年中最具影响力的交互",
-          "tags": ["设计", "文化", "UI/UX"],
-          "publishedAt": "2026-01-07T00:00:00Z",
-          "publishedAtRelative": "8天前"
+          "summary": "Brainstorming",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.199Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "figma-003",
-          "title": "按下开始：游戏手柄如何塑造视频游戏设计——以及界面可能走向何方",
-          "url": "https://www.figma.com/blog/press-start-video-game-navigation/",
+          "title": "Maker Stories",
+          "url": "https://www.figma.com/blog/maker-stories/",
           "thumbnail": "",
-          "summary": "Epic Games 的 UX 设计师 Aashrey Sharma 分享视频游戏导航可以教给我们什么，以构建下一代界面",
-          "tags": ["设计", "UI/UX", "游戏"],
-          "publishedAt": "2026-01-05T00:00:00Z",
-          "publishedAtRelative": "10天前"
+          "summary": "Maker Stories",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.199Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "figma-004",
-          "title": "在约束中烹饪：设计师的 AI 提示框架",
-          "url": "https://www.figma.com/blog/designer-framework-for-better-ai-prompts/",
+          "title": "Working Well",
+          "url": "https://www.figma.com/blog/working-well/",
           "thumbnail": "",
-          "summary": "设计和烹饪共享一个真理：准备决定结果。结构化的提示将 AI 从猜测转变为可靠的设计伙伴",
-          "tags": ["AI", "工作方法", "原型设计"],
-          "publishedAt": "2026-01-05T00:00:00Z",
-          "publishedAtRelative": "10天前"
+          "summary": "Working Well",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.199Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "figma-005",
-          "title": "原型即新的 PRD",
-          "url": "https://www.figma.com/blog/prototypes-are-the-new-prds/",
+          "title": "Inside Figma",
+          "url": "https://www.figma.com/blog/inside-figma/",
           "thumbnail": "",
-          "summary": "越来越多的产品经理发现，获得清晰度的最快方法就是构建。在 Figma Make 中，他们早期进行假设压力测试",
-          "tags": ["AI", "产品管理", "工作方法"],
-          "publishedAt": "2025-12-16T00:00:00Z",
-          "publishedAtRelative": "1个月前"
+          "summary": "Inside Figma",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.199Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "figma-006",
-          "title": "难题仍然是难题：关于变化的工具和不变的工作的故事",
-          "url": "https://www.figma.com/blog/hard-problems-are-still-hard/",
+          "title": "Accessibility",
+          "url": "https://www.figma.com/blog/accessibility/",
           "thumbnail": "",
-          "summary": "Figma 设计师转产品经理 Nikolas Klein 花了七年时间构建原型工具。然后 AI 改变了游戏规则",
-          "tags": ["AI", "设计", "创作者故事"],
-          "publishedAt": "2025-12-12T00:00:00Z",
-          "publishedAtRelative": "1个月前"
+          "summary": "Accessibility",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.200Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "figma-007",
-          "title": "使用 ChatGPT 中的 Figma 应用将提示转换为视觉资源和幻灯片",
-          "url": "https://www.figma.com/blog/slides-buzz-figma-app-in-chatgpt/",
+          "title": "Behind the scenes",
+          "url": "https://www.figma.com/blog/behind-the-scenes/",
           "thumbnail": "",
-          "summary": "我们正在扩展 ChatGPT 中 Figma 应用的功能，让你可以将想法转化为创意资源和演示文稿",
-          "tags": ["AI", "ChatGPT", "Figma Make"],
-          "publishedAt": "2025-12-11T00:00:00Z",
-          "publishedAtRelative": "1个月前"
+          "summary": "Behind the scenes",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.200Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "figma-008",
-          "title": "Figma 中三种新的精确图像编辑工具",
-          "url": "https://www.figma.com/blog/introducing-three-new-tools-for-precise-image-editing-in-figma/",
+          "title": "Career & education",
+          "url": "https://www.figma.com/blog/career-and-education/",
           "thumbnail": "",
-          "summary": "今天我们推出三种新的 AI 图像编辑工具，使精确编辑更快、更清晰、更直观",
-          "tags": ["AI", "图像编辑", "产品更新"],
-          "publishedAt": "2025-12-10T00:00:00Z",
-          "publishedAtRelative": "1个月前"
+          "summary": "Career & education",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.200Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "figma-009",
-          "title": "如何利用 AI 无法自动化的技能",
-          "url": "https://www.figma.com/blog/how-to-harness-skills-that-ai-cant-automate/",
+          "title": "Collaboration",
+          "url": "https://www.figma.com/blog/collaboration/",
           "thumbnail": "",
-          "summary": "随着团队比以往更快地移动，真正的差异化因素是工艺——每个细节背后的好奇心、直觉、品味和意图",
-          "tags": ["AI", "思想领导力", "洞察"],
-          "publishedAt": "2025-09-09T00:00:00Z",
-          "publishedAtRelative": "4个月前"
+          "summary": "Collaboration",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.200Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "figma-010",
-          "title": "重新定义 AI 时代设计系统的 5 个转变",
-          "url": "https://www.figma.com/blog/5-shifts-redefining-design-systems-in-the-ai-era/",
+          "title": "Design thinking",
+          "url": "https://www.figma.com/blog/design-thinking/",
           "thumbnail": "",
-          "summary": "随着 AI 重塑我们制造产品的方式，设计系统正在从可重用部件的库演进为扩展品味和工艺的活框架",
-          "tags": ["AI", "设计系统", "洞察"],
-          "publishedAt": "2025-11-19T00:00:00Z",
-          "publishedAtRelative": "2个月前"
+          "summary": "Design thinking",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:48.200Z",
+          "publishedAtRelative": ""
         }
       ]
     },
@@ -441,108 +295,131 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
+      "updatedAt": "2026-01-16T06:25:50.375Z",
+      "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "anthropic-001",
-          "title": "Claude Opus 4.5：编程、代理和计算机使用的最佳模型",
-          "url": "https://www.anthropic.com/news/claude-opus-4-5",
+          "title": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening",
+          "url": "https://www.anthropic.com/news/anthropic-appoints-irina-ghose-as-managing-director-of-india",
           "thumbnail": "",
-          "summary": "介绍世界上最好的编程、代理、计算机使用和企业工作流模型",
-          "tags": ["AI", "Claude", "产品发布"],
-          "publishedAt": "2026-01-14T00:00:00Z",
-          "publishedAtRelative": "1天前"
+          "summary": "Anthropic appoints Irina Ghose as Managing Director of India ahead of Bengaluru office opening",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-01-15T16:00:00.000Z",
+          "publishedAtRelative": "14小时前"
         },
         {
           "id": "anthropic-002",
-          "title": "Claude 开发者平台的高级工具使用",
-          "url": "https://www.anthropic.com/news/advanced-tool-use",
+          "title": "How scientists are using Claude to accelerate research and discovery",
+          "url": "https://www.anthropic.com/news/accelerating-scientific-research",
           "thumbnail": "",
-          "summary": "探索 Claude 开发者平台的新功能和工具集成能力",
-          "tags": ["AI", "开发者", "工具"],
-          "publishedAt": "2026-01-13T00:00:00Z",
-          "publishedAtRelative": "2天前"
+          "summary": "How scientists are using Claude to accelerate research and discovery",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-01-14T16:00:00.000Z",
+          "publishedAtRelative": "1天前"
         },
         {
           "id": "anthropic-003",
-          "title": "推出 Haiku 4.5",
-          "url": "https://www.anthropic.com/news/introducing-haiku-4-5",
+          "title": "Introducing Labs",
+          "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
           "thumbnail": "",
-          "summary": "更快、更高效的 Claude Haiku 4.5 模型发布",
-          "tags": ["AI", "Claude", "产品更新"],
-          "publishedAt": "2025-10-15T00:00:00Z",
-          "publishedAtRelative": "3个月前"
+          "summary": "Introducing Labs",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-12T16:00:00.000Z",
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "anthropic-004",
-          "title": "推出 Sonnet 4.5",
-          "url": "https://www.anthropic.com/news/introducing-sonnet-4-5",
+          "title": "Advancing Claude in healthcare and the life sciences",
+          "url": "https://www.anthropic.com/news/healthcare-life-sciences",
           "thumbnail": "",
-          "summary": "平衡性能和速度的 Claude Sonnet 4.5 模型",
-          "tags": ["AI", "Claude", "产品更新"],
-          "publishedAt": "2025-09-29T00:00:00Z",
-          "publishedAtRelative": "4个月前"
+          "summary": "Advancing Claude in healthcare and the life sciences",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-01-10T16:00:00.000Z",
+          "publishedAtRelative": "5天前"
         },
         {
           "id": "anthropic-005",
-          "title": "Anthropic 经济指数",
-          "url": "https://www.anthropic.com/news/anthropic-economic-index",
+          "title": "Sharing our compliance framework for California's Transparency in Frontier AI Act",
+          "url": "https://www.anthropic.com/news/compliance-framework-SB53",
           "thumbnail": "",
-          "summary": "跟踪 AI 对经济影响的综合研究",
-          "tags": ["AI", "研究", "经济"],
-          "publishedAt": "2025-09-15T00:00:00Z",
-          "publishedAtRelative": "4个月前"
+          "summary": "Sharing our compliance framework for California's Transparency in Frontier AI Act",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2025-12-18T16:00:00.000Z",
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "anthropic-006",
-          "title": "Claude Opus 4.1",
-          "url": "https://www.anthropic.com/news/claude-opus-4-1",
+          "title": "Working with the US Department of Energy to unlock the next era of scientific discovery",
+          "url": "https://www.anthropic.com/news/genesis-mission-partnership",
           "thumbnail": "",
-          "summary": "Claude Opus 系列的重大更新",
-          "tags": ["AI", "Claude", "产品更新"],
-          "publishedAt": "2025-08-05T00:00:00Z",
-          "publishedAtRelative": "5个月前"
+          "summary": "Working with the US Department of Energy to unlock the next era of scientific discovery",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2025-12-17T16:00:00.000Z",
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "anthropic-007",
-          "title": "项目 Vend",
-          "url": "https://www.anthropic.com/news/project-vend",
+          "title": "Protecting the well-being of our users",
+          "url": "https://www.anthropic.com/news/protecting-well-being-of-users",
           "thumbnail": "",
-          "summary": "关于 AI 安全和治理的新政策研究",
-          "tags": ["AI", "政策", "安全"],
-          "publishedAt": "2025-06-26T00:00:00Z",
-          "publishedAtRelative": "7个月前"
+          "summary": "Protecting the well-being of our users",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2025-12-17T16:00:00.000Z",
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "anthropic-008",
-          "title": "代理错位",
-          "url": "https://www.anthropic.com/news/agentic-misalignment",
+          "title": "Donating the Model Context Protocol and establishing the Agentic AI Foundation",
+          "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
           "thumbnail": "",
-          "summary": "AI 代理系统中的对齐问题研究",
-          "tags": ["AI", "研究", "对齐"],
-          "publishedAt": "2025-06-20T00:00:00Z",
-          "publishedAtRelative": "7个月前"
+          "summary": "Donating the Model Context Protocol and establishing the Agentic AI Foundation",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2025-12-08T16:00:00.000Z",
+          "publishedAtRelative": "1个月前"
         },
         {
           "id": "anthropic-009",
-          "title": "追踪大型语言模型的思考过程",
-          "url": "https://www.anthropic.com/research/tracing-language-model-thoughts",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.com#main-content",
           "thumbnail": "",
-          "summary": "可解释性研究的新进展：理解 AI 的推理过程",
-          "tags": ["AI", "研究", "可解释性"],
-          "publishedAt": "2025-03-27T00:00:00Z",
-          "publishedAtRelative": "10个月前"
+          "summary": "The best model in the world for coding, agents, and computer use, with meaningful improvements to everyday tasks like slides and spreadsheets. Claude Opus 4.5 delivers frontier performance and dramatically improved token efficiency.",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2025-11-23T16:00:00.000Z",
+          "publishedAtRelative": "1个月前"
         },
         {
           "id": "anthropic-010",
-          "title": "AI 安全的核心观点",
-          "url": "https://www.anthropic.com/index/core-views-on-ai-safety",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.commailto:press@anthropic.com",
           "thumbnail": "",
-          "summary": "Anthropic 对 AI 安全的根本性观点和承诺",
-          "tags": ["AI", "安全", "政策"],
-          "publishedAt": "2025-01-01T00:00:00Z",
-          "publishedAtRelative": "1年前"
+          "summary": "The best model in the world for coding, agents, and computer use, with meaningful improvements to everyday tasks like slides and spreadsheets. Claude Opus 4.5 delivers frontier performance and dramatically improved token efficiency.",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2025-11-23T16:00:00.000Z",
+          "publishedAtRelative": "1个月前"
         }
       ]
     },
@@ -550,764 +427,184 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
-      "items": [
-        {
-          "id": "openai-001",
-          "title": "推出 ChatGPT Health",
-          "url": "https://openai.com/zh-Hans-CN/index/introducing-chatgpt-health/",
-          "thumbnail": "",
-          "summary": "面向医疗健康领域的 ChatGPT 新功能",
-          "tags": ["AI", "ChatGPT", "健康"],
-          "publishedAt": "2026-01-07T00:00:00Z",
-          "publishedAtRelative": "8天前"
-        },
-        {
-          "id": "openai-002",
-          "title": "全新 ChatGPT 图像现已上线",
-          "url": "https://openai.com/zh-Hans-CN/index/new-chatgpt-images-is-here/",
-          "thumbnail": "",
-          "summary": "ChatGPT 图像生成功能的重大更新",
-          "tags": ["AI", "ChatGPT", "图像生成"],
-          "publishedAt": "2025-12-16T00:00:00Z",
-          "publishedAtRelative": "1个月前"
-        },
-        {
-          "id": "openai-003",
-          "title": "GPT-5.2-Codex 正式亮相",
-          "url": "https://openai.com/zh-Hans-CN/index/introducing-gpt-5-2-codex/",
-          "thumbnail": "",
-          "summary": "专为编程优化的 GPT-5.2-Codex 模型发布",
-          "tags": ["AI", "GPT", "编程"],
-          "publishedAt": "2025-12-18T00:00:00Z",
-          "publishedAtRelative": "1个月前"
-        },
-        {
-          "id": "openai-004",
-          "title": "隆重推出 GPT-5.2",
-          "url": "https://openai.com/zh-Hans-CN/index/introducing-gpt-5-2/",
-          "thumbnail": "",
-          "summary": "OpenAI 最新旗舰模型 GPT-5.2 发布",
-          "tags": ["AI", "GPT", "产品发布"],
-          "publishedAt": "2025-12-11T00:00:00Z",
-          "publishedAtRelative": "1个月前"
-        },
-        {
-          "id": "openai-005",
-          "title": "OpenAI 与 Cerebras 建立合作伙伴关系",
-          "url": "https://openai.com/index/cerebras-partnership/",
-          "thumbnail": "",
-          "summary": "推进 AI 基础设施和计算能力的新合作",
-          "tags": ["AI", "合作伙伴", "基础设施"],
-          "publishedAt": "2026-01-14T00:00:00Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "openai-006",
-          "title": "OpenAI 与软银集团携手 SB Energy 建立合作伙伴关系",
-          "url": "https://openai.com/zh-Hans-CN/index/stargate-sb-energy-partnership/",
-          "thumbnail": "",
-          "summary": "推动清洁能源和 AI 基础设施发展的战略合作",
-          "tags": ["AI", "合作伙伴", "能源"],
-          "publishedAt": "2026-01-09T00:00:00Z",
-          "publishedAtRelative": "6天前"
-        },
-        {
-          "id": "openai-007",
-          "title": "OpenAI for Healthcare",
-          "url": "https://openai.com/zh-Hans-CN/index/openai-for-healthcare/",
-          "thumbnail": "",
-          "summary": "专门为医疗保健行业打造的 AI 解决方案",
-          "tags": ["AI", "医疗", "企业"],
-          "publishedAt": "2026-01-08T00:00:00Z",
-          "publishedAtRelative": "7天前"
-        },
-        {
-          "id": "openai-008",
-          "title": "评估链式思考的可监控性",
-          "url": "https://openai.com/zh-Hans-CN/index/evaluating-chain-of-thought-monitorability/",
-          "thumbnail": "",
-          "summary": "研究 AI 推理过程的可监控性和透明度",
-          "tags": ["AI", "研究", "安全"],
-          "publishedAt": "2025-12-18T00:00:00Z",
-          "publishedAtRelative": "1个月前"
-        },
-        {
-          "id": "openai-009",
-          "title": "评估人工智能在科学研究任务中的能力",
-          "url": "https://openai.com/zh-Hans-CN/index/frontierscience/",
-          "thumbnail": "",
-          "summary": "AI 在科学研究和发现中的潜力研究",
-          "tags": ["AI", "研究", "科学"],
-          "publishedAt": "2025-12-16T00:00:00Z",
-          "publishedAtRelative": "1个月前"
-        },
-        {
-          "id": "openai-010",
-          "title": "更新我们的《模型规范》，融入青少年保护措施",
-          "url": "https://openai.com/zh-Hans-CN/index/updating-model-spec-with-teen-protections/",
-          "thumbnail": "",
-          "summary": "增强 AI 安全措施，保护青少年用户",
-          "tags": ["AI", "安全", "政策"],
-          "publishedAt": "2025-12-18T00:00:00Z",
-          "publishedAtRelative": "1个月前"
-        }
-      ]
+      "updatedAt": "2026-01-16T06:25:52.412Z",
+      "updatedAtRelative": "刚刚",
+      "items": []
     },
     {
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
-      "items": [
-        {
-          "id": "metaai-001",
-          "title": "推出 Vibes：用 AI 创建的沉浸式视频",
-          "url": "https://ai.meta.com/blog/introducing-vibes/",
-          "thumbnail": "",
-          "summary": "发现和创建 AI 视频的新方式",
-          "tags": ["AI", "视频生成", "产品发布"],
-          "publishedAt": "2025-09-25T00:00:00Z",
-          "publishedAtRelative": "4个月前"
-        },
-        {
-          "id": "metaai-002",
-          "title": "推出 Meta Segment Anything Model 3 和 Segment Anything Playground",
-          "url": "https://ai.meta.com/blog/segment-anything-model-3/",
-          "thumbnail": "",
-          "summary": "使用文本和视觉提示精确检测、分割和跟踪图像或视频中的任何对象",
-          "tags": ["AI", "计算机视觉", "研究"],
-          "publishedAt": "2025-11-19T00:00:00Z",
-          "publishedAtRelative": "2个月前"
-        },
-        {
-          "id": "metaai-003",
-          "title": "Meta Connect 2025：AI 眼镜的演进、元宇宙势头及更多",
-          "url": "https://www.meta.com/blog/connect-2025-day-one-keynote/",
-          "thumbnail": "",
-          "summary": "Meta Connect 2025 大会第一天的精彩内容",
-          "tags": ["AI", "Meta Connect", "产品发布"],
-          "publishedAt": "2025-09-17T00:00:00Z",
-          "publishedAtRelative": "4个月前"
-        },
-        {
-          "id": "metaai-004",
-          "title": "为所有人提供个人超级智能",
-          "url": "https://www.meta.com/superintelligence/",
-          "thumbnail": "",
-          "summary": "Meta 对个人超级智能的愿景和承诺",
-          "tags": ["AI", "愿景", "研究"],
-          "publishedAt": "2025-07-30T00:00:00Z",
-          "publishedAtRelative": "6个月前"
-        },
-        {
-          "id": "metaai-005",
-          "title": "Athletic Intelligence Is Here, Meet Oakley Meta Vanguard",
-          "url": "https://about.fb.com/news/2025/09/oakley-meta-vanguard-performance-ai-glasses-sports/",
-          "thumbnail": "",
-          "summary": "面向体育运动的 AI 眼镜技术突破",
-          "tags": ["AI", "可穿戴设备", "产品发布"],
-          "publishedAt": "2025-09-17T00:00:00Z",
-          "publishedAtRelative": "4个月前"
-        },
-        {
-          "id": "metaai-006",
-          "title": "Meta AI Studio",
-          "url": "https://ai.meta.com/ai-studio/",
-          "thumbnail": "",
-          "summary": "任何人都可以创建、发现和与不同的 AI 互动",
-          "tags": ["AI", "工具", "开发平台"],
-          "publishedAt": "2025-06-01T00:00:00Z",
-          "publishedAtRelative": "7个月前"
-        },
-        {
-          "id": "metaai-007",
-          "title": "使用 Llama 4 构建：探索我们最新的大语言模型",
-          "url": "https://www.llama.com/llama-downloads/",
-          "thumbnail": "",
-          "summary": "混合专家架构、原生多模态能力和近乎无限的上下文窗口",
-          "tags": ["AI", "Llama", "开源"],
-          "publishedAt": "2025-05-15T00:00:00Z",
-          "publishedAtRelative": "8个月前"
-        },
-        {
-          "id": "metaai-008",
-          "title": "Seamless Interaction：推进 AI 面对面动态研究",
-          "url": "https://ai.meta.com/research/seamless-interaction/",
-          "thumbnail": "",
-          "summary": "建模表达性手势、积极倾听、轮流发言和视觉同步",
-          "tags": ["AI", "研究", "人机交互"],
-          "publishedAt": "2025-04-10T00:00:00Z",
-          "publishedAtRelative": "9个月前"
-        },
-        {
-          "id": "metaai-009",
-          "title": "V-JEPA 2：首个在视频上训练的世界模型",
-          "url": "https://ai.meta.com/vjepa/",
-          "thumbnail": "",
-          "summary": "实现最先进的视觉理解和预测",
-          "tags": ["AI", "研究", "视频理解"],
-          "publishedAt": "2025-03-20T00:00:00Z",
-          "publishedAtRelative": "10个月前"
-        },
-        {
-          "id": "metaai-010",
-          "title": "探索 DINOv3：前所未有的视觉自监督学习规模",
-          "url": "https://ai.meta.com/dinov3/",
-          "thumbnail": "",
-          "summary": "自监督学习在视觉领域的新突破",
-          "tags": ["AI", "研究", "计算机视觉"],
-          "publishedAt": "2025-02-15T00:00:00Z",
-          "publishedAtRelative": "11个月前"
-        }
-      ]
+      "updatedAt": "2026-01-16T06:25:54.816Z",
+      "updatedAtRelative": "刚刚",
+      "items": []
     },
     {
       "source": "googleai",
-      "sourceName": "Google AI Products",
+      "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
+      "updatedAt": "2026-01-16T06:25:57.646Z",
+      "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "googleai-001",
-          "title": "使用 Nano Banana Pro 创建高保真视觉效果",
-          "url": "https://blog.google/technology/ai/nano-banana-pro/",
+          "title": "Create high-fidelity visuals using up to 14 images with Nano Banana Pro (Gemini 3 Pro Image)",
+          "url": "https://blog.google/technology/ai/nano-banana-pro/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
-          "summary": "使用 Gemini 3 Pro Image 处理多达 14 张图像",
-          "tags": ["AI", "Gemini", "图像生成"],
-          "publishedAt": "2026-01-14T00:00:00Z",
-          "publishedAtRelative": "1天前"
+          "summary": "Create high-fidelity visuals using up to 14 images with Nano Banana Pro (Gemini 3 Pro Image)",
+          "tags": [
+            "生成式",
+            "Gemini"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "googleai-002",
-          "title": "Gemini 应用中的视觉沉浸式响应",
-          "url": "https://blog.google/products/gemini/gemini-3-gemini-app/",
+          "title": "Move beyond text in the Gemini app with a visually immersive response including photos and interactive modules",
+          "url": "https://blog.google/products/gemini/gemini-3-gemini-app/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
-          "summary": "超越文本，包含照片和交互式模块",
-          "tags": ["AI", "Gemini", "产品更新"],
-          "publishedAt": "2026-01-13T00:00:00Z",
-          "publishedAtRelative": "2天前"
+          "summary": "Move beyond text in the Gemini app with a visually immersive response including photos and interactive modules",
+          "tags": [
+            "Gemini"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "googleai-003",
-          "title": "AI Mode 中的动态视觉布局",
+          "title": "Tackle complex topics in AI Mode with dynamic visual layouts with interactive tools and simulations in real-time",
           "url": "https://google.ai/",
           "thumbnail": "",
-          "summary": "使用交互式工具和实时模拟处理复杂主题",
-          "tags": ["AI", "搜索", "交互"],
-          "publishedAt": "2026-01-12T00:00:00Z",
-          "publishedAtRelative": "3天前"
+          "summary": "Tackle complex topics in AI Mode with dynamic visual layouts with interactive tools and simulations in real-time",
+          "tags": [
+            "AI",
+            "工具"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "googleai-004",
-          "title": "Gemini Agent 完成多步骤任务",
-          "url": "https://gemini.google.com/agent",
+          "title": "Let Gemini design and code a unique user interface that's tailored specifically for your prompt",
+          "url": "https://blog.google/products/gemini/gemini-3-gemini-app/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
-          "summary": "从开始到结束完成多步骤任务，同时保持你的控制",
-          "tags": ["AI", "Gemini", "智能体"],
-          "publishedAt": "2026-01-11T00:00:00Z",
-          "publishedAtRelative": "4天前"
+          "summary": "Let Gemini design and code a unique user interface that's tailored specifically for your prompt",
+          "tags": [
+            "AI",
+            "Gemini"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "googleai-005",
-          "title": "Gmail 中的一键回复建议",
-          "url": "https://mail.google.com/",
+          "title": "Let Gemini Agent complete multi-step tasks from start to finish, while keeping you in control",
+          "url": "https://gemini.google.com/agent?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
-          "summary": "使用对话上下文的一键回复建议",
-          "tags": ["AI", "Gmail", "生产力"],
-          "publishedAt": "2026-01-10T00:00:00Z",
-          "publishedAtRelative": "5天前"
+          "summary": "Let Gemini Agent complete multi-step tasks from start to finish, while keeping you in control",
+          "tags": [
+            "Gemini"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "googleai-006",
-          "title": "Veo 3.1 高级视频叙事",
-          "url": "https://labs.google/flow/about",
+          "title": "Respond to emails in one-click with Suggested Replies that use the context of your conversation",
+          "url": "https://mail.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
-          "summary": "使用 Veo 3.1 创建更先进的视频故事",
-          "tags": ["AI", "视频生成", "Veo"],
-          "publishedAt": "2026-01-09T00:00:00Z",
-          "publishedAtRelative": "6天前"
+          "summary": "Respond to emails in one-click with Suggested Replies that use the context of your conversation",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "googleai-007",
-          "title": "在 Gemini 应用中验证 Google AI 生成的图像",
-          "url": "https://gemini.google.com/",
+          "title": "Try Veo 3.1 for more advanced video storytelling",
+          "url": "https://labs.google/flow/about?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
-          "summary": "直接在 Gemini 应用中验证图像是否由 Google AI 生成",
-          "tags": ["AI", "Gemini", "图像验证"],
-          "publishedAt": "2026-01-08T00:00:00Z",
-          "publishedAtRelative": "7天前"
+          "summary": "Try Veo 3.1 for more advanced video storytelling",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "googleai-008",
-          "title": "Google Photos 编辑器中的 Nano Banana",
-          "url": "http://photos.google.com/",
+          "title": "Verify if an image was generated by Google AI directly in the Gemini app",
+          "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
-          "summary": "使用 Nano Banana 在 Google Photos 编辑器中转换图像",
-          "tags": ["AI", "图像编辑", "Photos"],
-          "publishedAt": "2026-01-07T00:00:00Z",
-          "publishedAtRelative": "8天前"
+          "summary": "Verify if an image was generated by Google AI directly in the Gemini app",
+          "tags": [
+            "AI",
+            "Gemini"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "googleai-009",
-          "title": "Google Maps 的免提 AI 驾驶助手",
-          "url": "https://blog.google/products/maps/gemini-navigation-features-landmark-lens/",
+          "title": "Transform your images in Google Photos' editor with Nano Banana",
+          "url": "http://photos.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
-          "summary": "尝试 Google Maps 的新免提 AI 驾驶助手",
-          "tags": ["AI", "Maps", "导航"],
-          "publishedAt": "2026-01-06T00:00:00Z",
-          "publishedAtRelative": "9天前"
+          "summary": "Transform your images in Google Photos' editor with Nano Banana",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         },
         {
           "id": "googleai-010",
-          "title": "Google Search 中使用 Nano Banana 编辑图像",
-          "url": "https://blog.google/products/search/nano-banana-search-lens/",
+          "title": "Try Google Maps' new hands-free AI driving companion",
+          "url": "https://blog.google/products/maps/gemini-navigation-features-landmark-lens/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
-          "summary": "直接在 Google Search 中使用 Nano Banana 编辑图像",
-          "tags": ["AI", "搜索", "图像编辑"],
-          "publishedAt": "2026-01-05T00:00:00Z",
-          "publishedAtRelative": "10天前"
+          "summary": "Try Google Maps' new hands-free AI driving companion",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-01-16T06:25:57.646Z",
+          "publishedAtRelative": ""
         }
       ]
     },
     {
       "source": "github",
       "sourceName": "GitHub",
-      "sourceUrl": "https://github.com",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
-      "items": [
-        {
-          "id": "github-001",
-          "title": "GitHub Copilot 最新更新",
-          "url": "https://github.com/features/copilot",
-          "thumbnail": "",
-          "summary": "AI 驱动的代码补全和编程助手",
-          "tags": ["AI", "编程", "Copilot"],
-          "publishedAt": "2026-01-14T00:00:00Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "github-002",
-          "title": "GitHub Actions 中的 AI 工作流",
-          "url": "https://github.com/features/actions",
-          "thumbnail": "",
-          "summary": "使用 AI 自动化开发工作流",
-          "tags": ["AI", "自动化", "CI/CD"],
-          "publishedAt": "2026-01-13T00:00:00Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "github-003",
-          "title": "GitHub Copilot Chat 新功能",
-          "url": "https://github.com/features/copilot",
-          "thumbnail": "",
-          "summary": "与 AI 助手对话，获得代码建议和解释",
-          "tags": ["AI", "编程", "对话"],
-          "publishedAt": "2026-01-12T00:00:00Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "github-004",
-          "title": "GitHub 代码审查中的 AI 辅助",
-          "url": "https://github.com/features",
-          "thumbnail": "",
-          "summary": "使用 AI 提升代码审查效率和质量",
-          "tags": ["AI", "代码审查", "质量"],
-          "publishedAt": "2026-01-11T00:00:00Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "github-005",
-          "title": "GitHub Copilot Workspace",
-          "url": "https://github.com/features/copilot",
-          "thumbnail": "",
-          "summary": "AI 驱动的完整开发环境",
-          "tags": ["AI", "开发环境", "Copilot"],
-          "publishedAt": "2026-01-10T00:00:00Z",
-          "publishedAtRelative": "5天前"
-        },
-        {
-          "id": "github-006",
-          "title": "GitHub 安全中的 AI 威胁检测",
-          "url": "https://github.com/features/security",
-          "thumbnail": "",
-          "summary": "使用 AI 检测和预防安全威胁",
-          "tags": ["AI", "安全", "威胁检测"],
-          "publishedAt": "2026-01-09T00:00:00Z",
-          "publishedAtRelative": "6天前"
-        },
-        {
-          "id": "github-007",
-          "title": "GitHub 文档中的 AI 生成",
-          "url": "https://github.com/features",
-          "thumbnail": "",
-          "summary": "使用 AI 自动生成和更新项目文档",
-          "tags": ["AI", "文档", "自动化"],
-          "publishedAt": "2026-01-08T00:00:00Z",
-          "publishedAtRelative": "7天前"
-        },
-        {
-          "id": "github-008",
-          "title": "GitHub Issues 中的 AI 建议",
-          "url": "https://github.com/features/issues",
-          "thumbnail": "",
-          "summary": "AI 辅助的问题跟踪和解决方案建议",
-          "tags": ["AI", "项目管理", "问题跟踪"],
-          "publishedAt": "2026-01-07T00:00:00Z",
-          "publishedAtRelative": "8天前"
-        },
-        {
-          "id": "github-009",
-          "title": "GitHub 代码搜索中的 AI",
-          "url": "https://github.com/features/code-search",
-          "thumbnail": "",
-          "summary": "使用 AI 进行智能代码搜索和理解",
-          "tags": ["AI", "代码搜索", "智能"],
-          "publishedAt": "2026-01-06T00:00:00Z",
-          "publishedAtRelative": "9天前"
-        },
-        {
-          "id": "github-010",
-          "title": "GitHub 项目中的 AI 洞察",
-          "url": "https://github.com/features",
-          "thumbnail": "",
-          "summary": "使用 AI 分析项目并提供洞察",
-          "tags": ["AI", "分析", "洞察"],
-          "publishedAt": "2026-01-05T00:00:00Z",
-          "publishedAtRelative": "10天前"
-        }
-      ]
+      "sourceUrl": "https://github.com/",
+      "updatedAt": "2026-01-16T06:25:59.809Z",
+      "updatedAtRelative": "刚刚",
+      "items": []
     },
     {
       "source": "aws",
-      "sourceName": "AWS Machine Learning",
+      "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
-      "items": [
-        {
-          "id": "aws-001",
-          "title": "Amazon Bedrock 最新功能",
-          "url": "https://aws.amazon.com/bedrock/",
-          "thumbnail": "",
-          "summary": "使用基础模型构建和扩展生成式 AI 应用",
-          "tags": ["AI", "AWS", "Bedrock"],
-          "publishedAt": "2026-01-14T00:00:00Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-002",
-          "title": "Amazon SageMaker 新特性",
-          "url": "https://aws.amazon.com/sagemaker/",
-          "thumbnail": "",
-          "summary": "构建、训练和部署机器学习模型",
-          "tags": ["AI", "AWS", "SageMaker"],
-          "publishedAt": "2026-01-13T00:00:00Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-003",
-          "title": "AWS AI 服务更新",
-          "url": "https://aws.amazon.com/machine-learning/ai-services/",
-          "thumbnail": "",
-          "summary": "预训练的 AI 服务，无需机器学习专业知识",
-          "tags": ["AI", "AWS", "服务"],
-          "publishedAt": "2026-01-12T00:00:00Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-004",
-          "title": "Amazon CodeWhisperer 增强",
-          "url": "https://aws.amazon.com/codewhisperer/",
-          "thumbnail": "",
-          "summary": "AI 驱动的代码生成和审查工具",
-          "tags": ["AI", "AWS", "编程"],
-          "publishedAt": "2026-01-11T00:00:00Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-005",
-          "title": "AWS 生成式 AI 最佳实践",
-          "url": "https://aws.amazon.com/machine-learning/",
-          "thumbnail": "",
-          "summary": "构建安全、可扩展的生成式 AI 应用",
-          "tags": ["AI", "AWS", "最佳实践"],
-          "publishedAt": "2026-01-10T00:00:00Z",
-          "publishedAtRelative": "5天前"
-        },
-        {
-          "id": "aws-006",
-          "title": "Amazon Rekognition 新功能",
-          "url": "https://aws.amazon.com/rekognition/",
-          "thumbnail": "",
-          "summary": "使用 AI 进行图像和视频分析",
-          "tags": ["AI", "AWS", "计算机视觉"],
-          "publishedAt": "2026-01-09T00:00:00Z",
-          "publishedAtRelative": "6天前"
-        },
-        {
-          "id": "aws-007",
-          "title": "Amazon Comprehend 更新",
-          "url": "https://aws.amazon.com/comprehend/",
-          "thumbnail": "",
-          "summary": "使用自然语言处理提取洞察",
-          "tags": ["AI", "AWS", "NLP"],
-          "publishedAt": "2026-01-08T00:00:00Z",
-          "publishedAtRelative": "7天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "AWS AI 基础设施优化",
-          "url": "https://aws.amazon.com/machine-learning/",
-          "thumbnail": "",
-          "summary": "高性能 AI 训练和推理基础设施",
-          "tags": ["AI", "AWS", "基础设施"],
-          "publishedAt": "2026-01-07T00:00:00Z",
-          "publishedAtRelative": "8天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Amazon Transcribe 增强",
-          "url": "https://aws.amazon.com/transcribe/",
-          "thumbnail": "",
-          "summary": "使用 AI 进行语音转文本",
-          "tags": ["AI", "AWS", "语音识别"],
-          "publishedAt": "2026-01-06T00:00:00Z",
-          "publishedAtRelative": "9天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "AWS AI 安全和合规",
-          "url": "https://aws.amazon.com/machine-learning/",
-          "thumbnail": "",
-          "summary": "确保 AI 应用的安全性和合规性",
-          "tags": ["AI", "AWS", "安全"],
-          "publishedAt": "2026-01-05T00:00:00Z",
-          "publishedAtRelative": "10天前"
-        }
-      ]
+      "updatedAt": "2026-01-16T06:26:01.889Z",
+      "updatedAtRelative": "刚刚",
+      "items": []
     },
     {
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
-      "items": [
-        {
-          "id": "adobe-001",
-          "title": "Photoshop 中的生成填充引入 Gemini 3 和 FLUX.2 pro 模型",
-          "url": "https://www.adobe.com/products/photoshop.html",
-          "thumbnail": "",
-          "summary": "在 Photoshop 的生成填充中支持来自 Gemini 3（Nano Banana Pro）和 FLUX.2 pro 的新合作模型，为图像编辑提供更自然的细节与构图选择。",
-          "tags": ["AI", "Photoshop", "生成填充"],
-          "publishedAt": "2025-10-25T00:00:00Z",
-          "publishedAtRelative": "3个月前"
-        },
-        {
-          "id": "adobe-002",
-          "title": "认识全新的 Acrobat Studio：PDF 与 AI 助手的一体化工作空间",
-          "url": "https://www.adobe.com/acrobat",
-          "thumbnail": "",
-          "summary": "Acrobat Studio 将 Insights、内容生成以及受信任的 PDF 工具集成在一个界面中，让你可以对长文档进行提问、摘要和重写。",
-          "tags": ["AI", "Acrobat", "文档助手"],
-          "publishedAt": "2025-09-15T00:00:00Z",
-          "publishedAtRelative": "4个月前"
-        },
-        {
-          "id": "adobe-003",
-          "title": "Firefly：为创作者打造的生成式 AI 引擎",
-          "url": "https://www.adobe.com/products/firefly.html",
-          "thumbnail": "",
-          "summary": "Adobe Firefly 提供文本生成图像、文本效果以及矢量和视频生成能力，并深度集成到 Creative Cloud 产品中，帮助创作者更快迭代视觉方案。",
-          "tags": ["AI", "Firefly", "生成式设计"],
-          "publishedAt": "2025-05-20T00:00:00Z",
-          "publishedAtRelative": "8个月前"
-        },
-        {
-          "id": "adobe-004",
-          "title": "Adobe Express：一站式 AI 驱动的品牌内容制作平台",
-          "url": "https://www.adobe.com/express",
-          "thumbnail": "",
-          "summary": "Express 通过模板、品牌库与生成式 AI 功能，让设计师和非设计师都可以快速制作社交媒体海报、演示文稿和短视频。",
-          "tags": ["AI", "品牌内容", "Express"],
-          "publishedAt": "2025-04-10T00:00:00Z",
-          "publishedAtRelative": "9个月前"
-        },
-        {
-          "id": "adobe-005",
-          "title": "Creative Cloud Pro 订阅：整合更多生成式 AI 权益",
-          "url": "https://www.adobe.com/creativecloud.html",
-          "thumbnail": "",
-          "summary": "Adobe 将 All Apps 订阅升级为 Creative Cloud Pro，引入更多 Firefly 生成积分与高级协作特性，为重度创作者提供更高的性价比。",
-          "tags": ["订阅计划", "生成式AI", "创意工作流"],
-          "publishedAt": "2025-06-01T00:00:00Z",
-          "publishedAtRelative": "8个月前"
-        },
-        {
-          "id": "adobe-006",
-          "title": "Adobe Illustrator：基于 AI 的矢量重绘与图形建议",
-          "url": "https://www.adobe.com/products/illustrator.html",
-          "thumbnail": "",
-          "summary": "Illustrator 中的生成式 AI 可根据草图或描述自动生成矢量图形和配色建议，减少重复性路径编辑工作。",
-          "tags": ["AI", "Illustrator", "矢量设计"],
-          "publishedAt": "2025-03-10T00:00:00Z",
-          "publishedAtRelative": "10个月前"
-        },
-        {
-          "id": "adobe-007",
-          "title": "Premiere Pro 中的 AI 视频剪辑与自动场景检测",
-          "url": "https://www.adobe.com/products/premiere.html",
-          "thumbnail": "",
-          "summary": "Premiere Pro 利用 AI 自动识别镜头切换、对话片段与关键动作，帮助视频创作者更快速地整理长素材。",
-          "tags": ["AI", "视频剪辑", "Premiere Pro"],
-          "publishedAt": "2025-02-20T00:00:00Z",
-          "publishedAtRelative": "11个月前"
-        },
-        {
-          "id": "adobe-008",
-          "title": "Lightroom：智能掩膜与一键风格化",
-          "url": "https://www.adobe.com/products/photoshop-lightroom.html",
-          "thumbnail": "",
-          "summary": "Lightroom 的 AI 掩膜功能可以自动识别人物、天空与前景，搭配预设让大批量调色和风格统一更加简单。",
-          "tags": ["AI", "摄影后期", "Lightroom"],
-          "publishedAt": "2025-02-01T00:00:00Z",
-          "publishedAtRelative": "11个月前"
-        },
-        {
-          "id": "adobe-009",
-          "title": "Adobe Stock：生成式内容与版权安全的平衡",
-          "url": "https://stock.adobe.com",
-          "thumbnail": "",
-          "summary": "Adobe Stock 将 Firefly 生成的内容纳入可商用资源，并通过训练集来源和补偿机制，尝试平衡创作者权益与 AI 生成效率。",
-          "tags": ["AI", "素材库", "版权"],
-          "publishedAt": "2025-01-15T00:00:00Z",
-          "publishedAtRelative": "1年前"
-        },
-        {
-          "id": "adobe-010",
-          "title": "Adobe MAX：AI 时代的创意工具未来",
-          "url": "https://www.adobe.com/max.html",
-          "thumbnail": "",
-          "summary": "在年度 Adobe MAX 大会上，官方集中展示了跨产品的 AI 功能路线图，强调人机协同而非替代创作者本身。",
-          "tags": ["AI", "大会", "创意生态"],
-          "publishedAt": "2024-10-15T00:00:00Z",
-          "publishedAtRelative": "1年前"
-        }
-      ]
+      "updatedAt": "2026-01-16T06:26:33.929Z",
+      "updatedAtRelative": "刚刚",
+      "items": []
     },
     {
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-01-15T00:05:00Z",
-      "updatedAtRelative": "24分钟前",
-      "items": [
-        {
-          "id": "mapbox-001",
-          "title": "Mapbox 3D Lanes：让导航更直观，不再错过转弯",
-          "url": "https://www.mapbox.com/blog/never-miss-a-turn-again-with-mapbox-3d-lanes",
-          "thumbnail": "",
-          "summary": "Mapbox Navigation SDK 新推出的 3D Lanes 功能提供真实道路细节，帮助驾驶员更轻松地跟随路线。",
-          "tags": ["3D 地图", "导航", "自动驾驶"],
-          "publishedAt": "2026-01-05T00:00:00Z",
-          "publishedAtRelative": "10天前"
-        },
-        {
-          "id": "mapbox-002",
-          "title": "Mapbox Feedback Agent：用 AI 捕获实时用户反馈",
-          "url": "https://www.mapbox.com/blog/mapbox-feedback-agent-capture-better-real-time-feedback-from-users",
-          "thumbnail": "",
-          "summary": "Feedback Agent 帮助产品团队在地图体验中捕获更高质量的用户反馈，并结合地理上下文进行分析。",
-          "tags": ["AI", "用户反馈", "位置智能"],
-          "publishedAt": "2025-09-08T00:00:00Z",
-          "publishedAtRelative": "4个月前"
-        },
-        {
-          "id": "mapbox-003",
-          "title": "地图变得对话式：探索 Mapbox Location Agent",
-          "url": "https://www.mapbox.com/blog/maps-turn-conversational",
-          "thumbnail": "",
-          "summary": "对话式 AI 正在改变地图交互方式。Mapbox Location Agent 展示了如何将大语言模型与地理数据结合，实现智能对话式地图体验。",
-          "tags": ["AI", "对话助手", "位置数据"],
-          "publishedAt": "2025-11-20T00:00:00Z",
-          "publishedAtRelative": "2个月前"
-        },
-        {
-          "id": "mapbox-004",
-          "title": "Mapbox Search Box API：扩展 POI 覆盖范围与更智能的搜索",
-          "url": "https://www.mapbox.com/blog/mapbox-search-box-api-expanded-poi-coverage-smarter-search",
-          "thumbnail": "",
-          "summary": "Mapbox Search Box API 提供扩展的兴趣点覆盖和更智能的搜索体验，适用于出行、零售和本地生活类产品。",
-          "tags": ["搜索", "API", "本地化体验"],
-          "publishedAt": "2025-10-16T00:00:00Z",
-          "publishedAtRelative": "3个月前"
-        },
-        {
-          "id": "mapbox-005",
-          "title": "更新 67 万平方公里的美国与欧洲高分辨率航拍影像",
-          "url": "https://www.mapbox.com/blog/670k-sq-km-of-updated-aerial-imagery-for-the-us-and-europe",
-          "thumbnail": "",
-          "summary": "通过与影像数据供应商合作，Mapbox 为美国和欧洲主要城市带来 10–20 厘米级别的航拍影像，用于高精度地图与可视化。",
-          "tags": ["遥感影像", "地图精度", "可视化"],
-          "publishedAt": "2025-11-25T00:00:00Z",
-          "publishedAtRelative": "2个月前"
-        },
-        {
-          "id": "mapbox-006",
-          "title": "导航 SDK：自动驾驶与车载场景中的路径规划",
-          "url": "https://www.mapbox.com/navigation",
-          "thumbnail": "",
-          "summary": "Mapbox Navigation SDK 支持车载信息娱乐系统和移动导航，为路径规划和实时路况提供高质量数据。",
-          "tags": ["导航", "自动驾驶", "SDK"],
-          "publishedAt": "2025-06-10T00:00:00Z",
-          "publishedAtRelative": "7个月前"
-        },
-        {
-          "id": "mapbox-007",
-          "title": "Mapbox DevKit MCP Server：增强 AI 编码工作流",
-          "url": "https://www.mapbox.com/blog/how-the-mapbox-devkit-mcp-server-enhances-ai-coding-workflows",
-          "thumbnail": "",
-          "summary": "Mapbox DevKit MCP Server 为 AI 编码工具提供地理空间能力，帮助开发者更快地构建和优化 Mapbox 实现。",
-          "tags": ["AI", "开发工具", "MCP"],
-          "publishedAt": "2025-10-31T00:00:00Z",
-          "publishedAtRelative": "3个月前"
-        },
-        {
-          "id": "mapbox-008",
-          "title": "Movement 数据：理解城市空间中的人流模式",
-          "url": "https://www.mapbox.com/movement-data",
-          "thumbnail": "",
-          "summary": "Movement Data 提供匿名化的人流轨迹数据，帮助规划实时交通、商业选址和城市设计。",
-          "tags": ["数据产品", "人流分析", "城市设计"],
-          "publishedAt": "2025-04-15T00:00:00Z",
-          "publishedAtRelative": "9个月前"
-        },
-        {
-          "id": "mapbox-009",
-          "title": "Boundaries：全球行政区划与边界数据集",
-          "url": "https://www.mapbox.com/boundaries",
-          "thumbnail": "",
-          "summary": "Boundaries 数据集为地图应用提供官方行政边界，可用于多维度的人口和业务分析。",
-          "tags": ["边界数据", "行政区划", "数据集"],
-          "publishedAt": "2025-03-20T00:00:00Z",
-          "publishedAtRelative": "10个月前"
-        },
-        {
-          "id": "mapbox-010",
-          "title": "Mapbox Maps：为多平台提供快速、平滑的矢量地图",
-          "url": "https://www.mapbox.com/maps",
-          "thumbnail": "",
-          "summary": "Mapbox Maps 为 Web 与移动端提供可高度定制的矢量地图样式，支持暗色模式、品牌配色和数据叠加。",
-          "tags": ["矢量地图", "跨平台", "定制样式"],
-          "publishedAt": "2025-01-10T00:00:00Z",
-          "publishedAtRelative": "1年前"
-        }
-      ]
+      "updatedAt": "2026-01-16T06:26:35.959Z",
+      "updatedAtRelative": "刚刚",
+      "items": []
     }
   ]
 }
