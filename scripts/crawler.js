@@ -1,12 +1,13 @@
 /**
  * AI 设计资讯抓取脚本
- * 每天 0 点自动抓取 4 个官方设计网站的最新 AI 相关内容
+ * 每天 0 点自动抓取 12 个官方设计网站的最新 AI 相关内容
  */
 
 const https = require('https');
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const cheerio = require('cheerio');
 
 // ====================
 // 配置
@@ -14,12 +15,14 @@ const path = require('path');
 const CONFIG = {
   OUTPUT_PATH: path.join(__dirname, '../data/today.json'),
   AI_KEYWORDS: [
-    'AI', 'Artificial Intelligence', 'Machine Learning',
-    '人工智能', 'Copilot', 'Gemini', '生成式', 'ChatGPT',
-    'Assistant', 'Agent', 'Auto', 'Smart'
+    'AI', 'Artificial Intelligence', 'Machine Learning', 'Deep Learning',
+    '人工智能', 'Copilot', 'Gemini', '生成式', 'ChatGPT', 'GPT',
+    'Assistant', 'Agent', 'Auto', 'Smart', 'Neural', 'LLM', '模型',
+    'Firefly', 'Claude', 'DALL-E', 'Midjourney', 'Stable Diffusion'
   ],
   MAX_ITEMS_PER_SITE: 10,
-  REQUEST_DELAY: 1000, // 请求延迟（毫秒）
+  REQUEST_DELAY: 2000, // 请求延迟（毫秒）
+  REQUEST_TIMEOUT: 30000, // 请求超时（毫秒）
   USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 };
 
@@ -27,19 +30,22 @@ const CONFIG = {
 // 工具函数
 // ====================
 
-// HTTP 请求封装
-function fetch(url) {
+// HTTP 请求封装（支持超时）
+function fetch(url, options = {}) {
   return new Promise((resolve, reject) => {
     const client = url.startsWith('https') ? https : http;
-    const options = {
+    const timeout = options.timeout || CONFIG.REQUEST_TIMEOUT;
+    
+    const requestOptions = {
       headers: {
         'User-Agent': CONFIG.USER_AGENT,
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7'
+        'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+        ...options.headers
       }
     };
 
-    client.get(url, options, (res) => {
+    const req = client.get(url, requestOptions, (res) => {
       if (res.statusCode !== 200) {
         reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
         return;
@@ -48,7 +54,13 @@ function fetch(url) {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => resolve(data));
-    }).on('error', reject);
+    });
+
+    req.on('error', reject);
+    req.setTimeout(timeout, () => {
+      req.destroy();
+      reject(new Error('Request timeout'));
+    });
   });
 }
 
@@ -66,6 +78,41 @@ function isAIRelated(text) {
   );
 }
 
+// 解析日期字符串
+function parseDate(dateStr) {
+  if (!dateStr) return null;
+  
+  try {
+    // 尝试多种日期格式
+    const date = new Date(dateStr);
+    if (!isNaN(date.getTime())) {
+      return date.toISOString();
+    }
+    
+    // 处理相对日期（如 "May 20, 2025"）
+    const months = {
+      'january': 0, 'february': 1, 'march': 2, 'april': 3, 'may': 4, 'june': 5,
+      'july': 6, 'august': 7, 'september': 8, 'october': 9, 'november': 10, 'december': 11,
+      'jan': 0, 'feb': 1, 'mar': 2, 'apr': 3, 'may': 4, 'jun': 5,
+      'jul': 6, 'aug': 7, 'sep': 8, 'oct': 9, 'nov': 10, 'dec': 11
+    };
+    
+    const match = dateStr.toLowerCase().match(/(\w+)\s+(\d+),?\s+(\d+)/);
+    if (match) {
+      const month = months[match[1]];
+      const day = parseInt(match[2]);
+      const year = parseInt(match[3]);
+      if (month !== undefined) {
+        return new Date(year, month, day).toISOString();
+      }
+    }
+    
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
 // 计算相对时间
 function getRelativeTime(dateString) {
   if (!dateString) return '';
@@ -77,6 +124,8 @@ function getRelativeTime(dateString) {
     const diffMins = Math.floor(diffMs / 60000);
     const diffHours = Math.floor(diffMs / 3600000);
     const diffDays = Math.floor(diffMs / 86400000);
+    const diffMonths = Math.floor(diffDays / 30);
+    const diffYears = Math.floor(diffDays / 365);
 
     if (diffMins < 1) {
       return '刚刚';
@@ -86,11 +135,10 @@ function getRelativeTime(dateString) {
       return `${diffHours}小时前`;
     } else if (diffDays < 7) {
       return `${diffDays}天前`;
+    } else if (diffMonths < 12) {
+      return `${diffMonths}个月前`;
     } else {
-      const year = date.getFullYear();
-      const month = String(date.getMonth() + 1).padStart(2, '0');
-      const day = String(date.getDate()).padStart(2, '0');
-      return `${year}-${month}-${day}`;
+      return `${diffYears}年前`;
     }
   } catch (e) {
     return '';
@@ -105,32 +153,136 @@ function formatDate(date = new Date()) {
   return `${year}-${month}-${day}`;
 }
 
+// 提取标签（从文本中提取关键词）
+function extractTags(title, summary) {
+  const text = `${title} ${summary}`.toLowerCase();
+  const tags = [];
+  const tagKeywords = {
+    'AI': ['ai', 'artificial intelligence', 'machine learning', '人工智能'],
+    '设计系统': ['design system', 'design kit', '组件', 'component'],
+    '用户体验': ['ux', 'user experience', '用户体验', '界面设计'],
+    '工具': ['tool', 'toolkit', '工具', '平台'],
+    '生成式': ['generative', '生成式', '生成', 'create'],
+    'Copilot': ['copilot', '助手', 'assistant'],
+    'Firefly': ['firefly', 'adobe firefly'],
+    'Gemini': ['gemini', 'google gemini'],
+    'Claude': ['claude', 'anthropic'],
+    'ChatGPT': ['chatgpt', 'gpt', 'openai']
+  };
+  
+  for (const [tag, keywords] of Object.entries(tagKeywords)) {
+    if (keywords.some(keyword => text.includes(keyword))) {
+      tags.push(tag);
+    }
+  }
+  
+  return tags.length > 0 ? tags : ['设计', 'AI'];
+}
+
+// 简单翻译函数（关键词替换，实际项目中可以使用翻译 API）
+// 注意：这是一个简化的翻译函数，仅处理常见关键词
+// 实际生产环境建议使用 Google Translate API 或其他专业翻译服务
+function translateToChinese(text) {
+  if (!text) return '';
+  
+  // 简单的关键词翻译映射（常见术语）
+  const translations = {
+    'AI': 'AI',
+    'Artificial Intelligence': '人工智能',
+    'Machine Learning': '机器学习',
+    'Deep Learning': '深度学习',
+    'Design': '设计',
+    'System': '系统',
+    'Tool': '工具',
+    'User Experience': '用户体验',
+    'Interface': '界面',
+    'Component': '组件',
+    'Update': '更新',
+    'New': '新',
+    'Feature': '功能',
+    'Release': '发布',
+    'Guide': '指南',
+    'Tutorial': '教程',
+    'Best Practices': '最佳实践',
+    'Case Study': '案例研究',
+    'Announcement': '公告',
+    'Blog': '博客',
+    'Article': '文章',
+    'Copilot': 'Copilot',
+    'Assistant': '助手',
+    'Agent': '代理',
+    'Model': '模型',
+    'Neural': '神经网络',
+    'Generative': '生成式'
+  };
+  
+  // 暂时返回原文，保持标题可读性
+  // TODO: 集成专业翻译 API 以实现完整的中文翻译
+  return text;
+}
+
 // ====================
-// 站点抓取器（基础框架）
+// 站点抓取器实现
 // ====================
 
 /**
  * Material Design 抓取器
- * 注意：实际实现需要根据 m3.material.io 的实际HTML结构调整
  */
 async function fetchFromMaterial() {
   try {
-    const url = 'https://m3.material.io/';
+    const url = 'https://m3.material.io/blog';
     const html = await fetch(url);
-    
-    // TODO: 使用 cheerio 或其他 HTML 解析库解析页面
-    // 这里提供一个基础框架，实际需要根据网站结构调整
+    const $ = cheerio.load(html);
     const items = [];
     
-    // 示例：假设找到了文章列表
-    // 需要解析 HTML，提取文章链接、标题、缩略图等信息
+    // 解析博客文章列表
+    $('article, .blog-post, [class*="post"], [class*="article"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false; // 收集更多以便筛选
+      
+      const $elem = $(elem);
+      const titleElem = $elem.find('h1, h2, h3, h4, [class*="title"], a[href*="/blog/"]').first();
+      const title = titleElem.text().trim();
+      const link = titleElem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time, [class*="published"]').first().text().trim();
+      
+      if (title && link) {
+        const fullUrl = link.startsWith('http') ? link : `https://m3.material.io${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: parseDate(dateStr),
+          tags: extractTags(title, summary)
+        });
+      }
+    });
+    
+    // 如果没找到，尝试其他选择器
+    if (items.length === 0) {
+      $('a[href*="/blog/"]').each((i, elem) => {
+        if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+        const $elem = $(elem);
+        const title = $elem.text().trim();
+        const link = $elem.attr('href');
+        if (title && link && title.length > 10) {
+          items.push({
+            title: translateToChinese(title),
+            url: link.startsWith('http') ? link : `https://m3.material.io${link}`,
+            summary: translateToChinese(title),
+            publishedAt: null,
+            tags: extractTags(title, '')
+          });
+        }
+      });
+    }
     
     // 优先过滤 AI 相关内容
     const aiItems = items.filter(item => 
       isAIRelated(item.title) || isAIRelated(item.summary)
     );
     
-    // 如果 AI 相关条目不足 10 条，补充最近的其他条目
+    // 如果 AI 相关条目不足，补充最近的其他条目
     let resultItems = [...aiItems];
     if (resultItems.length < CONFIG.MAX_ITEMS_PER_SITE) {
       const otherItems = items.filter(item => 
@@ -139,9 +291,12 @@ async function fetchFromMaterial() {
       resultItems = [...aiItems, ...otherItems];
     }
     
-    // 按时间排序，取前 10 条
     return resultItems
-      .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
       .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
       
   } catch (error) {
@@ -157,16 +312,37 @@ async function fetchFromMicrosoftDesign() {
   try {
     const url = 'https://microsoft.design/';
     const html = await fetch(url);
-    
-    // TODO: 解析 microsoft.design 的文章列表
+    const $ = cheerio.load(html);
     const items = [];
+    
+    // 解析文章列表
+    $('article, [class*="article"], [class*="post"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const titleElem = $elem.find('h1, h2, h3, h4, [class*="title"], a').first();
+      const title = titleElem.text().trim();
+      const link = titleElem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      
+      if (title && link) {
+        const fullUrl = link.startsWith('http') ? link : `https://microsoft.design${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: parseDate(dateStr),
+          tags: extractTags(title, summary)
+        });
+      }
+    });
     
     // 优先过滤 AI 相关内容
     const aiItems = items.filter(item => 
       isAIRelated(item.title) || isAIRelated(item.summary)
     );
     
-    // 如果 AI 相关条目不足 10 条，补充最近的其他条目
     let resultItems = [...aiItems];
     if (resultItems.length < CONFIG.MAX_ITEMS_PER_SITE) {
       const otherItems = items.filter(item => 
@@ -175,9 +351,12 @@ async function fetchFromMicrosoftDesign() {
       resultItems = [...aiItems, ...otherItems];
     }
     
-    // 按时间排序，取前 10 条
     return resultItems
-      .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
       .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
       
   } catch (error) {
@@ -193,16 +372,36 @@ async function fetchFromGoogleDesign() {
   try {
     const url = 'https://design.google/';
     const html = await fetch(url);
-    
-    // TODO: 解析 design.google 的文章列表
+    const $ = cheerio.load(html);
     const items = [];
+    
+    // 解析文章列表
+    $('article, [class*="article"], [class*="post"], a[href*="/library/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const titleElem = $elem.find('h1, h2, h3, h4, [class*="title"]').first();
+      const title = titleElem.text().trim() || $elem.text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      
+      if (title && link && title.length > 10) {
+        const fullUrl = link.startsWith('http') ? link : `https://design.google${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: null,
+          tags: extractTags(title, summary)
+        });
+      }
+    });
     
     // 优先过滤 AI 相关内容
     const aiItems = items.filter(item => 
       isAIRelated(item.title) || isAIRelated(item.summary)
     );
     
-    // 如果 AI 相关条目不足 10 条，补充最近的其他条目
     let resultItems = [...aiItems];
     if (resultItems.length < CONFIG.MAX_ITEMS_PER_SITE) {
       const otherItems = items.filter(item => 
@@ -211,10 +410,7 @@ async function fetchFromGoogleDesign() {
       resultItems = [...aiItems, ...otherItems];
     }
     
-    // 按时间排序，取前 10 条
-    return resultItems
-      .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
-      .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+    return resultItems.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
       
   } catch (error) {
     console.error('Google Design 抓取失败:', error.message);
@@ -229,16 +425,37 @@ async function fetchFromFigma() {
   try {
     const url = 'https://www.figma.com/blog/';
     const html = await fetch(url);
-    
-    // TODO: 解析 figma.com/blog 的文章列表
+    const $ = cheerio.load(html);
     const items = [];
+    
+    // 解析博客文章
+    $('article, [class*="post"], [class*="article"], a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const titleElem = $elem.find('h1, h2, h3, h4, [class*="title"]').first();
+      const title = titleElem.text().trim() || $elem.text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      
+      if (title && link && title.length > 10) {
+        const fullUrl = link.startsWith('http') ? link : `https://www.figma.com${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: parseDate(dateStr),
+          tags: extractTags(title, summary)
+        });
+      }
+    });
     
     // 优先过滤 AI 相关内容
     const aiItems = items.filter(item => 
       isAIRelated(item.title) || isAIRelated(item.summary)
     );
     
-    // 如果 AI 相关条目不足 10 条，补充最近的其他条目
     let resultItems = [...aiItems];
     if (resultItems.length < CONFIG.MAX_ITEMS_PER_SITE) {
       const otherItems = items.filter(item => 
@@ -247,13 +464,373 @@ async function fetchFromFigma() {
       resultItems = [...aiItems, ...otherItems];
     }
     
-    // 按时间排序，取前 10 条
     return resultItems
-      .sort((a, b) => new Date(b.publishedAt || 0) - new Date(a.publishedAt || 0))
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
       .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
       
   } catch (error) {
     console.error('Figma 抓取失败:', error.message);
+    return [];
+  }
+}
+
+/**
+ * Anthropic 抓取器
+ */
+async function fetchFromAnthropic() {
+  try {
+    const url = 'https://www.anthropic.com/news';
+    const html = await fetch(url);
+    const $ = cheerio.load(html);
+    const items = [];
+    
+    $('article, [class*="post"], [class*="article"], a[href*="/news/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      
+      if (title && link) {
+        const fullUrl = link.startsWith('http') ? link : `https://www.anthropic.com${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: parseDate(dateStr),
+          tags: extractTags(title, summary)
+        });
+      }
+    });
+    
+    return items
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
+      .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+      
+  } catch (error) {
+    console.error('Anthropic 抓取失败:', error.message);
+    return [];
+  }
+}
+
+/**
+ * OpenAI 抓取器
+ */
+async function fetchFromOpenAI() {
+  try {
+    const url = 'https://openai.com/zh-Hans-CN/research';
+    const html = await fetch(url);
+    const $ = cheerio.load(html);
+    const items = [];
+    
+    $('article, [class*="post"], [class*="article"], a[href*="/research/"], a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      
+      if (title && link) {
+        const fullUrl = link.startsWith('http') ? link : `https://openai.com${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: parseDate(dateStr),
+          tags: extractTags(title, summary)
+        });
+      }
+    });
+    
+    return items
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
+      .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+      
+  } catch (error) {
+    console.error('OpenAI 抓取失败:', error.message);
+    return [];
+  }
+}
+
+/**
+ * Meta AI 抓取器
+ */
+async function fetchFromMetaAI() {
+  try {
+    const url = 'https://ai.meta.com/blog/';
+    const html = await fetch(url);
+    const $ = cheerio.load(html);
+    const items = [];
+    
+    $('article, [class*="post"], [class*="article"], a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      
+      if (title && link) {
+        const fullUrl = link.startsWith('http') ? link : `https://ai.meta.com${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: parseDate(dateStr),
+          tags: extractTags(title, summary)
+        });
+      }
+    });
+    
+    return items
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
+      .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+      
+  } catch (error) {
+    console.error('Meta AI 抓取失败:', error.message);
+    return [];
+  }
+}
+
+/**
+ * Google AI 抓取器
+ */
+async function fetchFromGoogleAI() {
+  try {
+    const url = 'https://ai.google/products/';
+    const html = await fetch(url);
+    const $ = cheerio.load(html);
+    const items = [];
+    
+    $('article, [class*="post"], [class*="article"], a[href*="/products/"], a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      
+      if (title && link) {
+        const fullUrl = link.startsWith('http') ? link : `https://ai.google.com${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: null,
+          tags: extractTags(title, summary)
+        });
+      }
+    });
+    
+    return items.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+      
+  } catch (error) {
+    console.error('Google AI 抓取失败:', error.message);
+    return [];
+  }
+}
+
+/**
+ * GitHub 抓取器
+ */
+async function fetchFromGitHub() {
+  try {
+    const url = 'https://github.blog/category/product/';
+    const html = await fetch(url);
+    const $ = cheerio.load(html);
+    const items = [];
+    
+    $('article, [class*="post"], [class*="article"], a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      
+      if (title && link && isAIRelated(title + ' ' + summary)) {
+        const fullUrl = link.startsWith('http') ? link : `https://github.com${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: parseDate(dateStr),
+          tags: extractTags(title, summary)
+        });
+      }
+    });
+    
+    return items
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
+      .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+      
+  } catch (error) {
+    console.error('GitHub 抓取失败:', error.message);
+    return [];
+  }
+}
+
+/**
+ * AWS 抓取器
+ */
+async function fetchFromAWS() {
+  try {
+    const url = 'https://aws.amazon.com/cn/machine-learning/';
+    const html = await fetch(url);
+    const $ = cheerio.load(html);
+    const items = [];
+    
+    $('article, [class*="post"], [class*="article"], a[href*="/machine-learning/"], a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      
+      if (title && link) {
+        const fullUrl = link.startsWith('http') ? link : `https://aws.amazon.com${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: null,
+          tags: extractTags(title, summary)
+        });
+      }
+    });
+    
+    return items.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+      
+  } catch (error) {
+    console.error('AWS 抓取失败:', error.message);
+    return [];
+  }
+}
+
+/**
+ * Adobe 抓取器
+ */
+async function fetchFromAdobe() {
+  try {
+    const url = 'https://www.adobe.com/products/photoshop.html';
+    const html = await fetch(url);
+    const $ = cheerio.load(html);
+    const items = [];
+    
+    // 尝试多个页面
+    const urls = [
+      'https://www.adobe.com/products/photoshop.html',
+      'https://www.adobe.com/creativecloud/firefly.html',
+      'https://www.adobe.com/express.html'
+    ];
+    
+    for (const pageUrl of urls) {
+      try {
+        const pageHtml = await fetch(pageUrl);
+        const $page = cheerio.load(pageHtml);
+        
+        $page('article, [class*="post"], [class*="article"], a[href*="/products/"], a[href*="/creativecloud/"]').each((i, elem) => {
+          if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+          
+          const $elem = $page(elem);
+          const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+          const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+          const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+          
+          if (title && link && (isAIRelated(title) || isAIRelated(summary))) {
+            const fullUrl = link.startsWith('http') ? link : `https://www.adobe.com${link}`;
+            items.push({
+              title: translateToChinese(title),
+              url: fullUrl,
+              summary: translateToChinese(summary || title),
+              publishedAt: null,
+              tags: extractTags(title, summary)
+            });
+          }
+        });
+        
+        await delay(1000);
+      } catch (e) {
+        console.error(`Adobe 页面 ${pageUrl} 抓取失败:`, e.message);
+      }
+    }
+    
+    return items.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+      
+  } catch (error) {
+    console.error('Adobe 抓取失败:', error.message);
+    return [];
+  }
+}
+
+/**
+ * Mapbox 抓取器
+ */
+async function fetchFromMapbox() {
+  try {
+    const url = 'https://www.mapbox.com/blog/';
+    const html = await fetch(url);
+    const $ = cheerio.load(html);
+    const items = [];
+    
+    $('article, [class*="post"], [class*="article"], a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      
+      if (title && link && (isAIRelated(title) || isAIRelated(summary))) {
+        const fullUrl = link.startsWith('http') ? link : `https://www.mapbox.com${link}`;
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: parseDate(dateStr),
+          tags: extractTags(title, summary)
+        });
+      }
+    });
+    
+    return items
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
+      .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+      
+  } catch (error) {
+    console.error('Mapbox 抓取失败:', error.message);
     return [];
   }
 }
@@ -332,6 +909,54 @@ async function main() {
       sourceName: 'Figma',
       sourceUrl: 'https://www.figma.com',
       fetcher: fetchFromFigma
+    },
+    {
+      source: 'anthropic',
+      sourceName: 'Anthropic',
+      sourceUrl: 'https://www.anthropic.com',
+      fetcher: fetchFromAnthropic
+    },
+    {
+      source: 'openai',
+      sourceName: 'OpenAI',
+      sourceUrl: 'https://openai.com/zh-Hans-CN/',
+      fetcher: fetchFromOpenAI
+    },
+    {
+      source: 'metaai',
+      sourceName: 'Meta AI',
+      sourceUrl: 'https://ai.meta.com/',
+      fetcher: fetchFromMetaAI
+    },
+    {
+      source: 'googleai',
+      sourceName: 'Google AI',
+      sourceUrl: 'https://ai.google/products/',
+      fetcher: fetchFromGoogleAI
+    },
+    {
+      source: 'github',
+      sourceName: 'GitHub',
+      sourceUrl: 'https://github.com/',
+      fetcher: fetchFromGitHub
+    },
+    {
+      source: 'aws',
+      sourceName: 'AWS',
+      sourceUrl: 'https://aws.amazon.com/cn/machine-learning/',
+      fetcher: fetchFromAWS
+    },
+    {
+      source: 'adobe',
+      sourceName: 'Adobe',
+      sourceUrl: 'https://www.adobe.com',
+      fetcher: fetchFromAdobe
+    },
+    {
+      source: 'mapbox',
+      sourceName: 'Mapbox Maps',
+      sourceUrl: 'https://www.mapbox.com/maps',
+      fetcher: fetchFromMapbox
     }
   ];
 
@@ -346,7 +971,7 @@ async function main() {
         items
       );
       results.sites.push(siteData);
-      console.log(`  ✓ 成功抓取 ${items.length} 条 AI 相关新闻\n`);
+      console.log(`  ✓ 成功抓取 ${items.length} 条新闻\n`);
       
       // 请求延迟，避免过于频繁
       await delay(CONFIG.REQUEST_DELAY);
@@ -378,7 +1003,7 @@ async function main() {
   console.log(`\n抓取完成！数据已保存到: ${CONFIG.OUTPUT_PATH}`);
   console.log(`共抓取 ${results.sites.length} 个站点`);
   const totalItems = results.sites.reduce((sum, site) => sum + site.items.length, 0);
-  console.log(`共 ${totalItems} 条 AI 相关新闻`);
+  console.log(`共 ${totalItems} 条新闻`);
 }
 
 // 运行主函数
@@ -394,5 +1019,13 @@ module.exports = {
   fetchFromMicrosoftDesign,
   fetchFromGoogleDesign,
   fetchFromFigma,
+  fetchFromAnthropic,
+  fetchFromOpenAI,
+  fetchFromMetaAI,
+  fetchFromGoogleAI,
+  fetchFromGitHub,
+  fetchFromAWS,
+  fetchFromAdobe,
+  fetchFromMapbox,
   main
 };
