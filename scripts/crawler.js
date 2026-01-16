@@ -277,76 +277,107 @@ function translateToChinese(text) {
 async function fetchFromMaterial() {
   try {
     const url = 'https://m3.material.io/blog';
+    console.log(`  开始请求: ${url}`);
     const html = await fetch(url);
+    console.log(`  响应长度: ${html.length} 字符`);
+    
     const $ = cheerio.load(html);
     const items = [];
     
-    // 解析博客文章列表
-    $('article, .blog-post, [class*="post"], [class*="article"]').each((i, elem) => {
-      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false; // 收集更多以便筛选
+    // 方法1：尝试查找所有包含 /blog/ 的链接
+    $('a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
       
       const $elem = $(elem);
-      const titleElem = $elem.find('h1, h2, h3, h4, [class*="title"], a[href*="/blog/"]').first();
-      const title = titleElem.text().trim();
-      const link = titleElem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
-      const dateStr = $elem.find('[class*="date"], time, [class*="published"]').first().text().trim();
+      const link = $elem.attr('href');
       
-      if (title && link) {
+      // 获取标题 - 可能在链接内，或父元素中
+      let title = $elem.text().trim();
+      if (!title || title.length < 10) {
+        // 尝试从父元素获取
+        title = $elem.parent().find('h1, h2, h3, h4, [class*="title"]').first().text().trim() ||
+                $elem.closest('article, [class*="card"], [class*="post"]').find('h1, h2, h3, h4').first().text().trim();
+      }
+      
+      // 获取摘要
+      const $parent = $elem.closest('article, [class*="card"], [class*="post"], div');
+      const summary = $parent.find('p').first().text().trim() || '';
+      
+      // 获取日期
+      const dateStr = $parent.find('time').first().attr('datetime') || 
+                      $parent.find('time').first().text().trim() ||
+                      $parent.find('[class*="date"]').first().text().trim();
+      
+      if (title && link && title.length > 10 && link.includes('/blog/')) {
         const fullUrl = link.startsWith('http') ? link : `https://m3.material.io${link}`;
         items.push({
           title: translateToChinese(title),
           url: fullUrl,
-          summary: translateToChinese(summary || title),
+          summary: translateToChinese(summary || title.substring(0, 100)),
           publishedAt: parseDate(dateStr),
           tags: extractTags(title, summary)
         });
       }
     });
     
-    // 如果没找到，尝试其他选择器
+    console.log(`  找到 ${items.length} 个链接`);
+    
+    // 如果还是没找到，尝试更宽松的选择器
     if (items.length === 0) {
-      $('a[href*="/blog/"]').each((i, elem) => {
-        if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      // 尝试查找所有链接
+      $('a').each((i, elem) => {
+        if (items.length >= 20) return false;
         const $elem = $(elem);
-        const title = $elem.text().trim();
         const link = $elem.attr('href');
-        if (title && link && title.length > 10) {
+        const title = $elem.text().trim();
+        
+        if (link && link.includes('/blog/') && title && title.length > 10 && !title.includes('Skip')) {
+          const fullUrl = link.startsWith('http') ? link : `https://m3.material.io${link}`;
           items.push({
             title: translateToChinese(title),
-            url: link.startsWith('http') ? link : `https://m3.material.io${link}`,
+            url: fullUrl,
             summary: translateToChinese(title),
             publishedAt: null,
             tags: extractTags(title, '')
           });
         }
       });
+      console.log(`  使用宽松选择器找到 ${items.length} 个链接`);
     }
     
+    // 去重并筛选
+    const uniqueItems = items.filter((item, index, self) => 
+      self.findIndex(i => i.url === item.url) === index
+    );
+    
     // 优先过滤 AI 相关内容
-    const aiItems = items.filter(item => 
+    const aiItems = uniqueItems.filter(item => 
       isAIRelated(item.title) || isAIRelated(item.summary)
     );
     
     // 如果 AI 相关条目不足，补充最近的其他条目
     let resultItems = [...aiItems];
     if (resultItems.length < CONFIG.MAX_ITEMS_PER_SITE) {
-      const otherItems = items.filter(item => 
+      const otherItems = uniqueItems.filter(item => 
         !isAIRelated(item.title) && !isAIRelated(item.summary)
       );
       resultItems = [...aiItems, ...otherItems];
     }
     
-    return resultItems
+    const final = resultItems
       .sort((a, b) => {
         const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
         const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
         return dateB - dateA;
       })
       .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+    
+    console.log(`  返回 ${final.length} 条记录`);
+    return final;
       
   } catch (error) {
     console.error('Material Design 抓取失败:', error.message);
+    console.error('错误堆栈:', error.stack);
     return [];
   }
 }
@@ -417,49 +448,106 @@ async function fetchFromMicrosoftDesign() {
 async function fetchFromGoogleDesign() {
   try {
     const url = 'https://design.google/';
+    console.log(`  开始请求: ${url}`);
     const html = await fetch(url);
+    console.log(`  响应长度: ${html.length} 字符`);
+    
     const $ = cheerio.load(html);
     const items = [];
     
-    // 解析文章列表
-    $('article, [class*="article"], [class*="post"], a[href*="/library/"]').each((i, elem) => {
+    // 方法1：查找所有包含 /library/ 的链接（这是 Google Design 的文章路径）
+    $('a[href*="/library/"]').each((i, elem) => {
       if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
       
       const $elem = $(elem);
-      const titleElem = $elem.find('h1, h2, h3, h4, [class*="title"]').first();
-      const title = titleElem.text().trim() || $elem.text().trim();
-      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      const link = $elem.attr('href');
       
-      if (title && link && title.length > 10) {
+      // 获取标题 - 可能在链接内的 h2, h3 或其他元素
+      let title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
+      if (!title || title.length < 5) {
+        // 尝试从父元素或兄弟元素获取
+        title = $elem.closest('article, [class*="card"], div').find('h1, h2, h3, h4').first().text().trim() ||
+                $elem.siblings('h1, h2, h3, h4').first().text().trim();
+      }
+      
+      // 如果还是找不到，使用链接文本
+      if (!title || title.length < 5) {
+        title = $elem.text().trim();
+      }
+      
+      // 获取摘要
+      const $parent = $elem.closest('article, [class*="card"], div');
+      let summary = $parent.find('p').first().text().trim();
+      if (!summary) {
+        summary = $elem.siblings('p').first().text().trim();
+      }
+      
+      // 获取标签/分类
+      const category = $parent.find('a[href*="/category/"], a[href*="/tags/"]').first().text().trim() || '';
+      
+      if (title && link && title.length > 5 && link.includes('/library/') && !title.includes('Skip')) {
         const fullUrl = link.startsWith('http') ? link : `https://design.google${link}`;
         items.push({
           title: translateToChinese(title),
           url: fullUrl,
-          summary: translateToChinese(summary || title),
+          summary: translateToChinese(summary || title.substring(0, 100)),
           publishedAt: null,
-          tags: extractTags(title, summary)
+          tags: extractTags(title, summary + ' ' + category)
         });
       }
     });
     
+    console.log(`  找到 ${items.length} 个链接`);
+    
+    // 如果还是没找到，尝试查找所有包含链接的元素
+    if (items.length === 0) {
+      // 尝试查找所有链接，然后过滤
+      $('a').each((i, elem) => {
+        if (items.length >= 30) return false;
+        const $elem = $(elem);
+        const link = $elem.attr('href');
+        let title = $elem.text().trim();
+        
+        if (link && (link.includes('/library/') || link.includes('/category/') || link.includes('/tags/')) && 
+            title && title.length > 5 && !title.includes('Skip') && !title.includes('View')) {
+          const fullUrl = link.startsWith('http') ? link : `https://design.google${link}`;
+          items.push({
+            title: translateToChinese(title),
+            url: fullUrl,
+            summary: translateToChinese(title),
+            publishedAt: null,
+            tags: extractTags(title, '')
+          });
+        }
+      });
+      console.log(`  使用宽松选择器找到 ${items.length} 个链接`);
+    }
+    
+    // 去重
+    const uniqueItems = items.filter((item, index, self) => 
+      self.findIndex(i => i.url === item.url) === index
+    );
+    
     // 优先过滤 AI 相关内容
-    const aiItems = items.filter(item => 
+    const aiItems = uniqueItems.filter(item => 
       isAIRelated(item.title) || isAIRelated(item.summary)
     );
     
     let resultItems = [...aiItems];
     if (resultItems.length < CONFIG.MAX_ITEMS_PER_SITE) {
-      const otherItems = items.filter(item => 
+      const otherItems = uniqueItems.filter(item => 
         !isAIRelated(item.title) && !isAIRelated(item.summary)
       );
       resultItems = [...aiItems, ...otherItems];
     }
     
-    return resultItems.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+    const final = resultItems.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+    console.log(`  返回 ${final.length} 条记录`);
+    return final;
       
   } catch (error) {
     console.error('Google Design 抓取失败:', error.message);
+    console.error('错误堆栈:', error.stack);
     return [];
   }
 }
