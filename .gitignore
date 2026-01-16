@@ -1,6 +1,7 @@
 # Dependencies
 node_modules/
-package-lock.json
+# package-lock.json - 保留 scripts/ 目录下的用于 CI/CD
+# 如果需要忽略根目录的，可以使用：/package-lock.json
 yarn.lock
 
 # Data files (optional - uncomment if you don't want to track today.json)
