@@ -574,26 +574,30 @@ async function fetchFromAnthropic() {
  */
 async function fetchFromOpenAI() {
   try {
-    const url = 'https://openai.com/blog';
-    const html = await fetch(url, {
-      headers: {
-        'Referer': 'https://openai.com/',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-      }
-    });
+    // 使用中文新闻页面
+    const url = 'https://openai.com/zh-Hans-CN/news/';
+    const html = await fetch(url);
     const $ = cheerio.load(html);
     const items = [];
     
-    // 尝试多种选择器
-    $('article, [class*="post"], [class*="article"], a[href*="/blog/"], [data-testid*="blog"]').each((i, elem) => {
+    // 解析新闻卡片
+    $('article, a[href*="/index/"], a[href*="/zh-Hans-CN/index/"]').each((i, elem) => {
       if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
       
       const $elem = $(elem);
-      const title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
+      // 标题可能在链接文本中，或者在内部元素中
+      let title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
+      if (!title) {
+        title = $elem.text().trim().split('\n')[0]; // 取第一行文本
+      }
+      
       const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"], [class*="description"]').first().text().trim();
-      const dateStr = $elem.find('[class*="date"], time, [datetime]').first().attr('datetime') || 
-                      $elem.find('[class*="date"], time').first().text().trim();
+      const summary = $elem.find('p, [class*="summary"], [class*="description"]').first().text().trim();
+      
+      // 提取日期
+      let dateStr = $elem.find('time[datetime]').first().attr('datetime') || 
+                    $elem.find('time').first().text().trim() ||
+                    $elem.find('[class*="date"]').first().text().trim();
       
       if (title && link && title.length > 5) {
         let fullUrl = link;
@@ -611,7 +615,11 @@ async function fetchFromOpenAI() {
     });
     
     return items
-      .filter((item, index, self) => self.findIndex(i => i.url === item.url) === index) // 去重
+      .filter((item, index, self) => {
+        // 去重：基于URL
+        const indexInSelf = self.findIndex(i => i.url === item.url);
+        return indexInSelf === index && item.title.length > 5;
+      })
       .sort((a, b) => {
         const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
         const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
@@ -630,28 +638,46 @@ async function fetchFromOpenAI() {
  */
 async function fetchFromMetaAI() {
   try {
-    const url = 'https://ai.meta.com/blog';
-    const html = await fetch(url, {
-      headers: {
-        'Referer': 'https://ai.meta.com/',
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
-      }
-    });
+    // 使用正确的URL（不带尾部斜杠可能更好）
+    const url = 'https://ai.meta.com/blog/';
+    const html = await fetch(url);
     const $ = cheerio.load(html);
     const items = [];
     
-    // 尝试多种选择器
-    $('article, [class*="post"], [class*="article"], [class*="blog"], a[href*="/blog/"]').each((i, elem) => {
+    // 解析博客文章链接 - 根据实际HTML结构
+    $('a[href*="/blog/"]').each((i, elem) => {
       if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
       
       const $elem = $(elem);
-      const title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
-      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
-      const dateStr = $elem.find('[class*="date"], time, [datetime]').first().attr('datetime') || 
-                      $elem.find('[class*="date"], time').first().text().trim();
+      const $parent = $elem.closest('article, [class*="card"], [class*="post"]');
       
-      if (title && link && title.length > 5) {
+      // 标题可能在链接内，或者在父元素中
+      let title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
+      if (!title) {
+        title = $parent.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
+      }
+      if (!title || title.length < 5) {
+        // 如果还是找不到，尝试从链接文本中提取
+        const linkText = $elem.text().trim();
+        if (linkText.length > 10 && !linkText.toLowerCase().includes('read')) {
+          title = linkText;
+        }
+      }
+      
+      const link = $elem.attr('href');
+      
+      // 摘要可能在父元素或兄弟元素中
+      let summary = $parent.find('p, [class*="summary"], [class*="excerpt"], [class*="description"]').first().text().trim();
+      if (!summary && $parent.length === 0) {
+        summary = $elem.siblings('p').first().text().trim();
+      }
+      
+      // 日期可能在父元素或链接附近
+      let dateStr = $parent.find('time[datetime]').first().attr('datetime') || 
+                    $parent.find('time').first().text().trim() ||
+                    $elem.parent().find('time, [class*="date"]').first().text().trim();
+      
+      if (title && link && title.length > 5 && link.includes('/blog/')) {
         let fullUrl = link;
         if (!link.startsWith('http')) {
           fullUrl = link.startsWith('/') ? `https://ai.meta.com${link}` : `https://ai.meta.com/${link}`;
@@ -667,7 +693,11 @@ async function fetchFromMetaAI() {
     });
     
     return items
-      .filter((item, index, self) => self.findIndex(i => i.url === item.url) === index) // 去重
+      .filter((item, index, self) => {
+        // 去重：基于URL和标题
+        const indexInSelf = self.findIndex(i => i.url === item.url || (i.title === item.title && i.title.length > 10));
+        return indexInSelf === index && item.title.length > 5;
+      })
       .sort((a, b) => {
         const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
         const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
@@ -724,30 +754,45 @@ async function fetchFromGoogleAI() {
  */
 async function fetchFromGitHub() {
   try {
-    // 使用正确的URL，避免重定向
-    const url = 'https://github.blog/category/product/';
+    // 使用主页，然后过滤 AI 相关内容
+    const url = 'https://github.blog/';
     const html = await fetch(url); // fetch 函数现在会自动处理重定向
     const $ = cheerio.load(html);
     const items = [];
     
-    // 尝试多种选择器
-    $('article, [class*="post"], [class*="article"], [class*="blog"], a[href*="/blog/"]').each((i, elem) => {
-      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+    // 解析文章 - 根据实际HTML结构
+    $('article, a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 3) return false; // 收集更多以便筛选
       
       const $elem = $(elem);
-      const title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
-      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
-      const dateStr = $elem.find('[class*="date"], time, [datetime]').first().attr('datetime') || 
-                      $elem.find('[class*="date"], time').first().text().trim();
+      const $article = $elem.is('article') ? $elem : $elem.closest('article');
       
-      if (title && link && title.length > 5) {
+      // 标题可能在 h2 或链接中
+      let title = $article.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
+      if (!title) {
+        title = $elem.find('h1, h2, h3, h4').first().text().trim();
+      }
+      
+      // 链接可能在文章内的链接或元素本身的href
+      let link = $article.find('a[href*="/blog/"]').first().attr('href') || 
+                 $elem.attr('href') || 
+                 $elem.find('a[href*="/blog/"]').first().attr('href');
+      
+      // 摘要
+      const summary = $article.find('p').first().text().trim();
+      
+      // 日期
+      let dateStr = $article.find('time[datetime]').first().attr('datetime') || 
+                    $article.find('time').first().text().trim();
+      
+      if (title && link && title.length > 5 && link.includes('/blog/')) {
         let fullUrl = link;
         if (!link.startsWith('http')) {
           fullUrl = link.startsWith('/') ? `https://github.blog${link}` : `https://github.blog/${link}`;
         }
-        // 如果包含 AI 关键词，或者允许所有内容
-        if (isAIRelated(title + ' ' + summary) || items.length < 5) {
+        
+        // 只保留 AI 相关的内容
+        if (isAIRelated(title + ' ' + summary) || link.includes('copilot') || link.includes('ai-and-ml')) {
           items.push({
             title: translateToChinese(title),
             url: fullUrl,
@@ -760,7 +805,11 @@ async function fetchFromGitHub() {
     });
     
     return items
-      .filter((item, index, self) => self.findIndex(i => i.url === item.url) === index) // 去重
+      .filter((item, index, self) => {
+        // 去重：基于URL
+        const indexInSelf = self.findIndex(i => i.url === item.url);
+        return indexInSelf === index && item.title.length > 5;
+      })
       .sort((a, b) => {
         const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
         const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
