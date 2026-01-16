@@ -22,7 +22,7 @@ const CONFIG = {
   ],
   MAX_ITEMS_PER_SITE: 10,
   REQUEST_DELAY: 2000, // 请求延迟（毫秒）
-  REQUEST_TIMEOUT: 30000, // 请求超时（毫秒）
+  REQUEST_TIMEOUT: 60000, // 请求超时（毫秒）- 增加到60秒
   USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 };
 
@@ -30,37 +30,74 @@ const CONFIG = {
 // 工具函数
 // ====================
 
-// HTTP 请求封装（支持超时）
+// HTTP 请求封装（支持超时和重定向）
 function fetch(url, options = {}) {
   return new Promise((resolve, reject) => {
-    const client = url.startsWith('https') ? https : http;
-    const timeout = options.timeout || CONFIG.REQUEST_TIMEOUT;
+    const maxRedirects = options.maxRedirects || 5;
+    let redirectCount = 0;
     
-    const requestOptions = {
-      headers: {
-        'User-Agent': CONFIG.USER_AGENT,
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
-        ...options.headers
-      }
+    const makeRequest = (requestUrl) => {
+      const client = requestUrl.startsWith('https') ? https : http;
+      const timeout = options.timeout || CONFIG.REQUEST_TIMEOUT;
+      
+      const urlObj = new URL(requestUrl);
+      const requestOptions = {
+        hostname: urlObj.hostname,
+        port: urlObj.port || (urlObj.protocol === 'https:' ? 443 : 80),
+        path: urlObj.pathname + (urlObj.search || ''),
+        method: 'GET',
+        headers: {
+          'User-Agent': CONFIG.USER_AGENT,
+          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+          'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+          'Accept-Encoding': 'gzip, deflate, br',
+          'Connection': 'keep-alive',
+          'Upgrade-Insecure-Requests': '1',
+          ...options.headers
+        },
+        timeout: timeout
+      };
+
+      const req = client.request(requestOptions, (res) => {
+        // 处理重定向
+        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+          redirectCount++;
+          if (redirectCount > maxRedirects) {
+            reject(new Error(`Too many redirects (${redirectCount})`));
+            return;
+          }
+          
+          let redirectUrl = res.headers.location;
+          // 处理相对URL
+          if (!redirectUrl.startsWith('http')) {
+            const baseUrl = new URL(requestUrl);
+            redirectUrl = new URL(redirectUrl, baseUrl.origin).href;
+          }
+          
+          // 继续跟随重定向
+          return makeRequest(redirectUrl);
+        }
+        
+        if (res.statusCode !== 200) {
+          reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
+          return;
+        }
+
+        let data = '';
+        res.on('data', chunk => data += chunk);
+        res.on('end', () => resolve(data));
+      });
+
+      req.on('error', reject);
+      req.on('timeout', () => {
+        req.destroy();
+        reject(new Error('Request timeout'));
+      });
+      
+      req.end();
     };
-
-    const req = client.get(url, requestOptions, (res) => {
-      if (res.statusCode !== 200) {
-        reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
-        return;
-      }
-
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => resolve(data));
-    });
-
-    req.on('error', reject);
-    req.setTimeout(timeout, () => {
-      req.destroy();
-      reject(new Error('Request timeout'));
-    });
+    
+    makeRequest(url);
   });
 }
 
@@ -528,22 +565,32 @@ async function fetchFromAnthropic() {
  */
 async function fetchFromOpenAI() {
   try {
-    const url = 'https://openai.com/zh-Hans-CN/research';
-    const html = await fetch(url);
+    const url = 'https://openai.com/blog';
+    const html = await fetch(url, {
+      headers: {
+        'Referer': 'https://openai.com/',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+      }
+    });
     const $ = cheerio.load(html);
     const items = [];
     
-    $('article, [class*="post"], [class*="article"], a[href*="/research/"], a[href*="/blog/"]').each((i, elem) => {
+    // 尝试多种选择器
+    $('article, [class*="post"], [class*="article"], a[href*="/blog/"], [data-testid*="blog"]').each((i, elem) => {
       if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
       
       const $elem = $(elem);
-      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
       const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
-      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"], [class*="description"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time, [datetime]').first().attr('datetime') || 
+                      $elem.find('[class*="date"], time').first().text().trim();
       
-      if (title && link) {
-        const fullUrl = link.startsWith('http') ? link : `https://openai.com${link}`;
+      if (title && link && title.length > 5) {
+        let fullUrl = link;
+        if (!link.startsWith('http')) {
+          fullUrl = link.startsWith('/') ? `https://openai.com${link}` : `https://openai.com/${link}`;
+        }
         items.push({
           title: translateToChinese(title),
           url: fullUrl,
@@ -555,6 +602,7 @@ async function fetchFromOpenAI() {
     });
     
     return items
+      .filter((item, index, self) => self.findIndex(i => i.url === item.url) === index) // 去重
       .sort((a, b) => {
         const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
         const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
@@ -573,22 +621,32 @@ async function fetchFromOpenAI() {
  */
 async function fetchFromMetaAI() {
   try {
-    const url = 'https://ai.meta.com/blog/';
-    const html = await fetch(url);
+    const url = 'https://ai.meta.com/blog';
+    const html = await fetch(url, {
+      headers: {
+        'Referer': 'https://ai.meta.com/',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+      }
+    });
     const $ = cheerio.load(html);
     const items = [];
     
-    $('article, [class*="post"], [class*="article"], a[href*="/blog/"]').each((i, elem) => {
+    // 尝试多种选择器
+    $('article, [class*="post"], [class*="article"], [class*="blog"], a[href*="/blog/"]').each((i, elem) => {
       if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
       
       const $elem = $(elem);
-      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
       const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
-      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time, [datetime]').first().attr('datetime') || 
+                      $elem.find('[class*="date"], time').first().text().trim();
       
-      if (title && link) {
-        const fullUrl = link.startsWith('http') ? link : `https://ai.meta.com${link}`;
+      if (title && link && title.length > 5) {
+        let fullUrl = link;
+        if (!link.startsWith('http')) {
+          fullUrl = link.startsWith('/') ? `https://ai.meta.com${link}` : `https://ai.meta.com/${link}`;
+        }
         items.push({
           title: translateToChinese(title),
           url: fullUrl,
@@ -600,6 +658,7 @@ async function fetchFromMetaAI() {
     });
     
     return items
+      .filter((item, index, self) => self.findIndex(i => i.url === item.url) === index) // 去重
       .sort((a, b) => {
         const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
         const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
@@ -656,33 +715,43 @@ async function fetchFromGoogleAI() {
  */
 async function fetchFromGitHub() {
   try {
+    // 使用正确的URL，避免重定向
     const url = 'https://github.blog/category/product/';
-    const html = await fetch(url);
+    const html = await fetch(url); // fetch 函数现在会自动处理重定向
     const $ = cheerio.load(html);
     const items = [];
     
-    $('article, [class*="post"], [class*="article"], a[href*="/blog/"]').each((i, elem) => {
+    // 尝试多种选择器
+    $('article, [class*="post"], [class*="article"], [class*="blog"], a[href*="/blog/"]').each((i, elem) => {
       if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
       
       const $elem = $(elem);
-      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
       const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
-      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time, [datetime]').first().attr('datetime') || 
+                      $elem.find('[class*="date"], time').first().text().trim();
       
-      if (title && link && isAIRelated(title + ' ' + summary)) {
-        const fullUrl = link.startsWith('http') ? link : `https://github.com${link}`;
-        items.push({
-          title: translateToChinese(title),
-          url: fullUrl,
-          summary: translateToChinese(summary || title),
-          publishedAt: parseDate(dateStr),
-          tags: extractTags(title, summary)
-        });
+      if (title && link && title.length > 5) {
+        let fullUrl = link;
+        if (!link.startsWith('http')) {
+          fullUrl = link.startsWith('/') ? `https://github.blog${link}` : `https://github.blog/${link}`;
+        }
+        // 如果包含 AI 关键词，或者允许所有内容
+        if (isAIRelated(title + ' ' + summary) || items.length < 5) {
+          items.push({
+            title: translateToChinese(title),
+            url: fullUrl,
+            summary: translateToChinese(summary || title),
+            publishedAt: parseDate(dateStr),
+            tags: extractTags(title, summary)
+          });
+        }
       }
     });
     
     return items
+      .filter((item, index, self) => self.findIndex(i => i.url === item.url) === index) // 去重
       .sort((a, b) => {
         const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
         const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
@@ -701,32 +770,46 @@ async function fetchFromGitHub() {
  */
 async function fetchFromAWS() {
   try {
-    const url = 'https://aws.amazon.com/cn/machine-learning/';
-    const html = await fetch(url);
+    // 使用英文URL，避免重定向问题
+    const url = 'https://aws.amazon.com/blogs/machine-learning/';
+    const html = await fetch(url); // fetch 函数现在会自动处理重定向
     const $ = cheerio.load(html);
     const items = [];
     
-    $('article, [class*="post"], [class*="article"], a[href*="/machine-learning/"], a[href*="/blog/"]').each((i, elem) => {
+    // 尝试多种选择器
+    $('article, [class*="post"], [class*="article"], [class*="blog"], a[href*="/machine-learning/"], a[href*="/blog/"]').each((i, elem) => {
       if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
       
       const $elem = $(elem);
-      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
       const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
+      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time, [datetime]').first().attr('datetime') || 
+                      $elem.find('[class*="date"], time').first().text().trim();
       
-      if (title && link) {
-        const fullUrl = link.startsWith('http') ? link : `https://aws.amazon.com${link}`;
+      if (title && link && title.length > 5) {
+        let fullUrl = link;
+        if (!link.startsWith('http')) {
+          fullUrl = link.startsWith('/') ? `https://aws.amazon.com${link}` : `https://aws.amazon.com/${link}`;
+        }
         items.push({
           title: translateToChinese(title),
           url: fullUrl,
           summary: translateToChinese(summary || title),
-          publishedAt: null,
+          publishedAt: parseDate(dateStr),
           tags: extractTags(title, summary)
         });
       }
     });
     
-    return items.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+    return items
+      .filter((item, index, self) => self.findIndex(i => i.url === item.url) === index) // 去重
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
+      .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
       
   } catch (error) {
     console.error('AWS 抓取失败:', error.message);
@@ -739,50 +822,48 @@ async function fetchFromAWS() {
  */
 async function fetchFromAdobe() {
   try {
-    const url = 'https://www.adobe.com/products/photoshop.html';
-    const html = await fetch(url);
+    // 使用博客页面，更容易抓取
+    const url = 'https://blog.adobe.com/en/topics/artificial-intelligence';
+    const html = await fetch(url, {
+      timeout: 90000 // 增加超时时间到90秒
+    });
     const $ = cheerio.load(html);
     const items = [];
     
-    // 尝试多个页面
-    const urls = [
-      'https://www.adobe.com/products/photoshop.html',
-      'https://www.adobe.com/creativecloud/firefly.html',
-      'https://www.adobe.com/express.html'
-    ];
-    
-    for (const pageUrl of urls) {
-      try {
-        const pageHtml = await fetch(pageUrl);
-        const $page = cheerio.load(pageHtml);
-        
-        $page('article, [class*="post"], [class*="article"], a[href*="/products/"], a[href*="/creativecloud/"]').each((i, elem) => {
-          if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
-          
-          const $elem = $page(elem);
-          const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
-          const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-          const summary = $elem.find('p, [class*="summary"]').first().text().trim();
-          
-          if (title && link && (isAIRelated(title) || isAIRelated(summary))) {
-            const fullUrl = link.startsWith('http') ? link : `https://www.adobe.com${link}`;
-            items.push({
-              title: translateToChinese(title),
-              url: fullUrl,
-              summary: translateToChinese(summary || title),
-              publishedAt: null,
-              tags: extractTags(title, summary)
-            });
-          }
+    // 尝试多种选择器
+    $('article, [class*="post"], [class*="article"], [class*="blog"], a[href*="/blog/"]').each((i, elem) => {
+      if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
+      
+      const $elem = $(elem);
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
+      const link = $elem.attr('href') || $elem.find('a').first().attr('href');
+      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time, [datetime]').first().attr('datetime') || 
+                      $elem.find('[class*="date"], time').first().text().trim();
+      
+      if (title && link && title.length > 5) {
+        let fullUrl = link;
+        if (!link.startsWith('http')) {
+          fullUrl = link.startsWith('/') ? `https://blog.adobe.com${link}` : `https://blog.adobe.com/${link}`;
+        }
+        items.push({
+          title: translateToChinese(title),
+          url: fullUrl,
+          summary: translateToChinese(summary || title),
+          publishedAt: parseDate(dateStr),
+          tags: extractTags(title, summary)
         });
-        
-        await delay(1000);
-      } catch (e) {
-        console.error(`Adobe 页面 ${pageUrl} 抓取失败:`, e.message);
       }
-    }
+    });
     
-    return items.slice(0, CONFIG.MAX_ITEMS_PER_SITE);
+    return items
+      .filter((item, index, self) => self.findIndex(i => i.url === item.url) === index) // 去重
+      .sort((a, b) => {
+        const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
+        const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
+        return dateB - dateA;
+      })
+      .slice(0, CONFIG.MAX_ITEMS_PER_SITE);
       
   } catch (error) {
     console.error('Adobe 抓取失败:', error.message);
@@ -795,33 +876,42 @@ async function fetchFromAdobe() {
  */
 async function fetchFromMapbox() {
   try {
-    const url = 'https://www.mapbox.com/blog/';
-    const html = await fetch(url);
+    const url = 'https://www.mapbox.com/blog';
+    const html = await fetch(url); // fetch 函数现在会自动处理重定向
     const $ = cheerio.load(html);
     const items = [];
     
-    $('article, [class*="post"], [class*="article"], a[href*="/blog/"]').each((i, elem) => {
+    // 尝试多种选择器
+    $('article, [class*="post"], [class*="article"], [class*="blog"], a[href*="/blog/"]').each((i, elem) => {
       if (items.length >= CONFIG.MAX_ITEMS_PER_SITE * 2) return false;
       
       const $elem = $(elem);
-      const title = $elem.find('h1, h2, h3, h4, [class*="title"]').first().text().trim();
+      const title = $elem.find('h1, h2, h3, h4, [class*="title"], [class*="heading"]').first().text().trim();
       const link = $elem.attr('href') || $elem.find('a').first().attr('href');
-      const summary = $elem.find('p, [class*="summary"]').first().text().trim();
-      const dateStr = $elem.find('[class*="date"], time').first().text().trim();
+      const summary = $elem.find('p, [class*="summary"], [class*="excerpt"]').first().text().trim();
+      const dateStr = $elem.find('[class*="date"], time, [datetime]').first().attr('datetime') || 
+                      $elem.find('[class*="date"], time').first().text().trim();
       
-      if (title && link && (isAIRelated(title) || isAIRelated(summary))) {
-        const fullUrl = link.startsWith('http') ? link : `https://www.mapbox.com${link}`;
-        items.push({
-          title: translateToChinese(title),
-          url: fullUrl,
-          summary: translateToChinese(summary || title),
-          publishedAt: parseDate(dateStr),
-          tags: extractTags(title, summary)
-        });
+      if (title && link && title.length > 5) {
+        let fullUrl = link;
+        if (!link.startsWith('http')) {
+          fullUrl = link.startsWith('/') ? `https://www.mapbox.com${link}` : `https://www.mapbox.com/${link}`;
+        }
+        // 如果包含 AI 关键词，或者允许所有内容
+        if (isAIRelated(title + ' ' + summary) || items.length < 5) {
+          items.push({
+            title: translateToChinese(title),
+            url: fullUrl,
+            summary: translateToChinese(summary || title),
+            publishedAt: parseDate(dateStr),
+            tags: extractTags(title, summary)
+          });
+        }
       }
     });
     
     return items
+      .filter((item, index, self) => self.findIndex(i => i.url === item.url) === index) // 去重
       .sort((a, b) => {
         const dateA = a.publishedAt ? new Date(a.publishedAt) : new Date(0);
         const dateB = b.publishedAt ? new Date(b.publishedAt) : new Date(0);
