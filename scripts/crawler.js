@@ -281,6 +281,11 @@ async function fetchFromMaterial() {
     const html = await fetch(url);
     console.log(`  响应长度: ${html.length} 字符`);
     
+    if (!html || html.length < 100) {
+      console.error('  警告: 响应内容过短，可能请求失败');
+      return [];
+    }
+    
     const $ = cheerio.load(html);
     const items = [];
     
@@ -291,13 +296,15 @@ async function fetchFromMaterial() {
       const $elem = $(elem);
       let link = $elem.attr('href');
       
+      if (!link) return;
+      
       // 如果链接是相对路径，转换为绝对路径
-      if (link && !link.startsWith('http')) {
+      if (!link.startsWith('http')) {
         link = link.startsWith('/') ? `https://m3.material.io${link}` : `https://m3.material.io/${link}`;
       }
       
       // 跳过不包含 /blog/ 的链接（比如 /blog#main_content）或导航链接
-      if (!link || !link.includes('/blog/') || link.endsWith('#main_content') || 
+      if (!link.includes('/blog/') || link.endsWith('#main_content') || 
           link === 'https://m3.material.io/blog' || link.includes('/blog#')) {
         return;
       }
@@ -353,12 +360,61 @@ async function fetchFromMaterial() {
     
     console.log(`  找到 ${items.length} 个链接`);
     
-    // 去重并筛选（按URL去重）
-    const uniqueItems = items.filter((item, index, self) => 
-      self.findIndex(i => i.url === item.url) === index
-    );
+    // 如果没找到链接，尝试更宽松的选择器
+    if (items.length === 0) {
+      console.log(`  尝试更宽松的选择器...`);
+      // 尝试查找所有链接
+      $('a').each((i, elem) => {
+        if (items.length >= 50) return false;
+        const $elem = $(elem);
+        let link = $elem.attr('href');
+        if (!link) return;
+        
+        if (!link.startsWith('http')) {
+          link = link.startsWith('/') ? `https://m3.material.io${link}` : `https://m3.material.io/${link}`;
+        }
+        
+        if (link.includes('/blog/') && !link.endsWith('#main_content') && 
+            link !== 'https://m3.material.io/blog' && !link.includes('/blog#')) {
+          let title = $elem.text().trim();
+          if (title && title.length > 10 && !title.includes('Skip') && !title.includes('Blog')) {
+            // 提取标题（去掉日期）
+            const titleMatch = title.match(/((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d+,\s+\d{4})(.+)/i);
+            if (titleMatch) {
+              title = titleMatch[2].trim();
+            }
+            if (title && title.length > 5) {
+              items.push({
+                title: translateToChinese(title),
+                url: link,
+                summary: translateToChinese(title),
+                publishedAt: parseDate(titleMatch ? titleMatch[1] : null),
+                tags: extractTags(title, '')
+              });
+            }
+          }
+        }
+      });
+      console.log(`  使用宽松选择器找到 ${items.length} 个链接`);
+    }
     
-    console.log(`  去重后剩余 ${uniqueItems.length} 条`);
+    // 去重并筛选（按URL去重，规范化URL）
+    const normalizeUrl = (url) => {
+      try {
+        const urlObj = new URL(url);
+        // 移除查询参数和hash，只保留路径
+        return urlObj.origin + urlObj.pathname;
+      } catch (e) {
+        return url;
+      }
+    };
+    
+    const uniqueItems = items.filter((item, index, self) => {
+      const normalizedUrl = normalizeUrl(item.url);
+      return self.findIndex(i => normalizeUrl(i.url) === normalizedUrl) === index;
+    });
+    
+    console.log(`  去重后剩余 ${uniqueItems.length} 条（原始 ${items.length} 条）`);
     
     // 优先过滤 AI 相关内容
     const aiItems = uniqueItems.filter(item => 
@@ -390,7 +446,7 @@ async function fetchFromMaterial() {
   } catch (error) {
     console.error('Material Design 抓取失败:', error.message);
     console.error('错误堆栈:', error.stack);
-    return [];
+    throw error; // 重新抛出错误，让主函数捕获
   }
 }
 
@@ -535,12 +591,23 @@ async function fetchFromGoogleDesign() {
       console.log(`  使用宽松选择器找到 ${items.length} 个链接`);
     }
     
-    // 去重（按URL去重）
-    const uniqueItems = items.filter((item, index, self) => 
-      self.findIndex(i => i.url === item.url) === index
-    );
+    // 去重（按URL去重，规范化URL）
+    const normalizeUrl = (url) => {
+      try {
+        const urlObj = new URL(url);
+        // 移除查询参数和hash，只保留路径
+        return urlObj.origin + urlObj.pathname;
+      } catch (e) {
+        return url;
+      }
+    };
     
-    console.log(`  去重后剩余 ${uniqueItems.length} 条`);
+    const uniqueItems = items.filter((item, index, self) => {
+      const normalizedUrl = normalizeUrl(item.url);
+      return self.findIndex(i => normalizeUrl(i.url) === normalizedUrl) === index;
+    });
+    
+    console.log(`  去重后剩余 ${uniqueItems.length} 条（原始 ${items.length} 条）`);
     
     // 优先过滤 AI 相关内容
     const aiItems = uniqueItems.filter(item => 
@@ -1229,7 +1296,8 @@ async function main() {
       // 请求延迟，避免过于频繁
       await delay(CONFIG.REQUEST_DELAY);
     } catch (error) {
-      console.error(`  ✗ 抓取失败: ${error.message}\n`);
+      console.error(`  ✗ 抓取失败: ${error.message}`);
+      console.error(`  错误堆栈: ${error.stack}\n`);
       // 即使失败也添加空站点数据，前端会显示友好提示
       results.sites.push(wrapSiteSource(
         config.source,
