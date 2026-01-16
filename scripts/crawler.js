@@ -40,61 +40,70 @@ function fetch(url, options = {}) {
       const client = requestUrl.startsWith('https') ? https : http;
       const timeout = options.timeout || CONFIG.REQUEST_TIMEOUT;
       
-      const urlObj = new URL(requestUrl);
-      const requestOptions = {
-        hostname: urlObj.hostname,
-        port: urlObj.port || (urlObj.protocol === 'https:' ? 443 : 80),
-        path: urlObj.pathname + (urlObj.search || ''),
-        method: 'GET',
-        headers: {
-          'User-Agent': CONFIG.USER_AGENT,
-          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-          'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
-          'Accept-Encoding': 'gzip, deflate, br',
-          'Connection': 'keep-alive',
-          'Upgrade-Insecure-Requests': '1',
-          ...options.headers
-        },
-        timeout: timeout
-      };
+      try {
+        const urlObj = new URL(requestUrl);
+        const requestOptions = {
+          hostname: urlObj.hostname,
+          port: urlObj.port || (urlObj.protocol === 'https:' ? 443 : 80),
+          path: urlObj.pathname + (urlObj.search || ''),
+          method: 'GET',
+          headers: {
+            'User-Agent': CONFIG.USER_AGENT,
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+            // 移除 Accept-Encoding，避免需要解压gzip内容
+            'Connection': 'keep-alive',
+            ...options.headers
+          },
+          timeout: timeout
+        };
 
-      const req = client.request(requestOptions, (res) => {
-        // 处理重定向
-        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-          redirectCount++;
-          if (redirectCount > maxRedirects) {
-            reject(new Error(`Too many redirects (${redirectCount})`));
+        const req = client.request(requestOptions, (res) => {
+          // 处理重定向
+          if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+            redirectCount++;
+            if (redirectCount > maxRedirects) {
+              reject(new Error(`Too many redirects (${redirectCount})`));
+              return;
+            }
+            
+            let redirectUrl = res.headers.location;
+            // 处理相对URL
+            if (!redirectUrl.startsWith('http')) {
+              try {
+                const baseUrl = new URL(requestUrl);
+                redirectUrl = new URL(redirectUrl, baseUrl.origin).href;
+              } catch (e) {
+                reject(new Error(`Invalid redirect URL: ${redirectUrl}`));
+                return;
+              }
+            }
+            
+            // 清空响应数据，继续跟随重定向
+            res.resume(); // 清空响应流
+            return makeRequest(redirectUrl);
+          }
+          
+          if (res.statusCode !== 200) {
+            reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
             return;
           }
-          
-          let redirectUrl = res.headers.location;
-          // 处理相对URL
-          if (!redirectUrl.startsWith('http')) {
-            const baseUrl = new URL(requestUrl);
-            redirectUrl = new URL(redirectUrl, baseUrl.origin).href;
-          }
-          
-          // 继续跟随重定向
-          return makeRequest(redirectUrl);
-        }
+
+          let data = '';
+          res.on('data', chunk => data += chunk);
+          res.on('end', () => resolve(data));
+        });
+
+        req.on('error', reject);
+        req.on('timeout', () => {
+          req.destroy();
+          reject(new Error('Request timeout'));
+        });
         
-        if (res.statusCode !== 200) {
-          reject(new Error(`HTTP ${res.statusCode}: ${res.statusMessage}`));
-          return;
-        }
-
-        let data = '';
-        res.on('data', chunk => data += chunk);
-        res.on('end', () => resolve(data));
-      });
-
-      req.on('error', reject);
-      req.on('timeout', () => {
-        req.destroy();
-        reject(new Error('Request timeout'));
-      });
-      
-      req.end();
+        req.end();
+      } catch (urlError) {
+        reject(new Error(`Invalid URL: ${requestUrl} - ${urlError.message}`));
+      }
     };
     
     makeRequest(url);
