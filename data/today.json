@@ -1,11 +1,11 @@
 {
-  "date": "2026-02-09",
+  "date": "2026-02-11",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-02-08T16:24:18.335Z",
+      "updatedAt": "2026-02-10T16:58:37.039Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-02-08T16:24:20.850Z",
+      "updatedAt": "2026-02-10T16:58:39.742Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -27,7 +27,7 @@
             "生成式",
             "Copilot"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         },
         {
@@ -39,7 +39,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         },
         {
@@ -52,7 +52,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         },
         {
@@ -64,7 +64,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         },
         {
@@ -88,7 +88,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         },
         {
@@ -101,7 +101,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         },
         {
@@ -114,7 +114,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         },
         {
@@ -127,7 +127,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         },
         {
@@ -140,7 +140,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:20.850Z",
+          "publishedAt": "2026-02-10T16:58:39.742Z",
           "publishedAtRelative": ""
         }
       ]
@@ -149,137 +149,32 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-02-08T16:24:23.233Z",
+      "updatedAt": "2026-02-10T16:58:42.118Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "google-001",
-          "title": "Gemini Ai Visual Design",
+          "title": "Illustrating the Gemini App",
           "url": "https://design.google/library/gemini-ai-visual-design",
           "thumbnail": "",
-          "summary": "Gemini Ai Visual Design",
+          "summary": "0 results",
           "tags": [
-            "AI",
             "Gemini"
           ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
+          "publishedAt": "2026-02-10T16:58:42.118Z",
           "publishedAtRelative": ""
         },
         {
           "id": "google-002",
-          "title": "Google Sans Flex Font",
+          "title": "Making Google Sans Flex",
           "url": "https://design.google/library/google-sans-flex-font",
           "thumbnail": "",
-          "summary": "Google Sans Flex Font",
+          "summary": "0 results",
           "tags": [
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-003",
-          "title": "David Reinfurt Teaches Design",
-          "url": "https://design.google/library/david-reinfurt-teaches-design",
-          "thumbnail": "",
-          "summary": "David Reinfurt Teaches Design",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-004",
-          "title": "Hardware And Software Can Work Together",
-          "url": "https://design.google/library/hardware-and-software-can-work-together",
-          "thumbnail": "",
-          "summary": "Hardware And Software Can Work Together",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-005",
-          "title": "Ux Design System Dance",
-          "url": "https://design.google/library/ux-design-system-dance",
-          "thumbnail": "",
-          "summary": "Ux Design System Dance",
-          "tags": [
-            "设计系统",
-            "用户体验"
-          ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-006",
-          "title": "Open Source Custom Fonts Google",
-          "url": "https://design.google/library/open-source-custom-fonts-google",
-          "thumbnail": "",
-          "summary": "Open Source Custom Fonts Google",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-007",
-          "title": "Design Notes Material 3 Expressive Liam Spradlin",
-          "url": "https://design.google/library/design-notes-material-3-expressive-liam-spradlin",
-          "thumbnail": "",
-          "summary": "Design Notes Material 3 Expressive Liam Spradlin",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-008",
-          "title": "Expressive Material Design Google Research",
-          "url": "https://design.google/library/expressive-material-design-google-research",
-          "thumbnail": "",
-          "summary": "Expressive Material Design Google Research",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-009",
-          "title": "Neon Prism Tilt Variable Font",
-          "url": "https://design.google/library/neon-prism-tilt-variable-font",
-          "thumbnail": "",
-          "summary": "Neon Prism Tilt Variable Font",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-010",
-          "title": "Glacial Melt Font",
-          "url": "https://design.google/library/glacial-melt-font",
-          "thumbnail": "",
-          "summary": "Glacial Melt Font",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-08T16:24:23.233Z",
+          "publishedAt": "2026-02-10T16:58:42.118Z",
           "publishedAtRelative": ""
         }
       ]
@@ -288,7 +183,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-02-08T16:24:25.721Z",
+      "updatedAt": "2026-02-10T16:58:44.462Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -301,7 +196,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         },
         {
@@ -313,7 +208,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         },
         {
@@ -326,7 +221,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         },
         {
@@ -339,7 +234,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         },
         {
@@ -352,7 +247,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         },
         {
@@ -365,7 +260,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         },
         {
@@ -378,7 +273,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         },
         {
@@ -391,7 +286,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         },
         {
@@ -404,7 +299,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         },
         {
@@ -417,7 +312,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:25.721Z",
+          "publishedAt": "2026-02-10T16:58:44.462Z",
           "publishedAtRelative": ""
         }
       ]
@@ -426,11 +321,35 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-02-08T16:24:31.810Z",
+      "updatedAt": "2026-02-10T16:58:46.715Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "anthropic-001",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.com#main-content",
+          "thumbnail": "",
+          "summary": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
+          "tags": [
+            "工具"
+          ],
+          "publishedAt": "2026-02-04T16:00:00.000Z",
+          "publishedAtRelative": "6天前"
+        },
+        {
+          "id": "anthropic-002",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.commailto:press@anthropic.com",
+          "thumbnail": "",
+          "summary": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
+          "tags": [
+            "工具"
+          ],
+          "publishedAt": "2026-02-04T16:00:00.000Z",
+          "publishedAtRelative": "6天前"
+        },
+        {
+          "id": "anthropic-003",
           "title": "Introducing Claude Opus 4.6",
           "url": "https://www.anthropic.com/news/claude-opus-4-6",
           "thumbnail": "",
@@ -440,10 +359,10 @@
             "Claude"
           ],
           "publishedAt": "2026-02-04T16:00:00.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "6天前"
         },
         {
-          "id": "anthropic-002",
+          "id": "anthropic-004",
           "title": "Introducing Claude Opus 4.6",
           "url": "https://www.anthropic.com/news/claude-opus-4-6",
           "thumbnail": "",
@@ -452,35 +371,7 @@
             "Claude"
           ],
           "publishedAt": "2026-02-04T16:00:00.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "anthropic-003",
-          "title": "Newsroom",
-          "url": "https://www.anthropic.com#main-content",
-          "thumbnail": "",
-          "summary": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
-          "tags": [
-            "AI",
-            "Copilot",
-            "Claude"
-          ],
-          "publishedAt": "2026-02-03T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
-        },
-        {
-          "id": "anthropic-004",
-          "title": "Newsroom",
-          "url": "https://www.anthropic.commailto:press@anthropic.com",
-          "thumbnail": "",
-          "summary": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
-          "tags": [
-            "AI",
-            "Copilot",
-            "Claude"
-          ],
-          "publishedAt": "2026-02-03T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
           "id": "anthropic-005",
@@ -494,7 +385,7 @@
             "Claude"
           ],
           "publishedAt": "2026-02-03T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "anthropic-006",
@@ -506,7 +397,7 @@
             "Claude"
           ],
           "publishedAt": "2026-02-03T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "anthropic-007",
@@ -518,7 +409,7 @@
             "Claude"
           ],
           "publishedAt": "2026-02-02T16:00:00.000Z",
-          "publishedAtRelative": "6天前"
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "anthropic-008",
@@ -563,7 +454,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-02-08T16:24:33.843Z",
+      "updatedAt": "2026-02-10T16:58:48.786Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -571,7 +462,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-02-08T16:24:36.035Z",
+      "updatedAt": "2026-02-10T16:58:50.916Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -579,11 +470,35 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-02-08T16:24:38.619Z",
+      "updatedAt": "2026-02-10T16:58:53.475Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "googleai-001",
+          "title": "Go on a guided walking tour with Gemini in Google Maps, or get hands-free directions while biking",
+          "url": "https://blog.google/products-and-platforms/products/maps/gemini-navigation-biking-walking/?utm_source=ai.google&utm_medium=referral",
+          "thumbnail": "",
+          "summary": "Go on a guided walking tour with Gemini in Google Maps, or get hands-free directions while biking",
+          "tags": [
+            "Gemini"
+          ],
+          "publishedAt": "2026-02-10T16:58:53.475Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-002",
+          "title": "Use Gemini in Chrome to transform images in your current browser window",
+          "url": "https://www.google.com/chrome/ai-innovations/?utm_source=ai.google&utm_medium=referral",
+          "thumbnail": "",
+          "summary": "Use Gemini in Chrome to transform images in your current browser window",
+          "tags": [
+            "Gemini"
+          ],
+          "publishedAt": "2026-02-10T16:58:53.475Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-003",
           "title": "Respond to emails in one-click with Suggested Replies that use the context of your conversation",
           "url": "https://mail.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -591,11 +506,11 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
+          "publishedAt": "2026-02-10T16:58:53.475Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-002",
+          "id": "googleai-004",
           "title": "Create high-fidelity visuals using up to 14 images with Nano Banana Pro (Gemini 3 Pro Image)",
           "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral&target=image",
           "thumbnail": "",
@@ -604,11 +519,11 @@
             "生成式",
             "Gemini"
           ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
+          "publishedAt": "2026-02-10T16:58:53.475Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-003",
+          "id": "googleai-005",
           "title": "Tackle complex topics in AI Mode with dynamic visual layouts with interactive tools and simulations in real-time",
           "url": "https://google.ai/",
           "thumbnail": "",
@@ -617,11 +532,11 @@
             "AI",
             "工具"
           ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
+          "publishedAt": "2026-02-10T16:58:53.475Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-004",
+          "id": "googleai-006",
           "title": "Try Veo 3.1 for more advanced video storytelling",
           "url": "https://labs.google/flow/about?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -630,11 +545,11 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
+          "publishedAt": "2026-02-10T16:58:53.475Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-005",
+          "id": "googleai-007",
           "title": "Move beyond text in the Gemini app with a visually immersive response including photos and interactive modules",
           "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -642,11 +557,11 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
+          "publishedAt": "2026-02-10T16:58:53.475Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-006",
+          "id": "googleai-008",
           "title": "Let Gemini design and code a unique user interface that's tailored specifically for your prompt",
           "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -655,11 +570,11 @@
             "AI",
             "Gemini"
           ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
+          "publishedAt": "2026-02-10T16:58:53.475Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-007",
+          "id": "googleai-009",
           "title": "Let Gemini Agent complete multi-step tasks from start to finish, while keeping you in control",
           "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -667,11 +582,11 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
+          "publishedAt": "2026-02-10T16:58:53.475Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-008",
+          "id": "googleai-010",
           "title": "Verify if an image was generated by Google AI directly in the Gemini app",
           "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -680,32 +595,7 @@
             "AI",
             "Gemini"
           ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-009",
-          "title": "Transform your images in Google Photos' editor with Nano Banana",
-          "url": "http://photos.google.com/?utm_source=ai.google&utm_medium=referral",
-          "thumbnail": "",
-          "summary": "Transform your images in Google Photos' editor with Nano Banana",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-010",
-          "title": "Try Google Maps' new hands-free AI driving companion",
-          "url": "https://blog.google/products/maps/gemini-navigation-features-landmark-lens/?utm_source=ai.google&utm_medium=referral",
-          "thumbnail": "",
-          "summary": "Try Google Maps' new hands-free AI driving companion",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-02-08T16:24:38.619Z",
+          "publishedAt": "2026-02-10T16:58:53.475Z",
           "publishedAtRelative": ""
         }
       ]
@@ -714,7 +604,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-02-08T16:24:40.705Z",
+      "updatedAt": "2026-02-10T16:58:55.584Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -722,7 +612,7 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-02-08T16:24:43.085Z",
+      "updatedAt": "2026-02-10T16:58:57.927Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -734,12 +624,76 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-06T20:12:14.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAt": "2026-02-09T19:34:05.000Z",
+          "publishedAtRelative": "21小时前"
         },
         {
           "id": "aws-002",
           "title": "Artificial Intelligence",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automated-reasoning-checks-rewriting-chatbot-reference-implementation/",
+          "thumbnail": "",
+          "summary": "This blog post dives deeper into the implementation architecture for the Automated Reasoning checks rewriting chatbot.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-09T19:34:05.000Z",
+          "publishedAtRelative": "21小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Scale LLM fine-tuning with Hugging Face and Amazon SageMaker AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scale-llm-fine-tuning-with-hugging-face-and-amazon-sagemaker-ai/",
+          "thumbnail": "",
+          "summary": "In this post, we show how this integrated approach transforms enterprise LLM fine-tuning from a complex, resource-intensive challenge into a streamlined, scalable solution for achieving better model performance in domain-specific applications.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-09T16:48:46.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "aws-004",
+          "title": "New Relic transforms productivity with generative AI on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/new-relic-transforms-productivity-with-generative-ai-on-aws/",
+          "thumbnail": "",
+          "summary": "Working with the Generative AI Innovation Center, New Relic NOVA (New Relic Omnipresence Virtual Assistant) evolved from a knowledge assistant into a comprehensive productivity engine. We explore the technical architecture, development journey, and key lessons learned in building an enterprise-grade AI solution that delivers measurable productivity gains at scale.",
+          "tags": [
+            "AI",
+            "生成式",
+            "Copilot"
+          ],
+          "publishedAt": "2026-02-09T16:45:16.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "aws-005",
+          "title": "Accelerate agentic application development with a full-stack starter template for Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-application-development-with-a-full-stack-starter-template-for-amazon-bedrock-agentcore/",
+          "thumbnail": "",
+          "summary": "In this post, you will learn how to deploy Fullstack AgentCore Solution Template (FAST) to your Amazon Web Services (AWS) account, understand its architecture, and see how to extend it for your requirements. You will learn how to build your own agent while FAST handles authentication, infrastructure as code (IaC), deployment pipelines, and service integration.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-02-09T16:40:58.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "aws-006",
+          "title": "Agent-to-agent collaboration: Using Amazon Nova 2 Lite and Amazon Nova Act for multi-agent systems",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agent-to-agent-collaboration-using-amazon-nova-2-lite-and-amazon-nova-act-for-multi-agent-systems/",
+          "thumbnail": "",
+          "summary": "This post walks through how agent-to-agent collaboration on Amazon Bedrock works in practice, using Amazon Nova 2 Lite for planning and Amazon Nova Act for browser interaction, to turn a fragile single-agent setup into a predictable multi-agent system.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-02-09T16:00:28.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "aws-007",
+          "title": "Structured outputs on Amazon Bedrock: Schema-compliant AI responses",
           "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-on-amazon-bedrock-schema-compliant-ai-responses/",
           "thumbnail": "",
           "summary": "Today, we’re announcing structured outputs on Amazon Bedrock—a capability that fundamentally transforms how you can obtain validated JSON responses from foundation models through constrained decoding for schema compliance. In this post, we explore the challenges of traditional JSON generation and how structured outputs solves them. We cover the two core mechanisms—JSON Schema output format and strict tool use—along with implementation details, best practices, and practical code examples.",
@@ -748,10 +702,10 @@
             "工具"
           ],
           "publishedAt": "2026-02-06T20:12:14.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-008",
           "title": "Manage Amazon SageMaker HyperPod clusters using the HyperPod CLI and SDK",
           "url": "https://aws.amazon.com/blogs/machine-learning/manage-amazon-sagemaker-hyperpod-clusters-using-the-hyperpod-cli-and-sdk/",
           "thumbnail": "",
@@ -760,10 +714,10 @@
             "生成式"
           ],
           "publishedAt": "2026-02-06T19:27:45.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-004",
+          "id": "aws-009",
           "title": "Evaluate generative AI models with an Amazon Nova rubric-based LLM judge on Amazon SageMaker AI (Part 2)",
           "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-generative-ai-models-with-an-amazon-nova-rubric-based-llm-judge-on-amazon-sagemaker-ai-part-2/",
           "thumbnail": "",
@@ -773,10 +727,10 @@
             "生成式"
           ],
           "publishedAt": "2026-02-06T16:29:45.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "aws-005",
+          "id": "aws-010",
           "title": "How Associa transforms document classification with the GenAI IDP Accelerator and Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-associa-transforms-document-classification-with-the-genai-idp-accelerator-and-amazon-bedrock/",
           "thumbnail": "",
@@ -786,71 +740,6 @@
             "生成式"
           ],
           "publishedAt": "2026-02-05T20:41:52.000Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-006",
-          "title": "A practical guide to Amazon Nova Multimodal Embeddings",
-          "url": "https://aws.amazon.com/blogs/machine-learning/a-practical-guide-to-amazon-nova-multimodal-embeddings/",
-          "thumbnail": "",
-          "summary": "In this post, you will learn how to configure and use Amazon Nova Multimodal Embeddings for media asset search systems, product discovery experiences, and document retrieval applications.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-05T20:35:34.000Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-007",
-          "title": "Accelerating your marketing ideation with generative AI – Part 2: Generate custom marketing images from historical references",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-your-marketing-ideation-with-generative-ai-part-2-generate-custom-marketing-images-from-historical-references/",
-          "thumbnail": "",
-          "summary": "Building upon our earlier work of marketing campaign image generation using Amazon Nova foundation models, in this post, we demonstrate how to enhance image generation by learning from previous marketing campaigns. We explore how to integrate Amazon Bedrock, AWS Lambda, and Amazon OpenSearch Serverless to create an advanced image generation system that uses reference campaigns to maintain brand guidelines, deliver consistent content, and enhance the effectiveness and efficiency of new campaign creation.",
-          "tags": [
-            "AI",
-            "生成式"
-          ],
-          "publishedAt": "2026-02-04T15:57:24.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Democratizing business intelligence: BGL’s journey with Claude Agent SDK and Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/democratizing-business-intelligence-bgls-journey-with-claude-agent-sdk-and-amazon-bedrock-agentcore/",
-          "thumbnail": "",
-          "summary": "BGL is a leading provider of self-managed superannuation fund (SMSF) administration solutions that help individuals manage the complex compliance and reporting of their own or a client’s retirement savings, serving over 12,700 businesses across 15 countries. In this blog post, we explore how BGL built its production-ready AI agent using Claude Agent SDK and Amazon Bedrock AgentCore.",
-          "tags": [
-            "AI",
-            "Claude"
-          ],
-          "publishedAt": "2026-02-03T20:28:29.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Use Amazon Quick Suite custom action connectors to upload text files to Google Drive using OpenAPI specification",
-          "url": "https://aws.amazon.com/blogs/machine-learning/use-amazon-quick-suite-custom-action-connectors-to-upload-text-files-to-google-drive-using-openapi-specification/",
-          "thumbnail": "",
-          "summary": "In this post, we demonstrate how to build a secure file upload solution by integrating Google Drive with Amazon Quick Suite custom connectors using Amazon API Gateway and AWS Lambda.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-03T19:14:30.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "AI agents in enterprises: Best practices with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/ai-agents-in-enterprises-best-practices-with-amazon-bedrock-agentcore/",
-          "thumbnail": "",
-          "summary": "This post explores nine essential best practices for building enterprise AI agents using Amazon Bedrock AgentCore. Amazon Bedrock AgentCore is an agentic platform that provides the services you need to create, deploy, and manage AI agents at scale. In this post, we cover everything from initial scoping to organizational scaling, with practical guidance that you can apply immediately.",
-          "tags": [
-            "AI",
-            "生成式"
-          ],
-          "publishedAt": "2026-02-03T18:44:43.000Z",
           "publishedAtRelative": "4天前"
         }
       ]
@@ -859,7 +748,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-02-08T16:24:45.330Z",
+      "updatedAt": "2026-02-10T16:59:00.128Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -867,7 +756,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-02-08T16:24:47.656Z",
+      "updatedAt": "2026-02-10T16:59:02.535Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -880,7 +769,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:47.656Z",
+          "publishedAt": "2026-02-10T16:59:02.535Z",
           "publishedAtRelative": ""
         },
         {
@@ -893,7 +782,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:47.656Z",
+          "publishedAt": "2026-02-10T16:59:02.535Z",
           "publishedAtRelative": ""
         },
         {
@@ -906,7 +795,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:47.656Z",
+          "publishedAt": "2026-02-10T16:59:02.535Z",
           "publishedAtRelative": ""
         },
         {
@@ -918,7 +807,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:47.656Z",
+          "publishedAt": "2026-02-10T16:59:02.535Z",
           "publishedAtRelative": ""
         },
         {
@@ -931,7 +820,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-08T16:24:47.656Z",
+          "publishedAt": "2026-02-10T16:59:02.535Z",
           "publishedAtRelative": ""
         }
       ]
