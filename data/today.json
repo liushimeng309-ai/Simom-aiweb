@@ -1,11 +1,11 @@
 {
-  "date": "2026-02-18",
+  "date": "2026-02-19",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-02-17T16:52:12.375Z",
+      "updatedAt": "2026-02-18T16:57:59.557Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,134 +13,133 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-02-17T16:52:14.608Z",
+      "updatedAt": "2026-02-18T16:58:02.044Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "microsoft-001",
-          "title": "AI",
-          "url": "https://microsoft.design/news-and-stories/category/ai/",
+          "title": "Product",
+          "url": "https://microsoft.design/news-and-stories/category/product/",
           "thumbnail": "",
           "summary": "How we redesigned the Microsoft 365 Copilot mobile app to create a workspace built around conversation, dialogue, and discovery.",
           "tags": [
-            "AI",
             "生成式",
             "Copilot"
           ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
+          "publishedAt": "2026-02-18T16:58:02.044Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-002",
-          "title": "UX/UI",
-          "url": "https://microsoft.design/news-and-stories/category/ux-ui/",
+          "title": "Product",
+          "url": "https://microsoft.design/news-and-stories/category/product/",
           "thumbnail": "",
           "summary": "Evolving business apps and agents through form and function",
           "tags": [
-            "用户体验"
+            "设计",
+            "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
+          "publishedAt": "2026-02-18T16:58:02.044Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-003",
-          "title": "AI",
-          "url": "https://microsoft.design/news-and-stories/category/ai/",
+          "title": "Craft",
+          "url": "https://microsoft.design/news-and-stories/category/craft/",
           "thumbnail": "",
           "summary": "AI could create economic mobility for essential frontline workers—here’s how product makers can shift our thinking to encompass those experiences",
           "tags": [
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
+          "publishedAt": "2026-02-18T16:58:02.044Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-004",
-          "title": "Hardware",
-          "url": "https://microsoft.design/news-and-stories/category/hardware/",
+          "title": "Product",
+          "url": "https://microsoft.design/news-and-stories/category/product/",
           "thumbnail": "",
           "summary": "How we crafted a new line of Surface Copilot+ PCs to empower creation, connection and change",
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
+          "publishedAt": "2026-02-18T16:58:02.044Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-005",
-          "title": "Inclusive Design",
-          "url": "https://microsoft.design/news-and-stories/category/inclusive-design/",
+          "title": "Craft",
+          "url": "https://microsoft.design/news-and-stories/category/craft/",
           "thumbnail": "",
           "summary": "The Microsoft Packaging & Content team just released “Creating Accessible Packaging: An Inclusive Design Guide,” available for all.",
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
+          "publishedAt": "2026-02-18T16:58:02.044Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-006",
-          "title": "AI",
-          "url": "https://microsoft.design/news-and-stories/category/ai/",
+          "title": "Microsoft Design",
+          "url": "https://microsoft.design/news-and-stories/category/inspiration/",
           "thumbnail": "",
-          "summary": "AI",
+          "summary": "What we learned rebuilding the Microsoft Inclusive Design website with the communities we serve",
           "tags": [
+            "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
+          "publishedAt": "2026-02-18T16:58:02.044Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-007",
-          "title": "Microsoft Design",
-          "url": "https://microsoft.design/news-and-stories/category/inclusive-design/",
+          "title": "Inspiration",
+          "url": "https://microsoft.design/news-and-stories/category/inspiration/",
           "thumbnail": "",
           "summary": "What we learned rebuilding the Microsoft Inclusive Design website with the communities we serve",
           "tags": [
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
+          "publishedAt": "2026-02-18T16:58:02.044Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-008",
-          "title": "Inclusive Design",
-          "url": "https://microsoft.design/news-and-stories/category/inclusive-design/",
-          "thumbnail": "",
-          "summary": "What we learned rebuilding the Microsoft Inclusive Design website with the communities we serve",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "microsoft-009",
-          "title": "Iconography",
-          "url": "https://microsoft.design/news-and-stories/category/iconography/",
+          "title": "Product",
+          "url": "https://microsoft.design/news-and-stories/category/product/",
           "thumbnail": "",
           "summary": "How a subtle refresh of our Microsoft 365 icons signals deeper change.",
           "tags": [
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
+          "publishedAt": "2026-02-18T16:58:02.044Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "microsoft-009",
+          "title": "UX Research",
+          "url": "https://microsoft.design/news-and-stories/category/ux-research/",
+          "thumbnail": "",
+          "summary": "UX Research",
+          "tags": [
+            "用户体验"
+          ],
+          "publishedAt": "2026-02-18T16:58:02.044Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-010",
-          "title": "Think First",
-          "url": "https://microsoft.design/news-and-stories/category/ux-research/think-first/",
+          "title": "UX Research",
+          "url": "https://microsoft.design/news-and-stories/category/ux-research/",
           "thumbnail": "",
-          "summary": "Think First",
+          "summary": "UX Research",
           "tags": [
-            "设计",
-            "AI"
+            "用户体验"
           ],
-          "publishedAt": "2026-02-17T16:52:14.608Z",
+          "publishedAt": "2026-02-18T16:58:02.044Z",
           "publishedAtRelative": ""
         }
       ]
@@ -149,7 +148,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-02-17T16:52:16.900Z",
+      "updatedAt": "2026-02-18T16:58:04.335Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -161,7 +160,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-17T16:52:16.900Z",
+          "publishedAt": "2026-02-18T16:58:04.335Z",
           "publishedAtRelative": ""
         },
         {
@@ -174,7 +173,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:16.900Z",
+          "publishedAt": "2026-02-18T16:58:04.335Z",
           "publishedAtRelative": ""
         }
       ]
@@ -183,7 +182,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-02-17T16:52:19.341Z",
+      "updatedAt": "2026-02-18T16:58:06.696Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -196,7 +195,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -208,7 +207,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -221,7 +220,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -234,7 +233,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -247,7 +246,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -260,7 +259,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -273,7 +272,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -286,7 +285,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -299,7 +298,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -312,7 +311,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:19.341Z",
+          "publishedAt": "2026-02-18T16:58:06.696Z",
           "publishedAtRelative": ""
         }
       ]
@@ -321,11 +320,49 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-02-17T16:52:22.887Z",
+      "updatedAt": "2026-02-18T16:58:15.272Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "anthropic-001",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.com#main-content",
+          "thumbnail": "",
+          "summary": "Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-02-16T16:00:00.000Z",
+          "publishedAtRelative": "2天前"
+        },
+        {
+          "id": "anthropic-002",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.commailto:press@anthropic.com",
+          "thumbnail": "",
+          "summary": "Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-02-16T16:00:00.000Z",
+          "publishedAtRelative": "2天前"
+        },
+        {
+          "id": "anthropic-003",
+          "title": "Introducing Claude Sonnet 4.6",
+          "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+          "thumbnail": "",
+          "summary": "Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-02-16T16:00:00.000Z",
+          "publishedAtRelative": "2天前"
+        },
+        {
+          "id": "anthropic-004",
           "title": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
           "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
           "thumbnail": "",
@@ -335,10 +372,22 @@
             "Claude"
           ],
           "publishedAt": "2026-02-16T16:00:00.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "anthropic-002",
+          "id": "anthropic-005",
+          "title": "Introducing Claude Sonnet 4.6",
+          "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+          "thumbnail": "",
+          "summary": "Introducing Claude Sonnet 4.6",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-02-16T16:00:00.000Z",
+          "publishedAtRelative": "2天前"
+        },
+        {
+          "id": "anthropic-006",
           "title": "Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries",
           "url": "https://www.anthropic.com/news/anthropic-infosys",
           "thumbnail": "",
@@ -348,10 +397,10 @@
             "Claude"
           ],
           "publishedAt": "2026-02-16T16:00:00.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "anthropic-003",
+          "id": "anthropic-007",
           "title": "Anthropic opens Bengaluru office and announces new partnerships across India",
           "url": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
           "thumbnail": "",
@@ -360,10 +409,10 @@
             "Claude"
           ],
           "publishedAt": "2026-02-15T16:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "anthropic-004",
+          "id": "anthropic-008",
           "title": "Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program",
           "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
           "thumbnail": "",
@@ -372,10 +421,10 @@
             "Claude"
           ],
           "publishedAt": "2026-02-12T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
-          "id": "anthropic-005",
+          "id": "anthropic-009",
           "title": "Chris Liddell appointed to Anthropic’s board of directors",
           "url": "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
           "thumbnail": "",
@@ -384,10 +433,10 @@
             "Claude"
           ],
           "publishedAt": "2026-02-12T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
-          "id": "anthropic-006",
+          "id": "anthropic-010",
           "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
           "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
           "thumbnail": "",
@@ -397,56 +446,6 @@
             "Claude"
           ],
           "publishedAt": "2026-02-11T16:00:00.000Z",
-          "publishedAtRelative": "6天前"
-        },
-        {
-          "id": "anthropic-007",
-          "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
-          "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
-          "thumbnail": "",
-          "summary": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation",
-          "tags": [
-            "AI",
-            "Claude"
-          ],
-          "publishedAt": "2026-02-11T16:00:00.000Z",
-          "publishedAtRelative": "6天前"
-        },
-        {
-          "id": "anthropic-008",
-          "title": "Anthropic is donating $20 million to Public First Action",
-          "url": "https://www.anthropic.com/news/donate-public-first-action",
-          "thumbnail": "",
-          "summary": "Anthropic is donating $20 million to Public First Action",
-          "tags": [
-            "Claude"
-          ],
-          "publishedAt": "2026-02-11T16:00:00.000Z",
-          "publishedAtRelative": "6天前"
-        },
-        {
-          "id": "anthropic-009",
-          "title": "Covering electricity price increases from our data centers",
-          "url": "https://www.anthropic.com/news/covering-electricity-price-increases",
-          "thumbnail": "",
-          "summary": "Covering electricity price increases from our data centers",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-10T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-010",
-          "title": "Newsroom",
-          "url": "https://www.anthropic.com#main-content",
-          "thumbnail": "",
-          "summary": "We’re upgrading our smartest model. Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin.",
-          "tags": [
-            "工具"
-          ],
-          "publishedAt": "2026-02-04T16:00:00.000Z",
           "publishedAtRelative": "0个月前"
         }
       ]
@@ -455,7 +454,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-02-17T16:52:24.934Z",
+      "updatedAt": "2026-02-18T16:58:17.364Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -463,7 +462,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-02-17T16:52:27.194Z",
+      "updatedAt": "2026-02-18T16:58:19.498Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -471,11 +470,36 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-02-17T16:52:29.926Z",
+      "updatedAt": "2026-02-18T16:58:22.119Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "googleai-001",
+          "title": "Create custom soundtracks in the Gemini app with Lyria 3, our latest generative music model",
+          "url": "https://gemini.google.com/music?utm_source=ai.google&utm_medium=referral",
+          "thumbnail": "",
+          "summary": "Create custom soundtracks in the Gemini app with Lyria 3, our latest generative music model",
+          "tags": [
+            "生成式",
+            "Gemini"
+          ],
+          "publishedAt": "2026-02-18T16:58:22.119Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-002",
+          "title": "Create the perfect soundtrack to your YouTube Short with Lyria in Dream Track",
+          "url": "https://support.google.com/youtube/answer/14151606?hl=en",
+          "thumbnail": "",
+          "summary": "Create the perfect soundtrack to your YouTube Short with Lyria in Dream Track",
+          "tags": [
+            "生成式"
+          ],
+          "publishedAt": "2026-02-18T16:58:22.119Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-003",
           "title": "Go on a guided walking tour with Gemini in Google Maps, or get hands-free directions while biking",
           "url": "https://blog.google/products-and-platforms/products/maps/gemini-navigation-biking-walking/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -483,11 +507,11 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
+          "publishedAt": "2026-02-18T16:58:22.119Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-002",
+          "id": "googleai-004",
           "title": "Use Gemini in Chrome to transform images in your current browser window",
           "url": "https://www.google.com/chrome/ai-innovations/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -495,11 +519,11 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
+          "publishedAt": "2026-02-18T16:58:22.119Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-003",
+          "id": "googleai-005",
           "title": "Respond to emails in one-click with Suggested Replies that use the context of your conversation",
           "url": "https://mail.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -507,11 +531,11 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
+          "publishedAt": "2026-02-18T16:58:22.119Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-004",
+          "id": "googleai-006",
           "title": "Create high-fidelity visuals using up to 14 images with Nano Banana Pro (Gemini 3 Pro Image)",
           "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral&target=image",
           "thumbnail": "",
@@ -520,11 +544,11 @@
             "生成式",
             "Gemini"
           ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
+          "publishedAt": "2026-02-18T16:58:22.119Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-005",
+          "id": "googleai-007",
           "title": "Tackle complex topics in AI Mode with dynamic visual layouts with interactive tools and simulations in real-time",
           "url": "https://google.ai/",
           "thumbnail": "",
@@ -533,11 +557,11 @@
             "AI",
             "工具"
           ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
+          "publishedAt": "2026-02-18T16:58:22.119Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-006",
+          "id": "googleai-008",
           "title": "Try Veo 3.1 for more advanced video storytelling",
           "url": "https://labs.google/flow/about?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -546,11 +570,11 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
+          "publishedAt": "2026-02-18T16:58:22.119Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-007",
+          "id": "googleai-009",
           "title": "Move beyond text in the Gemini app with a visually immersive response including photos and interactive modules",
           "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -558,11 +582,11 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
+          "publishedAt": "2026-02-18T16:58:22.119Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-008",
+          "id": "googleai-010",
           "title": "Let Gemini design and code a unique user interface that's tailored specifically for your prompt",
           "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -571,32 +595,7 @@
             "AI",
             "Gemini"
           ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-009",
-          "title": "Let Gemini Agent complete multi-step tasks from start to finish, while keeping you in control",
-          "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
-          "thumbnail": "",
-          "summary": "Let Gemini Agent complete multi-step tasks from start to finish, while keeping you in control",
-          "tags": [
-            "Gemini"
-          ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-010",
-          "title": "Verify if an image was generated by Google AI directly in the Gemini app",
-          "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
-          "thumbnail": "",
-          "summary": "Verify if an image was generated by Google AI directly in the Gemini app",
-          "tags": [
-            "AI",
-            "Gemini"
-          ],
-          "publishedAt": "2026-02-17T16:52:29.926Z",
+          "publishedAt": "2026-02-18T16:58:22.119Z",
           "publishedAtRelative": ""
         }
       ]
@@ -605,7 +604,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-02-17T16:52:32.034Z",
+      "updatedAt": "2026-02-18T16:58:24.311Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -613,7 +612,7 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-02-17T16:52:34.365Z",
+      "updatedAt": "2026-02-18T16:58:26.660Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -626,7 +625,7 @@
             "AI"
           ],
           "publishedAt": "2026-02-13T22:57:34.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "aws-002",
@@ -638,7 +637,7 @@
             "AI"
           ],
           "publishedAt": "2026-02-13T22:57:34.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "aws-003",
@@ -651,7 +650,7 @@
             "生成式"
           ],
           "publishedAt": "2026-02-12T20:18:58.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "5天前"
         },
         {
           "id": "aws-004",
@@ -663,7 +662,7 @@
             "AI"
           ],
           "publishedAt": "2026-02-12T20:16:20.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "5天前"
         },
         {
           "id": "aws-005",
@@ -676,7 +675,7 @@
             "生成式"
           ],
           "publishedAt": "2026-02-11T19:38:47.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
           "id": "aws-006",
@@ -689,7 +688,7 @@
             "用户体验"
           ],
           "publishedAt": "2026-02-11T15:52:54.000Z",
-          "publishedAtRelative": "6天前"
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "aws-007",
@@ -702,7 +701,7 @@
             "生成式"
           ],
           "publishedAt": "2026-02-11T15:48:15.000Z",
-          "publishedAtRelative": "6天前"
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "aws-008",
@@ -714,7 +713,7 @@
             "AI"
           ],
           "publishedAt": "2026-02-11T15:45:30.000Z",
-          "publishedAtRelative": "6天前"
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "aws-009",
@@ -727,7 +726,7 @@
             "设计系统"
           ],
           "publishedAt": "2026-02-10T18:34:09.000Z",
-          "publishedAtRelative": "6天前"
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "aws-010",
@@ -739,7 +738,7 @@
             "AI"
           ],
           "publishedAt": "2026-02-10T18:31:57.000Z",
-          "publishedAtRelative": "6天前"
+          "publishedAtRelative": "0个月前"
         }
       ]
     },
@@ -747,7 +746,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-02-17T16:52:36.465Z",
+      "updatedAt": "2026-02-18T16:58:28.824Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -755,7 +754,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-02-17T16:52:38.796Z",
+      "updatedAt": "2026-02-18T16:58:31.216Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -768,7 +767,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:38.796Z",
+          "publishedAt": "2026-02-18T16:58:31.216Z",
           "publishedAtRelative": ""
         },
         {
@@ -781,7 +780,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:38.796Z",
+          "publishedAt": "2026-02-18T16:58:31.216Z",
           "publishedAtRelative": ""
         },
         {
@@ -794,7 +793,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:38.796Z",
+          "publishedAt": "2026-02-18T16:58:31.216Z",
           "publishedAtRelative": ""
         },
         {
@@ -806,7 +805,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:38.796Z",
+          "publishedAt": "2026-02-18T16:58:31.216Z",
           "publishedAtRelative": ""
         },
         {
@@ -819,7 +818,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-17T16:52:38.796Z",
+          "publishedAt": "2026-02-18T16:58:31.216Z",
           "publishedAtRelative": ""
         }
       ]
