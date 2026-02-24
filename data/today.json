@@ -1,11 +1,11 @@
 {
-  "date": "2026-02-24",
+  "date": "2026-02-25",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-02-23T16:51:01.097Z",
+      "updatedAt": "2026-02-24T17:00:57.347Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-02-23T16:51:03.263Z",
+      "updatedAt": "2026-02-24T17:00:59.800Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "生成式",
             "Copilot"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         },
         {
@@ -39,7 +39,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         },
         {
@@ -52,7 +52,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         },
         {
@@ -64,7 +64,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         },
         {
@@ -89,7 +89,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         },
         {
@@ -102,7 +102,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         },
         {
@@ -115,7 +115,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         },
         {
@@ -127,7 +127,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         },
         {
@@ -139,7 +139,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-02-23T16:51:03.263Z",
+          "publishedAt": "2026-02-24T17:00:59.800Z",
           "publishedAtRelative": ""
         }
       ]
@@ -148,7 +148,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-02-23T16:51:05.728Z",
+      "updatedAt": "2026-02-24T17:01:02.202Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -160,7 +160,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-23T16:51:05.729Z",
+          "publishedAt": "2026-02-24T17:01:02.202Z",
           "publishedAtRelative": ""
         },
         {
@@ -173,7 +173,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:05.729Z",
+          "publishedAt": "2026-02-24T17:01:02.202Z",
           "publishedAtRelative": ""
         }
       ]
@@ -182,7 +182,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-02-23T16:51:08.157Z",
+      "updatedAt": "2026-02-24T17:01:04.708Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -195,7 +195,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         },
         {
@@ -207,7 +207,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         },
         {
@@ -220,7 +220,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         },
         {
@@ -233,7 +233,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         },
         {
@@ -246,7 +246,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         },
         {
@@ -259,7 +259,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         },
         {
@@ -272,7 +272,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         },
         {
@@ -285,7 +285,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         },
         {
@@ -298,7 +298,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         },
         {
@@ -311,7 +311,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:08.157Z",
+          "publishedAt": "2026-02-24T17:01:04.708Z",
           "publishedAtRelative": ""
         }
       ]
@@ -320,11 +320,24 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-02-23T16:51:10.365Z",
+      "updatedAt": "2026-02-24T17:01:16.661Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "anthropic-001",
+          "title": "Detecting and preventing distillation attacks",
+          "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
+          "thumbnail": "",
+          "summary": "Detecting and preventing distillation attacks",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-02-22T16:00:00.000Z",
+          "publishedAtRelative": "2天前"
+        },
+        {
+          "id": "anthropic-002",
           "title": "Making frontier cybersecurity capabilities available to defenders",
           "url": "https://www.anthropic.com/news/claude-code-security",
           "thumbnail": "",
@@ -333,10 +346,10 @@
             "AI"
           ],
           "publishedAt": "2026-02-19T16:00:00.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "5天前"
         },
         {
-          "id": "anthropic-002",
+          "id": "anthropic-003",
           "title": "Newsroom",
           "url": "https://www.anthropic.com#main-content",
           "thumbnail": "",
@@ -349,7 +362,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-003",
+          "id": "anthropic-004",
           "title": "Newsroom",
           "url": "https://www.anthropic.commailto:press@anthropic.com",
           "thumbnail": "",
@@ -362,7 +375,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-004",
+          "id": "anthropic-005",
           "title": "Introducing Claude Sonnet 4.6",
           "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
           "thumbnail": "",
@@ -374,7 +387,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-005",
+          "id": "anthropic-006",
           "title": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
           "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
           "thumbnail": "",
@@ -387,7 +400,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-006",
+          "id": "anthropic-007",
           "title": "Introducing Claude Sonnet 4.6",
           "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
           "thumbnail": "",
@@ -399,7 +412,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-007",
+          "id": "anthropic-008",
           "title": "Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries",
           "url": "https://www.anthropic.com/news/anthropic-infosys",
           "thumbnail": "",
@@ -412,7 +425,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-008",
+          "id": "anthropic-009",
           "title": "Anthropic opens Bengaluru office and announces new partnerships across India",
           "url": "https://www.anthropic.com/news/bengaluru-office-partnerships-across-india",
           "thumbnail": "",
@@ -424,23 +437,11 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-009",
+          "id": "anthropic-010",
           "title": "Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program",
           "url": "https://www.anthropic.com/news/anthropic-codepath-partnership",
           "thumbnail": "",
           "summary": "Anthropic partners with CodePath to bring Claude to the US’s largest collegiate computer science program",
-          "tags": [
-            "Claude"
-          ],
-          "publishedAt": "2026-02-12T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-010",
-          "title": "Chris Liddell appointed to Anthropic’s board of directors",
-          "url": "https://www.anthropic.com/news/chris-liddell-appointed-anthropic-board",
-          "thumbnail": "",
-          "summary": "Chris Liddell appointed to Anthropic’s board of directors",
           "tags": [
             "Claude"
           ],
@@ -453,7 +454,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-02-23T16:51:12.399Z",
+      "updatedAt": "2026-02-24T17:01:18.743Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -461,7 +462,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-02-23T16:51:14.740Z",
+      "updatedAt": "2026-02-24T17:01:21.007Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -469,7 +470,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-02-23T16:51:17.639Z",
+      "updatedAt": "2026-02-24T17:01:24.257Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -482,7 +483,7 @@
             "生成式",
             "Gemini"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         },
         {
@@ -494,7 +495,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         },
         {
@@ -506,7 +507,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         },
         {
@@ -518,7 +519,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         },
         {
@@ -530,7 +531,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         },
         {
@@ -543,7 +544,7 @@
             "生成式",
             "Gemini"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         },
         {
@@ -556,7 +557,7 @@
             "AI",
             "工具"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         },
         {
@@ -569,7 +570,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         },
         {
@@ -581,7 +582,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         },
         {
@@ -594,7 +595,7 @@
             "AI",
             "Gemini"
           ],
-          "publishedAt": "2026-02-23T16:51:17.639Z",
+          "publishedAt": "2026-02-24T17:01:24.257Z",
           "publishedAtRelative": ""
         }
       ]
@@ -603,7 +604,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-02-23T16:51:19.776Z",
+      "updatedAt": "2026-02-24T17:01:26.468Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -611,7 +612,7 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-02-23T16:51:22.086Z",
+      "updatedAt": "2026-02-24T17:01:28.971Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -623,12 +624,101 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-23T15:47:06.000Z",
+          "publishedAt": "2026-02-24T15:46:50.000Z",
           "publishedAtRelative": "1小时前"
         },
         {
           "id": "aws-002",
           "title": "Artificial Intelligence",
+          "url": "https://aws.amazon.com/blogs/machine-learning/train-codefu-7b-with-verl-and-ray-on-amazon-sagemaker-training-jobs/",
+          "thumbnail": "",
+          "summary": "In this post, we demonstrate how to train CodeFu-7B, a specialized 7-billion parameter model for competitive programming, using Group Relative Policy Optimization (GRPO) with veRL, a flexible and efficient training library for large language models (LLMs) that enables straightforward extension of diverse RL algorithms and seamless integration with existing LLM infrastructure, within a distributed Ray cluster managed by SageMaker training jobs. We walk through the complete implementation, covering data preparation, distributed training setup, and comprehensive observability, showcasing how this unified approach delivers both computational scale and developer experience for sophisticated RL training workloads.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-24T15:46:50.000Z",
+          "publishedAtRelative": "1小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Generate structured output from LLMs with Dottxt Outlines in AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/generate-structured-output-from-llms-with-dottxt-outlines-in-aws/",
+          "thumbnail": "",
+          "summary": "This post explores the implementation of Dottxt’s Outlines framework as a practical approach to implementing structured outputs using AWS Marketplace in Amazon SageMaker.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-02-24T15:42:34.000Z",
+          "publishedAtRelative": "1小时前"
+        },
+        {
+          "id": "aws-004",
+          "title": "Global cross-Region inference for latest Anthropic Claude Opus, Sonnet and Haiku models on Amazon Bedrock in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+          "url": "https://aws.amazon.com/blogs/machine-learning/global-cross-region-inference-for-latest-anthropic-claude-opus-sonnet-and-haiku-models-on-amazon-bedrock-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+          "thumbnail": "",
+          "summary": "In this post, we are exciting to announce availability of Global CRIS for customers in Thailand, Malaysia, Singapore, Indonesia, and Taiwan and give a walkthrough of technical implementation steps, and cover quota management best practices to maximize the value of your AI Inference deployments. We also provide guidance on best practices for production deployments.",
+          "tags": [
+            "AI",
+            "Claude"
+          ],
+          "publishedAt": "2026-02-24T15:38:22.000Z",
+          "publishedAtRelative": "1小时前"
+        },
+        {
+          "id": "aws-005",
+          "title": "Introducing Amazon Bedrock global cross-Region inference for Anthropic’s Claude models in the Middle East Regions (UAE and Bahrain)",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-bedrock-global-cross-region-inference-for-anthropics-claude-models-in-the-middle-east-regions/",
+          "thumbnail": "",
+          "summary": "We’re excited to announce the availability of Anthropic’s Claude Opus 4.6, Claude Sonnet 4.6, Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 through Amazon Bedrock global cross-Region inference for customers operating in the Middle East. In this post, we guide you through the capabilities of each Anthropic Claude model variant, the key advantages of global cross-Region inference including improved resilience, real-world use cases you can implement, and a code example to help you start building generative AI applications immediately.",
+          "tags": [
+            "AI",
+            "生成式",
+            "Claude"
+          ],
+          "publishedAt": "2026-02-24T15:33:51.000Z",
+          "publishedAtRelative": "1小时前"
+        },
+        {
+          "id": "aws-006",
+          "title": "Scaling data annotation using vision-language models to power physical AI systems",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-data-annotation-using-vision-language-models-to-power-physical-ai-systems/",
+          "thumbnail": "",
+          "summary": "In this post, we examine how Bedrock Robotics tackles this challenge. By joining the AWS Physical AI Fellowship, the startup partnered with the AWS Generative AI Innovation Center to apply vision-language models that analyze construction video footage, extract operational details, and generate labeled training datasets at scale, to improve data preparation for autonomous construction equipment.",
+          "tags": [
+            "AI",
+            "生成式"
+          ],
+          "publishedAt": "2026-02-23T23:20:37.000Z",
+          "publishedAtRelative": "17小时前"
+        },
+        {
+          "id": "aws-007",
+          "title": "How Sonrai uses Amazon SageMaker AI to accelerate precision medicine trials",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-sonrai-uses-amazon-sagemaker-ai-to-accelerate-precision-medicine-trials/",
+          "thumbnail": "",
+          "summary": "In this post, we explore how Sonrai, a life sciences AI company, partnered with AWS to build a robust MLOps framework using Amazon SageMaker AI that addresses these challenges while maintaining the traceability and reproducibility required in regulated environments.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-23T17:31:45.000Z",
+          "publishedAtRelative": "23小时前"
+        },
+        {
+          "id": "aws-008",
+          "title": "Accelerating AI model production at Hexagon with Amazon SageMaker HyperPod",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-ai-model-production-at-hexagon-with-amazon-sagemaker-hyperpod/",
+          "thumbnail": "",
+          "summary": "In this blog post, we demonstrate how Hexagon collaborated with Amazon Web Services to scale their AI model production by pretraining state-of-the-art segmentation models, using the model training infrastructure of Amazon SageMaker HyperPod.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-23T17:29:11.000Z",
+          "publishedAtRelative": "23小时前"
+        },
+        {
+          "id": "aws-009",
+          "title": "Agentic AI with multi-model framework using Hugging Face smolagents on AWS",
           "url": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-with-multi-model-framework-using-hugging-face-smolagents-on-aws/",
           "thumbnail": "",
           "summary": "Hugging Face smolagents is an open source Python library designed to make it straightforward to build and run agents using a few lines of code. We will show you how to build an agentic AI solution by integrating Hugging Face smolagents with Amazon Web Services (AWS) managed services. You’ll learn how to deploy a healthcare AI agent that demonstrates multi-model deployment options, vector-enhanced knowledge retrieval, and clinical decision support capabilities.",
@@ -636,10 +726,10 @@
             "AI"
           ],
           "publishedAt": "2026-02-23T15:47:06.000Z",
-          "publishedAtRelative": "1小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-010",
           "title": "Amazon SageMaker AI in 2025, a year in review part 1: Flexible Training Plans and improvements to price performance for inference workloads",
           "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-in-2025-a-year-in-review-part-1-flexible-training-plans-and-improvements-to-price-performance-for-inference-workloads/",
           "thumbnail": "",
@@ -648,96 +738,7 @@
             "AI"
           ],
           "publishedAt": "2026-02-20T20:26:47.000Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-004",
-          "title": "Amazon SageMaker AI in 2025, a year in review part 2: Improved observability and enhanced features for SageMaker AI model customization and hosting",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-in-2025-a-year-in-review-part-2-improved-observability-and-enhanced-features-for-sagemaker-ai-model-customization-and-hosting/",
-          "thumbnail": "",
-          "summary": "In 2025, Amazon SageMaker AI made several improvements designed to help you train, tune, and host generative AI workloads. In Part 1 of this series, we discussed Flexible Training Plans and price performance improvements made to inference components. In this post, we discuss enhancements made to observability, model customization, and model hosting. These improvements facilitate a whole new class of customer use cases to be hosted on SageMaker AI.",
-          "tags": [
-            "AI",
-            "设计系统",
-            "生成式"
-          ],
-          "publishedAt": "2026-02-20T20:26:30.000Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-005",
-          "title": "Integrate external tools with Amazon Quick Agents using Model Context Protocol (MCP)",
-          "url": "https://aws.amazon.com/blogs/machine-learning/integrate-external-tools-with-amazon-quick-agents-using-model-context-protocol-mcp/",
-          "thumbnail": "",
-          "summary": "In this post, you’ll use a six-step checklist to build a new MCP server or validate and adjust an existing MCP server for Amazon Quick integration. The Amazon Quick User Guide describes the MCP client behavior and constraints. This is a “How to” guide for detailed implementation required by 3P partners to integrate with Amazon Quick with MCP.",
-          "tags": [
-            "AI",
-            "工具"
-          ],
-          "publishedAt": "2026-02-20T16:26:21.000Z",
           "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-006",
-          "title": "Build AI workflows on Amazon EKS with Union.ai and Flyte",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-ai-workflows-on-amazon-eks-with-union-ai-and-flyte/",
-          "thumbnail": "",
-          "summary": "In this post, we explain how you can use the Flyte Python SDK to orchestrate and scale AI/ML workflows. We explore how the Union.ai 2.0 system enables deployment of Flyte on Amazon Elastic Kubernetes Service (Amazon EKS), integrating seamlessly with AWS services like Amazon Simple Storage Service (Amazon S3), Amazon Aurora, AWS Identity and Access Management (IAM), and Amazon CloudWatch. We explore the solution through an AI workflow example, using the new Amazon S3 Vectors service.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-02-19T16:28:21.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-007",
-          "title": "Amazon Quick now supports key pair authentication to Snowflake data source",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-suite-now-supports-key-pair-authentication-to-snowflake-data-source/",
-          "thumbnail": "",
-          "summary": "In this blog post, we will guide you through establishing data source connectivity between Amazon Quick Sight and Snowflake through secure key pair authentication.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-02-19T16:06:41.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Build unified intelligence with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-unified-intelligence-with-amazon-bedrock-agentcore/",
-          "thumbnail": "",
-          "summary": "In this post, we demonstrate how to build unified intelligence systems using Amazon Bedrock AgentCore through our real-world implementation of the Customer Agent and Knowledge Engine (CAKE).",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-18T23:54:29.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Evaluating AI agents: Real-world lessons from building agentic systems at Amazon",
-          "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-real-world-lessons-from-building-agentic-systems-at-amazon/",
-          "thumbnail": "",
-          "summary": "In this post, we present a comprehensive evaluation framework for Amazon agentic AI systems that addresses the complexity of agentic AI applications at Amazon through two core components: a generic evaluation workflow that standardizes assessment procedures across diverse agent implementations, and an agent evaluation library that provides systematic measurements and metrics in Amazon Bedrock AgentCore Evaluations, along with Amazon use case-specific evaluation approaches and metrics.",
-          "tags": [
-            "AI",
-            "设计系统"
-          ],
-          "publishedAt": "2026-02-18T19:21:28.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Customize AI agent browsing with proxies, profiles, and extensions in Amazon Bedrock AgentCore Browser",
-          "url": "https://aws.amazon.com/blogs/machine-learning/customize-ai-agent-browsing-with-proxies-profiles-and-extensions-in-amazon-bedrock-agentcore-browser/",
-          "thumbnail": "",
-          "summary": "Today, we are announcing three new capabilities that address these requirements: proxy configuration, browser profiles, and browser extensions. Together, these features give you fine-grained control over how your AI agents interact with the web. This post will walk through each capability with configuration examples and practical use cases to help you get started.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-02-13T22:57:34.000Z",
-          "publishedAtRelative": "0个月前"
         }
       ]
     },
@@ -745,7 +746,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-02-23T16:51:24.119Z",
+      "updatedAt": "2026-02-24T17:01:31.466Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -753,7 +754,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-02-23T16:51:26.477Z",
+      "updatedAt": "2026-02-24T17:01:33.882Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -766,7 +767,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:26.477Z",
+          "publishedAt": "2026-02-24T17:01:33.882Z",
           "publishedAtRelative": ""
         },
         {
@@ -779,7 +780,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:26.477Z",
+          "publishedAt": "2026-02-24T17:01:33.882Z",
           "publishedAtRelative": ""
         },
         {
@@ -792,7 +793,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:26.477Z",
+          "publishedAt": "2026-02-24T17:01:33.882Z",
           "publishedAtRelative": ""
         },
         {
@@ -804,7 +805,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:26.477Z",
+          "publishedAt": "2026-02-24T17:01:33.882Z",
           "publishedAtRelative": ""
         },
         {
@@ -817,7 +818,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-23T16:51:26.477Z",
+          "publishedAt": "2026-02-24T17:01:33.882Z",
           "publishedAtRelative": ""
         }
       ]
