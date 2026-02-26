@@ -1,11 +1,11 @@
 {
-  "date": "2026-02-26",
+  "date": "2026-02-27",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-02-25T17:03:29.621Z",
+      "updatedAt": "2026-02-26T16:53:09.068Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-02-25T17:03:32.020Z",
+      "updatedAt": "2026-02-26T16:53:11.333Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "生成式",
             "Copilot"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         },
         {
@@ -39,7 +39,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         },
         {
@@ -52,7 +52,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         },
         {
@@ -64,7 +64,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         },
         {
@@ -89,7 +89,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         },
         {
@@ -102,7 +102,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         },
         {
@@ -115,7 +115,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         },
         {
@@ -127,7 +127,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         },
         {
@@ -139,7 +139,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-02-25T17:03:32.021Z",
+          "publishedAt": "2026-02-26T16:53:11.333Z",
           "publishedAtRelative": ""
         }
       ]
@@ -148,7 +148,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-02-25T17:03:34.419Z",
+      "updatedAt": "2026-02-26T16:53:13.702Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -160,7 +160,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-25T17:03:34.419Z",
+          "publishedAt": "2026-02-26T16:53:13.702Z",
           "publishedAtRelative": ""
         },
         {
@@ -173,7 +173,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:34.419Z",
+          "publishedAt": "2026-02-26T16:53:13.702Z",
           "publishedAtRelative": ""
         }
       ]
@@ -182,7 +182,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-02-25T17:03:36.851Z",
+      "updatedAt": "2026-02-26T16:53:16.102Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -195,7 +195,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         },
         {
@@ -207,7 +207,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         },
         {
@@ -220,7 +220,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         },
         {
@@ -233,7 +233,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         },
         {
@@ -246,7 +246,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         },
         {
@@ -259,7 +259,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         },
         {
@@ -272,7 +272,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         },
         {
@@ -285,7 +285,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         },
         {
@@ -298,7 +298,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         },
         {
@@ -311,7 +311,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:36.851Z",
+          "publishedAt": "2026-02-26T16:53:16.102Z",
           "publishedAtRelative": ""
         }
       ]
@@ -320,7 +320,7 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-02-25T17:03:39.856Z",
+      "updatedAt": "2026-02-26T16:53:21.159Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -333,7 +333,7 @@
             "Claude"
           ],
           "publishedAt": "2026-02-24T16:00:00.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
           "id": "anthropic-002",
@@ -345,7 +345,7 @@
             "Claude"
           ],
           "publishedAt": "2026-02-23T16:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "anthropic-003",
@@ -358,7 +358,7 @@
             "AI"
           ],
           "publishedAt": "2026-02-22T16:00:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "anthropic-004",
@@ -370,7 +370,7 @@
             "AI"
           ],
           "publishedAt": "2026-02-19T16:00:00.000Z",
-          "publishedAtRelative": "6天前"
+          "publishedAtRelative": "0个月前"
         },
         {
           "id": "anthropic-005",
@@ -454,7 +454,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-02-25T17:03:41.916Z",
+      "updatedAt": "2026-02-26T16:53:23.252Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -462,7 +462,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-02-25T17:03:44.233Z",
+      "updatedAt": "2026-02-26T16:53:25.549Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -470,11 +470,47 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-02-25T17:03:47.184Z",
+      "updatedAt": "2026-02-26T16:53:28.252Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "googleai-001",
+          "title": "Try Nano Banana 2 in the Gemini app, using the new templates feature",
+          "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral&target=image",
+          "thumbnail": "",
+          "summary": "Try Nano Banana 2 in the Gemini app, using the new templates feature",
+          "tags": [
+            "Gemini"
+          ],
+          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-002",
+          "title": "Use Nano Banana 2 to create images powered by advanced world knowledge",
+          "url": "https://google.ai/",
+          "thumbnail": "",
+          "summary": "Use Nano Banana 2 to create images powered by advanced world knowledge",
+          "tags": [
+            "生成式"
+          ],
+          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-003",
+          "title": "Create and refine images and videos with your creative studio",
+          "url": "https://labs.google/flow?utm_source=ai.google&utm_medium=referral",
+          "thumbnail": "",
+          "summary": "Create and refine images and videos with your creative studio",
+          "tags": [
+            "生成式"
+          ],
+          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-004",
           "title": "Create custom soundtracks in the Gemini app with Lyria 3, our latest generative music model",
           "url": "https://gemini.google.com/music?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -483,11 +519,11 @@
             "生成式",
             "Gemini"
           ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
+          "publishedAt": "2026-02-26T16:53:28.252Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-002",
+          "id": "googleai-005",
           "title": "Create the perfect soundtrack to your YouTube Short with Lyria in Dream Track",
           "url": "https://support.google.com/youtube/answer/14151606?hl=en",
           "thumbnail": "",
@@ -495,11 +531,11 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
+          "publishedAt": "2026-02-26T16:53:28.252Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-003",
+          "id": "googleai-006",
           "title": "Go on a guided walking tour with Gemini in Google Maps, or get hands-free directions while biking",
           "url": "https://blog.google/products-and-platforms/products/maps/gemini-navigation-biking-walking/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -507,11 +543,11 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
+          "publishedAt": "2026-02-26T16:53:28.252Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-004",
+          "id": "googleai-007",
           "title": "Use Gemini in Chrome to transform images in your current browser window",
           "url": "https://www.google.com/chrome/ai-innovations/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -519,11 +555,11 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
+          "publishedAt": "2026-02-26T16:53:28.252Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-005",
+          "id": "googleai-008",
           "title": "Respond to emails in one-click with Suggested Replies that use the context of your conversation",
           "url": "https://mail.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -531,24 +567,11 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
+          "publishedAt": "2026-02-26T16:53:28.252Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-006",
-          "title": "Create high-fidelity visuals using up to 14 images with Nano Banana Pro (Gemini 3 Pro Image)",
-          "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral&target=image",
-          "thumbnail": "",
-          "summary": "Create high-fidelity visuals using up to 14 images with Nano Banana Pro (Gemini 3 Pro Image)",
-          "tags": [
-            "生成式",
-            "Gemini"
-          ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-007",
+          "id": "googleai-009",
           "title": "Tackle complex topics in AI Mode with dynamic visual layouts with interactive tools and simulations in real-time",
           "url": "https://google.ai/",
           "thumbnail": "",
@@ -557,24 +580,11 @@
             "AI",
             "工具"
           ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
+          "publishedAt": "2026-02-26T16:53:28.252Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "googleai-008",
-          "title": "Try Veo 3.1 for more advanced video storytelling",
-          "url": "https://labs.google/flow/about?utm_source=ai.google&utm_medium=referral",
-          "thumbnail": "",
-          "summary": "Try Veo 3.1 for more advanced video storytelling",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-009",
+          "id": "googleai-010",
           "title": "Move beyond text in the Gemini app with a visually immersive response including photos and interactive modules",
           "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
           "thumbnail": "",
@@ -582,20 +592,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-010",
-          "title": "Let Gemini design and code a unique user interface that's tailored specifically for your prompt",
-          "url": "https://gemini.google.com/?utm_source=ai.google&utm_medium=referral",
-          "thumbnail": "",
-          "summary": "Let Gemini design and code a unique user interface that's tailored specifically for your prompt",
-          "tags": [
-            "AI",
-            "Gemini"
-          ],
-          "publishedAt": "2026-02-25T17:03:47.184Z",
+          "publishedAt": "2026-02-26T16:53:28.252Z",
           "publishedAtRelative": ""
         }
       ]
@@ -604,7 +601,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-02-25T17:03:49.309Z",
+      "updatedAt": "2026-02-26T16:53:30.333Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -612,7 +609,7 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-02-25T17:03:51.672Z",
+      "updatedAt": "2026-02-26T16:53:32.747Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -624,12 +621,39 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-24T18:22:26.000Z",
-          "publishedAtRelative": "22小时前"
+          "publishedAt": "2026-02-25T20:56:13.000Z",
+          "publishedAtRelative": "19小时前"
         },
         {
           "id": "aws-002",
           "title": "Artificial Intelligence",
+          "url": "https://aws.amazon.com/blogs/machine-learning/efficiently-serve-dozens-of-fine-tuned-models-with-vllm-on-amazon-sagemaker-ai-and-amazon-bedrock/",
+          "thumbnail": "",
+          "summary": "In this post, we explain how we implemented multi-LoRA inference for Mixture of Experts (MoE) models in vLLM, describe the kernel-level optimizations we performed, and show you how you can benefit from this work. We use GPT-OSS 20B as our primary example throughout this post.",
+          "tags": [
+            "AI",
+            "ChatGPT"
+          ],
+          "publishedAt": "2026-02-25T20:56:13.000Z",
+          "publishedAtRelative": "19小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Building intelligent event agents using Amazon Bedrock AgentCore and Amazon Bedrock Knowledge Bases",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-intelligent-event-agents-using-amazon-bedrock-agentcore-and-amazon-bedrock-knowledge-bases/",
+          "thumbnail": "",
+          "summary": "This post demonstrates how to quickly deploy a production-ready event assistant using the components of Amazon Bedrock AgentCore. We’ll build an intelligent companion that remembers attendee preferences and builds personalized experiences over time, while Amazon Bedrock AgentCore handles the heavy lifting of production deployment: Amazon Bedrock AgentCore Memory for maintaining both conversation context and long-term preferences without custom storage solutions, Amazon Bedrock AgentCore Identity for secure multi-IDP authentication, and Amazon Bedrock AgentCore Runtime for serverless scaling and session isolation. We will also use Amazon Bedrock Knowledge Bases for managed RAG and event data retrieval.",
+          "tags": [
+            "AI",
+            "设计系统",
+            "Copilot"
+          ],
+          "publishedAt": "2026-02-25T19:51:08.000Z",
+          "publishedAtRelative": "21小时前"
+        },
+        {
+          "id": "aws-004",
+          "title": "Build an intelligent photo search using Amazon Rekognition, Amazon Neptune, and Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-photo-search-using-amazon-rekognition-amazon-neptune-and-amazon-bedrock/",
           "thumbnail": "",
           "summary": "In this post, we show you how to build a comprehensive photo search system using the AWS Cloud Development Kit (AWS CDK) that integrates Amazon Rekognition for face and object detection, Amazon Neptune for relationship mapping, and Amazon Bedrock for AI-powered captioning.",
@@ -637,10 +661,10 @@
             "AI"
           ],
           "publishedAt": "2026-02-24T18:22:26.000Z",
-          "publishedAtRelative": "22小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-005",
           "title": "Train CodeFu-7B with veRL and Ray on Amazon SageMaker Training jobs",
           "url": "https://aws.amazon.com/blogs/machine-learning/train-codefu-7b-with-verl-and-ray-on-amazon-sagemaker-training-jobs/",
           "thumbnail": "",
@@ -649,10 +673,10 @@
             "AI"
           ],
           "publishedAt": "2026-02-24T15:46:50.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-004",
+          "id": "aws-006",
           "title": "Generate structured output from LLMs with Dottxt Outlines in AWS",
           "url": "https://aws.amazon.com/blogs/machine-learning/generate-structured-output-from-llms-with-dottxt-outlines-in-aws/",
           "thumbnail": "",
@@ -662,10 +686,10 @@
             "AI"
           ],
           "publishedAt": "2026-02-24T15:42:34.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-005",
+          "id": "aws-007",
           "title": "Global cross-Region inference for latest Anthropic Claude Opus, Sonnet and Haiku models on Amazon Bedrock in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
           "url": "https://aws.amazon.com/blogs/machine-learning/global-cross-region-inference-for-latest-anthropic-claude-opus-sonnet-and-haiku-models-on-amazon-bedrock-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
           "thumbnail": "",
@@ -675,10 +699,10 @@
             "Claude"
           ],
           "publishedAt": "2026-02-24T15:38:22.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-006",
+          "id": "aws-008",
           "title": "Introducing Amazon Bedrock global cross-Region inference for Anthropic’s Claude models in the Middle East Regions (UAE and Bahrain)",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-bedrock-global-cross-region-inference-for-anthropics-claude-models-in-the-middle-east-regions/",
           "thumbnail": "",
@@ -689,10 +713,10 @@
             "Claude"
           ],
           "publishedAt": "2026-02-24T15:33:51.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-007",
+          "id": "aws-009",
           "title": "Scaling data annotation using vision-language models to power physical AI systems",
           "url": "https://aws.amazon.com/blogs/machine-learning/scaling-data-annotation-using-vision-language-models-to-power-physical-ai-systems/",
           "thumbnail": "",
@@ -702,10 +726,10 @@
             "生成式"
           ],
           "publishedAt": "2026-02-23T23:20:37.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-008",
+          "id": "aws-010",
           "title": "How Sonrai uses Amazon SageMaker AI to accelerate precision medicine trials",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-sonrai-uses-amazon-sagemaker-ai-to-accelerate-precision-medicine-trials/",
           "thumbnail": "",
@@ -714,30 +738,6 @@
             "AI"
           ],
           "publishedAt": "2026-02-23T17:31:45.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Accelerating AI model production at Hexagon with Amazon SageMaker HyperPod",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-ai-model-production-at-hexagon-with-amazon-sagemaker-hyperpod/",
-          "thumbnail": "",
-          "summary": "In this blog post, we demonstrate how Hexagon collaborated with Amazon Web Services to scale their AI model production by pretraining state-of-the-art segmentation models, using the model training infrastructure of Amazon SageMaker HyperPod.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-02-23T17:29:11.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Agentic AI with multi-model framework using Hugging Face smolagents on AWS",
-          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-with-multi-model-framework-using-hugging-face-smolagents-on-aws/",
-          "thumbnail": "",
-          "summary": "Hugging Face smolagents is an open source Python library designed to make it straightforward to build and run agents using a few lines of code. We will show you how to build an agentic AI solution by integrating Hugging Face smolagents with Amazon Web Services (AWS) managed services. You’ll learn how to deploy a healthcare AI agent that demonstrates multi-model deployment options, vector-enhanced knowledge retrieval, and clinical decision support capabilities.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-02-23T15:47:06.000Z",
           "publishedAtRelative": "2天前"
         }
       ]
@@ -746,7 +746,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-02-25T17:03:53.954Z",
+      "updatedAt": "2026-02-26T16:53:34.962Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -754,7 +754,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-02-25T17:03:56.284Z",
+      "updatedAt": "2026-02-26T16:53:37.309Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -767,7 +767,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:56.284Z",
+          "publishedAt": "2026-02-26T16:53:37.309Z",
           "publishedAtRelative": ""
         },
         {
@@ -780,7 +780,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:56.284Z",
+          "publishedAt": "2026-02-26T16:53:37.309Z",
           "publishedAtRelative": ""
         },
         {
@@ -793,7 +793,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:56.284Z",
+          "publishedAt": "2026-02-26T16:53:37.309Z",
           "publishedAtRelative": ""
         },
         {
@@ -805,7 +805,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:56.284Z",
+          "publishedAt": "2026-02-26T16:53:37.309Z",
           "publishedAtRelative": ""
         },
         {
@@ -818,7 +818,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-25T17:03:56.284Z",
+          "publishedAt": "2026-02-26T16:53:37.309Z",
           "publishedAtRelative": ""
         }
       ]
