@@ -1,11 +1,11 @@
 {
-  "date": "2026-02-27",
+  "date": "2026-02-28",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-02-26T16:53:09.068Z",
+      "updatedAt": "2026-02-27T16:35:31.498Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-02-26T16:53:11.333Z",
+      "updatedAt": "2026-02-27T16:35:34.034Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "生成式",
             "Copilot"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         },
         {
@@ -39,7 +39,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         },
         {
@@ -52,7 +52,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         },
         {
@@ -64,7 +64,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         },
         {
@@ -89,7 +89,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         },
         {
@@ -102,7 +102,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         },
         {
@@ -115,7 +115,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         },
         {
@@ -127,7 +127,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         },
         {
@@ -139,7 +139,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-02-26T16:53:11.333Z",
+          "publishedAt": "2026-02-27T16:35:34.034Z",
           "publishedAtRelative": ""
         }
       ]
@@ -148,7 +148,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-02-26T16:53:13.702Z",
+      "updatedAt": "2026-02-27T16:35:36.405Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -160,7 +160,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-26T16:53:13.702Z",
+          "publishedAt": "2026-02-27T16:35:36.405Z",
           "publishedAtRelative": ""
         },
         {
@@ -173,7 +173,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:13.702Z",
+          "publishedAt": "2026-02-27T16:35:36.405Z",
           "publishedAtRelative": ""
         }
       ]
@@ -182,7 +182,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-02-26T16:53:16.102Z",
+      "updatedAt": "2026-02-27T16:35:38.869Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -195,7 +195,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         },
         {
@@ -207,7 +207,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         },
         {
@@ -220,7 +220,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         },
         {
@@ -233,7 +233,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         },
         {
@@ -246,7 +246,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         },
         {
@@ -259,7 +259,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         },
         {
@@ -272,7 +272,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         },
         {
@@ -285,7 +285,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         },
         {
@@ -298,7 +298,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         },
         {
@@ -311,7 +311,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:16.102Z",
+          "publishedAt": "2026-02-27T16:35:38.869Z",
           "publishedAtRelative": ""
         }
       ]
@@ -320,11 +320,60 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-02-26T16:53:21.159Z",
+      "updatedAt": "2026-02-27T16:35:41.740Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "anthropic-001",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.com#main-content",
+          "thumbnail": "",
+          "summary": "A statement from our CEO on national security uses of AI.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-25T16:00:00.000Z",
+          "publishedAtRelative": "2天前"
+        },
+        {
+          "id": "anthropic-002",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.commailto:press@anthropic.com",
+          "thumbnail": "",
+          "summary": "A statement from our CEO on national security uses of AI.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-25T16:00:00.000Z",
+          "publishedAtRelative": "2天前"
+        },
+        {
+          "id": "anthropic-003",
+          "title": "Statement from Dario Amodei on our discussions with the Department of War",
+          "url": "https://www.anthropic.com/news/statement-department-of-war",
+          "thumbnail": "",
+          "summary": "A statement from our CEO on national security uses of AI.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-25T16:00:00.000Z",
+          "publishedAtRelative": "2天前"
+        },
+        {
+          "id": "anthropic-004",
+          "title": "Statement from Dario Amodei on our discussions with the Department of War",
+          "url": "https://www.anthropic.com/news/statement-department-of-war",
+          "thumbnail": "",
+          "summary": "Statement from Dario Amodei on our discussions with the Department of War",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-02-25T16:00:00.000Z",
+          "publishedAtRelative": "2天前"
+        },
+        {
+          "id": "anthropic-005",
           "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
           "url": "https://www.anthropic.com/news/acquires-vercept",
           "thumbnail": "",
@@ -333,10 +382,10 @@
             "Claude"
           ],
           "publishedAt": "2026-02-24T16:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "anthropic-002",
+          "id": "anthropic-006",
           "title": "Anthropic’s Responsible Scaling Policy: Version 3.0",
           "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
           "thumbnail": "",
@@ -345,10 +394,10 @@
             "Claude"
           ],
           "publishedAt": "2026-02-23T16:00:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "anthropic-003",
+          "id": "anthropic-007",
           "title": "Detecting and preventing distillation attacks",
           "url": "https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks",
           "thumbnail": "",
@@ -358,10 +407,10 @@
             "AI"
           ],
           "publishedAt": "2026-02-22T16:00:00.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "5天前"
         },
         {
-          "id": "anthropic-004",
+          "id": "anthropic-008",
           "title": "Making frontier cybersecurity capabilities available to defenders",
           "url": "https://www.anthropic.com/news/claude-code-security",
           "thumbnail": "",
@@ -373,62 +422,11 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-005",
-          "title": "Newsroom",
-          "url": "https://www.anthropic.com#main-content",
-          "thumbnail": "",
-          "summary": "Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-16T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-006",
-          "title": "Newsroom",
-          "url": "https://www.anthropic.commailto:press@anthropic.com",
-          "thumbnail": "",
-          "summary": "Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-02-16T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-007",
-          "title": "Introducing Claude Sonnet 4.6",
-          "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
-          "thumbnail": "",
-          "summary": "Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.",
-          "tags": [
-            "Claude"
-          ],
-          "publishedAt": "2026-02-16T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-008",
-          "title": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
-          "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
-          "thumbnail": "",
-          "summary": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
-          "tags": [
-            "AI",
-            "Claude"
-          ],
-          "publishedAt": "2026-02-16T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
           "id": "anthropic-009",
           "title": "Introducing Claude Sonnet 4.6",
           "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
           "thumbnail": "",
-          "summary": "Introducing Claude Sonnet 4.6",
+          "summary": "Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.",
           "tags": [
             "Claude"
           ],
@@ -437,10 +435,10 @@
         },
         {
           "id": "anthropic-010",
-          "title": "Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries",
-          "url": "https://www.anthropic.com/news/anthropic-infosys",
+          "title": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
+          "url": "https://www.anthropic.com/news/anthropic-rwanda-mou",
           "thumbnail": "",
-          "summary": "Anthropic and Infosys collaborate to build AI agents for telecommunications and other regulated industries",
+          "summary": "Anthropic and the Government of Rwanda sign MOU for AI in health and education",
           "tags": [
             "AI",
             "Claude"
@@ -454,7 +452,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-02-26T16:53:23.252Z",
+      "updatedAt": "2026-02-27T16:35:43.791Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -462,7 +460,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-02-26T16:53:25.549Z",
+      "updatedAt": "2026-02-27T16:35:45.966Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -470,7 +468,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-02-26T16:53:28.252Z",
+      "updatedAt": "2026-02-27T16:35:48.543Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -482,7 +480,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         },
         {
@@ -494,7 +492,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         },
         {
@@ -506,7 +504,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         },
         {
@@ -519,7 +517,7 @@
             "生成式",
             "Gemini"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         },
         {
@@ -531,7 +529,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         },
         {
@@ -543,7 +541,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         },
         {
@@ -555,7 +553,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         },
         {
@@ -567,7 +565,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         },
         {
@@ -580,7 +578,7 @@
             "AI",
             "工具"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         },
         {
@@ -592,7 +590,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-02-26T16:53:28.252Z",
+          "publishedAt": "2026-02-27T16:35:48.543Z",
           "publishedAtRelative": ""
         }
       ]
@@ -601,7 +599,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-02-26T16:53:30.333Z",
+      "updatedAt": "2026-02-27T16:35:50.638Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -609,7 +607,7 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-02-26T16:53:32.747Z",
+      "updatedAt": "2026-02-27T16:35:52.950Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -621,12 +619,49 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-25T20:56:13.000Z",
-          "publishedAtRelative": "19小时前"
+          "publishedAt": "2026-02-26T18:16:43.000Z",
+          "publishedAtRelative": "22小时前"
         },
         {
           "id": "aws-002",
           "title": "Artificial Intelligence",
+          "url": "https://aws.amazon.com/blogs/machine-learning/learnings-from-cobol-modernization-in-the-real-world/",
+          "thumbnail": "",
+          "summary": "Delivering successful COBOL modernization requires a solution that can reverse engineer deterministically, produce validated and traceable specs, and help those specs flow into any AI-powered coding assistant for the forward engineering. A successful modernization requires both reverse engineering and forward engineering. Learn more about COBOL in this post.",
+          "tags": [
+            "AI",
+            "Copilot"
+          ],
+          "publishedAt": "2026-02-26T18:16:43.000Z",
+          "publishedAtRelative": "22小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Reinforcement fine-tuning for Amazon Nova: Teaching AI through feedback",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-for-amazon-nova-teaching-ai-through-feedback/",
+          "thumbnail": "",
+          "summary": "In this post, we explore reinforcement fine-tuning (RFT) for Amazon Nova models, which can be a powerful customization technique that learns through evaluation rather than imitation. We’ll cover how RFT works, when to use it versus supervised fine-tuning, real-world applications from code generation to customer service, and implementation options ranging from fully managed Amazon Bedrock to multi-turn agentic workflows with Nova Forge. You’ll also learn practical guidance on data preparation, reward function design, and best practices for achieving optimal results.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-26T17:48:37.000Z",
+          "publishedAtRelative": "22小时前"
+        },
+        {
+          "id": "aws-004",
+          "title": "Large model inference container – latest capabilities and performance enhancements",
+          "url": "https://aws.amazon.com/blogs/machine-learning/large-model-inference-container-latest-capabilities-and-performance-enhancements/",
+          "thumbnail": "",
+          "summary": "AWS recently released significant updates to the Large Model Inference (LMI) container, delivering comprehensive performance improvements, expanded model support, and streamlined deployment capabilities for customers hosting LLMs on AWS. These releases focus on reducing operational complexity while delivering measurable performance gains across popular model architectures.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-02-26T17:45:59.000Z",
+          "publishedAtRelative": "22小时前"
+        },
+        {
+          "id": "aws-005",
+          "title": "Efficiently serve dozens of fine-tuned models with vLLM on Amazon SageMaker AI and Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/efficiently-serve-dozens-of-fine-tuned-models-with-vllm-on-amazon-sagemaker-ai-and-amazon-bedrock/",
           "thumbnail": "",
           "summary": "In this post, we explain how we implemented multi-LoRA inference for Mixture of Experts (MoE) models in vLLM, describe the kernel-level optimizations we performed, and show you how you can benefit from this work. We use GPT-OSS 20B as our primary example throughout this post.",
@@ -635,10 +670,10 @@
             "ChatGPT"
           ],
           "publishedAt": "2026-02-25T20:56:13.000Z",
-          "publishedAtRelative": "19小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-006",
           "title": "Building intelligent event agents using Amazon Bedrock AgentCore and Amazon Bedrock Knowledge Bases",
           "url": "https://aws.amazon.com/blogs/machine-learning/building-intelligent-event-agents-using-amazon-bedrock-agentcore-and-amazon-bedrock-knowledge-bases/",
           "thumbnail": "",
@@ -649,10 +684,10 @@
             "Copilot"
           ],
           "publishedAt": "2026-02-25T19:51:08.000Z",
-          "publishedAtRelative": "21小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-004",
+          "id": "aws-007",
           "title": "Build an intelligent photo search using Amazon Rekognition, Amazon Neptune, and Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-an-intelligent-photo-search-using-amazon-rekognition-amazon-neptune-and-amazon-bedrock/",
           "thumbnail": "",
@@ -661,10 +696,10 @@
             "AI"
           ],
           "publishedAt": "2026-02-24T18:22:26.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-005",
+          "id": "aws-008",
           "title": "Train CodeFu-7B with veRL and Ray on Amazon SageMaker Training jobs",
           "url": "https://aws.amazon.com/blogs/machine-learning/train-codefu-7b-with-verl-and-ray-on-amazon-sagemaker-training-jobs/",
           "thumbnail": "",
@@ -673,10 +708,10 @@
             "AI"
           ],
           "publishedAt": "2026-02-24T15:46:50.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-006",
+          "id": "aws-009",
           "title": "Generate structured output from LLMs with Dottxt Outlines in AWS",
           "url": "https://aws.amazon.com/blogs/machine-learning/generate-structured-output-from-llms-with-dottxt-outlines-in-aws/",
           "thumbnail": "",
@@ -686,10 +721,10 @@
             "AI"
           ],
           "publishedAt": "2026-02-24T15:42:34.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-007",
+          "id": "aws-010",
           "title": "Global cross-Region inference for latest Anthropic Claude Opus, Sonnet and Haiku models on Amazon Bedrock in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
           "url": "https://aws.amazon.com/blogs/machine-learning/global-cross-region-inference-for-latest-anthropic-claude-opus-sonnet-and-haiku-models-on-amazon-bedrock-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
           "thumbnail": "",
@@ -699,46 +734,7 @@
             "Claude"
           ],
           "publishedAt": "2026-02-24T15:38:22.000Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Introducing Amazon Bedrock global cross-Region inference for Anthropic’s Claude models in the Middle East Regions (UAE and Bahrain)",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-bedrock-global-cross-region-inference-for-anthropics-claude-models-in-the-middle-east-regions/",
-          "thumbnail": "",
-          "summary": "We’re excited to announce the availability of Anthropic’s Claude Opus 4.6, Claude Sonnet 4.6, Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 through Amazon Bedrock global cross-Region inference for customers operating in the Middle East. In this post, we guide you through the capabilities of each Anthropic Claude model variant, the key advantages of global cross-Region inference including improved resilience, real-world use cases you can implement, and a code example to help you start building generative AI applications immediately.",
-          "tags": [
-            "AI",
-            "生成式",
-            "Claude"
-          ],
-          "publishedAt": "2026-02-24T15:33:51.000Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Scaling data annotation using vision-language models to power physical AI systems",
-          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-data-annotation-using-vision-language-models-to-power-physical-ai-systems/",
-          "thumbnail": "",
-          "summary": "In this post, we examine how Bedrock Robotics tackles this challenge. By joining the AWS Physical AI Fellowship, the startup partnered with the AWS Generative AI Innovation Center to apply vision-language models that analyze construction video footage, extract operational details, and generate labeled training datasets at scale, to improve data preparation for autonomous construction equipment.",
-          "tags": [
-            "AI",
-            "生成式"
-          ],
-          "publishedAt": "2026-02-23T23:20:37.000Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "How Sonrai uses Amazon SageMaker AI to accelerate precision medicine trials",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-sonrai-uses-amazon-sagemaker-ai-to-accelerate-precision-medicine-trials/",
-          "thumbnail": "",
-          "summary": "In this post, we explore how Sonrai, a life sciences AI company, partnered with AWS to build a robust MLOps framework using Amazon SageMaker AI that addresses these challenges while maintaining the traceability and reproducibility required in regulated environments.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-02-23T17:31:45.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         }
       ]
     },
@@ -746,7 +742,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-02-26T16:53:34.962Z",
+      "updatedAt": "2026-02-27T16:35:55.206Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -754,7 +750,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-02-26T16:53:37.309Z",
+      "updatedAt": "2026-02-27T16:35:57.504Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -767,7 +763,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:37.309Z",
+          "publishedAt": "2026-02-27T16:35:57.504Z",
           "publishedAtRelative": ""
         },
         {
@@ -780,7 +776,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:37.309Z",
+          "publishedAt": "2026-02-27T16:35:57.504Z",
           "publishedAtRelative": ""
         },
         {
@@ -793,7 +789,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:37.309Z",
+          "publishedAt": "2026-02-27T16:35:57.504Z",
           "publishedAtRelative": ""
         },
         {
@@ -805,7 +801,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:37.309Z",
+          "publishedAt": "2026-02-27T16:35:57.504Z",
           "publishedAtRelative": ""
         },
         {
@@ -818,7 +814,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-02-26T16:53:37.309Z",
+          "publishedAt": "2026-02-27T16:35:57.504Z",
           "publishedAtRelative": ""
         }
       ]
