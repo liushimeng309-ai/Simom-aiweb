@@ -1,11 +1,11 @@
 {
-  "date": "2026-03-18",
+  "date": "2026-03-19",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-03-17T16:59:51.420Z",
+      "updatedAt": "2026-03-18T16:55:03.506Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-03-17T16:59:53.721Z",
+      "updatedAt": "2026-03-18T16:55:06.138Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "生成式",
             "Copilot"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         },
         {
@@ -39,7 +39,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         },
         {
@@ -52,7 +52,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         },
         {
@@ -64,7 +64,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         },
         {
@@ -89,7 +89,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         },
         {
@@ -102,7 +102,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         },
         {
@@ -115,7 +115,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         },
         {
@@ -127,7 +127,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         },
         {
@@ -139,7 +139,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-03-17T16:59:53.721Z",
+          "publishedAt": "2026-03-18T16:55:06.138Z",
           "publishedAtRelative": ""
         }
       ]
@@ -148,7 +148,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-03-17T16:59:56.046Z",
+      "updatedAt": "2026-03-18T16:55:08.680Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -160,7 +160,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-03-17T16:59:56.046Z",
+          "publishedAt": "2026-03-18T16:55:08.680Z",
           "publishedAtRelative": ""
         },
         {
@@ -173,7 +173,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:56.046Z",
+          "publishedAt": "2026-03-18T16:55:08.680Z",
           "publishedAtRelative": ""
         }
       ]
@@ -182,7 +182,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-03-17T16:59:58.496Z",
+      "updatedAt": "2026-03-18T16:55:11.182Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -195,7 +195,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         },
         {
@@ -207,7 +207,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         },
         {
@@ -220,7 +220,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         },
         {
@@ -233,7 +233,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         },
         {
@@ -246,7 +246,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         },
         {
@@ -259,7 +259,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         },
         {
@@ -272,7 +272,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         },
         {
@@ -285,7 +285,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         },
         {
@@ -298,7 +298,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         },
         {
@@ -311,7 +311,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T16:59:58.496Z",
+          "publishedAt": "2026-03-18T16:55:11.182Z",
           "publishedAtRelative": ""
         }
       ]
@@ -320,11 +320,37 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-03-17T17:00:07.986Z",
+      "updatedAt": "2026-03-18T16:55:18.837Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "anthropic-001",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.com#main-content",
+          "thumbnail": "",
+          "summary": "We invited Claude.ai users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people participated—the largest and most multilingual qualitative study of its kind. Here's what we found.",
+          "tags": [
+            "AI",
+            "Claude"
+          ],
+          "publishedAt": "2026-03-17T16:00:00.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "anthropic-002",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.commailto:press@anthropic.com",
+          "thumbnail": "",
+          "summary": "We invited Claude.ai users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people participated—the largest and most multilingual qualitative study of its kind. Here's what we found.",
+          "tags": [
+            "AI",
+            "Claude"
+          ],
+          "publishedAt": "2026-03-17T16:00:00.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "anthropic-003",
           "title": "Anthropic invests $100 million into the Claude Partner Network",
           "url": "https://www.anthropic.com/news/claude-partner-network",
           "thumbnail": "",
@@ -333,10 +359,10 @@
             "Claude"
           ],
           "publishedAt": "2026-03-11T16:00:00.000Z",
-          "publishedAtRelative": "6天前"
+          "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-002",
+          "id": "anthropic-004",
           "title": "Introducing The Anthropic Institute",
           "url": "https://www.anthropic.com/news/the-anthropic-institute",
           "thumbnail": "",
@@ -348,7 +374,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-003",
+          "id": "anthropic-005",
           "title": "Sydney will become Anthropic’s fourth office in Asia-Pacific",
           "url": "https://www.anthropic.com/news/sydney-fourth-office-asia-pacific",
           "thumbnail": "",
@@ -360,7 +386,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-004",
+          "id": "anthropic-006",
           "title": "Partnering with Mozilla to improve Firefox’s security",
           "url": "https://www.anthropic.com/news/mozilla-firefox-security",
           "thumbnail": "",
@@ -373,46 +399,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-005",
-          "title": "Newsroom",
-          "url": "https://www.anthropic.com#main-content",
-          "thumbnail": "",
-          "summary": "A statement from Dario Amodei.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-03-04T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-006",
-          "title": "Newsroom",
-          "url": "https://www.anthropic.commailto:press@anthropic.com",
-          "thumbnail": "",
-          "summary": "A statement from Dario Amodei.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-03-04T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
           "id": "anthropic-007",
-          "title": "Where things stand with the Department of War",
-          "url": "https://www.anthropic.com/news/where-stand-department-war",
-          "thumbnail": "",
-          "summary": "A statement from Dario Amodei.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-03-04T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-008",
           "title": "Where things stand with the Department of War",
           "url": "https://www.anthropic.com/news/where-stand-department-war",
           "thumbnail": "",
@@ -425,19 +412,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-009",
-          "title": "Statement on the comments from Secretary of War Pete Hegseth",
-          "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
-          "thumbnail": "",
-          "summary": "Anthropic's response to the Secretary of War and advice to customers.",
-          "tags": [
-            "Claude"
-          ],
-          "publishedAt": "2026-02-26T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-010",
+          "id": "anthropic-008",
           "title": "Statement on the comments from Secretary of War Pete Hegseth",
           "url": "https://www.anthropic.com/news/statement-comments-secretary-war",
           "thumbnail": "",
@@ -448,6 +423,31 @@
           ],
           "publishedAt": "2026-02-26T16:00:00.000Z",
           "publishedAtRelative": "0个月前"
+        },
+        {
+          "id": "anthropic-009",
+          "title": "Statement from Dario Amodei on our discussions with the Department of War",
+          "url": "https://www.anthropic.com/news/statement-department-of-war",
+          "thumbnail": "",
+          "summary": "Statement from Dario Amodei on our discussions with the Department of War",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-02-25T16:00:00.000Z",
+          "publishedAtRelative": "0个月前"
+        },
+        {
+          "id": "anthropic-010",
+          "title": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
+          "url": "https://www.anthropic.com/news/acquires-vercept",
+          "thumbnail": "",
+          "summary": "Anthropic acquires Vercept to advance Claude's computer use capabilities",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-02-24T16:00:00.000Z",
+          "publishedAtRelative": "0个月前"
         }
       ]
     },
@@ -455,7 +455,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-03-17T17:00:10.112Z",
+      "updatedAt": "2026-03-18T16:55:20.877Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -463,7 +463,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-03-17T17:00:12.283Z",
+      "updatedAt": "2026-03-18T16:55:23.111Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -471,7 +471,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-03-17T17:00:14.851Z",
+      "updatedAt": "2026-03-18T16:55:25.618Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -484,7 +484,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         },
         {
@@ -496,7 +496,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         },
         {
@@ -508,7 +508,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         },
         {
@@ -520,7 +520,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         },
         {
@@ -533,7 +533,7 @@
             "生成式",
             "Gemini"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         },
         {
@@ -545,7 +545,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         },
         {
@@ -557,7 +557,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         },
         {
@@ -569,7 +569,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         },
         {
@@ -581,7 +581,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         },
         {
@@ -594,7 +594,7 @@
             "AI",
             "工具"
           ],
-          "publishedAt": "2026-03-17T17:00:14.851Z",
+          "publishedAt": "2026-03-18T16:55:25.618Z",
           "publishedAtRelative": ""
         }
       ]
@@ -603,7 +603,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-03-17T17:00:16.957Z",
+      "updatedAt": "2026-03-18T16:55:27.701Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -611,7 +611,7 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-03-17T17:00:19.305Z",
+      "updatedAt": "2026-03-18T16:55:29.977Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -623,12 +623,48 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-03-16T17:55:54.000Z",
-          "publishedAtRelative": "23小时前"
+          "publishedAt": "2026-03-18T15:13:27.000Z",
+          "publishedAtRelative": "1小时前"
         },
         {
           "id": "aws-002",
           "title": "Artificial Intelligence",
+          "url": "https://aws.amazon.com/blogs/machine-learning/migrate-from-amazon-nova-1-to-amazon-nova-2-on-amazon-bedrock/",
+          "thumbnail": "",
+          "summary": "In this post, you will learn how to migrate from Nova 1 to Nova 2 on Amazon Bedrock. We cover model mapping, API changes, code examples using the Converse API, guidance on configuring new capabilities, and a summary of use cases. We conclude with a migration checklist to help you plan and execute your transition.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-03-18T15:13:27.000Z",
+          "publishedAtRelative": "1小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "AWS AI League: Atos fine-tunes approach to AI education",
+          "url": "https://aws.amazon.com/blogs/machine-learning/aws-ai-league-atos-fine-tunes-approach-to-ai-education/",
+          "thumbnail": "",
+          "summary": "In this post, we’ll explore how Atos used the AWS AI League to help accelerate AI education across 400+ participants, highlight the tangible benefits of gamified, experiential learning, and share actionable insights you can apply to your own AI enablement programs.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-03-17T15:51:08.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "aws-004",
+          "title": "AWS and NVIDIA deepen strategic collaboration to accelerate AI from pilot to production",
+          "url": "https://aws.amazon.com/blogs/machine-learning/aws-and-nvidia-deepen-strategic-collaboration-to-accelerate-ai-from-pilot-to-production/",
+          "thumbnail": "",
+          "summary": "Today at NVIDIA GTC 2026, AWS and NVIDIA announced an expanded collaboration with new technology integrations to support growing AI compute demand and help you build and run AI solutions that are production-ready.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-03-16T20:51:16.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "aws-005",
+          "title": "Agentic AI in the Enterprise Part 2: Guidance by Persona",
           "url": "https://aws.amazon.com/blogs/machine-learning/agentic-ai-in-the-enterprise-part-2-guidance-by-persona/",
           "thumbnail": "",
           "summary": "This is Part II of a two-part series from the AWS Generative AI Innovation Center. In Part II, we speak directly to the leaders who must turn that shared foundation into action. Each role carries a distinct set of responsibilities, risks, and leverage points. Whether you own a P&L, run enterprise architecture, lead security, govern data, or manage compliance, this section is written in the language of your job—because that’s where agentic AI either succeeds or quietly dies.",
@@ -637,10 +673,10 @@
             "生成式"
           ],
           "publishedAt": "2026-03-16T17:55:54.000Z",
-          "publishedAtRelative": "23小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-006",
           "title": "Introducing Disaggregated Inference on AWS powered by llm-d",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-disaggregated-inference-on-aws-powered-by-llm-d/",
           "thumbnail": "",
@@ -653,7 +689,7 @@
           "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-004",
+          "id": "aws-007",
           "title": "How Workhuman built multi-tenant self-service reporting using Amazon Quick Sight embedded dashboards",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-workhuman-built-multi-tenant-self-service-reporting-using-amazon-quick-sight-embedded-dashboards/",
           "thumbnail": "",
@@ -663,10 +699,10 @@
             "AI"
           ],
           "publishedAt": "2026-03-16T14:48:16.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-005",
+          "id": "aws-008",
           "title": "Build an offline feature store using Amazon SageMaker Unified Studio and SageMaker Catalog",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-an-offline-feature-store-using-amazon-sagemaker-unified-studio-and-sagemaker-catalog/",
           "thumbnail": "",
@@ -675,10 +711,10 @@
             "AI"
           ],
           "publishedAt": "2026-03-16T14:42:46.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-006",
+          "id": "aws-009",
           "title": "P-EAGLE: Faster LLM inference with Parallel Speculative Decoding in vLLM",
           "url": "https://aws.amazon.com/blogs/machine-learning/p-eagle-faster-llm-inference-with-parallel-speculative-decoding-in-vllm/",
           "thumbnail": "",
@@ -687,10 +723,10 @@
             "AI"
           ],
           "publishedAt": "2026-03-13T19:27:04.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "aws-007",
+          "id": "aws-010",
           "title": "Improve operational visibility for inference workloads on Amazon Bedrock with new CloudWatch metrics for TTFT and Estimated Quota Consumption",
           "url": "https://aws.amazon.com/blogs/machine-learning/improve-operational-visibility-for-inference-workloads-on-amazon-bedrock-with-new-cloudwatch-metrics-for-ttft-and-estimated-quota-consumption/",
           "thumbnail": "",
@@ -700,44 +736,6 @@
             "AI"
           ],
           "publishedAt": "2026-03-12T21:20:17.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Secure AI agents with Policy in Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-in-amazon-bedrock-agentcore/",
-          "thumbnail": "",
-          "summary": "In this post, you will understand how Policy in Amazon Bedrock AgentCore creates a deterministic enforcement layer that operates independently of the agent’s own reasoning. You will learn how to turn natural language descriptions of your business rules into Cedar policies, then use those policies to enforce fine-grained, identity-aware controls so that agents only access the tools and data that their users are authorized to use. You will also see how to apply Policy through AgentCore Gateway, intercepting and evaluating every agent-to-tool request at runtime.",
-          "tags": [
-            "AI",
-            "工具",
-            "生成式"
-          ],
-          "publishedAt": "2026-03-12T21:16:50.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Multimodal embeddings at scale: AI data lake for media and entertainment workloads",
-          "url": "https://aws.amazon.com/blogs/machine-learning/multimodal-embeddings-at-scale-ai-data-lake-for-media-and-entertainment-workloads/",
-          "thumbnail": "",
-          "summary": "This post shows you how to build a scalable multimodal video search system that enables natural language search across large video datasets using Amazon Nova models and Amazon OpenSearch Service. You will learn how to move beyond manual tagging and keyword-based searches to enable semantic search that captures the full richness of video content.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-03-12T15:59:35.000Z",
-          "publishedAtRelative": "5天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Fine-tuning NVIDIA Nemotron Speech ASR on Amazon EC2 for domain adaptation",
-          "url": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-nvidia-nemotron-speech-asr-on-amazon-ec2-for-domain-adaptation/",
-          "thumbnail": "",
-          "summary": "In this post, we explore how to fine-tune a leaderboard-topping, NVIDIA Nemotron Speech Automatic Speech Recognition (ASR) model; Parakeet TDT 0.6B V2. Using synthetic speech data to achieve superior transcription results for specialised applications, we’ll walk through an end-to-end workflow that combines AWS infrastructure with the following popular open-source frameworks.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-03-12T15:57:22.000Z",
           "publishedAtRelative": "5天前"
         }
       ]
@@ -746,7 +744,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-03-17T17:00:21.479Z",
+      "updatedAt": "2026-03-18T16:55:32.125Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -754,7 +752,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-03-17T17:00:23.956Z",
+      "updatedAt": "2026-03-18T16:55:34.561Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -767,7 +765,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T17:00:23.956Z",
+          "publishedAt": "2026-03-18T16:55:34.561Z",
           "publishedAtRelative": ""
         },
         {
@@ -780,7 +778,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T17:00:23.956Z",
+          "publishedAt": "2026-03-18T16:55:34.561Z",
           "publishedAtRelative": ""
         },
         {
@@ -793,7 +791,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T17:00:23.956Z",
+          "publishedAt": "2026-03-18T16:55:34.561Z",
           "publishedAtRelative": ""
         },
         {
@@ -805,7 +803,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-03-17T17:00:23.956Z",
+          "publishedAt": "2026-03-18T16:55:34.561Z",
           "publishedAtRelative": ""
         },
         {
@@ -818,7 +816,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-03-17T17:00:23.956Z",
+          "publishedAt": "2026-03-18T16:55:34.561Z",
           "publishedAtRelative": ""
         }
       ]
