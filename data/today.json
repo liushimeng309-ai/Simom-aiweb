@@ -1,11 +1,11 @@
 {
-  "date": "2026-04-21",
+  "date": "2026-04-22",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-04-20T16:59:42.952Z",
+      "updatedAt": "2026-04-21T16:54:47.435Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-04-20T16:59:45.058Z",
+      "updatedAt": "2026-04-21T16:54:49.512Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -21,7 +21,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-04-20T16:59:47.444Z",
+      "updatedAt": "2026-04-21T16:54:51.911Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -34,7 +34,7 @@
             "AI",
             "Gemini"
           ],
-          "publishedAt": "2026-04-20T16:59:47.444Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         },
         {
@@ -47,7 +47,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:47.444Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         },
         {
@@ -60,7 +60,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:47.444Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         },
         {
@@ -73,7 +73,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:47.444Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         },
         {
@@ -86,7 +86,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:47.444Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         },
         {
@@ -99,7 +99,7 @@
             "设计系统",
             "用户体验"
           ],
-          "publishedAt": "2026-04-20T16:59:47.444Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         },
         {
@@ -112,7 +112,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:47.444Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         },
         {
@@ -125,7 +125,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:47.444Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         },
         {
@@ -138,7 +138,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:47.444Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         },
         {
@@ -151,7 +151,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:47.445Z",
+          "publishedAt": "2026-04-21T16:54:51.911Z",
           "publishedAtRelative": ""
         }
       ]
@@ -160,7 +160,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-04-20T16:59:50.062Z",
+      "updatedAt": "2026-04-21T16:54:54.410Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -173,7 +173,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         },
         {
@@ -185,7 +185,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         },
         {
@@ -198,7 +198,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         },
         {
@@ -211,7 +211,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         },
         {
@@ -224,7 +224,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         },
         {
@@ -237,7 +237,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         },
         {
@@ -250,7 +250,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         },
         {
@@ -263,7 +263,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         },
         {
@@ -276,7 +276,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         },
         {
@@ -289,7 +289,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T16:59:50.062Z",
+          "publishedAt": "2026-04-21T16:54:54.410Z",
           "publishedAtRelative": ""
         }
       ]
@@ -298,7 +298,7 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-04-20T16:59:56.046Z",
+      "updatedAt": "2026-04-21T16:55:00.507Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -312,7 +312,7 @@
             "Claude"
           ],
           "publishedAt": "2026-04-16T16:00:00.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "5天前"
         },
         {
           "id": "anthropic-002",
@@ -324,7 +324,7 @@
             "Claude"
           ],
           "publishedAt": "2026-04-16T16:00:00.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "5天前"
         },
         {
           "id": "anthropic-003",
@@ -337,7 +337,7 @@
             "AI"
           ],
           "publishedAt": "2026-04-15T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
           "id": "anthropic-004",
@@ -350,7 +350,7 @@
             "AI"
           ],
           "publishedAt": "2026-04-15T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
           "id": "anthropic-005",
@@ -362,7 +362,7 @@
             "Claude"
           ],
           "publishedAt": "2026-04-15T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
           "id": "anthropic-006",
@@ -374,7 +374,7 @@
             "Claude"
           ],
           "publishedAt": "2026-04-15T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
           "id": "anthropic-007",
@@ -431,7 +431,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-04-20T16:59:58.126Z",
+      "updatedAt": "2026-04-21T16:55:02.621Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -439,7 +439,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-04-20T17:00:00.367Z",
+      "updatedAt": "2026-04-21T16:55:04.818Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -447,7 +447,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-04-20T17:00:03.625Z",
+      "updatedAt": "2026-04-21T16:55:07.438Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -459,7 +459,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         },
         {
@@ -472,7 +472,7 @@
             "AI",
             "Gemini"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         },
         {
@@ -485,7 +485,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         },
         {
@@ -498,7 +498,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         },
         {
@@ -511,7 +511,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         },
         {
@@ -523,7 +523,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         },
         {
@@ -536,7 +536,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         },
         {
@@ -548,7 +548,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         },
         {
@@ -560,7 +560,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         },
         {
@@ -572,7 +572,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-04-20T17:00:03.625Z",
+          "publishedAt": "2026-04-21T16:55:07.438Z",
           "publishedAtRelative": ""
         }
       ]
@@ -581,7 +581,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-04-20T17:00:05.987Z",
+      "updatedAt": "2026-04-21T16:55:09.565Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -589,11 +589,50 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-04-20T17:00:08.481Z",
+      "updatedAt": "2026-04-21T16:55:11.969Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "aws-001",
+          "title": "End-to-end lineage with DVC and Amazon SageMaker AI MLflow apps",
+          "url": "https://aws.amazon.com/blogs/machine-learning/end-to-end-lineage-with-dvc-and-amazon-sagemaker-ai-mlflow-apps/",
+          "thumbnail": "",
+          "summary": "In this post, we show how to combine DVC (Data Version Control), Amazon SageMaker AI, and Amazon SageMaker AI MLflow Apps to build end-to-end ML model lineage. We walk through two deployable patterns — dataset-level lineage and record-level lineage — that you can run in your own AWS account using the companion notebooks.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-04-21T16:43:03.000Z",
+          "publishedAtRelative": "12分钟前"
+        },
+        {
+          "id": "aws-002",
+          "title": "Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-generative-ai-inference-on-amazon-sagemaker-ai-with-g7e-instances/",
+          "thumbnail": "",
+          "summary": "Today, we are thrilled to announce the availability of G7e instances powered by NVIDIA RTX PRO 6000 Blackwell Server Edition GPUs on Amazon SageMaker AI. You can provision nodes with 1, 2, 4, and 8 RTX PRO 6000 GPU instances, with each GPU providing 96 GB of GDDR7 memory. This launch provides the capability to use a single-node GPU, G7e.2xlarge instance to host powerful open source foundation models (FMs) like GPT-OSS-120B, Nemotron-3-Super-120B-A12B (NVFP4 variant), and Qwen3.5-35B-A3B, offering organizations a cost-effective and high-performing option.",
+          "tags": [
+            "AI",
+            "生成式",
+            "ChatGPT"
+          ],
+          "publishedAt": "2026-04-20T19:38:10.000Z",
+          "publishedAtRelative": "21小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "ToolSimulator: scalable tool testing for AI agents",
+          "url": "https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/",
+          "thumbnail": "",
+          "summary": "You can use ToolSimulator, an LLM-powered tool simulation framework within Strands Evals, to thoroughly and safely test AI agents that rely on external tools, at scale. Instead of risking live API calls that expose personally identifiable information (PII), trigger unintended actions, or settling for static mocks that break with multi-turn workflows, you can use ToolSimulator’s large language model (LLM)-powered simulations to validate your agents. Available today as part of the Strands Evals Software Development Kit (SDK), ToolSimulator helps you catch integration bugs early, test edge cases comprehensively, and ship production-ready agents with confidence.",
+          "tags": [
+            "AI",
+            "工具"
+          ],
+          "publishedAt": "2026-04-20T17:06:26.000Z",
+          "publishedAtRelative": "23小时前"
+        },
+        {
+          "id": "aws-004",
           "title": "Omnichannel ordering with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic",
           "url": "https://aws.amazon.com/blogs/machine-learning/omnichannel-ordering-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/",
           "thumbnail": "",
@@ -602,10 +641,10 @@
             "AI"
           ],
           "publishedAt": "2026-04-20T15:03:28.000Z",
-          "publishedAtRelative": "1小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-002",
+          "id": "aws-005",
           "title": "Introducing granular cost attribution for Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-granular-cost-attribution-for-amazon-bedrock/",
           "thumbnail": "",
@@ -615,10 +654,10 @@
             "AI"
           ],
           "publishedAt": "2026-04-17T22:04:15.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-006",
           "title": "Optimize video semantic search intent with Amazon Nova Model Distillation on Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/optimize-video-semantic-search-intent-with-amazon-nova-model-distillation-on-amazon-bedrock/",
           "thumbnail": "",
@@ -627,10 +666,10 @@
             "AI"
           ],
           "publishedAt": "2026-04-17T19:43:38.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-004",
+          "id": "aws-007",
           "title": "Power video semantic search with Amazon Nova Multimodal Embeddings",
           "url": "https://aws.amazon.com/blogs/machine-learning/power-video-semantic-search-with-amazon-nova-multimodal-embeddings/",
           "thumbnail": "",
@@ -640,10 +679,10 @@
             "AI"
           ],
           "publishedAt": "2026-04-17T19:43:35.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-005",
+          "id": "aws-008",
           "title": "Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities",
           "url": "https://aws.amazon.com/blogs/machine-learning/nova-forge-sdk-series-part-2-practical-guide-to-fine-tune-nova-models-using-data-mixing-capabilities/",
           "thumbnail": "",
@@ -652,10 +691,10 @@
             "AI"
           ],
           "publishedAt": "2026-04-17T17:27:40.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-006",
+          "id": "aws-009",
           "title": "From hours to minutes: How Agentic AI gave marketers time back for what matters",
           "url": "https://aws.amazon.com/blogs/machine-learning/from-hours-to-minutes-how-agentic-ai-gave-marketers-time-back-for-what-matters/",
           "thumbnail": "",
@@ -664,10 +703,10 @@
             "AI"
           ],
           "publishedAt": "2026-04-17T17:12:10.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-007",
+          "id": "aws-010",
           "title": "Cost-efficient custom text-to-SQL using Amazon Nova Micro and Amazon Bedrock on-demand inference",
           "url": "https://aws.amazon.com/blogs/machine-learning/cost-efficient-custom-text-to-sql-using-amazon-nova-micro-and-amazon-bedrock-on-demand-inference/",
           "thumbnail": "",
@@ -677,46 +716,7 @@
             "AI"
           ],
           "publishedAt": "2026-04-16T17:43:03.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Transform retail with AWS generative AI services",
-          "url": "https://aws.amazon.com/blogs/machine-learning/transform-retail-with-aws-generative-ai-services/",
-          "thumbnail": "",
-          "summary": "Online retailers face a persistent challenge: shoppers struggle to determine the fit and look when ordering online, leading to increased returns and decreased purchase confidence. The cost? Lost revenue, operational overhead, and customer frustration. Meanwhile, consumers increasingly expect immersive, interactive shopping experiences that bridge the gap between online and in-store retail. Retailers implementing virtual try-on […]",
-          "tags": [
-            "AI",
-            "生成式"
-          ],
-          "publishedAt": "2026-04-16T17:39:56.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "How Automated Reasoning checks in Amazon Bedrock transform generative AI compliance",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-automated-reasoning-checks-in-amazon-bedrock-transform-generative-ai-compliance/",
-          "thumbnail": "",
-          "summary": "In this post, you’ll learn why probabilistic AI validation falls short in regulated industries and how Automated Reasoning checks use formal verification to deliver mathematically proven results. You’ll also see how customers across six industries use this technology to produce formally verified, auditable AI outputs, and how to get started.",
-          "tags": [
-            "AI",
-            "生成式"
-          ],
-          "publishedAt": "2026-04-16T17:34:42.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Create rich, custom tooltips in Amazon Quick Sight",
-          "url": "https://aws.amazon.com/blogs/machine-learning/create-rich-custom-tooltips-in-amazon-quick-sight/",
-          "thumbnail": "",
-          "summary": "Today, we’re announcing sheet tooltips in Amazon Quick Sight. Dashboard authors can now design custom tooltip layouts using free-form layout sheets. These layouts combine charts, key performance indicator (KPI) metrics, text, and other visuals into a single tooltip that renders dynamically when readers hover over data points.",
-          "tags": [
-            "工具",
-            "生成式"
-          ],
-          "publishedAt": "2026-04-15T15:22:53.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "4天前"
         }
       ]
     },
@@ -724,7 +724,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-04-20T17:00:10.707Z",
+      "updatedAt": "2026-04-21T16:55:15.217Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -732,7 +732,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-04-20T17:00:13.254Z",
+      "updatedAt": "2026-04-21T16:55:17.611Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -745,7 +745,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T17:00:13.254Z",
+          "publishedAt": "2026-04-21T16:55:17.611Z",
           "publishedAtRelative": ""
         },
         {
@@ -758,7 +758,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T17:00:13.254Z",
+          "publishedAt": "2026-04-21T16:55:17.611Z",
           "publishedAtRelative": ""
         },
         {
@@ -771,7 +771,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T17:00:13.254Z",
+          "publishedAt": "2026-04-21T16:55:17.611Z",
           "publishedAtRelative": ""
         },
         {
@@ -783,7 +783,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-04-20T17:00:13.254Z",
+          "publishedAt": "2026-04-21T16:55:17.611Z",
           "publishedAtRelative": ""
         },
         {
@@ -796,7 +796,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-04-20T17:00:13.254Z",
+          "publishedAt": "2026-04-21T16:55:17.611Z",
           "publishedAtRelative": ""
         }
       ]
