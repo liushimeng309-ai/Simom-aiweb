@@ -1,11 +1,11 @@
 {
-  "date": "2026-05-14",
+  "date": "2026-05-15",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-05-13T17:57:27.002Z",
+      "updatedAt": "2026-05-14T17:44:47.939Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,24 +13,11 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-05-13T17:57:29.320Z",
+      "updatedAt": "2026-05-14T17:44:50.219Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "microsoft-001",
-          "title": "Microsoft Design",
-          "url": "https://microsoft.design/news-and-stories/category/design-thinking/",
-          "thumbnail": "",
-          "summary": "Our ongoing process to build an AI-forward design system that supports work today, while carrying us into tomorrow.",
-          "tags": [
-            "AI",
-            "设计系统"
-          ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "microsoft-002",
           "title": "Design Thinking",
           "url": "https://microsoft.design/news-and-stories/category/design-thinking/",
           "thumbnail": "",
@@ -39,11 +26,11 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
+          "publishedAt": "2026-05-14T17:44:50.219Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-003",
+          "id": "microsoft-002",
           "title": "UX Research",
           "url": "https://microsoft.design/news-and-stories/category/ux-research/",
           "thumbnail": "",
@@ -51,11 +38,11 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
+          "publishedAt": "2026-05-14T17:44:50.219Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-004",
+          "id": "microsoft-003",
           "title": "Community",
           "url": "https://microsoft.design/news-and-stories/category/community/",
           "thumbnail": "",
@@ -64,11 +51,11 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
+          "publishedAt": "2026-05-14T17:44:50.219Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-005",
+          "id": "microsoft-004",
           "title": "Product",
           "url": "https://microsoft.design/news-and-stories/category/product/",
           "thumbnail": "",
@@ -77,11 +64,11 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
+          "publishedAt": "2026-05-14T17:44:50.219Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-006",
+          "id": "microsoft-005",
           "title": "Product",
           "url": "https://microsoft.design/news-and-stories/category/product/",
           "thumbnail": "",
@@ -90,11 +77,37 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
+          "publishedAt": "2026-05-14T17:44:50.219Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "microsoft-006",
+          "title": "Microsoft Design",
+          "url": "https://microsoft.design/news-and-stories/category/craft/",
+          "thumbnail": "",
+          "summary": "On becoming Microsoft’s first Chief Design Officer",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-05-14T17:44:50.219Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-007",
+          "title": "Craft",
+          "url": "https://microsoft.design/news-and-stories/category/craft/",
+          "thumbnail": "",
+          "summary": "On becoming Microsoft’s first Chief Design Officer",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-05-14T17:44:50.219Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "microsoft-008",
           "title": "Craft",
           "url": "https://microsoft.design/news-and-stories/category/craft/",
           "thumbnail": "",
@@ -103,11 +116,11 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
+          "publishedAt": "2026-05-14T17:44:50.219Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-008",
+          "id": "microsoft-009",
           "title": "Product",
           "url": "https://microsoft.design/news-and-stories/category/product/",
           "thumbnail": "",
@@ -116,11 +129,11 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
+          "publishedAt": "2026-05-14T17:44:50.219Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-009",
+          "id": "microsoft-010",
           "title": "UX Research",
           "url": "https://microsoft.design/news-and-stories/category/ux-research/",
           "thumbnail": "",
@@ -128,20 +141,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "microsoft-010",
-          "title": "Product",
-          "url": "https://microsoft.design/news-and-stories/category/product/",
-          "thumbnail": "",
-          "summary": "How a subtle refresh of our Microsoft 365 icons signals deeper change.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-13T17:57:29.321Z",
+          "publishedAt": "2026-05-14T17:44:50.219Z",
           "publishedAtRelative": ""
         }
       ]
@@ -150,137 +150,32 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-05-13T17:57:31.656Z",
+      "updatedAt": "2026-05-14T17:44:56.981Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "google-001",
-          "title": "Gemini Ai Visual Design",
+          "title": "Illustrating the Gemini App",
           "url": "https://design.google/library/gemini-ai-visual-design",
           "thumbnail": "",
-          "summary": "Gemini Ai Visual Design",
+          "summary": "0 results",
           "tags": [
-            "AI",
             "Gemini"
           ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
+          "publishedAt": "2026-05-14T17:44:56.981Z",
           "publishedAtRelative": ""
         },
         {
           "id": "google-002",
-          "title": "Transparent Screens",
+          "title": "Designing for Transparent Screens",
           "url": "https://design.google/library/transparent-screens",
           "thumbnail": "",
-          "summary": "Transparent Screens",
+          "summary": "0 results",
           "tags": [
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-003",
-          "title": "Google Sans Flex Font",
-          "url": "https://design.google/library/google-sans-flex-font",
-          "thumbnail": "",
-          "summary": "Google Sans Flex Font",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-004",
-          "title": "David Reinfurt Teaches Design",
-          "url": "https://design.google/library/david-reinfurt-teaches-design",
-          "thumbnail": "",
-          "summary": "David Reinfurt Teaches Design",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-005",
-          "title": "Hardware And Software Can Work Together",
-          "url": "https://design.google/library/hardware-and-software-can-work-together",
-          "thumbnail": "",
-          "summary": "Hardware And Software Can Work Together",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-006",
-          "title": "Ux Design System Dance",
-          "url": "https://design.google/library/ux-design-system-dance",
-          "thumbnail": "",
-          "summary": "Ux Design System Dance",
-          "tags": [
-            "设计系统",
-            "用户体验"
-          ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-007",
-          "title": "Open Source Custom Fonts Google",
-          "url": "https://design.google/library/open-source-custom-fonts-google",
-          "thumbnail": "",
-          "summary": "Open Source Custom Fonts Google",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-008",
-          "title": "Design Notes Material 3 Expressive Liam Spradlin",
-          "url": "https://design.google/library/design-notes-material-3-expressive-liam-spradlin",
-          "thumbnail": "",
-          "summary": "Design Notes Material 3 Expressive Liam Spradlin",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-009",
-          "title": "Neon Prism Tilt Variable Font",
-          "url": "https://design.google/library/neon-prism-tilt-variable-font",
-          "thumbnail": "",
-          "summary": "Neon Prism Tilt Variable Font",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "google-010",
-          "title": "Glacial Melt Font",
-          "url": "https://design.google/library/glacial-melt-font",
-          "thumbnail": "",
-          "summary": "Glacial Melt Font",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-13T17:57:31.656Z",
+          "publishedAt": "2026-05-14T17:44:56.981Z",
           "publishedAtRelative": ""
         }
       ]
@@ -289,7 +184,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-05-13T17:57:34.223Z",
+      "updatedAt": "2026-05-14T17:44:59.813Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -302,7 +197,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         },
         {
@@ -314,7 +209,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         },
         {
@@ -327,7 +222,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         },
         {
@@ -340,7 +235,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         },
         {
@@ -353,7 +248,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         },
         {
@@ -366,7 +261,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         },
         {
@@ -379,7 +274,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         },
         {
@@ -392,7 +287,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         },
         {
@@ -405,7 +300,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         },
         {
@@ -418,7 +313,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:34.223Z",
+          "publishedAt": "2026-05-14T17:44:59.813Z",
           "publishedAtRelative": ""
         }
       ]
@@ -427,11 +322,23 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-05-13T17:57:39.653Z",
+      "updatedAt": "2026-05-14T17:45:03.198Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "anthropic-001",
+          "title": "Anthropic forms $200 million partnership with the Gates Foundation",
+          "url": "https://www.anthropic.com/news/gates-foundation-partnership",
+          "thumbnail": "",
+          "summary": "Anthropic forms $200 million partnership with the Gates Foundation",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-05-13T16:00:00.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "anthropic-002",
           "title": "Introducing Claude for Small Business",
           "url": "https://www.anthropic.com/news/claude-for-small-business",
           "thumbnail": "",
@@ -440,10 +347,10 @@
             "Claude"
           ],
           "publishedAt": "2026-05-12T16:00:00.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "anthropic-002",
+          "id": "anthropic-003",
           "title": "Higher usage limits for Claude and a compute deal with SpaceX",
           "url": "https://www.anthropic.com/news/higher-limits-spacex",
           "thumbnail": "",
@@ -455,7 +362,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-003",
+          "id": "anthropic-004",
           "title": "Agents for financial services",
           "url": "https://www.anthropic.com/news/finance-agents",
           "thumbnail": "",
@@ -468,7 +375,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-004",
+          "id": "anthropic-005",
           "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
           "url": "https://www.anthropic.com/news/enterprise-ai-services-company",
           "thumbnail": "",
@@ -480,7 +387,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-005",
+          "id": "anthropic-006",
           "title": "Claude for Creative Work",
           "url": "https://www.anthropic.com/news/claude-for-creative-work",
           "thumbnail": "",
@@ -492,7 +399,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-006",
+          "id": "anthropic-007",
           "title": "Anthropic names Theo Hourmouzis General Manager of Australia & New Zealand and officially opens Sydney office",
           "url": "https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand",
           "thumbnail": "",
@@ -504,7 +411,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-007",
+          "id": "anthropic-008",
           "title": "An update on our election safeguards",
           "url": "https://www.anthropic.com/news/election-safeguards-update",
           "thumbnail": "",
@@ -517,7 +424,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-008",
+          "id": "anthropic-009",
           "title": "Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce",
           "url": "https://www.anthropic.com/news/anthropic-nec",
           "thumbnail": "",
@@ -530,7 +437,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-009",
+          "id": "anthropic-010",
           "title": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute",
           "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
           "thumbnail": "",
@@ -540,19 +447,6 @@
           ],
           "publishedAt": "2026-04-19T16:00:00.000Z",
           "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-010",
-          "title": "Introducing Claude Design by Anthropic Labs",
-          "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
-          "thumbnail": "",
-          "summary": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
-          "tags": [
-            "生成式",
-            "Claude"
-          ],
-          "publishedAt": "2026-04-16T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
         }
       ]
     },
@@ -560,7 +454,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-05-13T17:57:41.691Z",
+      "updatedAt": "2026-05-14T17:45:05.267Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -568,7 +462,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-05-13T17:57:44.018Z",
+      "updatedAt": "2026-05-14T17:45:07.782Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -576,7 +470,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-05-13T17:57:46.522Z",
+      "updatedAt": "2026-05-14T17:45:10.474Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -588,7 +482,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         },
         {
@@ -601,7 +495,7 @@
             "AI",
             "Gemini"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         },
         {
@@ -614,7 +508,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         },
         {
@@ -627,7 +521,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         },
         {
@@ -640,7 +534,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         },
         {
@@ -652,7 +546,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         },
         {
@@ -665,7 +559,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         },
         {
@@ -677,7 +571,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         },
         {
@@ -689,7 +583,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         },
         {
@@ -701,7 +595,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-05-13T17:57:46.522Z",
+          "publishedAt": "2026-05-14T17:45:10.474Z",
           "publishedAtRelative": ""
         }
       ]
@@ -710,7 +604,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-05-13T17:57:48.624Z",
+      "updatedAt": "2026-05-14T17:45:12.635Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -718,11 +612,73 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-05-13T17:57:50.995Z",
+      "updatedAt": "2026-05-14T17:45:15.081Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "aws-001",
+          "title": "Improve bot accuracy with Amazon Lex Assisted NLU",
+          "url": "https://aws.amazon.com/blogs/machine-learning/improve-bot-accuracy-with-amazon-lex-assisted-nlu/",
+          "thumbnail": "",
+          "summary": "In this post, you will learn how to implement Assisted NLU effectively. You will learn how to improve your bot design with effective intent and slot descriptions, validate your implementation using Test Workbench, and plan your transition from traditional NLU to Assisted NLU for both new and existing bots.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-05-14T17:28:44.000Z",
+          "publishedAtRelative": "16分钟前"
+        },
+        {
+          "id": "aws-002",
+          "title": "Real-time voice agents with Stream Vision Agents and Amazon Nova 2 Sonic",
+          "url": "https://aws.amazon.com/blogs/machine-learning/real-time-voice-agents-with-stream-vision-agents-and-amazon-nova-2-sonic/",
+          "thumbnail": "",
+          "summary": "In this post, you learn how to combine Stream’s Vision Agents open-source framework with Amazon Bedrock and Amazon Nova 2 Sonic to build real-time voice agents that can be production-ready in minutes. You’ll learn how the integration works under the hood, walk through code examples, and explore advanced capabilities like function calling, automatic reconnection, and multilingual voice support.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-05-14T17:23:48.000Z",
+          "publishedAtRelative": "21分钟前"
+        },
+        {
+          "id": "aws-003",
+          "title": "From siloed data to unified insights: Cross-account Athena Access for Amazon Quick",
+          "url": "https://aws.amazon.com/blogs/machine-learning/from-siloed-data-to-unified-insights-cross-account-athena-access-for-amazon-quick/",
+          "thumbnail": "",
+          "summary": "Today, we’re announcing cross-account Athena access for Amazon Quick. With this feature, customers can query Athena data in other AWS accounts using AWS Identity and Access Management (IAM) role chaining, with query costs billed to the account where the data resides.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-05-14T17:17:50.000Z",
+          "publishedAtRelative": "27分钟前"
+        },
+        {
+          "id": "aws-004",
+          "title": "Control where your AI agents can browse with Chrome enterprise policies on Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/",
+          "thumbnail": "",
+          "summary": "In this post, you will configure Chrome enterprise policies to restrict a browser agent to a specific website, observe the policy enforcement through session recording, and demonstrate custom root CA certificates using a public test site. The walkthrough produces a working solution that researches Amazon Bedrock AgentCore documentation while operating under enterprise browser restrictions.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-05-14T17:17:35.000Z",
+          "publishedAtRelative": "27分钟前"
+        },
+        {
+          "id": "aws-005",
+          "title": "Build financial document processing with Pulse AI and Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-financial-document-processing-with-pulse-ai-and-amazon-bedrock/",
+          "thumbnail": "",
+          "summary": "This post demonstrates how to build a documentation extraction and model fine-tuning pipeline that addresses challenges when processing the complex financial documents. By combining Pulse AI’s advanced document understanding capabilities with the powerful AI services of Amazon Bedrock, organizations can achieve enterprise-grade accuracy and extract contextually relevant financial insights at scale.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-05-13T18:00:06.000Z",
+          "publishedAtRelative": "23小时前"
+        },
+        {
+          "id": "aws-006",
           "title": "Build real-time voice streaming applications with Amazon Nova Sonic and WebRTC",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-streaming-applications-with-amazon-nova-sonic-and-webrtc/",
           "thumbnail": "",
@@ -732,10 +688,10 @@
             "AI"
           ],
           "publishedAt": "2026-05-13T17:46:19.000Z",
-          "publishedAtRelative": "11分钟前"
+          "publishedAtRelative": "23小时前"
         },
         {
-          "id": "aws-002",
+          "id": "aws-007",
           "title": "Securing AI agents: How AWS and Cisco AI Defense scale MCP and A2A deployments",
           "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-how-aws-and-cisco-ai-defense-scale-mcp-and-a2a-deployments/",
           "thumbnail": "",
@@ -744,10 +700,10 @@
             "AI"
           ],
           "publishedAt": "2026-05-13T17:33:16.000Z",
-          "publishedAtRelative": "24分钟前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-008",
           "title": "Fine-tune LLM with Databricks Unity Catalog and Amazon SageMaker AI",
           "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-llm-with-databricks-unity-catalog-and-amazon-sagemaker-ai/",
           "thumbnail": "",
@@ -756,10 +712,10 @@
             "AI"
           ],
           "publishedAt": "2026-05-13T17:22:42.000Z",
-          "publishedAtRelative": "35分钟前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-004",
+          "id": "aws-009",
           "title": "How Amazon Finance streamlines regulatory inquiries by using generative AI on AWS",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/",
           "thumbnail": "",
@@ -769,10 +725,10 @@
             "生成式"
           ],
           "publishedAt": "2026-05-12T16:41:33.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-005",
+          "id": "aws-010",
           "title": "Automate schema generation for intelligent document processing",
           "url": "https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/",
           "thumbnail": "",
@@ -782,70 +738,6 @@
             "AI"
           ],
           "publishedAt": "2026-05-12T15:54:08.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-006",
-          "title": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
-          "url": "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/",
-          "thumbnail": "",
-          "summary": "In this post, we show you how to set up FLOPs tracking during LLM fine-tuning using the open source Fine-Tuning FLOPs Meter toolkit on Amazon SageMaker AI. You learn how to determine your compliance status with a single configuration flag and generate audit-ready documentation.",
-          "tags": [
-            "AI",
-            "工具"
-          ],
-          "publishedAt": "2026-05-12T15:48:52.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-007",
-          "title": "Building web search-enabled agents with Strands and Exa",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-web-search-enabled-agents-with-strands-and-exa/",
-          "thumbnail": "",
-          "summary": "In this post, you will learn how to set up the Exa integration in Strands Agents, understand the two core tools it exposes, and walk through real-world use cases that show how agents use web search to complete multi-step tasks.",
-          "tags": [
-            "工具"
-          ],
-          "publishedAt": "2026-05-11T21:58:16.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Introducing Claude Platform on AWS: Anthropic’s native platform, through your AWS account",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-platform-on-aws-anthropics-native-platform-through-your-aws-account/",
-          "thumbnail": "",
-          "summary": "Today, we’re excited to announce the general availability of Claude Platform on AWS. Claude Platform on AWS is a new service that gives customers direct access to Anthropic’s native Claude Platform experience through their AWS account, with no separate credentials, contracts, or billing relationships required. AWS is the first cloud provider to offer access to the native Claude Platform experience. In this post, we explore how Claude Platform on AWS works and how you can start using it today.",
-          "tags": [
-            "AI",
-            "Claude"
-          ],
-          "publishedAt": "2026-05-11T18:43:03.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Manufacturing intelligence with Amazon Nova Multimodal Embeddings",
-          "url": "https://aws.amazon.com/blogs/machine-learning/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings/",
-          "thumbnail": "",
-          "summary": "In this post, we build a multimodal retrieval system for aerospace manufacturing documents using Amazon Nova Multimodal Embeddings on Amazon Bedrock and Amazon S3 Vectors. We evaluate the system on 26 manufacturing queries and compare generation quality between a text-only pipeline and the multimodal pipeline.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-11T17:08:24.000Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "How Miro uses Amazon Bedrock to boost software bug routing accuracy and improve time-to-resolution from days to hours",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-miro-uses-amazon-bedrock-to-boost-software-bug-routing-accuracy-and-improve-time-to-resolution-from-days-to-hours/",
-          "thumbnail": "",
-          "summary": "In this post, we dive deep into the architecture and techniques we used to improve Miro’s bug routing, achieving six times fewer team reassignments and five times shorter time-to-resolution powered by Amazon Bedrock.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-05-11T17:03:00.000Z",
           "publishedAtRelative": "2天前"
         }
       ]
@@ -854,7 +746,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-05-13T17:57:53.220Z",
+      "updatedAt": "2026-05-14T17:45:17.425Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -862,71 +754,70 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-05-13T17:57:55.633Z",
+      "updatedAt": "2026-05-14T17:45:19.894Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "mapbox-001",
-          "title": "Over 100 global cities with 3D landmarks in Mapbox Standard",
-          "url": "https://www.mapbox.com/blog/global-cities-3d-landmarks",
+          "title": "Detailed architecture and new design flexibility enhance the latest release of Mapbox Standard",
+          "url": "https://www.mapbox.com/blog/detailed-architecture-and-new-design-flexibility-enhance-the-latest-release-of-mapbox-standard",
           "thumbnail": "",
-          "summary": "Over 100 global cities with 3D landmarks in Mapbox Standard",
+          "summary": "Detailed architecture and new design flexibility enhance the latest release of Mapbox Standard",
           "tags": [
-            "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:55.633Z",
+          "publishedAt": "2026-05-14T17:45:19.894Z",
           "publishedAtRelative": ""
         },
         {
           "id": "mapbox-002",
-          "title": "Mapbox Feedback Agent: Capture better real-time feedback from users",
-          "url": "https://www.mapbox.com/blog/mapbox-feedback-agent-capture-better-real-time-feedback-from-users",
+          "title": "Never miss a turn again with Mapbox 3D Lanes",
+          "url": "https://www.mapbox.com/blog/never-miss-a-turn-again-with-mapbox-3d-lanes",
           "thumbnail": "",
-          "summary": "Mapbox Feedback Agent: Capture better real-time feedback from users",
+          "summary": "Never miss a turn again with Mapbox 3D Lanes",
           "tags": [
-            "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:55.633Z",
+          "publishedAt": "2026-05-14T17:45:19.894Z",
           "publishedAtRelative": ""
         },
         {
           "id": "mapbox-003",
-          "title": "Search anywhere, go anywhere: Empowering users with the Mapbox Search SDKs",
-          "url": "https://www.mapbox.com/blog/search-anywhere-go-anywhere-empowering-users-with-the-mapbox-search-sdks",
+          "title": "Mapbox Geocoding adds 45 new countries and 73.2 million addresses",
+          "url": "https://www.mapbox.com/blog/mapbox-geocoding-adds-45-new-countries-and-73-2-million-addresses",
           "thumbnail": "",
-          "summary": "Search anywhere, go anywhere: Empowering users with the Mapbox Search SDKs",
+          "summary": "Mapbox Geocoding adds 45 new countries and 73.2 million addresses",
           "tags": [
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:55.633Z",
+          "publishedAt": "2026-05-14T17:45:19.894Z",
           "publishedAtRelative": ""
         },
         {
           "id": "mapbox-004",
-          "title": "How the Mapbox DevKit MCP Server enhances AI coding workflows",
-          "url": "https://www.mapbox.com/blog/how-the-mapbox-devkit-mcp-server-enhances-ai-coding-workflows",
+          "title": "Maps turn conversational",
+          "url": "https://www.mapbox.com/blog/maps-turn-conversational",
           "thumbnail": "",
-          "summary": "How the Mapbox DevKit MCP Server enhances AI coding workflows",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-05-13T17:57:55.633Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "mapbox-005",
-          "title": "Enhanced data coverage with Mapbox Movement V4",
-          "url": "https://www.mapbox.com/blog/enhanced-data-coverage-with-mapbox-movement-v4",
-          "thumbnail": "",
-          "summary": "Enhanced data coverage with Mapbox Movement V4",
+          "summary": "Maps turn conversational",
           "tags": [
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-05-13T17:57:55.633Z",
+          "publishedAt": "2026-05-14T17:45:19.894Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "mapbox-005",
+          "title": "Faster updates, fresher map data: MTS now supports incremental updates",
+          "url": "https://www.mapbox.com/blog/faster-updates-fresher-map-data-mts-now-supports-incremental-updates",
+          "thumbnail": "",
+          "summary": "Faster updates, fresher map data: MTS now supports incremental updates",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-05-14T17:45:19.894Z",
           "publishedAtRelative": ""
         }
       ]
