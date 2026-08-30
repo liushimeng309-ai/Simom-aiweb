@@ -1,11 +1,11 @@
 {
-  "date": "2026-08-30",
+  "date": "2026-08-31",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-08-29T19:05:12.336Z",
+      "updatedAt": "2026-08-30T18:59:26.357Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-08-29T19:05:14.765Z",
+      "updatedAt": "2026-08-30T18:59:28.594Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         },
         {
@@ -39,7 +39,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         },
         {
@@ -51,7 +51,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         },
         {
@@ -63,7 +63,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
             "AI",
             "用户体验"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         },
         {
@@ -88,7 +88,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         },
         {
@@ -101,7 +101,7 @@
             "用户体验",
             "Copilot"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         },
         {
@@ -114,7 +114,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         },
         {
@@ -126,7 +126,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         },
         {
@@ -139,7 +139,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:14.765Z",
+          "publishedAt": "2026-08-30T18:59:28.594Z",
           "publishedAtRelative": ""
         }
       ]
@@ -148,7 +148,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-08-29T19:05:17.201Z",
+      "updatedAt": "2026-08-30T18:59:30.920Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -161,7 +161,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:17.201Z",
+          "publishedAt": "2026-08-30T18:59:30.920Z",
           "publishedAtRelative": ""
         },
         {
@@ -174,7 +174,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:17.201Z",
+          "publishedAt": "2026-08-30T18:59:30.920Z",
           "publishedAtRelative": ""
         }
       ]
@@ -183,7 +183,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-08-29T19:05:19.801Z",
+      "updatedAt": "2026-08-30T18:59:33.592Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -196,7 +196,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         },
         {
@@ -208,7 +208,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         },
         {
@@ -221,7 +221,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         },
         {
@@ -234,7 +234,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         },
         {
@@ -247,7 +247,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         },
         {
@@ -260,7 +260,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         },
         {
@@ -273,7 +273,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         },
         {
@@ -286,7 +286,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         },
         {
@@ -299,7 +299,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         },
         {
@@ -312,7 +312,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:19.801Z",
+          "publishedAt": "2026-08-30T18:59:33.592Z",
           "publishedAtRelative": ""
         }
       ]
@@ -321,7 +321,7 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-08-29T19:05:22.133Z",
+      "updatedAt": "2026-08-30T18:59:35.860Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -334,7 +334,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-26T16:00:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "anthropic-002",
@@ -346,7 +346,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-26T16:00:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "anthropic-003",
@@ -358,7 +358,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-26T16:00:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "anthropic-004",
@@ -371,7 +371,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-26T16:00:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "anthropic-005",
@@ -384,7 +384,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-26T16:00:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "anthropic-006",
@@ -396,7 +396,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-24T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
           "id": "anthropic-007",
@@ -454,7 +454,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-08-29T19:05:24.210Z",
+      "updatedAt": "2026-08-30T18:59:37.894Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -462,7 +462,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-08-29T19:05:26.749Z",
+      "updatedAt": "2026-08-30T18:59:40.281Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -470,7 +470,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-08-29T19:05:29.990Z",
+      "updatedAt": "2026-08-30T18:59:42.771Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -483,7 +483,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         },
         {
@@ -495,7 +495,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         },
         {
@@ -508,7 +508,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         },
         {
@@ -521,7 +521,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         },
         {
@@ -534,7 +534,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         },
         {
@@ -546,7 +546,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         },
         {
@@ -559,7 +559,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         },
         {
@@ -571,7 +571,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         },
         {
@@ -584,7 +584,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         },
         {
@@ -598,7 +598,7 @@
             "设计系统",
             "生成式"
           ],
-          "publishedAt": "2026-08-29T19:05:29.990Z",
+          "publishedAt": "2026-08-30T18:59:42.771Z",
           "publishedAtRelative": ""
         }
       ]
@@ -607,7 +607,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-08-29T19:05:32.198Z",
+      "updatedAt": "2026-08-30T18:59:44.829Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -615,7 +615,7 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-08-29T19:05:34.716Z",
+      "updatedAt": "2026-08-30T18:59:47.232Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -629,7 +629,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-28T19:31:05.000Z",
-          "publishedAtRelative": "23小时前"
+          "publishedAtRelative": "1天前"
         },
         {
           "id": "aws-002",
@@ -641,7 +641,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-28T16:22:30.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
           "id": "aws-003",
@@ -654,7 +654,7 @@
             "设计系统"
           ],
           "publishedAt": "2026-08-28T16:20:40.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
           "id": "aws-004",
@@ -666,7 +666,7 @@
             "工具"
           ],
           "publishedAt": "2026-08-27T23:04:22.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
           "id": "aws-005",
@@ -679,7 +679,7 @@
             "ChatGPT"
           ],
           "publishedAt": "2026-08-27T18:36:08.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "aws-006",
@@ -691,7 +691,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-27T16:11:27.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "aws-007",
@@ -704,7 +704,7 @@
             "AI"
           ],
           "publishedAt": "2026-08-27T16:05:10.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "aws-008",
@@ -718,7 +718,7 @@
             "ChatGPT"
           ],
           "publishedAt": "2026-08-26T19:13:35.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "aws-009",
@@ -731,7 +731,7 @@
             "工具"
           ],
           "publishedAt": "2026-08-26T16:51:53.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "aws-010",
@@ -743,7 +743,7 @@
             "工具"
           ],
           "publishedAt": "2026-08-26T16:36:35.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         }
       ]
     },
@@ -751,7 +751,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-08-29T19:05:36.943Z",
+      "updatedAt": "2026-08-30T18:59:49.398Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -759,7 +759,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-08-29T19:05:39.371Z",
+      "updatedAt": "2026-08-30T18:59:51.711Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -771,7 +771,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:39.371Z",
+          "publishedAt": "2026-08-30T18:59:51.711Z",
           "publishedAtRelative": ""
         },
         {
@@ -783,7 +783,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:39.371Z",
+          "publishedAt": "2026-08-30T18:59:51.711Z",
           "publishedAtRelative": ""
         },
         {
@@ -796,7 +796,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:39.371Z",
+          "publishedAt": "2026-08-30T18:59:51.711Z",
           "publishedAtRelative": ""
         },
         {
@@ -809,7 +809,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:39.371Z",
+          "publishedAt": "2026-08-30T18:59:51.711Z",
           "publishedAtRelative": ""
         },
         {
@@ -822,7 +822,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-08-29T19:05:39.371Z",
+          "publishedAt": "2026-08-30T18:59:51.711Z",
           "publishedAtRelative": ""
         }
       ]
