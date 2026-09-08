@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-08",
+  "date": "2026-09-09",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-09-07T19:32:21.831Z",
+      "updatedAt": "2026-09-08T19:12:03.377Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-09-07T19:32:24.021Z",
+      "updatedAt": "2026-09-08T19:12:05.933Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         },
         {
@@ -39,7 +39,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         },
         {
@@ -51,7 +51,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         },
         {
@@ -63,7 +63,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
             "AI",
             "用户体验"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         },
         {
@@ -88,7 +88,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         },
         {
@@ -101,7 +101,7 @@
             "用户体验",
             "Copilot"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         },
         {
@@ -114,7 +114,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         },
         {
@@ -126,7 +126,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         },
         {
@@ -139,7 +139,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:24.021Z",
+          "publishedAt": "2026-09-08T19:12:05.933Z",
           "publishedAtRelative": ""
         }
       ]
@@ -148,7 +148,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-09-07T19:32:26.579Z",
+      "updatedAt": "2026-09-08T19:12:08.255Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -161,7 +161,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:26.579Z",
+          "publishedAt": "2026-09-08T19:12:08.255Z",
           "publishedAtRelative": ""
         },
         {
@@ -174,7 +174,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:26.579Z",
+          "publishedAt": "2026-09-08T19:12:08.255Z",
           "publishedAtRelative": ""
         }
       ]
@@ -183,7 +183,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-09-07T19:32:29.040Z",
+      "updatedAt": "2026-09-08T19:12:10.880Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -196,7 +196,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         },
         {
@@ -208,7 +208,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         },
         {
@@ -221,7 +221,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         },
         {
@@ -234,7 +234,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         },
         {
@@ -247,7 +247,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         },
         {
@@ -260,7 +260,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         },
         {
@@ -273,7 +273,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         },
         {
@@ -286,7 +286,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         },
         {
@@ -299,7 +299,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         },
         {
@@ -312,7 +312,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:29.040Z",
+          "publishedAt": "2026-09-08T19:12:10.880Z",
           "publishedAtRelative": ""
         }
       ]
@@ -321,7 +321,7 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-09-07T19:32:31.570Z",
+      "updatedAt": "2026-09-08T19:12:13.181Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -454,7 +454,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-09-07T19:32:33.598Z",
+      "updatedAt": "2026-09-08T19:12:15.225Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -462,7 +462,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-09-07T19:32:35.965Z",
+      "updatedAt": "2026-09-08T19:12:17.621Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -470,7 +470,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-09-07T19:32:38.762Z",
+      "updatedAt": "2026-09-08T19:12:20.477Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -483,7 +483,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         },
         {
@@ -495,7 +495,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         },
         {
@@ -508,7 +508,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         },
         {
@@ -521,7 +521,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         },
         {
@@ -534,7 +534,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         },
         {
@@ -547,7 +547,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         },
         {
@@ -559,7 +559,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         },
         {
@@ -572,7 +572,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         },
         {
@@ -584,7 +584,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         },
         {
@@ -597,7 +597,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:38.762Z",
+          "publishedAt": "2026-09-08T19:12:20.477Z",
           "publishedAtRelative": ""
         }
       ]
@@ -606,7 +606,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-09-07T19:32:40.901Z",
+      "updatedAt": "2026-09-08T19:12:22.597Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -614,11 +614,96 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-09-07T19:32:43.274Z",
+      "updatedAt": "2026-09-08T19:12:24.935Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "aws-001",
+          "title": "Amazon SageMaker Feature Store introduces UpdateRecord for feature-level writes",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-feature-store-introduces-updaterecord-for-feature-level-writes/",
+          "thumbnail": "",
+          "summary": "Amazon SageMaker Feature Store now supports feature-level writes. With the new UpdateRecord API, you can update one or more feature values in a single call without reading or rewriting the entire record. It is available for both the Standard (Amazon DynamoDB) and In-Memory (Amazon ElastiCache) online store tiers.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-08T18:29:15.000Z",
+          "publishedAtRelative": "43分钟前"
+        },
+        {
+          "id": "aws-002",
+          "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2/",
+          "thumbnail": "",
+          "summary": "Governing models across accounts is the next step after automatic model registration. This post extends managed MLflow and Amazon SageMaker AI Model Registry sync to two cross-account governance topologies: a hub-and-spoke pattern that centralizes governance with AWS RAM, and a hybrid pattern that keeps development accounts isolated.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-08T17:03:50.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/",
+          "thumbnail": "",
+          "summary": "Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) into the SageMaker AI Model Registry, with lifecycle stage promotion. Part 1 shows how to govern candidate models in a single account using IAM guardrails.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-08T17:03:20.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-004",
+          "title": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/",
+          "thumbnail": "",
+          "summary": "Wire Amazon Bedrock AgentCore Evaluations into a GitHub Actions pipeline: deploy an AI agent and an OAuth-protected MCP server to AgentCore runtime, invoke the agent with test prompts, score the responses, and automatically block pull requests when agent behavior regresses.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-08T16:23:21.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-005",
+          "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
+          "url": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
+          "thumbnail": "",
+          "summary": "Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7’s NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-08T16:21:57.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-006",
+          "title": "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
+          "thumbnail": "",
+          "summary": "HPE Zerto built an agentic troubleshooting system powered by Amazon Bedrock that runs on-premises inside the customer environment. This post describes the multi-agent architecture, the on-premises deployment model built with Strands Agents, and the engineering challenges of grounding agents in live disaster recovery data.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-09-08T16:15:23.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-007",
+          "title": "How DiDi built intelligent contact center QA with Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-didi-built-intelligent-contact-center-qa-with-amazon-bedrock/",
+          "thumbnail": "",
+          "summary": "DiDi built a transparent, self-owned contact center quality assurance (QA) system on Amazon Bedrock, replacing an opaque third-party tool. Intent verification accuracy rose from 38% to 86%, compliance scoring topped 90%, and Voice of Customer trend analysis dropped from hours to minutes across Spanish and Portuguese support.",
+          "tags": [
+            "工具"
+          ],
+          "publishedAt": "2026-09-08T16:11:11.000Z",
+          "publishedAtRelative": "3小时前"
+        },
+        {
+          "id": "aws-008",
           "title": "Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/deploy-a-multimodal-whatsapp-ordering-assistant-with-amazon-bedrock-agentcore/",
           "thumbnail": "",
@@ -627,10 +712,10 @@
             "Copilot"
           ],
           "publishedAt": "2026-09-04T21:45:52.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-002",
+          "id": "aws-009",
           "title": "Designing lifecycle policies for AgentCore memory",
           "url": "https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/",
           "thumbnail": "",
@@ -640,10 +725,10 @@
             "生成式"
           ],
           "publishedAt": "2026-09-04T17:20:04.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-010",
           "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
           "thumbnail": "",
@@ -652,95 +737,6 @@
             "AI"
           ],
           "publishedAt": "2026-09-04T16:16:00.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-004",
-          "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
-          "thumbnail": "",
-          "summary": "HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It drives the same guarded operations through both a web interface and an AI agent, turning cluster bootstrap, capacity, training, inference, and storage into dependable, agent-driven infrastructure.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-04T16:12:17.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-005",
-          "title": "Customizing your knowledge base on Amazon Bedrock for large and complex documents using Amazon Textract",
-          "url": "https://aws.amazon.com/blogs/machine-learning/customizing-your-knowledge-base-on-amazon-bedrock-for-large-and-complex-documents-using-amazon-textract/",
-          "thumbnail": "",
-          "summary": "Learn how to customize an Amazon Bedrock knowledge base for large, complex documents by combining the high-accuracy text extraction of Amazon Textract with the generative AI of Amazon Bedrock. This post shows how to ingest and preprocess PDFs and images, then query utility bills at scale for faster, more accurate customer interactions.",
-          "tags": [
-            "AI",
-            "生成式"
-          ],
-          "publishedAt": "2026-09-04T16:08:10.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-006",
-          "title": "How Intuit built an agentic disaster recovery assistant with Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-intuit-built-an-agentic-disaster-recovery-assistant-with-amazon-bedrock/",
-          "thumbnail": "",
-          "summary": "Disaster recovery at scale is hard. Learn how Intuit built EWOK Agent, an agentic disaster recovery assistant on Amazon Bedrock that lets on-call engineers run production failovers from a plain-language request while keeping every action audited, policy-compliant, and safe.",
-          "tags": [
-            "AI",
-            "Copilot"
-          ],
-          "publishedAt": "2026-09-04T16:06:01.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-007",
-          "title": "AI-driven development lifecycle using Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/ai-driven-development-lifecycle-using-amazon-bedrock-agentcore/",
-          "thumbnail": "",
-          "summary": "Engineering teams adopting the AI-Driven Development Lifecycle (AI-DLC) often struggle to turn concepts into working code. This post walks through two reference implementations on Amazon Bedrock AgentCore, Kiro, and Claude Code: an SQL-to-ER-diagram generator and a multi-agent code security analyzer that put the AI-DLC construction phase into practice.",
-          "tags": [
-            "AI",
-            "Claude"
-          ],
-          "publishedAt": "2026-09-03T16:16:28.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Migrate agentic workloads to Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/migrate-agentic-workloads-to-amazon-bedrock-agentcore/",
-          "thumbnail": "",
-          "summary": "An agent that works in a notebook is not an agent in production. This post walks through migrating a LangGraph customer support agent to Amazon Bedrock AgentCore in two stages: onto Runtime, Gateway, and Memory, then to model-driven planning on Strands Agents, retiring operational burdens along the way.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-09-03T16:14:12.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Integrating Outlook with Amazon Quick for AI-powered email automation",
-          "url": "https://aws.amazon.com/blogs/machine-learning/integrating-outlook-with-amazon-quick-for-ai-powered-email-automation/",
-          "thumbnail": "",
-          "summary": "Integrate Microsoft Outlook with Amazon Quick to automate email management, calendar scheduling, and workflow coordination. This post walks through the end-to-end setup and shows automation scenarios using Amazon Quick chat agents, Amazon Quick Flows, and Amazon Quick Automate.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-03T16:11:57.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/",
-          "thumbnail": "",
-          "summary": "Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Fargate, connect it to an OpenAI model on Amazon Bedrock, and configure Codex to route requests through the gateway’s Responses API with scoped identities, budgets, rate limits, and telemetry. We also compare direct IAM Identity Center access and a managed Portkey deployment.",
-          "tags": [
-            "AI",
-            "ChatGPT"
-          ],
-          "publishedAt": "2026-09-03T16:10:39.000Z",
           "publishedAtRelative": "4天前"
         }
       ]
@@ -749,7 +745,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-09-07T19:32:45.663Z",
+      "updatedAt": "2026-09-08T19:12:27.137Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -757,7 +753,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-09-07T19:32:47.862Z",
+      "updatedAt": "2026-09-08T19:12:29.500Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -769,7 +765,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:47.862Z",
+          "publishedAt": "2026-09-08T19:12:29.500Z",
           "publishedAtRelative": ""
         },
         {
@@ -781,7 +777,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:47.862Z",
+          "publishedAt": "2026-09-08T19:12:29.501Z",
           "publishedAtRelative": ""
         },
         {
@@ -794,7 +790,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:47.862Z",
+          "publishedAt": "2026-09-08T19:12:29.501Z",
           "publishedAtRelative": ""
         },
         {
@@ -807,7 +803,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:47.862Z",
+          "publishedAt": "2026-09-08T19:12:29.501Z",
           "publishedAtRelative": ""
         },
         {
@@ -820,7 +816,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-07T19:32:47.862Z",
+          "publishedAt": "2026-09-08T19:12:29.501Z",
           "publishedAtRelative": ""
         }
       ]
