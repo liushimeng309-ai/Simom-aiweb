@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-16",
+  "date": "2026-09-17",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-09-15T19:26:38.764Z",
+      "updatedAt": "2026-09-16T19:18:40.727Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-09-15T19:26:40.950Z",
+      "updatedAt": "2026-09-16T19:18:42.885Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         },
         {
@@ -39,7 +39,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         },
         {
@@ -51,7 +51,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         },
         {
@@ -63,7 +63,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
             "AI",
             "用户体验"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         },
         {
@@ -88,7 +88,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         },
         {
@@ -101,7 +101,7 @@
             "用户体验",
             "Copilot"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         },
         {
@@ -114,7 +114,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         },
         {
@@ -126,7 +126,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         },
         {
@@ -138,7 +138,7 @@
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-09-15T19:26:40.950Z",
+          "publishedAt": "2026-09-16T19:18:42.885Z",
           "publishedAtRelative": ""
         }
       ]
@@ -147,7 +147,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-09-15T19:26:43.229Z",
+      "updatedAt": "2026-09-16T19:18:45.148Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -160,7 +160,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:43.229Z",
+          "publishedAt": "2026-09-16T19:18:45.148Z",
           "publishedAtRelative": ""
         },
         {
@@ -173,7 +173,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:43.229Z",
+          "publishedAt": "2026-09-16T19:18:45.148Z",
           "publishedAtRelative": ""
         }
       ]
@@ -182,7 +182,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-09-15T19:26:45.799Z",
+      "updatedAt": "2026-09-16T19:18:47.704Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -195,7 +195,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         },
         {
@@ -207,7 +207,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         },
         {
@@ -220,7 +220,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         },
         {
@@ -233,7 +233,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         },
         {
@@ -246,7 +246,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         },
         {
@@ -259,7 +259,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         },
         {
@@ -272,7 +272,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         },
         {
@@ -285,7 +285,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         },
         {
@@ -298,7 +298,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         },
         {
@@ -311,7 +311,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:45.799Z",
+          "publishedAt": "2026-09-16T19:18:47.704Z",
           "publishedAtRelative": ""
         }
       ]
@@ -320,7 +320,7 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-09-15T19:26:48.153Z",
+      "updatedAt": "2026-09-16T19:18:49.916Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -454,7 +454,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-09-15T19:26:50.192Z",
+      "updatedAt": "2026-09-16T19:18:51.963Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -462,7 +462,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-09-15T19:26:52.447Z",
+      "updatedAt": "2026-09-16T19:18:54.273Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -470,7 +470,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-09-15T19:26:54.929Z",
+      "updatedAt": "2026-09-16T19:18:56.762Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -482,7 +482,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         },
         {
@@ -495,7 +495,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         },
         {
@@ -507,7 +507,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         },
         {
@@ -520,7 +520,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         },
         {
@@ -533,7 +533,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         },
         {
@@ -546,7 +546,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         },
         {
@@ -559,7 +559,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         },
         {
@@ -571,7 +571,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         },
         {
@@ -584,7 +584,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         },
         {
@@ -596,7 +596,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-09-15T19:26:54.929Z",
+          "publishedAt": "2026-09-16T19:18:56.762Z",
           "publishedAtRelative": ""
         }
       ]
@@ -605,7 +605,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-09-15T19:26:58.217Z",
+      "updatedAt": "2026-09-16T19:18:58.822Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -613,11 +613,59 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-09-15T19:27:00.503Z",
+      "updatedAt": "2026-09-16T19:19:01.171Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "aws-001",
+          "title": "Improving HCLS AI reasoning with open-source agent skills",
+          "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
+          "thumbnail": "",
+          "summary": "AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-source agent skills across 11 HCLS domains that close this gap, with installation steps, three worked use cases, and a 410-prompt evaluation showing a 70-86% win rate.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-16T19:00:00.000Z",
+          "publishedAtRelative": "19分钟前"
+        },
+        {
+          "id": "aws-002",
+          "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
+          "url": "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
+          "thumbnail": "",
+          "summary": "Integrate NVIDIA Resiliency Extension (NVRx) into PyTorch FSDP training on Amazon EKS to overlap checkpoint I/O with training and recover from GPU faults in seconds. This post covers async checkpointing, in-process restart, and ft_launcher in-job restart, with H100 benchmarks at 2 to 8 nodes showing 99%+ training efficiency and second-scale recovery.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-16T18:59:25.000Z",
+          "publishedAtRelative": "19分钟前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Optimizing agent system prompts with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/",
+          "thumbnail": "",
+          "summary": "AgentCore optimization turns production traces into proposed configuration changes, then validates them before promotion. This technical companion to the launch post explains how the system prompt optimizer’s reflector engine works and shares benchmark results for the Single Agent and Sub-Agent Reflectors.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-16T15:47:39.000Z",
+          "publishedAtRelative": "3小时前"
+        },
+        {
+          "id": "aws-004",
+          "title": "Build a serverless PII redaction pipeline with Amazon Bedrock Data Automation",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-serverless-pii-redaction-pipeline-with-amazon-bedrock-data-automation/",
+          "thumbnail": "",
+          "summary": "Learn how to automate end-to-end PII detection and redaction from scanned documents at scale using Amazon Bedrock Data Automation with a custom blueprint, AWS Step Functions, and AWS Lambda. A custom blueprint redacts sensitive fields with field-level precision, and a token matching quality check raises recall across degraded and handwritten documents.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-16T15:17:37.000Z",
+          "publishedAtRelative": "4小时前"
+        },
+        {
+          "id": "aws-005",
           "title": "Optimizing cost and latency with Amazon Bedrock prompt caching",
           "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/",
           "thumbnail": "",
@@ -627,10 +675,10 @@
             "工具"
           ],
           "publishedAt": "2026-09-15T16:18:19.000Z",
-          "publishedAtRelative": "3小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-002",
+          "id": "aws-006",
           "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
           "thumbnail": "",
@@ -639,10 +687,10 @@
             "AI"
           ],
           "publishedAt": "2026-09-15T16:11:36.000Z",
-          "publishedAtRelative": "3小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-007",
           "title": "Announcing instance preference lists for Amazon SageMaker AI training jobs",
           "url": "https://aws.amazon.com/blogs/machine-learning/announcing-instance-preference-lists-for-amazon-sagemaker-ai-training-jobs/",
           "thumbnail": "",
@@ -651,10 +699,10 @@
             "AI"
           ],
           "publishedAt": "2026-09-15T16:01:47.000Z",
-          "publishedAtRelative": "3小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-004",
+          "id": "aws-008",
           "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
           "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
           "thumbnail": "",
@@ -663,10 +711,10 @@
             "AI"
           ],
           "publishedAt": "2026-09-14T21:22:45.000Z",
-          "publishedAtRelative": "22小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-005",
+          "id": "aws-009",
           "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
           "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
           "thumbnail": "",
@@ -675,10 +723,10 @@
             "AI"
           ],
           "publishedAt": "2026-09-14T20:35:45.000Z",
-          "publishedAtRelative": "22小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-006",
+          "id": "aws-010",
           "title": "How Ninth Wave built AI-powered open finance onboarding on Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-ninth-wave-built-ai-powered-open-finance-onboarding-on-amazon-bedrock/",
           "thumbnail": "",
@@ -688,57 +736,7 @@
             "Copilot"
           ],
           "publishedAt": "2026-09-14T15:58:57.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-007",
-          "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-          "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/",
-          "thumbnail": "",
-          "summary": "Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must.",
-          "tags": [
-            "AI",
-            "生成式"
-          ],
-          "publishedAt": "2026-09-14T15:47:12.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Automate replenishment with MMF, Databricks Genie, and Amazon Quick",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automate-replenishment-with-mmf-databricks-genie-and-amazon-quick/",
-          "thumbnail": "",
-          "summary": "Foundation models made catalog-wide demand forecasting easy; the hard part is now acting on the forecast. This post builds a closed detect-decide-act loop on Databricks and Amazon Quick that reconciles demand surges against live supplier availability and places replenishment orders unattended, escalating to a human only when no supplier can cover a surge.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-14T15:42:06.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations",
-          "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/",
-          "thumbnail": "",
-          "summary": "Multi-agent systems fail in ways traditional monitoring misses. This post presents a dual-layer approach to monitoring production agents: Amazon Bedrock AgentCore Evaluations for continuous quality scoring and AWS DevOps Agent for autonomous infrastructure investigation, shown on a four-agent airline reservation system.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-11T18:26:38.000Z",
-          "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
-          "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/",
-          "thumbnail": "",
-          "summary": "Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock.",
-          "tags": [
-            "AI",
-            "ChatGPT"
-          ],
-          "publishedAt": "2026-09-11T18:24:38.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "2天前"
         }
       ]
     },
@@ -746,7 +744,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-09-15T19:27:02.584Z",
+      "updatedAt": "2026-09-16T19:19:03.450Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -754,7 +752,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-09-15T19:27:04.859Z",
+      "updatedAt": "2026-09-16T19:19:05.696Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -766,7 +764,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:27:04.859Z",
+          "publishedAt": "2026-09-16T19:19:05.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -778,7 +776,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:27:04.859Z",
+          "publishedAt": "2026-09-16T19:19:05.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -791,7 +789,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:27:04.859Z",
+          "publishedAt": "2026-09-16T19:19:05.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -804,7 +802,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:27:04.859Z",
+          "publishedAt": "2026-09-16T19:19:05.696Z",
           "publishedAtRelative": ""
         },
         {
@@ -817,7 +815,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-15T19:27:04.859Z",
+          "publishedAt": "2026-09-16T19:19:05.696Z",
           "publishedAtRelative": ""
         }
       ]
