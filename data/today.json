@@ -1,11 +1,11 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-09-21T20:13:51.773Z",
+      "updatedAt": "2026-09-22T19:29:41.711Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,20 +13,19 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-09-21T20:13:54.334Z",
+      "updatedAt": "2026-09-22T19:29:43.949Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "microsoft-001",
           "title": "Microsoft Design",
-          "url": "https://microsoft.design/news-and-stories/category/ux-research/",
+          "url": "https://microsoft.design/news-and-stories/category/design-thinking/",
           "thumbnail": "",
-          "summary": "Why onboarding matters for agent experiences – and how to get it right.",
+          "summary": "Art, AI, and Human Existence.",
           "tags": [
-            "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
+          "publishedAt": "2026-09-22T19:29:43.949Z",
           "publishedAtRelative": ""
         },
         {
@@ -34,12 +33,11 @@
           "title": "Design Thinking",
           "url": "https://microsoft.design/news-and-stories/category/design-thinking/",
           "thumbnail": "",
-          "summary": "Why onboarding matters for agent experiences – and how to get it right.",
+          "summary": "Art, AI, and Human Existence.",
           "tags": [
-            "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
+          "publishedAt": "2026-09-22T19:29:43.949Z",
           "publishedAtRelative": ""
         },
         {
@@ -47,15 +45,28 @@
           "title": "Design Thinking",
           "url": "https://microsoft.design/news-and-stories/category/design-thinking/",
           "thumbnail": "",
-          "summary": "Inside our latest Copilot redesign, where the experience adapts to how people use it.",
+          "summary": "Why onboarding matters for agent experiences – and how to get it right.",
           "tags": [
-            "Copilot"
+            "设计",
+            "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
+          "publishedAt": "2026-09-22T19:29:43.949Z",
           "publishedAtRelative": ""
         },
         {
           "id": "microsoft-004",
+          "title": "Design Thinking",
+          "url": "https://microsoft.design/news-and-stories/category/design-thinking/",
+          "thumbnail": "",
+          "summary": "Inside our latest Copilot redesign, where the experience adapts to how people use it.",
+          "tags": [
+            "Copilot"
+          ],
+          "publishedAt": "2026-09-22T19:29:43.949Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "microsoft-005",
           "title": "Community",
           "url": "https://microsoft.design/news-and-stories/category/community/",
           "thumbnail": "",
@@ -63,11 +74,11 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
+          "publishedAt": "2026-09-22T19:29:43.949Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-005",
+          "id": "microsoft-006",
           "title": "UX Research",
           "url": "https://microsoft.design/news-and-stories/category/ux-research/",
           "thumbnail": "",
@@ -76,11 +87,11 @@
             "AI",
             "用户体验"
           ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
+          "publishedAt": "2026-09-22T19:29:43.949Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-006",
+          "id": "microsoft-007",
           "title": "Introducing a new design for Microsoft 365 Copilot",
           "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
           "thumbnail": "",
@@ -88,11 +99,11 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
+          "publishedAt": "2026-09-22T19:29:43.949Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-007",
+          "id": "microsoft-008",
           "title": "Community",
           "url": "https://microsoft.design/news-and-stories/category/community/",
           "thumbnail": "",
@@ -101,11 +112,11 @@
             "用户体验",
             "Copilot"
           ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
+          "publishedAt": "2026-09-22T19:29:43.949Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-008",
+          "id": "microsoft-009",
           "title": "Design Thinking",
           "url": "https://microsoft.design/news-and-stories/category/design-thinking/",
           "thumbnail": "",
@@ -114,19 +125,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "microsoft-009",
-          "title": "UX Research",
-          "url": "https://microsoft.design/news-and-stories/category/ux-research/",
-          "thumbnail": "",
-          "summary": "How user research and data science can together shape LLM evaluations",
-          "tags": [
-            "用户体验"
-          ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
+          "publishedAt": "2026-09-22T19:29:43.949Z",
           "publishedAtRelative": ""
         },
         {
@@ -134,11 +133,11 @@
           "title": "UX Research",
           "url": "https://microsoft.design/news-and-stories/category/ux-research/",
           "thumbnail": "",
-          "summary": "UX Research",
+          "summary": "How user research and data science can together shape LLM evaluations",
           "tags": [
             "用户体验"
           ],
-          "publishedAt": "2026-09-21T20:13:54.334Z",
+          "publishedAt": "2026-09-22T19:29:43.949Z",
           "publishedAtRelative": ""
         }
       ]
@@ -147,7 +146,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-09-21T20:13:56.698Z",
+      "updatedAt": "2026-09-22T19:29:46.330Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -160,7 +159,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:56.698Z",
+          "publishedAt": "2026-09-22T19:29:46.330Z",
           "publishedAtRelative": ""
         },
         {
@@ -173,7 +172,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:56.698Z",
+          "publishedAt": "2026-09-22T19:29:46.330Z",
           "publishedAtRelative": ""
         }
       ]
@@ -182,7 +181,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-09-21T20:13:59.212Z",
+      "updatedAt": "2026-09-22T19:29:48.769Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -195,7 +194,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         },
         {
@@ -207,7 +206,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         },
         {
@@ -220,7 +219,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         },
         {
@@ -233,7 +232,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         },
         {
@@ -246,7 +245,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         },
         {
@@ -259,7 +258,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         },
         {
@@ -272,7 +271,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         },
         {
@@ -285,7 +284,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         },
         {
@@ -298,7 +297,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         },
         {
@@ -311,7 +310,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:13:59.212Z",
+          "publishedAt": "2026-09-22T19:29:48.769Z",
           "publishedAtRelative": ""
         }
       ]
@@ -320,11 +319,35 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-09-21T20:14:01.554Z",
+      "updatedAt": "2026-09-22T19:29:51.035Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "anthropic-001",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.com#main-content",
+          "thumbnail": "",
+          "summary": "Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-09-21T16:00:00.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "anthropic-002",
+          "title": "Newsroom",
+          "url": "https://www.anthropic.commailto:press@anthropic.com",
+          "thumbnail": "",
+          "summary": "Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-09-21T16:00:00.000Z",
+          "publishedAtRelative": "1天前"
+        },
+        {
+          "id": "anthropic-003",
           "title": "Partnering with Accenture on embedded evaluation",
           "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
           "thumbnail": "",
@@ -334,10 +357,10 @@
             "AI"
           ],
           "publishedAt": "2026-09-17T16:00:00.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "5天前"
         },
         {
-          "id": "anthropic-002",
+          "id": "anthropic-004",
           "title": "Introducing the Life Sciences Verification Program",
           "url": "https://www.anthropic.com/news/life-sciences-verification-program",
           "thumbnail": "",
@@ -347,31 +370,7 @@
             "AI"
           ],
           "publishedAt": "2026-09-16T16:00:00.000Z",
-          "publishedAtRelative": "5天前"
-        },
-        {
-          "id": "anthropic-003",
-          "title": "Newsroom",
-          "url": "https://www.anthropic.com#main-content",
-          "thumbnail": "",
-          "summary": "Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-08-31T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-004",
-          "title": "Newsroom",
-          "url": "https://www.anthropic.commailto:press@anthropic.com",
-          "thumbnail": "",
-          "summary": "Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-08-31T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
+          "publishedAtRelative": "6天前"
         },
         {
           "id": "anthropic-005",
@@ -417,6 +416,18 @@
           "title": "Previewing the Model Hardware Standard",
           "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
           "thumbnail": "",
+          "summary": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-08-26T16:00:00.000Z",
+          "publishedAtRelative": "0个月前"
+        },
+        {
+          "id": "anthropic-009",
+          "title": "Previewing the Model Hardware Standard",
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+          "thumbnail": "",
           "summary": "Previewing the Model Hardware Standard",
           "tags": [
             "设计",
@@ -426,7 +437,7 @@
           "publishedAtRelative": "0个月前"
         },
         {
-          "id": "anthropic-009",
+          "id": "anthropic-010",
           "title": "Expanding our support for scientists",
           "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
           "thumbnail": "",
@@ -437,18 +448,6 @@
           ],
           "publishedAt": "2026-08-26T16:00:00.000Z",
           "publishedAtRelative": "0个月前"
-        },
-        {
-          "id": "anthropic-010",
-          "title": "Funding better evaluations of AI’s impact on wellbeing",
-          "url": "https://www.anthropic.com/news/wellbeing-research-grants",
-          "thumbnail": "",
-          "summary": "Funding better evaluations of AI’s impact on wellbeing",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-08-24T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
         }
       ]
     },
@@ -456,7 +455,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-09-21T20:14:03.607Z",
+      "updatedAt": "2026-09-22T19:29:53.086Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -464,7 +463,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-09-21T20:14:05.936Z",
+      "updatedAt": "2026-09-22T19:29:55.339Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -472,7 +471,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-09-21T20:14:08.562Z",
+      "updatedAt": "2026-09-22T19:29:58.250Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -484,7 +483,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         },
         {
@@ -497,7 +496,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         },
         {
@@ -509,7 +508,7 @@
           "tags": [
             "生成式"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         },
         {
@@ -522,7 +521,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         },
         {
@@ -535,7 +534,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         },
         {
@@ -548,7 +547,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         },
         {
@@ -561,7 +560,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         },
         {
@@ -573,7 +572,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         },
         {
@@ -586,7 +585,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         },
         {
@@ -598,7 +597,7 @@
           "tags": [
             "Gemini"
           ],
-          "publishedAt": "2026-09-21T20:14:08.562Z",
+          "publishedAt": "2026-09-22T19:29:58.250Z",
           "publishedAtRelative": ""
         }
       ]
@@ -607,7 +606,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-09-21T20:14:10.647Z",
+      "updatedAt": "2026-09-22T19:30:00.358Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -615,11 +614,111 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-09-21T20:14:13.099Z",
+      "updatedAt": "2026-09-22T19:30:02.704Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "aws-001",
+          "title": "Bring more intelligence to everyday work with GPT-6 Sol and GPT-6 Luna on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-more-intelligence-to-everyday-work-with-gpt-6-sol-and-gpt-6-luna-on-amazon-bedrock/",
+          "thumbnail": "",
+          "summary": "GPT-6 Sol and GPT-6 Luna are now generally available on Amazon Bedrock, giving you more options to match intelligence and efficiency to each workload.",
+          "tags": [
+            "AI",
+            "ChatGPT"
+          ],
+          "publishedAt": "2026-09-22T18:10:22.000Z",
+          "publishedAtRelative": "1小时前"
+        },
+        {
+          "id": "aws-002",
+          "title": "Claude Opus 5.5 is now available on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
+          "thumbnail": "",
+          "summary": "Claude Opus 5.5, Anthropic’s most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what’s new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock.",
+          "tags": [
+            "AI",
+            "Claude"
+          ],
+          "publishedAt": "2026-09-22T17:28:01.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Evaluate skill-equipped agents with Strands Evals and Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/",
+          "thumbnail": "",
+          "summary": "Skills let you encode domain-specific procedures as reusable, portable instructions for agents, but a fluent answer doesn’t prove the agent picked the right skill or followed it. Learn how to measure skill selection and instruction following with Strands Evals and Amazon Bedrock AgentCore Evaluations.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-22T17:18:13.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-004",
+          "title": "How Reactiv automates mobile commerce 80% faster with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-reactiv-automates-mobile-commerce-80-faster-with-amazon-bedrock-agentcore/",
+          "thumbnail": "",
+          "summary": "Reactiv used Amazon Bedrock AgentCore to build a multi-agent AI Scheduler that autonomously refreshes Shopify merchants’ mobile apps on a schedule, reducing merchant configuration time by 80% and getting to production 33% faster.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-22T15:46:07.000Z",
+          "publishedAtRelative": "3小时前"
+        },
+        {
+          "id": "aws-005",
+          "title": "Right-size generative AI endpoints with concurrency sweeps on Amazon SageMaker AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/right-size-generative-ai-endpoints-with-concurrency-sweeps-on-amazon-sagemaker-ai/",
+          "thumbnail": "",
+          "summary": "Concurrency sweeps help you right-size a generative AI endpoint on Amazon SageMaker AI by systematically benchmarking it at increasing load levels. This post walks through deploying a model, running automated concurrency sweeps with the CreateAIBenchmarkJob API, and using the results to make data-driven capacity decisions about fleet size.",
+          "tags": [
+            "AI",
+            "生成式"
+          ],
+          "publishedAt": "2026-09-22T15:35:53.000Z",
+          "publishedAtRelative": "3小时前"
+        },
+        {
+          "id": "aws-006",
+          "title": "How Trane gets building insights 60x faster with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-trane-gets-building-insights-60x-faster-with-amazon-bedrock-agentcore/",
+          "thumbnail": "",
+          "summary": "In about four weeks, Trane Technologies built an AI-powered agentic solution on Amazon Bedrock AgentCore that reduced a 20-minute, multi-screen building diagnostic workflow to a 20-second natural language interaction, a 60x improvement in time-to-insight. This post shares the architectural approach and key design decisions behind the solution.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-22T15:30:34.000Z",
+          "publishedAtRelative": "3小时前"
+        },
+        {
+          "id": "aws-007",
+          "title": "How Tata Elxsi detects industrial safety risks in seconds on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-tata-elxsi-detects-industrial-safety-risks-in-seconds-on-aws/",
+          "thumbnail": "",
+          "summary": "Learn how Tata Elxsi built IRIS, a real-time industrial safety platform on AWS. IRIS filters camera video at the edge, streams metadata through Amazon Kinesis, runs computer vision on Amazon SageMaker AI, and correlates detections into high-confidence alerts, detecting unsafe conditions in seconds instead of minutes.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-09-22T15:19:54.000Z",
+          "publishedAtRelative": "4小时前"
+        },
+        {
+          "id": "aws-008",
+          "title": "Extending public sector intelligence with Agentforce and AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/extending-public-sector-intelligence-with-agentforce-and-aws/",
+          "thumbnail": "",
+          "summary": "Public sector agencies process large volumes of unstructured evidence, such as body camera footage and scanned documents. This post shows how to combine Amazon Bedrock Data Automation with the Model Context Protocol (MCP) to turn that data into structured insights and surface them through natural language queries in Salesforce Agentforce.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-09-22T15:17:45.000Z",
+          "publishedAtRelative": "4小时前"
+        },
+        {
+          "id": "aws-009",
           "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
           "thumbnail": "",
@@ -628,10 +727,10 @@
             "AI"
           ],
           "publishedAt": "2026-09-21T18:30:34.000Z",
-          "publishedAtRelative": "1小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-002",
+          "id": "aws-010",
           "title": "How BMW Group detects cost anomalies across 14,000 cloud accounts",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-bmw-group-detects-cost-anomalies-across-14000-cloud-accounts/",
           "thumbnail": "",
@@ -640,103 +739,7 @@
             "AI"
           ],
           "publishedAt": "2026-09-21T16:36:10.000Z",
-          "publishedAtRelative": "3小时前"
-        },
-        {
-          "id": "aws-003",
-          "title": "Run Positron on Amazon SageMaker AI for data science workflows",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-positron-on-amazon-sagemaker-ai-for-data-science-workflows/",
-          "thumbnail": "",
-          "summary": "Positron, Posit’s IDE for data science, now runs on Amazon SageMaker AI. This post shows how a data scientist explores an Amazon Athena table, validates features in R, trains an XGBoost model in Python, deploys a real-time SageMaker AI endpoint, and reports results with Quarto, all in one governed SageMaker Studio Space.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-21T16:34:21.000Z",
-          "publishedAtRelative": "3小时前"
-        },
-        {
-          "id": "aws-004",
-          "title": "How Benchling secured multi-tenant AI agents with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore/",
-          "thumbnail": "",
-          "summary": "Learn how Benchling built a defense-in-depth security architecture to run untrusted, AI agent-generated scientific code across thousands of life sciences tenants using Amazon Bedrock AgentCore Code Interpreter in VPC mode, combined with Amazon Route 53 Resolver DNS Firewall and VPC endpoint policies to block data exfiltration, including through DNS.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-21T16:27:34.000Z",
-          "publishedAtRelative": "3小时前"
-        },
-        {
-          "id": "aws-005",
-          "title": "Reducing medical claims review time with AI on AWS: The EXL Medical IDP solution",
-          "url": "https://aws.amazon.com/blogs/machine-learning/reducing-medical-claims-review-time-with-ai-on-aws-the-exl-medical-idp-solution/",
-          "thumbnail": "",
-          "summary": "EXL built an AI-powered Medical intelligent document processing (IDP) solution on AWS, combining IDP with domain-specific large language models on Amazon SageMaker and Amazon Bedrock to extract, summarize, and query medical records at enterprise scale and cut claims review time from over 100 minutes per case.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-21T16:24:40.000Z",
-          "publishedAtRelative": "3小时前"
-        },
-        {
-          "id": "aws-006",
-          "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
-          "thumbnail": "",
-          "summary": "Amazon SageMaker AI shipped 13 inference launches in year-to-date across two deployment paths: fully managed endpoints and Amazon SageMaker HyperPod Inference. This post reviews each launch, from inference recommendations and capacity-aware instance pools to tiered KV caching and disaggregated prefill and decode.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-18T20:52:14.000Z",
-          "publishedAtRelative": "2天前"
-        },
-        {
-          "id": "aws-007",
-          "title": "Introducing Kimi K3 on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/",
-          "thumbnail": "",
-          "summary": "Kimi K3 from Moonshot AI is now available on Amazon Bedrock, giving you a powerful new open-weight option for coding and knowledge work. It offers native vision, a 1-million-token context window, and explicit prompt caching to reduce latency and input costs.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-18T16:52:01.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
-          "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
-          "thumbnail": "",
-          "summary": "Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanced knowledge retrieval while reducing infrastructure management. The framework-agnostic pattern applies across healthcare, financial services, and manufacturing.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-18T15:38:53.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "The new AgentCore runtime: Elastic, optimized, and consistently fast starts",
-          "url": "https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/",
-          "thumbnail": "",
-          "summary": "Today we are announcing the new AgentCore runtime, a capability of Amazon Bedrock AgentCore built for the speed, flexibility, and cost efficiency that production agents demand. It reclaims memory as sessions release it and delivers consistent cold starts regardless of image size or concurrency.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-18T15:31:34.000Z",
-          "publishedAtRelative": "3天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
-          "thumbnail": "",
-          "summary": "Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-09-18T15:25:23.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "1天前"
         }
       ]
     },
@@ -744,7 +747,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-09-21T20:14:15.218Z",
+      "updatedAt": "2026-09-22T19:30:04.938Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -752,7 +755,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-09-21T20:14:17.489Z",
+      "updatedAt": "2026-09-22T19:30:07.245Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -764,7 +767,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:17.489Z",
+          "publishedAt": "2026-09-22T19:30:07.245Z",
           "publishedAtRelative": ""
         },
         {
@@ -776,7 +779,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:17.489Z",
+          "publishedAt": "2026-09-22T19:30:07.245Z",
           "publishedAtRelative": ""
         },
         {
@@ -789,7 +792,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:17.489Z",
+          "publishedAt": "2026-09-22T19:30:07.245Z",
           "publishedAtRelative": ""
         },
         {
@@ -802,7 +805,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:17.489Z",
+          "publishedAt": "2026-09-22T19:30:07.245Z",
           "publishedAtRelative": ""
         },
         {
@@ -815,7 +818,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-09-21T20:14:17.489Z",
+          "publishedAt": "2026-09-22T19:30:07.245Z",
           "publishedAtRelative": ""
         }
       ]
