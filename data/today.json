@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-11-11T22:25:37.982Z",
+      "updatedAt": "2026-11-12T22:00:10.058Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-11-11T22:25:40.465Z",
+      "updatedAt": "2026-11-12T22:00:12.331Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         },
         {
@@ -38,7 +38,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         },
         {
@@ -51,7 +51,7 @@
             "AI",
             "用户体验"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         },
         {
@@ -63,7 +63,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         },
         {
@@ -88,7 +88,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         },
         {
@@ -101,7 +101,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         },
         {
@@ -113,7 +113,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         },
         {
@@ -125,7 +125,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         },
         {
@@ -137,7 +137,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-11-11T22:25:40.465Z",
+          "publishedAt": "2026-11-12T22:00:12.331Z",
           "publishedAtRelative": ""
         }
       ]
@@ -146,7 +146,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-11-11T22:25:42.715Z",
+      "updatedAt": "2026-11-12T22:00:14.486Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -159,7 +159,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:42.716Z",
+          "publishedAt": "2026-11-12T22:00:14.486Z",
           "publishedAtRelative": ""
         },
         {
@@ -172,7 +172,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:42.716Z",
+          "publishedAt": "2026-11-12T22:00:14.486Z",
           "publishedAtRelative": ""
         }
       ]
@@ -181,7 +181,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-11-11T22:25:45.357Z",
+      "updatedAt": "2026-11-12T22:00:17.041Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -194,7 +194,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         },
         {
@@ -206,7 +206,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         },
         {
@@ -219,7 +219,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         },
         {
@@ -232,7 +232,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         },
         {
@@ -245,7 +245,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         },
         {
@@ -258,7 +258,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         },
         {
@@ -271,7 +271,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         },
         {
@@ -284,7 +284,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         },
         {
@@ -297,7 +297,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         },
         {
@@ -310,7 +310,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:25:45.357Z",
+          "publishedAt": "2026-11-12T22:00:17.041Z",
           "publishedAtRelative": ""
         }
       ]
@@ -319,7 +319,7 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-11-11T22:25:47.568Z",
+      "updatedAt": "2026-11-12T22:00:19.196Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -333,7 +333,7 @@
             "AI"
           ],
           "publishedAt": "2026-11-08T16:00:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "anthropic-002",
@@ -345,7 +345,7 @@
             "Claude"
           ],
           "publishedAt": "2026-11-08T16:00:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "anthropic-003",
@@ -418,7 +418,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-11T22:25:47.568Z",
+          "publishedAt": "2026-11-12T22:00:19.196Z",
           "publishedAtRelative": ""
         },
         {
@@ -430,7 +430,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-11T22:25:47.568Z",
+          "publishedAt": "2026-11-12T22:00:19.196Z",
           "publishedAtRelative": ""
         },
         {
@@ -442,7 +442,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-11T22:25:47.568Z",
+          "publishedAt": "2026-11-12T22:00:19.196Z",
           "publishedAtRelative": ""
         }
       ]
@@ -451,7 +451,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-11-11T22:25:49.645Z",
+      "updatedAt": "2026-11-12T22:00:21.226Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -459,7 +459,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-11-11T22:25:51.960Z",
+      "updatedAt": "2026-11-12T22:00:23.455Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -467,15 +467,143 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-11-11T22:25:54.265Z",
+      "updatedAt": "2026-11-12T22:00:26.020Z",
       "updatedAtRelative": "刚刚",
-      "items": []
+      "items": [
+        {
+          "id": "googleai-001",
+          "title": "Turn a spreadsheet into a living pixel-art canvas",
+          "url": "https://ai.google.com/prompts/turn-a-spreadsheet-into-a-living-pixel-art-canvas/",
+          "thumbnail": "",
+          "summary": "Turn a spreadsheet into a living pixel-art canvas",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-002",
+          "title": "Build a polished storefront website in a single shot",
+          "url": "https://ai.google.com/prompts/build-a-polished-storefront-website-in-a-single-shot/",
+          "thumbnail": "",
+          "summary": "Build a polished storefront website in a single shot",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-003",
+          "title": "Create a 3D model from a single image",
+          "url": "https://ai.google.com/prompts/create-a-3d-model-from-a-single-image/",
+          "thumbnail": "",
+          "summary": "Create a 3D model from a single image",
+          "tags": [
+            "生成式"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-004",
+          "title": "Turn photos of your desk into a 3D racing game",
+          "url": "https://ai.google.com/prompts/desk-racer/",
+          "thumbnail": "",
+          "summary": "Turn photos of your desk into a 3D racing game",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-005",
+          "title": "Simulate fur with real time interaction and rendering",
+          "url": "https://ai.google.com/prompts/simulate-fur/",
+          "thumbnail": "",
+          "summary": "Simulate fur with real time interaction and rendering",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-006",
+          "title": "Build custom cyberdecks with a hands-free workshop assistant using live camera and voice",
+          "url": "https://ai.google.com/prompts/build-custom-cyberdecks/",
+          "thumbnail": "",
+          "summary": "Build custom cyberdecks with a hands-free workshop assistant using live camera and voice",
+          "tags": [
+            "Copilot"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-007",
+          "title": "Build an app that lets you input a location to query USGS datasets and then visualize the geospatial data in 3D",
+          "url": "https://ai.google.com/prompts/build-an-app-that-lets-you-input-a-location/",
+          "thumbnail": "",
+          "summary": "Build an app that lets you input a location to query USGS datasets and then visualize the geospatial data in 3D",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-008",
+          "title": "Create a playable 3D game with Google Antigravity",
+          "url": "https://ai.google.com/prompts/create-a-playable-3d-game-with-google-antigravity-38/",
+          "thumbnail": "",
+          "summary": "Create a playable 3D game with Google Antigravity",
+          "tags": [
+            "生成式"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-009",
+          "title": "Seamlessly switch across languages while accurately transcribing complex numbers",
+          "url": "https://ai.google.com/prompts/seamlessly-switch-across-languages-while-accurately-transcribing-complex-numbers/",
+          "thumbnail": "",
+          "summary": "Seamlessly switch across languages while accurately transcribing complex numbers",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "googleai-010",
+          "title": "Upload any video clip and transform the action",
+          "url": "https://ai.google.com/prompts/remix-videos-as-many-times-as-you-want/",
+          "thumbnail": "",
+          "summary": "Upload any video clip and transform the action",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T22:00:26.020Z",
+          "publishedAtRelative": ""
+        }
+      ]
     },
     {
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-11-11T22:25:56.548Z",
+      "updatedAt": "2026-11-12T22:00:28.102Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -483,134 +611,133 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-11-11T22:25:59.086Z",
+      "updatedAt": "2026-11-12T22:00:30.432Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "aws-001",
-          "title": "The attendee’s guide to the AWS re:Invent 2026 AI/ML track",
-          "url": "https://aws.amazon.com/blogs/machine-learning/the-attendees-guide-to-the-aws-reinvent-2026-ai-ml-track/",
+          "title": "How Natera designed an agentic AI system for lab ops with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/",
           "thumbnail": "",
-          "summary": "AWS re:Invent 2026 includes more than 140 AI/ML track sessions. This attendee’s guide helps you find the breakouts, chalk talks, workshops, and builders’ sessions that fit your role and goals, spanning AI chips, models and inference, agents, agent trust, and sustainability, so you can build a smarter re:Invent schedule.",
+          "summary": "Natera built SWARM, an agentic AI system on Amazon Bedrock AgentCore that captures institutional lab-operations knowledge and deploys it at scale. This post walks through the full architecture, from knowledge base construction to deployment and evaluation, delivering about 130x faster first response and 96.2% automated coverage across support tickets.",
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-11T21:05:59.000Z",
-          "publishedAtRelative": "1小时前"
+          "publishedAt": "2026-11-12T21:47:07.000Z",
+          "publishedAtRelative": "13分钟前"
         },
         {
           "id": "aws-002",
-          "title": "Automating AWS Agent Registry updates with push-based architecture",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+          "title": "Four Amazon Bedrock inference choices that affect cost",
+          "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/",
           "thumbnail": "",
-          "summary": "This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account environments.",
-          "tags": [
-            "AI",
-            "工具"
-          ],
-          "publishedAt": "2026-11-11T20:52:48.000Z",
-          "publishedAtRelative": "1小时前"
-        },
-        {
-          "id": "aws-003",
-          "title": "How DXC Technology built a multi-model AI substrate on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-dxc-technology-built-a-multi-model-ai-substrate-on-amazon-bedrock/",
-          "thumbnail": "",
-          "summary": "DXC Technology runs mission-critical managed IT services for regulated organizations across 70 countries. Learn how DXC built DCX OASIS, its Human+AI operating model, on a governed multi-model substrate in Amazon Bedrock, separating a resilient model substrate from a trusted harness that orchestrates, governs, and audits AI agents at scale.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-11T20:45:45.000Z",
-          "publishedAtRelative": "1小时前"
-        },
-        {
-          "id": "aws-004",
-          "title": "Accelerating generative AI delivery with reusable assets",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
-          "thumbnail": "",
-          "summary": "Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable assets from the AWS Generative AI Innovation Center, with real delivery results from DoorDash, Lyft, and Ricoh.",
-          "tags": [
-            "AI",
-            "设计系统",
-            "生成式"
-          ],
-          "publishedAt": "2026-11-11T19:19:21.000Z",
-          "publishedAtRelative": "3小时前"
-        },
-        {
-          "id": "aws-005",
-          "title": "Accelerating product development with AI-driven lifecycle management (AI-PDLC) in AWS Quick",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/",
-          "thumbnail": "",
-          "summary": "Learn how to build an AI-driven product development lifecycle (AI-PDLC) with a suite of six AWS Quick agents that take you from scattered customer signals to a validated prototype across Discover, Decide, Design, and Prototype, with human approval at every gate and a specification ready to hand to coding agents like Kiro.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-11T16:05:33.000Z",
-          "publishedAtRelative": "6小时前"
-        },
-        {
-          "id": "aws-006",
-          "title": "UAEF: A framework-agnostic system for closed-loop evaluation of AI agents",
-          "url": "https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/",
-          "thumbnail": "",
-          "summary": "The Universal Agent Evaluation Framework (UAEF) is a framework-agnostic system for evaluating AI agents. UAEF converts each framework’s traces into one canonical format, scores them with 36 built-in metrics across 7 dimensions, and stores results so teams can compare agent versions and catch regressions.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-11T15:50:55.000Z",
-          "publishedAtRelative": "6小时前"
-        },
-        {
-          "id": "aws-007",
-          "title": "Introducing usage-based pricing for Amazon SageMaker AI bidirectional streaming",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/",
-          "thumbnail": "",
-          "summary": "AWS Marketplace now supports usage-based metering for Amazon SageMaker bidirectional streaming inference, so model providers can charge for what customers actually consume during a live stream. Deepgram is the launch partner, bringing usage-based speech-to-text and text-to-speech billing to AWS Marketplace.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-11T15:10:23.000Z",
-          "publishedAtRelative": "7小时前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/",
-          "thumbnail": "",
-          "summary": "Kimi K3.1 Pro from Moonshot AI is now available on Amazon Bedrock. Learn how to get started through the OpenAI-compatible Chat Completions, Responses, and Converse APIs, optimize inference with explicit prompt caching, and use the model as a coding assistant in OpenCode.",
-          "tags": [
-            "AI",
-            "Copilot",
-            "ChatGPT"
-          ],
-          "publishedAt": "2026-11-11T01:07:19.000Z",
-          "publishedAtRelative": "21小时前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/",
-          "thumbnail": "",
-          "summary": "The Web Search API in Amazon Bedrock AgentCore gives agents current, cited web results signed with the AWS credentials they already use. In this post, build a daily dependency watcher as a LangGraph graph that researches package ecosystems in parallel, keeps its rules in code, and checks every finding against its cited sources.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-10T23:34:05.000Z",
-          "publishedAtRelative": "22小时前"
-        },
-        {
-          "id": "aws-010",
-          "title": "The agent evaluation playbook: Built-in, DeepEval, and AutoEval on Amazon Bedrock AgentCore Evaluations",
-          "url": "https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/",
-          "thumbnail": "",
-          "summary": "When you deploy an agent, whether it is working is really several questions: did it finish the task, stay on topic, leak data, or skip steps? This post shows how to evaluate agents on Amazon Bedrock AgentCore with built-in, DeepEval, and AutoEval evaluators, and how to match each behavior that matters to the right evaluator at the right level.",
+          "summary": "Your Amazon Bedrock inference bill can keep climbing even after you tune prompts and application logic. Four request-level choices (cache duration, service tier, reasoning effort, and maxTokens) change how many tokens the service processes and the rate applied. We show how we tested each and how to verify the effect.",
           "tags": [
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-10T22:35:03.000Z",
-          "publishedAtRelative": "23小时前"
+          "publishedAt": "2026-11-12T20:51:55.000Z",
+          "publishedAtRelative": "1小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+          "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/",
+          "thumbnail": "",
+          "summary": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case. Attribute spend with IAM principal tags, report with CUR 2.0 or Cost Explorer, and enforce with AWS Budgets actions that apply a Deny policy when a threshold is crossed.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T19:29:55.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-004",
+          "title": "Optimizing cost per task and proving agent ROI on Amazon Bedrock",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/",
+          "thumbnail": "",
+          "summary": "Comparing per-token prices hides the real cost of running a model on Amazon Bedrock. This post shows how to calculate the true cost per task across four hidden cost drivers, reduce it with caching, routing, and output constraints, and prove agent ROI with human baselines, holdout experiments, and a five-dimension scorecard.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T18:43:19.000Z",
+          "publishedAtRelative": "3小时前"
+        },
+        {
+          "id": "aws-005",
+          "title": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/",
+          "thumbnail": "",
+          "summary": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API. Developers get instant access through a single API key, while platform teams gain per-user cost controls, quota isolation, and observability.",
+          "tags": [
+            "AI",
+            "ChatGPT"
+          ],
+          "publishedAt": "2026-11-12T18:41:12.000Z",
+          "publishedAtRelative": "3小时前"
+        },
+        {
+          "id": "aws-006",
+          "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/",
+          "thumbnail": "",
+          "summary": "AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute. Learn how the next generation of Amazon Bedrock AgentCore runtime delivers hardware-isolated sessions with faster starts, more compute, usage-based billing, and isolation that now extends to your data.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T17:59:59.000Z",
+          "publishedAtRelative": "4小时前"
+        },
+        {
+          "id": "aws-007",
+          "title": "Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent",
+          "url": "https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent/",
+          "thumbnail": "",
+          "summary": "The migration guide in the amazon-bedrock skill helps you migrate a customer-managed Amazon Bedrock knowledge base to a Managed Knowledge Base. Your coding agent plans the move with read-only discovery, creates the new knowledge base or an infrastructure-as-code template alongside the original, and validates retrieval before you cut over.",
+          "tags": [
+            "生成式"
+          ],
+          "publishedAt": "2026-11-12T16:16:45.000Z",
+          "publishedAtRelative": "5小时前"
+        },
+        {
+          "id": "aws-008",
+          "title": "Build composable, interoperable multi-agent systems with A2A on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
+          "thumbnail": "",
+          "summary": "Build a composable, interoperable multi-agent system on AWS with the Agent-to-Agent (A2A) protocol. A LangChain orchestrator on Amazon ECS communicates with a Strands agent on Amazon Bedrock AgentCore across organizational boundaries, using bidirectional, OAuth-authenticated calls, with neither side depending on the other’s framework or SDK.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T15:42:21.000Z",
+          "publishedAtRelative": "6小时前"
+        },
+        {
+          "id": "aws-009",
+          "title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
+          "url": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/",
+          "thumbnail": "",
+          "summary": "Learn how to expose an Amazon Bedrock Managed Knowledge Base to AI agents as MCP tools through Amazon Bedrock AgentCore Gateway while keeping per-user access control. A request interceptor injects verified identity, Policy in AgentCore validates it independently, and a resource-based policy restricts direct access to the knowledge base.",
+          "tags": [
+            "AI",
+            "工具"
+          ],
+          "publishedAt": "2026-11-12T15:40:24.000Z",
+          "publishedAtRelative": "6小时前"
+        },
+        {
+          "id": "aws-010",
+          "title": "From prototype to production: Engineering agents with Agent DLC",
+          "url": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/",
+          "thumbnail": "",
+          "summary": "Agents stall between demo and release when teams lack a repeatable way to measure how good an agent is and whether the last change helped. This post covers three agent properties that break traditional CI/CD, a measured case where an aggregate metric hides a coverage gap, and Agent DLC: one lifecycle, two loops, and one explicit standard for judging every change.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-12T15:38:47.000Z",
+          "publishedAtRelative": "6小时前"
         }
       ]
     },
@@ -618,7 +745,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-11-11T22:26:01.355Z",
+      "updatedAt": "2026-11-12T22:00:32.549Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -626,70 +753,33 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-11-11T22:26:03.765Z",
+      "updatedAt": "2026-11-12T22:00:34.813Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "mapbox-001",
-          "title": "Detailed architecture and new design flexibility enhance the latest release of Mapbox Standard",
-          "url": "https://www.mapbox.com/blog/detailed-architecture-and-new-design-flexibility-enhance-the-latest-release-of-mapbox-standard",
+          "title": "Mapbox Blog",
+          "url": "https://www.mapbox.com/blog/introducing-the-mapbox-plugin-for-chatgpt",
           "thumbnail": "",
-          "summary": "Detailed architecture and new design flexibility enhance the latest release of Mapbox Standard",
+          "summary": "Stay informed with insightful content on how Mapbox solutions are revolutionizing industries.",
           "tags": [
+            "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:26:03.765Z",
+          "publishedAt": "2026-11-12T22:00:34.813Z",
           "publishedAtRelative": ""
         },
         {
           "id": "mapbox-002",
-          "title": "Never miss a turn again with Mapbox 3D Lanes",
-          "url": "https://www.mapbox.com/blog/never-miss-a-turn-again-with-mapbox-3d-lanes",
+          "title": "Category",
+          "url": "https://www.mapbox.com/#",
           "thumbnail": "",
-          "summary": "Never miss a turn again with Mapbox 3D Lanes",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-11T22:26:03.765Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "mapbox-003",
-          "title": "Mapbox Geocoding adds 45 new countries and 73.2 million addresses",
-          "url": "https://www.mapbox.com/blog/mapbox-geocoding-adds-45-new-countries-and-73-2-million-addresses",
-          "thumbnail": "",
-          "summary": "Mapbox Geocoding adds 45 new countries and 73.2 million addresses",
+          "summary": "There are no items matching the current filters.",
           "tags": [
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-11T22:26:03.765Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "mapbox-004",
-          "title": "Maps turn conversational",
-          "url": "https://www.mapbox.com/blog/maps-turn-conversational",
-          "thumbnail": "",
-          "summary": "Maps turn conversational",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-11T22:26:03.765Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "mapbox-005",
-          "title": "Faster updates, fresher map data: MTS now supports incremental updates",
-          "url": "https://www.mapbox.com/blog/faster-updates-fresher-map-data-mts-now-supports-incremental-updates",
-          "thumbnail": "",
-          "summary": "Faster updates, fresher map data: MTS now supports incremental updates",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-11T22:26:03.765Z",
+          "publishedAt": "2026-11-12T22:00:34.813Z",
           "publishedAtRelative": ""
         }
       ]
