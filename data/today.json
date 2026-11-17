@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-11-16T23:56:32.814Z",
+      "updatedAt": "2026-11-17T23:16:56.776Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-11-16T23:56:35.040Z",
+      "updatedAt": "2026-11-17T23:16:58.950Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -38,7 +38,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -51,7 +51,7 @@
             "AI",
             "用户体验"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -63,7 +63,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -88,7 +88,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -101,7 +101,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -113,7 +113,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -125,7 +125,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -137,7 +137,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-11-16T23:56:35.040Z",
+          "publishedAt": "2026-11-17T23:16:58.950Z",
           "publishedAtRelative": ""
         }
       ]
@@ -146,7 +146,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-11-16T23:56:37.268Z",
+      "updatedAt": "2026-11-17T23:17:01.195Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -159,7 +159,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:37.268Z",
+          "publishedAt": "2026-11-17T23:17:01.195Z",
           "publishedAtRelative": ""
         },
         {
@@ -172,7 +172,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:37.268Z",
+          "publishedAt": "2026-11-17T23:17:01.195Z",
           "publishedAtRelative": ""
         }
       ]
@@ -181,7 +181,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-11-16T23:56:39.778Z",
+      "updatedAt": "2026-11-17T23:17:03.741Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -194,7 +194,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         },
         {
@@ -206,7 +206,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         },
         {
@@ -219,7 +219,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         },
         {
@@ -232,7 +232,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         },
         {
@@ -245,7 +245,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         },
         {
@@ -258,7 +258,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         },
         {
@@ -271,7 +271,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         },
         {
@@ -284,7 +284,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         },
         {
@@ -297,7 +297,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         },
         {
@@ -310,7 +310,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:39.778Z",
+          "publishedAt": "2026-11-17T23:17:03.741Z",
           "publishedAtRelative": ""
         }
       ]
@@ -319,7 +319,7 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-11-16T23:56:41.949Z",
+      "updatedAt": "2026-11-17T23:17:05.936Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -418,7 +418,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-16T23:56:41.949Z",
+          "publishedAt": "2026-11-17T23:17:05.936Z",
           "publishedAtRelative": ""
         },
         {
@@ -430,7 +430,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-16T23:56:41.949Z",
+          "publishedAt": "2026-11-17T23:17:05.936Z",
           "publishedAtRelative": ""
         },
         {
@@ -442,7 +442,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-16T23:56:41.949Z",
+          "publishedAt": "2026-11-17T23:17:05.936Z",
           "publishedAtRelative": ""
         }
       ]
@@ -451,7 +451,7 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-11-16T23:56:43.999Z",
+      "updatedAt": "2026-11-17T23:17:07.970Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -459,7 +459,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-11-16T23:56:46.352Z",
+      "updatedAt": "2026-11-17T23:17:10.309Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -467,7 +467,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-11-16T23:56:48.592Z",
+      "updatedAt": "2026-11-17T23:17:12.986Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -475,7 +475,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-11-16T23:56:50.709Z",
+      "updatedAt": "2026-11-17T23:17:15.123Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -483,135 +483,132 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-11-16T23:56:53.075Z",
+      "updatedAt": "2026-11-17T23:17:17.540Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "aws-001",
-          "title": "Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/",
+          "title": "Reducing token costs and latency in Amazon Bedrock AgentCore JSON workloads",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reducing-token-costs-and-latency-in-amazon-bedrock-agentcore-json-workloads/",
           "thumbnail": "",
-          "summary": "Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore memory now store conversations, extract facts, and bring long-term memory into a single AgenticRetrieveStream call. This post shows how to build a memory-aware, multi-user assistant where each user sees only the documents they may read and each user’s memory stays private.",
+          "summary": "As production agents on Amazon Bedrock AgentCore process multi-megabyte JSON payloads, token costs and latency climb. This post shares three composable strategies: offloading heavy artifacts to Amazon S3, on-demand result paging, and dictionary compaction. Together they cut per-turn token use by up to 71% and latency by up to 80%.",
           "tags": [
-            "AI",
-            "Copilot"
+            "设计",
+            "AI"
           ],
-          "publishedAt": "2026-11-16T22:43:30.000Z",
-          "publishedAtRelative": "1小时前"
+          "publishedAt": "2026-11-17T22:44:51.000Z",
+          "publishedAtRelative": "32分钟前"
         },
         {
           "id": "aws-002",
-          "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/",
+          "title": "Cut generative AI costs: Code for rules, models for judgment",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
           "thumbnail": "",
-          "summary": "Duco, a data automation platform for tier-one banks, rebuilt its agentic AI stack on Amazon Bedrock and Amazon Bedrock AgentCore. With strict per-tenant isolation, a multi-model strategy, and an MCP skills architecture that cut context overhead by 90%, Duco cut reconciliation deployment time 10x and onboarding costs 70%.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-16T22:06:08.000Z",
-          "publishedAtRelative": "1小时前"
-        },
-        {
-          "id": "aws-003",
-          "title": "Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing",
-          "url": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/",
-          "thumbnail": "",
-          "summary": "Multi-agent coordination is a distributed systems problem, not a model problem. This post gives a field-tested taxonomy of multi-agent design patterns and anti-patterns, a framework for deciding when multiple agents are warranted, and how to build cost-efficient, reliable systems on AWS.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-16T21:53:46.000Z",
-          "publishedAtRelative": "2小时前"
-        },
-        {
-          "id": "aws-004",
-          "title": "How MoEngage built agentic customer engagement on Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-moengage-built-agentic-customer-engagement-on-amazon-bedrock-agentcore/",
-          "thumbnail": "",
-          "summary": "MoEngage built Merlin AI, a set of AI agents on Amazon Bedrock and Amazon Bedrock AgentCore that let marketing and product teams draft, analyze, and adjust campaigns from a single conversation. Learn how MoEngage turned its existing APIs into MCP tools and kept each tenant’s data isolated while giving agents secure access to live platform data.",
-          "tags": [
-            "AI",
-            "工具"
-          ],
-          "publishedAt": "2026-11-16T18:16:07.000Z",
-          "publishedAtRelative": "5小时前"
-        },
-        {
-          "id": "aws-005",
-          "title": "Modernizing mainframe Assembler to Java using Amazon Bedrock and AWS Transform",
-          "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-mainframe-assembler-to-java-using-amazon-bedrock-and-aws-transform/",
-          "thumbnail": "",
-          "summary": "Legacy mainframe Assembler applications are costly to maintain and hard to staff. This post presents a multi-stage, AI-powered methodology using Amazon Bedrock, Kiro IDE, and AWS Transform to extract business rules, convert Assembler through an intermediate COBOL stage, and deploy modernized Java Spring Boot applications on AWS.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-16T17:29:29.000Z",
-          "publishedAtRelative": "6小时前"
-        },
-        {
-          "id": "aws-006",
-          "title": "Novo Nordisk modernizes manufacturing process documents with Amazon Bedrock AgentCore",
-          "url": "https://aws.amazon.com/blogs/machine-learning/novo-nordisk-modernizes-manufacturing-process-documents-with-amazon-bedrock-agentcore/",
-          "thumbnail": "",
-          "summary": "Novo Nordisk’s Manufacturing Technology team within the Tablet area team built a process-intelligence assistant on Amazon Bedrock AgentCore, using a GraphRAG architecture that pairs a knowledge graph in Amazon Neptune with hybrid search in Amazon OpenSearch Serverless to turn millions of controlled manufacturing documents into grounded, cited answers.",
-          "tags": [
-            "AI",
-            "Copilot"
-          ],
-          "publishedAt": "2026-11-16T17:04:11.000Z",
-          "publishedAtRelative": "6小时前"
-        },
-        {
-          "id": "aws-007",
-          "title": "Get answers from tables with tabular search in Amazon Bedrock Managed Knowledge Base",
-          "url": "https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/",
-          "thumbnail": "",
-          "summary": "Amazon Bedrock Managed Knowledge Base now supports tabular search, so agentic retrieval can answer questions over CSV, XLSX, and XLS files. It looks up values and runs calculations across every relevant row, then combines the results with facts from related documents to answer multi-step analytical questions.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-16T16:12:16.000Z",
-          "publishedAtRelative": "7小时前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Best practices for writing Denied Topics in Amazon Bedrock Guardrails",
-          "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/",
-          "thumbnail": "",
-          "summary": "With Denied Topics in Amazon Bedrock Guardrails, you block a content category by describing it in plain language, and the guardrail matches by meaning rather than keyword, which can block more than you intend. This post presents eight best practices for writing a topic precisely enough that the guardrail blocks what you mean and passes what you don’t.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-16T15:48:01.000Z",
-          "publishedAtRelative": "8小时前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Customize answers per tenant in Amazon Bedrock Managed Knowledge Base",
-          "url": "https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/",
-          "thumbnail": "",
-          "summary": "Retrieval instructions in Amazon Bedrock Managed Knowledge Base set the voice, format, retrieval guidance, and answer policy for each tenant on shared knowledge bases. This post shows how to give each tenant its own answers, keep tenant data apart with metadata filters, scope access with IAM tags, and roll out changes one tenant at a time.",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-16T15:46:28.000Z",
-          "publishedAtRelative": "8小时前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Use prompt caching with open-weight models on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/use-prompt-caching-with-open-weight-models-on-amazon-bedrock/",
-          "thumbnail": "",
-          "summary": "Many generative AI applications resend the same long context on every request. Prompt caching lets open-weight models on Amazon Bedrock reuse it to reduce input cost and latency. This post shows implicit and explicit caching through the Chat Completions API and applies caching to an OpenCode coding agent session.",
+          "summary": "The biggest cost lever in a generative AI system is whether you call a model at all. Learn how to decide whether each workflow step needs a model, and map each option to AWS: deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock.",
           "tags": [
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-11-16T15:42:41.000Z",
-          "publishedAtRelative": "8小时前"
+          "publishedAt": "2026-11-17T21:14:55.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/",
+          "thumbnail": "",
+          "summary": "Amazon SageMaker AI real-time endpoints now support KV cache-aware routing, a new strategy that routes each request to the instance holding the longest cached match for its prompt. Learn how it works, when to use it compared with prefix-aware routing, and how to enable, invoke, and verify it on single model and inference component endpoints.",
+          "tags": [
+            "AI",
+            "设计系统"
+          ],
+          "publishedAt": "2026-11-17T21:11:51.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-004",
+          "title": "Govern and discover records with common metadata in AWS Agent Registry",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/",
+          "thumbnail": "",
+          "summary": "Custom metadata schemas in AWS Agent Registry let an administrator define typed, validated fields that every agent, MCP server, and skill must carry. This post follows an MCP record from schema definition through registration, enrichment, approval, and discovery, so teams govern and find resources with one shared set of facts.",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-17T20:31:04.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-005",
+          "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
+          "thumbnail": "",
+          "summary": "When an AI agent on Amazon Bedrock AgentCore calls Snowflake Cortex AI over MCP, how does it authenticate? This post walks through three OAuth patterns we tested on AgentCore Identity: Snowflake OAuth, three-legged OAuth with a corporate IdP, and two-legged OAuth, so you can match your organization’s identity, audit, and compliance needs.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-17T20:25:23.000Z",
+          "publishedAtRelative": "2小时前"
+        },
+        {
+          "id": "aws-006",
+          "title": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+          "thumbnail": "",
+          "summary": "Amazon SageMaker AI now offers AI data preparation capabilities for building high-quality training and evaluation data. Generate synthetic examples, assess and improve datasets, auto-label at scale, and bring in expert review through Python SDK APIs and an agent skill, all from your own notebook or IDE.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-17T19:40:01.000Z",
+          "publishedAtRelative": "3小时前"
+        },
+        {
+          "id": "aws-007",
+          "title": "Getting AI out of the demo and into businesses globally",
+          "url": "https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/",
+          "thumbnail": "",
+          "summary": "Most enterprises have AI that works in a demo but stalls before production. AWS Forward Deployed Engineering closes that gap. AWS engineers embed with customer teams to take high-value workflows to production in 45-day sprints, leaving a foundation, workflows, and governance the customer owns.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-17T19:05:22.000Z",
+          "publishedAtRelative": "4小时前"
+        },
+        {
+          "id": "aws-008",
+          "title": "Build WhatsApp AI agents with Amazon Bedrock AgentCore",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/",
+          "thumbnail": "",
+          "summary": "SMART, an open-source Python SDK and Terraform stack, deploys the full WhatsApp channel layer to your AWS account with one command. Bring any agent that runs on Amazon Bedrock AgentCore, and SMART handles webhook ingestion, media, conversation memory, scheduling, and Meta message templates.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-17T18:48:50.000Z",
+          "publishedAtRelative": "4小时前"
+        },
+        {
+          "id": "aws-009",
+          "title": "Reason over time-series data with OpenTSLM on Amazon SageMaker JumpStart",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/",
+          "thumbnail": "",
+          "summary": "OpenTSLM, an open source family of time-series language models, is now available in Amazon SageMaker JumpStart. See how Nexthink and Aionic Labs apply it to proactive IT support, then deploy OpenTSLM to a real-time endpoint and fine-tune it on your own data with TimeNet and a SageMaker training job.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-17T18:06:44.000Z",
+          "publishedAtRelative": "5小时前"
+        },
+        {
+          "id": "aws-010",
+          "title": "Your complete guide to AWS Quick at AWS re:Invent 2026",
+          "url": "https://aws.amazon.com/blogs/machine-learning/your-complete-guide-to-aws-quick-at-aws-reinvent-2026/",
+          "thumbnail": "",
+          "summary": "AWS Quick gives your whole organization AI that knows your business, respects your security rules, and acts on your behalf. At AWS re:Invent 2026, customers including Allianz, Cox Automotive, and Southwest Airlines share how they govern, extend, and scale Quick. Use this guide to find the sessions that fit your goals.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-17T17:08:21.000Z",
+          "publishedAtRelative": "6小时前"
         }
       ]
     },
@@ -619,7 +616,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-11-16T23:56:55.212Z",
+      "updatedAt": "2026-11-17T23:17:19.994Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -627,7 +624,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-11-16T23:56:57.587Z",
+      "updatedAt": "2026-11-17T23:17:22.214Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -640,7 +637,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:57.587Z",
+          "publishedAt": "2026-11-17T23:17:22.214Z",
           "publishedAtRelative": ""
         },
         {
@@ -653,7 +650,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-16T23:56:57.587Z",
+          "publishedAt": "2026-11-17T23:17:22.214Z",
           "publishedAtRelative": ""
         }
       ]
