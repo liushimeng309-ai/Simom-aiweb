@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-11-20T22:27:57.677Z",
+      "updatedAt": "2026-11-21T21:24:17.390Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-11-20T22:27:59.861Z",
+      "updatedAt": "2026-11-21T21:24:19.559Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -26,7 +26,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         },
         {
@@ -38,7 +38,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         },
         {
@@ -51,7 +51,7 @@
             "AI",
             "用户体验"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         },
         {
@@ -63,7 +63,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         },
         {
@@ -76,7 +76,7 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         },
         {
@@ -88,7 +88,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         },
         {
@@ -101,7 +101,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         },
         {
@@ -113,7 +113,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         },
         {
@@ -125,7 +125,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         },
         {
@@ -137,7 +137,7 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-11-20T22:27:59.861Z",
+          "publishedAt": "2026-11-21T21:24:19.559Z",
           "publishedAtRelative": ""
         }
       ]
@@ -146,7 +146,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-11-20T22:28:02.076Z",
+      "updatedAt": "2026-11-21T21:24:21.734Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -159,7 +159,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:02.076Z",
+          "publishedAt": "2026-11-21T21:24:21.734Z",
           "publishedAtRelative": ""
         },
         {
@@ -172,7 +172,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:02.076Z",
+          "publishedAt": "2026-11-21T21:24:21.734Z",
           "publishedAtRelative": ""
         }
       ]
@@ -181,7 +181,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-11-20T22:28:04.721Z",
+      "updatedAt": "2026-11-21T21:24:24.797Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -194,7 +194,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -206,7 +206,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -219,7 +219,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -232,7 +232,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -245,7 +245,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -258,7 +258,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -271,7 +271,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -284,7 +284,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -297,7 +297,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -310,7 +310,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:04.721Z",
+          "publishedAt": "2026-11-21T21:24:24.797Z",
           "publishedAtRelative": ""
         }
       ]
@@ -319,7 +319,7 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-11-20T22:28:06.990Z",
+      "updatedAt": "2026-11-21T21:24:26.950Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -418,7 +418,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-20T22:28:06.991Z",
+          "publishedAt": "2026-11-21T21:24:26.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -430,7 +430,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-20T22:28:06.991Z",
+          "publishedAt": "2026-11-21T21:24:26.950Z",
           "publishedAtRelative": ""
         },
         {
@@ -442,7 +442,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-20T22:28:06.991Z",
+          "publishedAt": "2026-11-21T21:24:26.950Z",
           "publishedAtRelative": ""
         }
       ]
@@ -451,12 +451,12 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-11-20T22:28:09.446Z",
+      "updatedAt": "2026-11-21T21:24:29.320Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "openai-001",
-          "title": "MedChemBench: Benchmarking AI for medicinal chemistry研究2026年11月20日",
+          "title": "MedChemBench：评测 AI 的药物化学能力研究2026年11月20日",
           "url": "https://openai.com/index/introducing-medchembench/",
           "thumbnail": "",
           "summary": "研究2026年11月20日",
@@ -464,7 +464,7 @@
             "AI"
           ],
           "publishedAt": "2026-11-20T00:00:00.000Z",
-          "publishedAtRelative": "22小时前"
+          "publishedAtRelative": "1天前"
         },
         {
           "id": "openai-002",
@@ -477,7 +477,7 @@
             "ChatGPT"
           ],
           "publishedAt": "2026-11-19T08:00:00.000Z",
-          "publishedAtRelative": "1天前"
+          "publishedAtRelative": "2天前"
         },
         {
           "id": "openai-003",
@@ -490,7 +490,7 @@
             "AI"
           ],
           "publishedAt": "2026-11-18T08:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "openai-004",
@@ -503,7 +503,7 @@
             "AI"
           ],
           "publishedAt": "2026-11-18T08:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "openai-005",
@@ -515,7 +515,7 @@
             "AI"
           ],
           "publishedAt": "2026-11-18T06:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "openai-006",
@@ -528,7 +528,7 @@
             "AI"
           ],
           "publishedAt": "2026-11-18T02:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "openai-007",
@@ -541,7 +541,7 @@
             "ChatGPT"
           ],
           "publishedAt": "2026-11-18T00:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "openai-008",
@@ -554,7 +554,7 @@
             "ChatGPT"
           ],
           "publishedAt": "2026-11-18T00:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
           "id": "openai-009",
@@ -566,7 +566,7 @@
             "ChatGPT"
           ],
           "publishedAt": "2026-11-17T17:45:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
           "id": "openai-010",
@@ -577,7 +577,7 @@
           "tags": [
             "ChatGPT"
           ],
-          "publishedAt": "2026-11-20T22:28:09.446Z",
+          "publishedAt": "2026-11-21T21:24:29.320Z",
           "publishedAtRelative": ""
         }
       ]
@@ -586,7 +586,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-11-20T22:28:11.778Z",
+      "updatedAt": "2026-11-21T21:24:31.474Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -594,7 +594,7 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-11-20T22:28:14.065Z",
+      "updatedAt": "2026-11-21T21:24:33.649Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -602,7 +602,7 @@
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-11-20T22:28:16.347Z",
+      "updatedAt": "2026-11-21T21:24:35.720Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -610,11 +610,59 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-11-20T22:28:18.727Z",
+      "updatedAt": "2026-11-21T21:24:38.095Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "aws-001",
+          "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
+          "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
+          "thumbnail": "",
+          "summary": "AWS Quick is the AI workspace built only for work. Today we’re releasing updates that help your team get more done: build and run business-process flows in chat, triage your day in the updated web app, get more complete answers from multiple agents at once, and connect new data sources like Meta ads and Amplitude.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-21T01:06:42.000Z",
+          "publishedAtRelative": "20小时前"
+        },
+        {
+          "id": "aws-002",
+          "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+          "thumbnail": "",
+          "summary": "Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.",
+          "tags": [
+            "工具"
+          ],
+          "publishedAt": "2026-11-21T00:14:26.000Z",
+          "publishedAtRelative": "21小时前"
+        },
+        {
+          "id": "aws-003",
+          "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
+          "thumbnail": "",
+          "summary": "Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes. This post explains how the extensions work and follows a platform team through a quarter of running a shared Slurm cluster with them.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-20T23:07:03.000Z",
+          "publishedAtRelative": "22小时前"
+        },
+        {
+          "id": "aws-004",
+          "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
+          "thumbnail": "",
+          "summary": "Amazon SageMaker HyperPod introduces the Global Inference Gateway, one managed endpoint that routes inference requests across your HyperPod clusters in one Region or across Regions. It picks the best cluster, fails over automatically, and authenticates every request with SigV4 and IAM over AWS PrivateLink.",
+          "tags": [
+            "AI"
+          ],
+          "publishedAt": "2026-11-20T22:35:24.000Z",
+          "publishedAtRelative": "22小时前"
+        },
+        {
+          "id": "aws-005",
           "title": "How Standard Bank Group automates AI risk assessment for generative AI",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
           "thumbnail": "",
@@ -624,10 +672,10 @@
             "生成式"
           ],
           "publishedAt": "2026-11-20T20:37:31.000Z",
-          "publishedAtRelative": "1小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-002",
+          "id": "aws-006",
           "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
           "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
           "thumbnail": "",
@@ -637,10 +685,10 @@
             "生成式"
           ],
           "publishedAt": "2026-11-20T20:22:00.000Z",
-          "publishedAtRelative": "2小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-007",
           "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
           "thumbnail": "",
@@ -649,10 +697,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-20T18:24:06.000Z",
-          "publishedAtRelative": "4小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-004",
+          "id": "aws-008",
           "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
           "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
           "thumbnail": "",
@@ -661,10 +709,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-20T00:34:07.000Z",
-          "publishedAtRelative": "21小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-005",
+          "id": "aws-009",
           "title": "Use Kimi Code CLI with models on Amazon Bedrock",
           "url": "https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/",
           "thumbnail": "",
@@ -673,10 +721,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-20T00:33:30.000Z",
-          "publishedAtRelative": "21小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "aws-006",
+          "id": "aws-010",
           "title": "Enable AI agents to pay for AWS Marketplace x402 products with Amazon Bedrock AgentCore payments",
           "url": "https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/",
           "thumbnail": "",
@@ -686,56 +734,6 @@
             "工具"
           ],
           "publishedAt": "2026-11-19T23:02:16.000Z",
-          "publishedAtRelative": "23小时前"
-        },
-        {
-          "id": "aws-007",
-          "title": "How the BMW Group governs hundreds of agents across thousands of developers",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
-          "thumbnail": "",
-          "summary": "When hundreds of agents serve thousands of developers, governance cannot be an afterthought. The BMW Group shares the practices and patterns its R&D teams use to build, govern, and operate AI agents at enterprise scale without sacrificing speed, quality, or compliance.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-19T22:20:23.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-008",
-          "title": "Run your whole selling business in AWS Quick",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-your-whole-selling-business-in-aws-quick/",
-          "thumbnail": "",
-          "summary": "Most sellers do not need another AI product to learn. They need the tools and information they already use brought together, so they can see what is happening in their business and act on it.",
-          "tags": [
-            "AI",
-            "工具"
-          ],
-          "publishedAt": "2026-11-19T22:16:22.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-009",
-          "title": "Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/",
-          "thumbnail": "",
-          "summary": "Amazon SageMaker AI now monitors your generative AI inference endpoints by default and tells you when a change could improve performance or lower cost. It tracks latency, GPU utilization, and serving configuration, then sends a finding through AWS Health with a one-click path to benchmark alternatives in SageMaker Studio before you apply any change.",
-          "tags": [
-            "AI",
-            "生成式"
-          ],
-          "publishedAt": "2026-11-19T21:28:18.000Z",
-          "publishedAtRelative": "1天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Inside Amazon Connect Talent: The science of structured AI interviews",
-          "url": "https://aws.amazon.com/blogs/machine-learning/inside-amazon-connect-talent-the-science-of-structured-ai-interviews/",
-          "thumbnail": "",
-          "summary": "For organizations hiring hundreds or thousands of people, every interview presents the same challenge: How do you give candidates a consistent opportunity to demonstrate their skills while gathering the evidence needed to make informed hiring decisions?  Structured behavioral interviews offer a research-backed approach to this challenge. They use consistent, job-related questions and clear scoring criteria […]",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-19T21:23:20.000Z",
           "publishedAtRelative": "1天前"
         }
       ]
@@ -744,7 +742,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-11-20T22:28:20.934Z",
+      "updatedAt": "2026-11-21T21:24:40.171Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -752,7 +750,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-11-20T22:28:23.321Z",
+      "updatedAt": "2026-11-21T21:24:42.364Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -765,7 +763,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:23.321Z",
+          "publishedAt": "2026-11-21T21:24:42.364Z",
           "publishedAtRelative": ""
         },
         {
@@ -778,7 +776,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-20T22:28:23.321Z",
+          "publishedAt": "2026-11-21T21:24:42.364Z",
           "publishedAtRelative": ""
         }
       ]
