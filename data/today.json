@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "sites": [
     {
       "source": "material",
       "sourceName": "Material Design",
       "sourceUrl": "https://m3.material.io/",
-      "updatedAt": "2026-11-24T02:42:53.828Z",
+      "updatedAt": "2026-11-25T00:16:32.765Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -13,7 +13,7 @@
       "source": "microsoft",
       "sourceName": "Microsoft Design",
       "sourceUrl": "https://microsoft.design/",
-      "updatedAt": "2026-11-24T02:42:55.983Z",
+      "updatedAt": "2026-11-25T00:16:34.927Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -21,28 +21,15 @@
           "title": "Faster, not lighter: Living with AI brain fry",
           "url": "https://microsoft.design/articles/faster-not-lighter-living-with-ai-brain-fry/",
           "thumbnail": "",
-          "summary": "A practical guide to art direction for generative imagery",
-          "tags": [
-            "AI",
-            "生成式"
-          ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "microsoft-002",
-          "title": "Faster, not lighter: Living with AI brain fry",
-          "url": "https://microsoft.design/articles/faster-not-lighter-living-with-ai-brain-fry/",
-          "thumbnail": "",
           "summary": "Faster, not lighter: Living with AI brain fry",
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
+          "publishedAt": "2026-11-25T00:16:34.927Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-003",
+          "id": "microsoft-002",
           "title": "Fluency and experience: How UX researchers across career stages are experiencing AI",
           "url": "https://microsoft.design/articles/uxr-experience/",
           "thumbnail": "",
@@ -51,11 +38,11 @@
             "AI",
             "用户体验"
           ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
+          "publishedAt": "2026-11-25T00:16:34.927Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-004",
+          "id": "microsoft-003",
           "title": "More than a mark",
           "url": "https://microsoft.design/articles/more-than-a-mark/",
           "thumbnail": "",
@@ -63,11 +50,11 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
+          "publishedAt": "2026-11-25T00:16:34.927Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-005",
+          "id": "microsoft-004",
           "title": "Create Ways of Being",
           "url": "https://microsoft.design/articles/qian-jiang-create-ways-of-being/",
           "thumbnail": "",
@@ -76,11 +63,11 @@
             "AI",
             "生成式"
           ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
+          "publishedAt": "2026-11-25T00:16:34.927Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-006",
+          "id": "microsoft-005",
           "title": "Putting the user back into AI Evaluation",
           "url": "https://microsoft.design/articles/putting-the-user-back-into-ai-evaluation/",
           "thumbnail": "",
@@ -88,11 +75,11 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
+          "publishedAt": "2026-11-25T00:16:34.927Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-007",
+          "id": "microsoft-006",
           "title": "Designing the first five minutes",
           "url": "https://microsoft.design/articles/designing-the-first-five-minutes/",
           "thumbnail": "",
@@ -101,11 +88,11 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
+          "publishedAt": "2026-11-25T00:16:34.927Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-008",
+          "id": "microsoft-007",
           "title": "Bringing a humanitarian lens to the future of AI",
           "url": "https://microsoft.design/articles/bringing-a-humanitarian-lens-to-the-future-of-ai/",
           "thumbnail": "",
@@ -113,11 +100,11 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
+          "publishedAt": "2026-11-25T00:16:34.927Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-009",
+          "id": "microsoft-008",
           "title": "Gathering around the fire: Durable human experience patterns in the AI era",
           "url": "https://microsoft.design/articles/gathering-around-the-fire-durable-human-experience-patterns-in-the-ai-era/",
           "thumbnail": "",
@@ -125,11 +112,11 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
+          "publishedAt": "2026-11-25T00:16:34.927Z",
           "publishedAtRelative": ""
         },
         {
-          "id": "microsoft-010",
+          "id": "microsoft-009",
           "title": "When outputs are the experience",
           "url": "https://microsoft.design/articles/when-outputs-are-the-experience/",
           "thumbnail": "",
@@ -137,7 +124,20 @@
           "tags": [
             "Copilot"
           ],
-          "publishedAt": "2026-11-24T02:42:55.983Z",
+          "publishedAt": "2026-11-25T00:16:34.927Z",
+          "publishedAtRelative": ""
+        },
+        {
+          "id": "microsoft-010",
+          "title": "Microsoft Design",
+          "url": "https://microsoft.design/articles/the-art-of-playing-a-supporting-role/",
+          "thumbnail": "",
+          "summary": "How character, motion, and expression help people stay oriented and in control",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-25T00:16:34.927Z",
           "publishedAtRelative": ""
         }
       ]
@@ -146,7 +146,7 @@
       "source": "google",
       "sourceName": "Google Design",
       "sourceUrl": "https://design.google/",
-      "updatedAt": "2026-11-24T02:42:58.218Z",
+      "updatedAt": "2026-11-25T00:16:37.156Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -159,7 +159,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:42:58.218Z",
+          "publishedAt": "2026-11-25T00:16:37.156Z",
           "publishedAtRelative": ""
         },
         {
@@ -172,7 +172,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:42:58.218Z",
+          "publishedAt": "2026-11-25T00:16:37.156Z",
           "publishedAtRelative": ""
         }
       ]
@@ -181,7 +181,7 @@
       "source": "figma",
       "sourceName": "Figma",
       "sourceUrl": "https://www.figma.com",
-      "updatedAt": "2026-11-24T02:43:01.142Z",
+      "updatedAt": "2026-11-25T00:16:39.827Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -194,7 +194,7 @@
             "AI",
             "设计系统"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         },
         {
@@ -206,7 +206,7 @@
           "tags": [
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         },
         {
@@ -219,7 +219,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         },
         {
@@ -232,7 +232,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         },
         {
@@ -245,7 +245,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         },
         {
@@ -258,7 +258,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         },
         {
@@ -271,7 +271,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         },
         {
@@ -284,7 +284,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         },
         {
@@ -297,7 +297,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         },
         {
@@ -310,7 +310,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:01.142Z",
+          "publishedAt": "2026-11-25T00:16:39.827Z",
           "publishedAtRelative": ""
         }
       ]
@@ -319,7 +319,7 @@
       "source": "anthropic",
       "sourceName": "Anthropic",
       "sourceUrl": "https://www.anthropic.com",
-      "updatedAt": "2026-11-24T02:43:03.290Z",
+      "updatedAt": "2026-11-25T00:16:42.050Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -369,7 +369,7 @@
             "Claude"
           ],
           "publishedAt": "2026-10-25T16:00:00.000Z",
-          "publishedAtRelative": "0个月前"
+          "publishedAtRelative": "1个月前"
         },
         {
           "id": "anthropic-005",
@@ -418,7 +418,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-24T02:43:03.290Z",
+          "publishedAt": "2026-11-25T00:16:42.050Z",
           "publishedAtRelative": ""
         },
         {
@@ -430,7 +430,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-24T02:43:03.290Z",
+          "publishedAt": "2026-11-25T00:16:42.050Z",
           "publishedAtRelative": ""
         },
         {
@@ -442,7 +442,7 @@
           "tags": [
             "Claude"
           ],
-          "publishedAt": "2026-11-24T02:43:03.290Z",
+          "publishedAt": "2026-11-25T00:16:42.050Z",
           "publishedAtRelative": ""
         }
       ]
@@ -451,11 +451,36 @@
       "source": "openai",
       "sourceName": "OpenAI",
       "sourceUrl": "https://openai.com/zh-Hans-CN/",
-      "updatedAt": "2026-11-24T02:43:05.693Z",
+      "updatedAt": "2026-11-25T00:16:44.403Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "openai-001",
+          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities科学2026年11月24日",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+          "thumbnail": "",
+          "summary": "科学2026年11月24日",
+          "tags": [
+            "ChatGPT"
+          ],
+          "publishedAt": "2026-11-24T05:00:00.000Z",
+          "publishedAtRelative": "19小时前"
+        },
+        {
+          "id": "openai-002",
+          "title": "Searching for distant planets with Astra科学2026年11月24日",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra/",
+          "thumbnail": "",
+          "summary": "科学2026年11月24日",
+          "tags": [
+            "设计",
+            "AI"
+          ],
+          "publishedAt": "2026-11-24T03:00:00.000Z",
+          "publishedAtRelative": "21小时前"
+        },
+        {
+          "id": "openai-003",
           "title": "OpenAI 与思科推出 Shirudo安全防护2026年11月23日",
           "url": "https://openai.com/index/introducing-shirudo/",
           "thumbnail": "",
@@ -465,10 +490,10 @@
             "ChatGPT"
           ],
           "publishedAt": "2026-11-23T21:20:00.000Z",
-          "publishedAtRelative": "5小时前"
+          "publishedAtRelative": "1天前"
         },
         {
-          "id": "openai-002",
+          "id": "openai-004",
           "title": "困惑度与智能研究2026年11月22日",
           "url": "https://openai.com/index/perplexity-and-intelligence/",
           "thumbnail": "",
@@ -478,10 +503,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-21T16:00:00.000Z",
-          "publishedAtRelative": "2天前"
+          "publishedAtRelative": "3天前"
         },
         {
-          "id": "openai-003",
+          "id": "openai-005",
           "title": "MedChemBench：评测 AI 的药物化学能力研究2026年11月20日",
           "url": "https://openai.com/index/introducing-medchembench/",
           "thumbnail": "",
@@ -490,10 +515,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-20T00:00:00.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "5天前"
         },
         {
-          "id": "openai-004",
+          "id": "openai-006",
           "title": "OpenAI 的性能工厂如何让 ChatGPT 保持快速响应工程2026年11月19日",
           "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/",
           "thumbnail": "",
@@ -503,10 +528,10 @@
             "ChatGPT"
           ],
           "publishedAt": "2026-11-19T08:00:00.000Z",
-          "publishedAtRelative": "4天前"
+          "publishedAtRelative": "5天前"
         },
         {
-          "id": "openai-005",
+          "id": "openai-007",
           "title": "Research acceleration: The jagged frontier研究2026年11月18日",
           "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
           "thumbnail": "",
@@ -516,10 +541,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-18T08:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
-          "id": "openai-006",
+          "id": "openai-008",
           "title": "深入了解 Codex 沙箱工程2026年11月18日",
           "url": "https://openai.com/index/inside-the-codex-sandbox/",
           "thumbnail": "",
@@ -529,22 +554,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-18T08:00:00.000Z",
-          "publishedAtRelative": "5天前"
+          "publishedAtRelative": "6天前"
         },
         {
-          "id": "openai-007",
-          "title": "管控前沿 AI 风险：从训练到部署安全2026年11月18日",
-          "url": "https://openai.com/index/managing-frontier-ai-risk/",
-          "thumbnail": "",
-          "summary": "安全2026年11月18日",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-18T06:00:00.000Z",
-          "publishedAtRelative": "5天前"
-        },
-        {
-          "id": "openai-008",
+          "id": "openai-009",
           "title": "沉默的共识智能时代2026年11月18日",
           "url": "https://openai.com/index/the-silent-consensus/",
           "thumbnail": "",
@@ -557,19 +570,6 @@
           "publishedAtRelative": "6天前"
         },
         {
-          "id": "openai-009",
-          "title": "费加罗集团与 OpenAI 合作，将《费加罗报》的新闻报道引入 ChatGPT公司2026年11月18日",
-          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership/",
-          "thumbnail": "",
-          "summary": "公司2026年11月18日",
-          "tags": [
-            "AI",
-            "ChatGPT"
-          ],
-          "publishedAt": "2026-11-18T00:00:00.000Z",
-          "publishedAtRelative": "6天前"
-        },
-        {
           "id": "openai-010",
           "title": "GPT-6.2",
           "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
@@ -578,7 +578,7 @@
           "tags": [
             "ChatGPT"
           ],
-          "publishedAt": "2026-11-24T02:43:05.693Z",
+          "publishedAt": "2026-11-25T00:16:44.403Z",
           "publishedAtRelative": ""
         }
       ]
@@ -587,7 +587,7 @@
       "source": "metaai",
       "sourceName": "Meta AI",
       "sourceUrl": "https://ai.meta.com/",
-      "updatedAt": "2026-11-24T02:43:08.024Z",
+      "updatedAt": "2026-11-25T00:16:46.520Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -595,142 +595,15 @@
       "source": "googleai",
       "sourceName": "Google AI",
       "sourceUrl": "https://ai.google/products/",
-      "updatedAt": "2026-11-24T02:43:10.549Z",
+      "updatedAt": "2026-11-25T00:16:48.730Z",
       "updatedAtRelative": "刚刚",
-      "items": [
-        {
-          "id": "googleai-001",
-          "title": "Build a physics-driven neon chain reaction",
-          "url": "https://ai.google.com/prompts/neon-2/",
-          "thumbnail": "",
-          "summary": "Build a physics-driven neon chain reaction",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-002",
-          "title": "Build a 3D voxel world from natural language",
-          "url": "https://ai.google.com/prompts/build-a-3d-voxel-world-from-natural-language/",
-          "thumbnail": "",
-          "summary": "Build a 3D voxel world from natural language",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-003",
-          "title": "Turn a spreadsheet into a living pixel-art canvas",
-          "url": "https://ai.google.com/prompts/turn-a-spreadsheet-into-a-living-pixel-art-canvas/",
-          "thumbnail": "",
-          "summary": "Turn a spreadsheet into a living pixel-art canvas",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-004",
-          "title": "Build a polished storefront website in a single shot",
-          "url": "https://ai.google.com/prompts/build-a-polished-storefront-website-in-a-single-shot/",
-          "thumbnail": "",
-          "summary": "Build a polished storefront website in a single shot",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-005",
-          "title": "Create a 3D model from a single image",
-          "url": "https://ai.google.com/prompts/create-a-3d-model-from-a-single-image/",
-          "thumbnail": "",
-          "summary": "Create a 3D model from a single image",
-          "tags": [
-            "生成式"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-006",
-          "title": "Turn photos of your desk into a 3D racing game",
-          "url": "https://ai.google.com/prompts/desk-racer/",
-          "thumbnail": "",
-          "summary": "Turn photos of your desk into a 3D racing game",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-007",
-          "title": "Simulate fur with real time interaction and rendering",
-          "url": "https://ai.google.com/prompts/simulate-fur/",
-          "thumbnail": "",
-          "summary": "Simulate fur with real time interaction and rendering",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-008",
-          "title": "Build custom cyberdecks with a hands-free workshop assistant using live camera and voice",
-          "url": "https://ai.google.com/prompts/build-custom-cyberdecks/",
-          "thumbnail": "",
-          "summary": "Build custom cyberdecks with a hands-free workshop assistant using live camera and voice",
-          "tags": [
-            "Copilot"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-009",
-          "title": "Build an app that lets you input a location to query USGS datasets and then visualize the geospatial data in 3D",
-          "url": "https://ai.google.com/prompts/build-an-app-that-lets-you-input-a-location/",
-          "thumbnail": "",
-          "summary": "Build an app that lets you input a location to query USGS datasets and then visualize the geospatial data in 3D",
-          "tags": [
-            "设计",
-            "AI"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        },
-        {
-          "id": "googleai-010",
-          "title": "Create a playable 3D game with Google Antigravity",
-          "url": "https://ai.google.com/prompts/create-a-playable-3d-game-with-google-antigravity-38/",
-          "thumbnail": "",
-          "summary": "Create a playable 3D game with Google Antigravity",
-          "tags": [
-            "生成式"
-          ],
-          "publishedAt": "2026-11-24T02:43:10.549Z",
-          "publishedAtRelative": ""
-        }
-      ]
+      "items": []
     },
     {
       "source": "github",
       "sourceName": "GitHub",
       "sourceUrl": "https://github.com/",
-      "updatedAt": "2026-11-24T02:43:12.601Z",
+      "updatedAt": "2026-11-25T00:16:50.824Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -738,11 +611,23 @@
       "source": "aws",
       "sourceName": "AWS",
       "sourceUrl": "https://aws.amazon.com/cn/machine-learning/",
-      "updatedAt": "2026-11-24T02:43:15.037Z",
+      "updatedAt": "2026-11-25T00:16:53.286Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
           "id": "aws-001",
+          "title": "Introducing the Amazon Bedrock Trusted Access API, with Enterprise Frontier Safeguards and Enterprise Data Controls for Claude models",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/",
+          "thumbnail": "",
+          "summary": "Amazon Bedrock now offers a trusted access program API: one place to discover, request, and enroll in model provider programs. The first two offerings, in public preview, are Anthropic’s Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), which give you control over your data when you use Claude Fable models.",
+          "tags": [
+            "Claude"
+          ],
+          "publishedAt": "2026-11-24T05:01:14.000Z",
+          "publishedAtRelative": "19小时前"
+        },
+        {
+          "id": "aws-002",
           "title": "Meta ads is now available in AWS Quick",
           "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
           "thumbnail": "",
@@ -755,7 +640,7 @@
           "publishedAtRelative": "2天前"
         },
         {
-          "id": "aws-002",
+          "id": "aws-003",
           "title": "New in AWS Quick: More capable flows, an updated web experience, and agents that work together",
           "url": "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/",
           "thumbnail": "",
@@ -767,7 +652,7 @@
           "publishedAtRelative": "3天前"
         },
         {
-          "id": "aws-003",
+          "id": "aws-004",
           "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
           "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
           "thumbnail": "",
@@ -776,10 +661,10 @@
             "工具"
           ],
           "publishedAt": "2026-11-21T00:14:26.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "aws-004",
+          "id": "aws-005",
           "title": "Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/",
           "thumbnail": "",
@@ -788,10 +673,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-20T23:07:03.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "aws-005",
+          "id": "aws-006",
           "title": "Introducing Amazon SageMaker HyperPod Global Inference Gateway: One endpoint across Regions and clusters",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/",
           "thumbnail": "",
@@ -800,10 +685,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-20T22:35:24.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "aws-006",
+          "id": "aws-007",
           "title": "How Standard Bank Group automates AI risk assessment for generative AI",
           "url": "https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/",
           "thumbnail": "",
@@ -813,10 +698,10 @@
             "生成式"
           ],
           "publishedAt": "2026-11-20T20:37:31.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "aws-007",
+          "id": "aws-008",
           "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
           "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
           "thumbnail": "",
@@ -826,10 +711,10 @@
             "生成式"
           ],
           "publishedAt": "2026-11-20T20:22:00.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "aws-008",
+          "id": "aws-009",
           "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
           "thumbnail": "",
@@ -838,10 +723,10 @@
             "AI"
           ],
           "publishedAt": "2026-11-20T18:24:06.000Z",
-          "publishedAtRelative": "3天前"
+          "publishedAtRelative": "4天前"
         },
         {
-          "id": "aws-009",
+          "id": "aws-010",
           "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
           "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
           "thumbnail": "",
@@ -851,18 +736,6 @@
           ],
           "publishedAt": "2026-11-20T00:34:07.000Z",
           "publishedAtRelative": "4天前"
-        },
-        {
-          "id": "aws-010",
-          "title": "Use Kimi Code CLI with models on Amazon Bedrock",
-          "url": "https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/",
-          "thumbnail": "",
-          "summary": "Kimi Code CLI v2.7.0 adds a native Amazon Bedrock provider, so you can connect the open source coding agent to models like Kimi K3.1 Pro using your standard AWS credential chain (named profiles or SSO) instead of a separate API key. This post shows how to configure the provider and send your first request.",
-          "tags": [
-            "AI"
-          ],
-          "publishedAt": "2026-11-20T00:33:30.000Z",
-          "publishedAtRelative": "4天前"
         }
       ]
     },
@@ -870,7 +743,7 @@
       "source": "adobe",
       "sourceName": "Adobe",
       "sourceUrl": "https://www.adobe.com",
-      "updatedAt": "2026-11-24T02:43:17.231Z",
+      "updatedAt": "2026-11-25T00:16:55.606Z",
       "updatedAtRelative": "刚刚",
       "items": []
     },
@@ -878,7 +751,7 @@
       "source": "mapbox",
       "sourceName": "Mapbox Maps",
       "sourceUrl": "https://www.mapbox.com/maps",
-      "updatedAt": "2026-11-24T02:43:19.460Z",
+      "updatedAt": "2026-11-25T00:16:57.797Z",
       "updatedAtRelative": "刚刚",
       "items": [
         {
@@ -891,7 +764,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:19.460Z",
+          "publishedAt": "2026-11-25T00:16:57.797Z",
           "publishedAtRelative": ""
         },
         {
@@ -904,7 +777,7 @@
             "设计",
             "AI"
           ],
-          "publishedAt": "2026-11-24T02:43:19.460Z",
+          "publishedAt": "2026-11-25T00:16:57.797Z",
           "publishedAtRelative": ""
         }
       ]
